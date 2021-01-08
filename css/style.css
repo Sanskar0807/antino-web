@@ -2724,4 +2724,10 @@ moe .color-dark .left-side ul li a:hover {
   }
 }
 
+/* STICKY LOGO Z-INDEX FIX*/
+.sticky>a {
+	position: absolute;
+	z-index: 9999;
+} 
+
 /*# sourceMappingURL=style.css.map */
