@@ -90,8 +90,10 @@
 		
 		
 		
-		// SWIPER SLIDER
+		// SWIPER SLIDER 1
 			var mySwiper = new Swiper ('.swiper-container', {
+			observeParents: true,
+			observer: true,
 			slidesPerView: 'auto',
       		spaceBetween: 0,
 			loop: true,
@@ -110,7 +112,11 @@
 			  nextEl: '.swiper-button-next',
 			  prevEl: '.swiper-button-prev',
 			},
-		  })
+		  });
+
+		  //added by mili
+		  //alert('before swiper update');
+		  mySwiper.update();
 		
 		
 		
