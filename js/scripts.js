@@ -116,7 +116,15 @@
 
 		  //added by mili
 		  //alert('before swiper update');
-		  mySwiper.update();
+		  var page = window.location.href;
+		  console.log(page);
+
+		  if(page == 'http://stage.antino.io:81/index.html' || page == 'http://stage.antino.io:81' || page == 'http://127.0.0.1:5500/index.html' || page == 'http://127.0.0.1:5500' )
+		  {
+			console.log('Reload Swiper');  
+			mySwiper.update();
+		  }
+		 
 		
 		
 		
