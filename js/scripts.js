@@ -368,4 +368,26 @@
 		
 })(jQuery);
 
+//Open links in new tab
+function handleSocialLink(obj)
+{
+  var social_media = obj.getAttribute('data-social-media');
+  switch(social_media)
+  {
+    case 'instagram': window.open("https://www.instagram.com/antinolabs/");
+                      break;
+
+    case 'medium':window.open("https://medium.com/@antinolabs");
+                  break;
+
+    case 'linkedin':window.open("www.linkedin.com/company/antino-labs");
+                    break;
+
+    case 'twitter':window.open("https://twitter.com/AntinoLabs");
+                    break;
+
+  }
+  
+}
+
 		
