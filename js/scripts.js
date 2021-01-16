@@ -380,7 +380,7 @@ function handleSocialLink(obj)
     case 'medium':window.open("https://medium.com/@antinolabs");
                   break;
 
-    case 'linkedin':window.open("www.linkedin.com/company/antino-labs");
+    case 'linkedin':window.open("https://www.linkedin.com/company/antino-labs/");
                     break;
 
     case 'twitter':window.open("https://twitter.com/AntinoLabs");
