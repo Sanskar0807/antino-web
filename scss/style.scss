@@ -620,7 +620,9 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 	.header .page-title h4{padding-right: 0;}
 	.titles{padding-right: 0;}
 	.works ul li{width: 50%;}
-	.our-awards ul li{width: 33%; float: none; display: inline-block; margin: 0 6%;}
+	.our-awards ul li{
+		width:90%;
+		 float: none; display: inline-block; margin: 0 6%;}
 	.our-awards ul li figure{border-right: none;}
 	.our-awards ul li .odometer{margin-bottom: 40px;}
 	.team figure{margin-bottom: 40px;}
@@ -668,6 +670,10 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 	.main-services .titles{padding: 0;}
 	.footer .career h2 {font-size: 9vw;}
 	.footer .sub-footer ul{margin-bottom: 15px;}
+	/*Responsive Code for differentiator section*/
+	.our-awards ul li{
+		width:100%;
+	}
 }
 
 
