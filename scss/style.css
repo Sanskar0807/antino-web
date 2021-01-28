@@ -2849,6 +2849,10 @@ img {
   margin: 0;
 }
 
+.footer .logo a {
+  cursor: pointer;
+}
+
 .footer .logo img {
   height: 42px;
 }
