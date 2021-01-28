@@ -390,4 +390,11 @@ function handleSocialLink(obj)
   
 }
 
+//Open App Links in new tab
+function handleAppStore(obj)
+{
+	var store_link= obj.getAttribute('data-store_link');
+	window.open(store_link);
+}
+
 		
