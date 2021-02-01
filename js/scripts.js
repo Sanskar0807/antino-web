@@ -390,11 +390,22 @@ function handleSocialLink(obj)
   
 }
 
+function handleLinkedInLinks(obj)
+{
+	var linkedin_link = obj.getAttribute('data-linkedin-link');
+	window.open(linkedin_link);
+}
 //Open App Links in new tab
 function handleAppStore(obj)
 {
 	var store_link= obj.getAttribute('data-store_link');
 	window.open(store_link);
+}
+
+function handleCareersLink(obj)
+{
+	var careers_link= obj.getAttribute('data-careers-link');
+	window.open(careers_link);
 }
 
 		
