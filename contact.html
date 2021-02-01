@@ -26,12 +26,13 @@
 <meta name="twitter:description" content="Agensy | Digital Lab & Creative Solutions">
 <meta name="twitter:image" content="http://www.themezinho.net/agensy/preview.png">
 
+
 <!-- FAVICON FILES -->
-<link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
-<link href="ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
-<link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
-<link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
-<link href="ico/favicon.png" rel="shortcut icon">
+<link href="images/favicon_144.png" rel="apple-touch-icon" sizes="144x144"  >
+<link href="images/favicon_144.png" rel="apple-touch-icon" sizes="114x114">
+<link href="images/favicon_72.png" rel="apple-touch-icon" sizes="72x72">
+<link href="images/favicon_72.png" rel="apple-touch-icon">
+<link href="images/favicon@2x.png" rel="shortcut icon">
 
 <!-- CSS FILES -->
 <link rel="stylesheet" href="css/animate.min.css">
@@ -224,7 +225,7 @@
 		<div class="col-lg-7 wow fadeInUp">
 		 <div class="contact-form">
 			 <h5>CONTACT FORM</h5>
-			 <form id="contact" name="contact" method="post">
+			 <form  name="contact" method="post" action="email.php">
           <div class="form-group">
             <input type="text" name="name" id="name" autocomplete="off" required>
              <span>Your name</span>
@@ -256,7 +257,7 @@
          <div class="form-group">
           <div id="success" class="alert alert-success wow fadeInUp" role="alert"> Your message was sent successfully! We will be in touch as soon as we can. </div>
         <!-- end success -->
-        <div id="error" class="alert alert-danger wow fadeInUp" role="alert"> Something went wrong, try refreshing and submitting the form again. </div>
+      <div id="error" class="alert alert-danger wow fadeInUp" role="alert"> Something went wrong, try refreshing and submitting the form again. </div>
         <!-- end error --> 
         </div>
         <!-- end form-group -->
@@ -277,7 +278,7 @@
                 <div class="career wow fadeInUp">
           <h6>CAREERS AT ANTINO LABS</h6>
           <h2>If you are innovative and passionate about digital possibilities, we would love to work with you</h2>
-          <div class="custom-link"><a href="careers.html">Apply Now</a> <span></span> <i></i>
+         <div class="custom-link"><a onclick="handleCareersLink(this)" data-careers-link="https://www.naukri.com/recruiters/vinay-4334894">Apply Now</a> <span></span> <i></i>
         </div>
           <!-- end custom-link -->
           </div>
