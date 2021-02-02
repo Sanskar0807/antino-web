@@ -2539,7 +2539,7 @@ moe .color-dark .left-side ul li a:hover {
   }
 
   .our-awards ul li {
-    width: 33%;
+    width: 100%;
     float: none;
     display: inline-block;
     margin: 0 6%;
@@ -2593,6 +2593,8 @@ moe .color-dark .left-side ul li a:hover {
   .footer .logo {
     margin-bottom: 40px;
   }
+
+  .footer .col-lg-5{ margin-bottom: 40px;}
 
   .footer .career h2 {
     font-size: 6vw;
