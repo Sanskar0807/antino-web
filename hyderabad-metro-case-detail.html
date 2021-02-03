@@ -202,9 +202,9 @@
     <h6>WORK WITH PRO TEAM</h6>
     <h2>Would you like to have a professional project? Let's talk about it!</h2>
       <div class="custom-btn white-btn" style="background-color:white;!important;color:black!important;max-width:fit-content;border-color:white!important;"><a class="white-btn" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/antino/existing'});return false;" style="background-color:white;!important;color:black!important;border-color:white!important;">Get In Touch<span style="background:black!important;"></span><i style="color:black!important;border-color: transparent transparent transparent #000;"></i></a></div>
-      <p class="mt-3"><a href="#">info@antino.io</a></p>
+      <p class="mt-3"><a onclick="handleContactInfo(this)" data-contact_info="mailto:+info@antino.io">info@antino.io</a></p>
         <small>Or</small>
-      <p>+91 1244015088</p>
+      <a onclick="handleContactInfo(this)" data-contact_info="tel:+911244015088">+91 1244015088</a>
   </div>
   <!-- end container --> 
 </section>

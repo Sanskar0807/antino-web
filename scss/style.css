@@ -794,7 +794,7 @@ moe
 .custom-link {
   display: -ms-flexbox;
   display: -webkit-box;
-  display: flex;
+  display: inline-flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -ms-flex-align: center;
@@ -3058,7 +3058,7 @@ img {
   .swiper-button-next {
     display: none;
   }
-  .footer .logo {
+  .footer .col-lg-5 {
     margin-bottom: 40px;
   }
   .footer .career h2 {
