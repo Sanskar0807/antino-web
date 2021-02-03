@@ -408,4 +408,17 @@ function handleCareersLink(obj)
 	window.open(careers_link);
 }
 
+function handleContactInfo(obj)
+{
+	var contact_link= obj.getAttribute('data-contact_info');
+	window.open(contact_link,"_self");
+}
+
+function displayFloatingLabels(obj)
+{
+	var id = obj.id;
+	$('#'+id).addClass('focus-visible');
+	$('#'+id).attr('data-focus-visible-added');
+
+}
 		

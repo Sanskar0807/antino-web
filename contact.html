@@ -172,8 +172,8 @@
 		<!-- end col-6 -->
 		<div class="col-md-6 wow fadeInUp">
 		<h5>CALL US</h5>
-			<address>p: +1 800 578 1250<br>
-			m: +91 782-732-5235
+			<address><a onclick="handleContactInfo(this)" data-contact_info="tel:+18005781250">p: +1 800 578 1250</a><br>
+			<a onclick="handleContactInfo(this)" data-contact_info="tel:+917827325235">m: +91 782-732-5235</a>
 </address>
 		</div>
 		<!-- end col-6 -->
@@ -181,7 +181,7 @@
 		<h5>REACH US</h5>
 		<address>
 		<p>We are always looking for talented people, so let's work together</p>
-		<a href="#">hello@antino.ca</a>
+		<a onclick="handleContactInfo(this)" data-contact_info="mailto:info@antino.io">info@antino.io</a>
 			</address>
 		</div>
 		<!-- end col-12 -->
@@ -235,22 +235,22 @@
 			 <h5>CONTACT FORM</h5>
 			 <form  name="contact" method="post" action="email.php">
           <div class="form-group">
-            <input type="text" name="name" id="name" autocomplete="off" required>
+            <input type="text" name="name" id="name" autocomplete="off" onfocus="displayFloatingLabels(this)" required>
              <span>Your name</span>
           </div>
           <!-- end form-group -->
           <div class="form-group"> 
-            <input type="text" name="email" id="email" autocomplete="off" required>
+            <input type="text" name="email" id="email" autocomplete="off" onfocus="displayFloatingLabels(this)"  required>
             <span>Your e-mail</span>
           </div>
           <!-- end form-group -->
           <div class="form-group"> 
-            <input type="text" name="subject" id="subject" autocomplete="off" required>
+            <input type="text" name="subject" id="subject" autocomplete="off" onfocus="displayFloatingLabels(this)"  required>
             <span>Subject</span>
           </div>
           <!-- end form-group -->
           <div class="form-group"> 
-            <textarea name="message" id="message" autocomplete="off" required></textarea>
+            <textarea name="message" id="message" autocomplete="off" onfocus="displayFloatingLabels(this)"  required></textarea>
             <span>Your message</span>
           </div>
           <!-- end form-group -->
