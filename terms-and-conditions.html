@@ -107,7 +107,7 @@
   <nav class="navbar">
     <div class="logo"> <a href="index.html"><img src="images/Antinologo2021darkfinal.png" alt="Image"></a> </div>
     <!-- end logo -->
-    <div class="phone"> T: +91 1244015088 </div>
+    <div class="phone"><a onclick="handleContactInfo(this)" data-contact_info="tel:+911244015088"> T: +91 1244015088 </a></div>
     <!-- end phone -->
     <div class="main-menu">
       <ul>
@@ -245,16 +245,16 @@
       <div class="col-lg-3 col-md-6 wow fadeInUp">
         <h5>Say Hello</h5>
         <address>
-        info@antino.io <br>
-        +91 1244015088
+        <a onclick="handleContactInfo(this)" data-contact_info="mailto:+info@antino.io">info@antino.io</a><br>
+        <a onclick="handleContactInfo(this)" data-contact_info="tel:+911244015088">+91 1244015088</a>
         </address>
       </div>
       <!-- end col-3 -->
       <div class="col-12 wow fadeInUp">
         <div class="sub-footer">
           <ul>
-            <li><a href="careers.html">Career</a></li>
-            <li><a href="tnc.html">Terms & Conditions</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
             <li><a href="privacy-policy.html">Privacy Policy</a></li>
           </ul>
           <span>© 2021 Antino Labs - All rights Reserved</span> </div>

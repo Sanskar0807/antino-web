@@ -191,11 +191,10 @@ button[type=submit]:hover i {
   padding: 0 2px;
   color: #fff;
 }
-.color-dark .left-side ul li a:hover{
-  color:#fff;
-}
-moe .color-dark .left-side ul li a:hover {
+.color-dark .left-side ul li a:hover {
   text-decoration: none;
+  cursor: pointer !important;
+  color: #fff;
 }
 .color-dark .left-side ul li a:before {
   content: "";
@@ -231,6 +230,9 @@ moe .color-dark .left-side ul li a:hover {
 .color-dark .left-side .logo img {
   -webkit-filter: invert(100%);
   filter: invert(100%);
+}
+.color-dark .left-side .logo img:hover {
+  cursor: pointer;
 }
 .color-dark .left-side .gotop img {
   -webkit-filter: invert(100%);
@@ -715,6 +717,7 @@ moe .color-dark .left-side ul li a:hover {
 }
 .custom-link a:hover {
   text-decoration: none;
+  cursor: pointer !important;
 }
 .custom-link span {
   width: 20px;
@@ -897,6 +900,10 @@ moe .color-dark .left-side ul li a:hover {
 .navbar .phone {
   margin-left: 50px;
 }
+.navbar .phone a:hover {
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
 .navbar .main-menu {
   margin-left: auto;
 }
@@ -1014,6 +1021,7 @@ moe .color-dark .left-side ul li a:hover {
 }
 .left-side ul li a:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 .left-side ul li a:before {
   content: "";
@@ -1172,6 +1180,7 @@ moe .color-dark .left-side ul li a:hover {
 }
 .slider .swiper-container .slide-inner .link a:hover {
   text-decoration: none;
+  cursor: pointer !important;
 }
 .slider .swiper-container .slide-inner .link a:hover:after {
   width: 100%;
@@ -1433,11 +1442,12 @@ moe .color-dark .left-side ul li a:hover {
 .project-box .project-content h3 a {
   display: block;
 }
-.project-box .project-content h3 a:hover {
-  text-decoration: none;
-}
 .project-box .project-content small {
   display: block;
+}
+.project-box .project-content small a:hover {
+  text-decoration: none;
+  cursor: pointer !important;
 }
 
 /* CASE DETAIL */
@@ -1645,7 +1655,6 @@ moe .color-dark .left-side ul li a:hover {
 }
 .our-awards ul li {
   width: 20%;
-  /*width:25%;*/
   float: left;
   margin: 0;
   padding: 0;
@@ -1728,6 +1737,9 @@ moe .color-dark .left-side ul li a:hover {
   display: block;
   margin-bottom: 20px;
 }
+.team figure img:hover {
+  cursor: pointer !important;
+}
 .team figure figcaption {
   display: block;
   margin: 0;
@@ -1747,6 +1759,10 @@ moe .color-dark .left-side ul li a:hover {
   color: #fff;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+.team figure figcaption a:hover {
+  cursor: pointer;
+  text-decoration: underline !important;
 }
 
 /* LOGOS */
@@ -2252,6 +2268,10 @@ moe .color-dark .left-side ul li a:hover {
   color: #fff;
   text-decoration: underline;
 }
+.work-with-us a:hover {
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
 .work-with-us small {
   display: block;
   margin: 15px 0;
@@ -2279,6 +2299,10 @@ moe .color-dark .left-side ul li a:hover {
 .contact address a {
   text-decoration: underline;
 }
+.contact address a:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
 .contact .contact-form {
   display: block;
   margin-top: 50px;
@@ -2295,6 +2319,7 @@ moe .color-dark .left-side ul li a:hover {
   margin-bottom: 35px;
 }
 .contact .contact-form #contact .form-group span {
+  /*width: 100%; line-height: 54px; position: absolute; left: 0; top: 0; padding: 0 20px; z-index:0; @include transition;*/
   width: 100%;
   line-height: 54px;
   position: absolute;
@@ -2302,10 +2327,6 @@ moe .color-dark .left-side ul li a:hover {
   top: 0;
   padding: 0 20px;
   z-index: 0;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -ms-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
 .contact .contact-form #contact .form-group span.label-up {
@@ -2387,6 +2408,9 @@ moe .color-dark .left-side ul li a:hover {
 .footer .logo {
   display: block;
   margin: 0;
+}
+.footer .logo a {
+  cursor: pointer;
 }
 .footer .logo img {
   height: 42px;
@@ -2542,7 +2566,7 @@ moe .color-dark .left-side ul li a:hover {
   }
 
   .our-awards ul li {
-    width: 100%;
+    width: 90%;
     float: none;
     display: inline-block;
     margin: 0 6%;
@@ -2593,11 +2617,9 @@ moe .color-dark .left-side ul li a:hover {
     display: none;
   }
 
-  .footer .logo {
+  .footer .col-lg-5 {
     margin-bottom: 40px;
   }
-
-  .footer .col-lg-5{ margin-bottom: 40px;}
 
   .footer .career h2 {
     font-size: 6vw;
@@ -2728,37 +2750,11 @@ moe .color-dark .left-side ul li a:hover {
   .footer .sub-footer ul {
     margin-bottom: 15px;
   }
+
+  /*Responsive Code for differentiator section*/
+  .our-awards ul li {
+    width: 100%;
+  }
 }
-
-/* STICKY LOGO Z-INDEX FIX*/
-.sticky>a {
-	position: absolute;
-	z-index: 9999;
-} 
-
-/*Careers ul */
-ul.careers-bullet{
-	margin-bottom:30px!important;
-}
-
-a{
-  cursor:pointer!important;
-}
-
-.contact .contact-form #contact .form-group span {
-  width: 100%;
-  line-height: 54px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  padding: 0 20px;
-  z-index: 0;
-  -webkit-transition: all .25s ease-in-out;
-  -moz-transition: all .25s ease-in-out;
-  -ms-transition: all .25s ease-in-out;
-  -o-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
-}
-
 
 /*# sourceMappingURL=style.css.map */
