@@ -794,7 +794,7 @@ moe
 .custom-link {
   display: -ms-flexbox;
   display: -webkit-box;
-  display: inline-flex;
+  display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -ms-flex-align: center;
@@ -2732,6 +2732,7 @@ img {
 
 .contact .contact-form #contact {
   display: block;
+  background-color: red;
 }
 
 .contact .contact-form #contact .form-group {
@@ -2741,6 +2742,7 @@ img {
 }
 
 .contact .contact-form #contact .form-group span {
+  /*width: 100%; line-height: 54px; position: absolute; left: 0; top: 0; padding: 0 20px; z-index:0; @include transition;*/
   width: 100%;
   line-height: 54px;
   position: absolute;
