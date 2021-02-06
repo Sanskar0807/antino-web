@@ -1795,6 +1795,10 @@ moe .color-dark .left-side ul li a:hover {
 }
 
 /* BLOG */
+.txt:hover {
+  text-decoration: underline;
+}
+
 .post-header {
   width: 100%;
   display: flex;
