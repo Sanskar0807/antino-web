@@ -477,7 +477,7 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 	&:nth-child(2){ width: 50%; float: right; padding-left: 25px;}}}
 	
 .blog{width: 100%; display: flex; flex-wrap: wrap; padding-top: 150px;
-	.post{width: 100%; display: flex; flex-wrap: wrap; margin-bottom: 150px;
+	.post{width: 100%; display: flex; flex-wrap: wrap; margin-bottom:50px;
 		.post-image{width: 100%; margin-bottom: 30px;
 			img{width: 100%;}}
 		.post-content{width: 100%; margin: 0;
@@ -599,7 +599,7 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 /* MEDIUM FIXES */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
 	body{padding: 0;}
-	.left-side{display: none;}
+    .left-side{display: none;}
 	.navbar{padding: 30px;}
 	.slider{ width:100%; margin-right: 0;}
 	.slider .swiper-container .slide-inner{padding: 0 60px;}

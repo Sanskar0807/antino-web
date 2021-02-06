@@ -1642,7 +1642,6 @@ moe .color-dark .left-side ul li a:hover {
 }
 .our-awards ul li {
   width: 20%;
-  /*width:25%;*/
   float: left;
   margin: 0;
   padding: 0;
@@ -1934,7 +1933,7 @@ moe .color-dark .left-side ul li a:hover {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 .blog .post .post-image {
   width: 100%;
@@ -2385,6 +2384,9 @@ moe .color-dark .left-side ul li a:hover {
   display: block;
   margin: 0;
 }
+.footer .logo a {
+  cursor: pointer;
+}
 .footer .logo img {
   height: 42px;
 }
@@ -2539,7 +2541,7 @@ moe .color-dark .left-side ul li a:hover {
   }
 
   .our-awards ul li {
-    width: 100%;
+    width: 90%;
     float: none;
     display: inline-block;
     margin: 0 6%;
@@ -2590,11 +2592,9 @@ moe .color-dark .left-side ul li a:hover {
     display: none;
   }
 
-  .footer .logo {
+  .footer .col-lg-5 {
     margin-bottom: 40px;
   }
-
-  .footer .col-lg-5{ margin-bottom: 40px;}
 
   .footer .career h2 {
     font-size: 6vw;
@@ -2725,21 +2725,11 @@ moe .color-dark .left-side ul li a:hover {
   .footer .sub-footer ul {
     margin-bottom: 15px;
   }
-}
 
-/* STICKY LOGO Z-INDEX FIX*/
-.sticky>a {
-	position: absolute;
-	z-index: 9999;
-} 
-
-/*Careers ul */
-ul.careers-bullet{
-	margin-bottom:30px!important;
-}
-
-a{
-  cursor:pointer!important;
+  /*Responsive Code for differentiator section*/
+  .our-awards ul li {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

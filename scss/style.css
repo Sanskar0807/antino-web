@@ -2316,7 +2316,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 .blog .post .post-image {
@@ -2965,9 +2965,6 @@ img {
   body {
     padding: 0;
   }
-  .left-side {
-    display: none;
-  }
   .navbar {
     padding: 30px;
   }
@@ -3058,7 +3055,7 @@ img {
   .swiper-button-next {
     display: none;
   }
-  .footer .logo {
+  .footer .col-lg-5 {
     margin-bottom: 40px;
   }
   .footer .career h2 {
