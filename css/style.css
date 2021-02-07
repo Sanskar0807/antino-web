@@ -86,7 +86,7 @@ textarea {
   padding: 15px 20px;
 }
 
-button[type=submit] {
+button[type=submit], button[type=button] {
   height: 58px;
   display: -ms-flexbox;
   display: flex;
@@ -100,14 +100,14 @@ button[type=submit] {
   margin: 0;
   padding: 0;
 }
-button[type=submit] * {
+button[type=submit] *, button[type=button] * {
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -ms-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-button[type=submit] strong {
+button[type=submit] strong, button[type=button] strong {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -121,10 +121,10 @@ button[type=submit] strong {
   background: #282828;
   color: #fff;
 }
-button[type=submit] strong:hover {
+button[type=submit] strong:hover, button[type=button] strong:hover {
   text-decoration: none;
 }
-button[type=submit] b {
+button[type=submit] b, button[type=button] b {
   width: 20px;
   height: 1px;
   background: #fff;
@@ -132,7 +132,7 @@ button[type=submit] b {
   margin-left: 20px;
   margin-top: 8px;
 }
-button[type=submit] i {
+button[type=submit] i, button[type=button] i {
   width: 0;
   height: 0;
   display: inline-block;
@@ -144,11 +144,11 @@ button[type=submit] i {
   opacity: 1;
   margin-top: 5px;
 }
-button[type=submit]:hover b {
+button[type=submit]:hover b, button[type=button]:hover b {
   width: 50px;
   margin-left: 20px;
 }
-button[type=submit]:hover i {
+button[type=submit]:hover i, button[type=button]:hover i {
   opacity: 0;
 }
 
@@ -780,6 +780,7 @@ button[type=submit]:hover i {
   padding-top: 18px;
   background: #282828;
   color: #fff;
+  cursor: pointer;
 }
 .custom-btn a:hover {
   text-decoration: none;
@@ -2264,12 +2265,15 @@ button[type=submit]:hover i {
   margin: 0;
   font-size: 19px;
 }
-.work-with-us a {
-  color: #fff;
-  text-decoration: underline;
-}
-.work-with-us a:hover {
+.work-with-us p a:hover {
   text-decoration: underline !important;
+  cursor: pointer !important;
+}
+.work-with-us a.white-btn {
+  color: #fff;
+}
+.work-with-us a.white-btn:hover {
+  text-decoration: none;
   cursor: pointer !important;
 }
 .work-with-us small {
@@ -2387,7 +2391,11 @@ button[type=submit]:hover i {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 150px 0;
+  padding: 150px 0px 50px 0px;
+}
+.footer address a:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
 }
 .footer .career {
   display: block;
@@ -2518,6 +2526,21 @@ button[type=submit]:hover i {
   .works .titles {
     padding-right: 0;
   }
+
+  /*.left-side{
+  	display:block;
+  	.logo{
+  		.sticky{
+  			display:none!important;
+  		}
+  	}
+  	ul{
+  		display:none!important;
+  	}
+  	.gotop {
+  		display:block;
+  	}
+  }*/
 }
 /* RESPONSIVE TABLET FIXES */
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
