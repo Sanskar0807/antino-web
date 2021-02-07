@@ -54,7 +54,12 @@
 
 <!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script></head>
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+
+<!--SMTP using Javascript-->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</head>
 <body>
 	<div class="preloader" style="display:none;">
   <div class="inner">
@@ -233,7 +238,7 @@
 		<div class="col-lg-7 wow fadeInUp">
 		 <div class="contact-form">
 			 <h5>CONTACT FORM</h5>
-			 <form id="contact" name="contact" method="post" action="email.php">
+			 <form id="contact" name="contact" method="post" >
           <div class="form-group">
             <input type="text" name="name" id="name" autocomplete="off" onfocus="displayFloatingLabels(this)" required>
              <span>Your name</span>
@@ -255,7 +260,7 @@
           </div>
           <!-- end form-group -->
           <div class="form-group">
-            <button id="submit" type="submit" name="submit">
+            <button id="submit" type="button" onclick="sendMail()" name="submit">
 <strong>Submit Now<b></b> <i></i></strong>
          </button>
           </div>
@@ -309,7 +314,7 @@
         <h5>Say Hello</h5>
        <address>
         <a onclick="handleContactInfo(this)" data-contact_info="mailto:+info@antino.io">info@antino.io</a><br>
-        <a onclick="handleContactInfo(this)" data-contact_info="tel:+911244015088">+91 1244015088</a>
+        <p class="mt-3"><a onclick="handleContactInfo(this)" data-contact_info="tel:+911244015088">+91 1244015088</a></p>
         </address>
       </div>
       <!-- end col-3 -->

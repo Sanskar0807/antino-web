@@ -67,7 +67,7 @@ p{line-height: 1.5;}
 /* FORM ELEMENTS */
 input[type="text"]{width: 100%; height: 54px; border: 1px solid #eee; padding: 0 20px;}
 textarea{width: 100%; height: 160px; border: 1px solid #eee; padding: 15px 20px;}
-button[type="submit"]{ height: 58px; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-align: center; -ms-flex-pack: justify; justify-content: space-between; text-align: center; border: none; margin: 0; padding: 0; 
+button[type="submit"], button[type="button"] { height: 58px; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-align: center; -ms-flex-pack: justify; justify-content: space-between; text-align: center; border: none; margin: 0; padding: 0; 
 	*{@include transition;}
 	strong{display: flex; flex-wrap: wrap; justify-content: center; align-content: center; height: 58px; border: 1px solid $color-dark; font-size: 13px; font-weight: 600; text-transform: uppercase; padding: 0 30px; background: $color-dark; color: #fff;
 		&:hover{text-decoration: none;}}
@@ -211,7 +211,7 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 /* CUSTOM BUTTON */
 .custom-btn{ display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-align: center; align-items: center; -ms-flex-pack: justify; justify-content: space-between; text-align: center;
 	*{@include transition;}
-	a{display: flex; flex-wrap: wrap; justify-content: center; height: 58px; border: 1px solid $color-dark; font-size: 13px; font-weight: 600; text-transform: uppercase; padding: 0 30px; padding-top: 18px; background: $color-dark; color: #fff;
+	a{display: flex; flex-wrap: wrap; justify-content: center; height: 58px; border: 1px solid $color-dark; font-size: 13px; font-weight: 600; text-transform: uppercase; padding: 0 30px; padding-top: 18px; background: $color-dark; color: #fff; cursor:pointer;
 		&:hover{text-decoration: none;}}
 		span{width: 20px; height: 1px; background: #fff; display: inline-block; margin-left: 20px; margin-top: 8px; }
 		i{width: 0; height: 0; display: inline-block; margin-left: 0; margin-right: auto; border-style: solid; border-width: 4px 0 4px 4px; border-color: transparent transparent transparent #fff; opacity: 1; margin-top: 5px;}
@@ -549,13 +549,22 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 .work-with-us{width: 100%; display: flex; flex-wrap: wrap; padding: 150px 0; color: #fff;
 	h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px;}
 	h2{font-size: 6vw; font-weight: 800; margin-bottom: 50px; }
-	p{display: block; margin: 0; font-size: 19px;}
-	a{color: #fff; text-decoration: underline;
+	p{display: block; margin: 0; font-size: 19px;
+		a{
+			&:hover{
+				text-decoration: underline!important;
+				cursor:pointer!important;
+	
+			}
+		}
+	}
+	a.white-btn{color: #fff;;
 		 &:hover{
-		text-decoration: underline!important;
+		text-decoration: none;
 		cursor:pointer!important;
 
 	}}
+	
 	small{display: block; margin: 15px 0;}}
 
 
@@ -596,7 +605,8 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 
 
 /* FOOTER */
-.footer{width: 100%; display: flex; flex-wrap: wrap; padding: 150px 0; 
+.footer{width: 100%; display: flex; flex-wrap: wrap; padding: 150px 0px 50px 0px; 
+	address{ a{ &:hover{text-decoration: underline!important; cursor:pointer;}}}
 	.career{display: block; border-bottom: 1px solid rgba(40,40,40,0.1); padding-bottom: 100px; margin-bottom: 100px;
 	h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px;}
 	h2{font-size: 3vw; font-weight: 800; margin-bottom: 50px; }}
@@ -629,6 +639,21 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 	.slider{ width:100%; margin-right: 0;}
 	.slider .swiper-container .slide-inner{padding: 0 60px;}
 	.works .titles{padding-right: 0;}
+
+	/*.left-side{
+		display:block;
+		.logo{
+			.sticky{
+				display:none!important;
+			}
+		}
+		ul{
+			display:none!important;
+		}
+		.gotop {
+			display:block;
+		}
+	}*/
 }
 
 

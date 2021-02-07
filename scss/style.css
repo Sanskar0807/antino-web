@@ -2857,7 +2857,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 150px 0;
+  padding: 150px 0 50px 0px;
 }
 
 .footer .career {
