@@ -1,6 +1,6 @@
 <?php
 $errors = '';
-$myemail = 'marionbelmont8412@gmail.com';//<-----Put Your email address here.
+$myemail = 'ashishguptajiit@gmail.com';//<-----Put Your email address here.
 //ashishguptajiit@gmail.com
 if(empty($_POST['name'])  ||
    empty($_POST['email']) ||
@@ -27,7 +27,7 @@ $email_body = "You have received a new message. ".
 $headers = "From: $myemail\n";
 $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
-mail("marionbelmont8412@gmail.com",$email_subject,$email_body,$headers);
+mail("vinaygupta.iitkgp@gmail.com",$email_subject,$email_body,$headers);
 //vinaygupta.iitkgp@gmail.com
 //redirect to the 'thank you' page
 header('Location: contact.html');

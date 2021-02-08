@@ -422,7 +422,7 @@ function displayFloatingLabels(obj)
 
 }
 
-function sendMail()
+/*function sendMail()
 {
 	var name = $('#name').val();
 	var email = $('#email').val();
@@ -436,9 +436,6 @@ function sendMail()
 	Message : ${message}`;
 	Email.send({ 
 		SecureToken :"40c740df-6674-4ad4-8730-8d2bf5ef82a8",
-        /*Host: "smtp.elasticemail.com", 
-        Username: "emailverifymili@gmail.com", 
-        Password: "6296EDAE1C1DE2F9B29BEF90B2531B43A182", */
         To: 'marionbelmont8412@gmail.com', 
         From: "emailverifymili@gmail.com", 
         Subject: "Contact form submission: " + name , 
@@ -461,5 +458,5 @@ function sendMail()
 				$('#success').css('display','none');
 			  }
         }); 
-}
+}*/
 		
