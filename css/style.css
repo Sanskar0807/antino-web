@@ -2510,10 +2510,6 @@ button[type=submit]:hover i, button[type=button]:hover i {
     padding: 0;
   }
 
-  .left-side {
-    display: none;
-  }
-
   .navbar {
     padding: 30px;
   }
@@ -2529,6 +2525,17 @@ button[type=submit]:hover i, button[type=button]:hover i {
 
   .works .titles {
     padding-right: 0;
+  }
+
+  .left-side {
+    left: unset !important;
+    right: 0 !important;
+  }
+  .left-side .logo {
+    display: none !important;
+  }
+  .left-side ul {
+    display: none !important;
   }
 
   /*.left-side{

@@ -638,12 +638,22 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 /* MEDIUM FIXES */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
 	body{padding: 0;}
-    .left-side{display: none;}
+    // .left-side{display: none;}
 	.navbar{padding: 30px;}
 	.slider{ width:100%; margin-right: 0;}
 	.slider .swiper-container .slide-inner{padding: 0 60px;}
 	.works .titles{padding-right: 0;}
 
+	.left-side{
+		left: unset!important;       
+		right: 0!important;
+		.logo{
+			display:none!important;
+		}
+		ul{
+			display: none!important;
+		}
+	}
 	/*.left-side{
 		display:block;
 		.logo{
