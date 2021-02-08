@@ -86,7 +86,7 @@ textarea {
   padding: 15px 20px;
 }
 
-button[type=submit] {
+button[type=submit], button[type=button] {
   height: 58px;
   display: -ms-flexbox;
   display: flex;
@@ -100,14 +100,14 @@ button[type=submit] {
   margin: 0;
   padding: 0;
 }
-button[type=submit] * {
+button[type=submit] *, button[type=button] * {
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -ms-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-button[type=submit] strong {
+button[type=submit] strong, button[type=button] strong {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -121,10 +121,10 @@ button[type=submit] strong {
   background: #282828;
   color: #fff;
 }
-button[type=submit] strong:hover {
+button[type=submit] strong:hover, button[type=button] strong:hover {
   text-decoration: none;
 }
-button[type=submit] b {
+button[type=submit] b, button[type=button] b {
   width: 20px;
   height: 1px;
   background: #fff;
@@ -132,7 +132,7 @@ button[type=submit] b {
   margin-left: 20px;
   margin-top: 8px;
 }
-button[type=submit] i {
+button[type=submit] i, button[type=button] i {
   width: 0;
   height: 0;
   display: inline-block;
@@ -144,11 +144,11 @@ button[type=submit] i {
   opacity: 1;
   margin-top: 5px;
 }
-button[type=submit]:hover b {
+button[type=submit]:hover b, button[type=button]:hover b {
   width: 50px;
   margin-left: 20px;
 }
-button[type=submit]:hover i {
+button[type=submit]:hover i, button[type=button]:hover i {
   opacity: 0;
 }
 
@@ -191,8 +191,10 @@ button[type=submit]:hover i {
   padding: 0 2px;
   color: #fff;
 }
-moe .color-dark .left-side ul li a:hover {
+.color-dark .left-side ul li a:hover {
   text-decoration: none;
+  cursor: pointer !important;
+  color: #fff;
 }
 .color-dark .left-side ul li a:before {
   content: "";
@@ -228,6 +230,9 @@ moe .color-dark .left-side ul li a:hover {
 .color-dark .left-side .logo img {
   -webkit-filter: invert(100%);
   filter: invert(100%);
+}
+.color-dark .left-side .logo img:hover {
+  cursor: pointer;
 }
 .color-dark .left-side .gotop img {
   -webkit-filter: invert(100%);
@@ -688,7 +693,7 @@ moe .color-dark .left-side ul li a:hover {
 /* CUSTOM LINK */
 .custom-link {
   display: -ms-flexbox;
-  display: flex;
+  display: inline-flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -ms-flex-align: center;
@@ -712,6 +717,7 @@ moe .color-dark .left-side ul li a:hover {
 }
 .custom-link a:hover {
   text-decoration: none;
+  cursor: pointer !important;
 }
 .custom-link span {
   width: 20px;
@@ -774,6 +780,7 @@ moe .color-dark .left-side ul li a:hover {
   padding-top: 18px;
   background: #282828;
   color: #fff;
+  cursor: pointer;
 }
 .custom-btn a:hover {
   text-decoration: none;
@@ -894,6 +901,10 @@ moe .color-dark .left-side ul li a:hover {
 .navbar .phone {
   margin-left: 50px;
 }
+.navbar .phone a:hover {
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
 .navbar .main-menu {
   margin-left: auto;
 }
@@ -1011,6 +1022,7 @@ moe .color-dark .left-side ul li a:hover {
 }
 .left-side ul li a:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 .left-side ul li a:before {
   content: "";
@@ -1169,6 +1181,7 @@ moe .color-dark .left-side ul li a:hover {
 }
 .slider .swiper-container .slide-inner .link a:hover {
   text-decoration: none;
+  cursor: pointer !important;
 }
 .slider .swiper-container .slide-inner .link a:hover:after {
   width: 100%;
@@ -1430,11 +1443,12 @@ moe .color-dark .left-side ul li a:hover {
 .project-box .project-content h3 a {
   display: block;
 }
-.project-box .project-content h3 a:hover {
-  text-decoration: none;
-}
 .project-box .project-content small {
   display: block;
+}
+.project-box .project-content small a:hover {
+  text-decoration: none;
+  cursor: pointer !important;
 }
 
 /* CASE DETAIL */
@@ -1724,6 +1738,9 @@ moe .color-dark .left-side ul li a:hover {
   display: block;
   margin-bottom: 20px;
 }
+.team figure img:hover {
+  cursor: pointer !important;
+}
 .team figure figcaption {
   display: block;
   margin: 0;
@@ -1743,6 +1760,10 @@ moe .color-dark .left-side ul li a:hover {
   color: #fff;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+.team figure figcaption a:hover {
+  cursor: pointer;
+  text-decoration: underline !important;
 }
 
 /* LOGOS */
@@ -2248,9 +2269,16 @@ moe .color-dark .left-side ul li a:hover {
   margin: 0;
   font-size: 19px;
 }
-.work-with-us a {
+.work-with-us p a:hover {
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
+.work-with-us a.white-btn {
   color: #fff;
-  text-decoration: underline;
+}
+.work-with-us a.white-btn:hover {
+  text-decoration: none;
+  cursor: pointer !important;
 }
 .work-with-us small {
   display: block;
@@ -2279,6 +2307,10 @@ moe .color-dark .left-side ul li a:hover {
 .contact address a {
   text-decoration: underline;
 }
+.contact address a:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
 .contact .contact-form {
   display: block;
   margin-top: 50px;
@@ -2295,6 +2327,7 @@ moe .color-dark .left-side ul li a:hover {
   margin-bottom: 35px;
 }
 .contact .contact-form #contact .form-group span {
+  /*width: 100%; line-height: 54px; position: absolute; left: 0; top: 0; padding: 0 20px; z-index:0; @include transition;*/
   width: 100%;
   line-height: 54px;
   position: absolute;
@@ -2302,10 +2335,6 @@ moe .color-dark .left-side ul li a:hover {
   top: 0;
   padding: 0 20px;
   z-index: 0;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -ms-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
 .contact .contact-form #contact .form-group span.label-up {
@@ -2366,7 +2395,11 @@ moe .color-dark .left-side ul li a:hover {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 150px 0;
+  padding: 150px 0px 50px 0px;
+}
+.footer address a:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
 }
 .footer .career {
   display: block;
@@ -2497,6 +2530,21 @@ moe .color-dark .left-side ul li a:hover {
   .works .titles {
     padding-right: 0;
   }
+
+  /*.left-side{
+  	display:block;
+  	.logo{
+  		.sticky{
+  			display:none!important;
+  		}
+  	}
+  	ul{
+  		display:none!important;
+  	}
+  	.gotop {
+  		display:block;
+  	}
+  }*/
 }
 /* RESPONSIVE TABLET FIXES */
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {

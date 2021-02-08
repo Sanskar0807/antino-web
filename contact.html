@@ -54,7 +54,12 @@
 
 <!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script></head>
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+
+<!--SMTP using Javascript-->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</head>
 <body>
 	<div class="preloader" style="display:none;">
   <div class="inner">
@@ -114,7 +119,7 @@
   <nav class="navbar">
     <div class="logo"> <a href="index.html"><img src="images/Antinologo2021darkfinal.png" alt="Image"></a> </div>
     <!-- end logo -->
-    <div class="phone"> T: +91 1244015088 </div>
+    <div class="phone"><a onclick="handleContactInfo(this)" data-contact_info="tel:+911244015088"> T: +91 1244015088 </a></div>
     <!-- end phone -->
     <div class="main-menu">
       <ul>
@@ -172,8 +177,8 @@
 		<!-- end col-6 -->
 		<div class="col-md-6 wow fadeInUp">
 		<h5>CALL US</h5>
-			<address>p: +1 800 578 1250<br>
-			m: +91 782-732-5235
+			<address><a onclick="handleContactInfo(this)" data-contact_info="tel:+18005781250">Ph: +1 800 578 1250</a><br>
+			<a onclick="handleContactInfo(this)" data-contact_info="tel:+917827325235">Mo: +91 782-732-5235</a>
 </address>
 		</div>
 		<!-- end col-6 -->
@@ -181,7 +186,7 @@
 		<h5>REACH US</h5>
 		<address>
 		<p>We are always looking for talented people, so let's work together</p>
-		<a href="#">hello@antino.ca</a>
+		<a onclick="handleContactInfo(this)" data-contact_info="mailto:info@antino.io">info@antino.io</a>
 			</address>
 		</div>
 		<!-- end col-12 -->
@@ -233,29 +238,29 @@
 		<div class="col-lg-7 wow fadeInUp">
 		 <div class="contact-form">
 			 <h5>CONTACT FORM</h5>
-			 <form  name="contact" method="post" action="email.php">
+			 <form id="contact" name="contact" method="post" >
           <div class="form-group">
-            <input type="text" name="name" id="name" autocomplete="off" required>
+            <input type="text" name="name" id="name" autocomplete="off" onfocus="displayFloatingLabels(this)" required>
              <span>Your name</span>
           </div>
           <!-- end form-group -->
           <div class="form-group"> 
-            <input type="text" name="email" id="email" autocomplete="off" required>
+            <input type="text" name="email" id="email" autocomplete="off" onfocus="displayFloatingLabels(this)"  required>
             <span>Your e-mail</span>
           </div>
           <!-- end form-group -->
           <div class="form-group"> 
-            <input type="text" name="subject" id="subject" autocomplete="off" required>
+            <input type="text" name="subject" id="subject" autocomplete="off" onfocus="displayFloatingLabels(this)"  required>
             <span>Subject</span>
           </div>
           <!-- end form-group -->
           <div class="form-group"> 
-            <textarea name="message" id="message" autocomplete="off" required></textarea>
+            <textarea name="message" id="message" autocomplete="off" onfocus="displayFloatingLabels(this)"  required></textarea>
             <span>Your message</span>
           </div>
           <!-- end form-group -->
           <div class="form-group">
-            <button id="submit" type="submit" name="submit">
+            <button id="submit" type="button" onclick="sendMail()" name="submit">
 <strong>Submit Now<b></b> <i></i></strong>
          </button>
           </div>
@@ -307,20 +312,20 @@
       <!-- end col-4 -->
       <div class="col-lg-3 col-md-6 wow fadeInUp">
         <h5>Say Hello</h5>
-        <address>
-        info@antino.io<br>
-        +91 1244015088
+       <address>
+        <a onclick="handleContactInfo(this)" data-contact_info="mailto:+info@antino.io">info@antino.io</a><br>
+        <p class="mt-3"><a onclick="handleContactInfo(this)" data-contact_info="tel:+911244015088">+91 1244015088</a></p>
         </address>
       </div>
       <!-- end col-3 -->
       <div class="col-12 wow fadeInUp">
         <div class="sub-footer">
           <ul>
-            <li><a href="careers.html">Career</a></li>
-            <li><a href="tnc.html">Terms & Conditions</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
             <li><a href="privacy-policy.html">Privacy Policy</a></li>
           </ul>
-          <span>© 2020 Antino Labs - All rights Reserved</span> </div>
+          <span>© 2021 Antino Labs - All rights Reserved</span> </div>
         <!-- end sub-footer --> 
       </div>
       <!-- end col-12 --> 

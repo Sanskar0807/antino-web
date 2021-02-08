@@ -115,7 +115,7 @@
   <nav class="navbar">
     <div class="logo"> <a href="index.html"><img src="images/Antinologo2021darkfinal.png" alt="Image"></a> </div>
     <!-- end logo -->
-    <div class="phone"> T: +91 1244015088 </div>
+    <div class="phone"><a onclick="handleContactInfo(this)" data-contact_info="tel:+911244015088"> T: +91 1244015088 </a></div>
     <!-- end phone -->
     <div class="main-menu">
       <ul>
@@ -323,7 +323,7 @@
    <!-- end col-12 -->
    	<div class="col-lg-3 col-md-6">
    		<figure>
-   			<img src="images/VinayKrishnaGupta@2x.png" alt="Image">
+   			<img onclick="handleLinkedInLinks(this)" data-linkedin-link="https://www.linkedin.com/in/vinaykrishnagupta/?originalSubdomain=in" src="images/VinayKrishnaGupta@2x.png" alt="Image">
    			<figcaption>
    			<h5>Vinay Krishna Gupta</h5>
    				<span>Co-Founder & CEO</span>
@@ -334,7 +334,7 @@
    	<!-- end col-3 -->
    	<div class="col-lg-3 col-md-6">
    		<figure>
-   			<img src="images/AshishKumar.png" alt="Image">
+   			<img onclick="handleLinkedInLinks(this)" data-linkedin-link="https://www.linkedin.com/in/ashish-gupta-2265ba103/" src="images/AshishKumar.png" alt="Image">
    			<figcaption>
    			<h5>Ashish Kumar</h5>
    				<span>Co-founder & CTO</span>
@@ -345,7 +345,7 @@
    	<!-- end col-3 -->
    	<div class="col-lg-3 col-md-6">
    		<figure>
-   			<img src="images/SiddharthMaheshwari.png" alt="Image">
+   			<img onclick="handleLinkedInLinks(this)" data-linkedin-link="https://www.linkedin.com/in/siddm1547/" src="images/SiddharthMaheshwari.png" alt="Image">
    			<figcaption>
    			<h5>Siddharth Maheswari</h5>
    				<span>VP Sales </span>
@@ -356,7 +356,7 @@
    	<!-- end col-3 -->
    	<div class="col-lg-3 col-md-6">
    		<figure>
-   			<img src="images/Rajesh.png" alt="Image">
+   			<img onclick="handleLinkedInLinks(this)" data-linkedin-link="https://www.linkedin.com/in/rajesh-kumar-2b4963188/" src="images/Rajesh.png" alt="Image">
    			<figcaption>
    			<h5>Rajesh Kumar</h5>
    				<span>VP Operations</span>
@@ -472,9 +472,9 @@
     <h6>WORK WITH PRO TEAM</h6>
     <h2>Would you like to have a professional project? Let's talk about it!</h2>
       <div class="custom-btn white-btn" style="background-color:white;!important;color:black!important;max-width:fit-content;border-color:white!important;"><a class="white-btn" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/antino/existing'});return false;" style="background-color:white;!important;color:black!important;border-color:white!important;">Get In Touch<span style="background:black!important;"></span><i style="color:black!important;border-color: transparent transparent transparent #000;"></i></a></div>
-      <p class="mt-3"><a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=info@antino.io&tf=1">info@antino.io</a></p>
+      <p class="mt-3"><a onclick="handleContactInfo(this)" data-contact_info="mailto:+info@antino.io">info@antino.io</a></p>
         <small>Or</small>
-      <p>+91 1244015088</p>
+      <p class="mt-3"><a onclick="handleContactInfo(this)" data-contact_info="tel:+911244015088">+91 1244015088</a></p>
   </div>
   <!-- end container --> 
 </section>
@@ -508,19 +508,19 @@
       <div class="col-lg-3 col-md-6 wow fadeInUp">
         <h5>Say Hello</h5>
         <address>
-        info@antino.io <br>
-        +91 1244015088
+        <a onclick="handleContactInfo(this)" data-contact_info="mailto:+info@antino.io">info@antino.io</a><br>
+        <p class="mt-3"><a onclick="handleContactInfo(this)" data-contact_info="tel:+911244015088">+91 1244015088</a></p>
         </address>
       </div>
       <!-- end col-3 -->
       <div class="col-12 wow fadeInUp">
         <div class="sub-footer">
           <ul>
-            <li><a href="careers.html">Career</a></li>
-            <li><a href="tnc.html">Terms & Conditions</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
             <li><a href="privacy-policy.html">Privacy Policy</a></li>
           </ul>
-          <span>© 2020 Antino Labs - All rights Reserved</span> </div>
+          <span>© 2021 Antino Labs - All rights Reserved</span> </div>
         <!-- end sub-footer --> 
       </div>
       <!-- end col-12 --> 

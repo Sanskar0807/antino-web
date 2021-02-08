@@ -207,9 +207,10 @@ button[type="submit"]:hover i {
   color: #fff;
 }
 
-moe
 .color-dark .left-side ul li a:hover {
   text-decoration: none;
+  cursor: pointer !important;
+  color: #fff;
 }
 
 .color-dark .left-side ul li a:before {
@@ -254,6 +255,10 @@ moe
 .color-dark .left-side .logo img {
   -webkit-filter: invert(100%);
   filter: invert(100%);
+}
+
+.color-dark .left-side .logo img:hover {
+  cursor: pointer;
 }
 
 .color-dark .left-side .gotop img {
@@ -793,8 +798,9 @@ moe
 /* CUSTOM LINK */
 .custom-link {
   display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -ms-flex-align: center;
@@ -820,6 +826,7 @@ moe
 
 .custom-link a:hover {
   text-decoration: none;
+  cursor: pointer !important;
 }
 
 .custom-link span {
@@ -1040,6 +1047,11 @@ moe
   margin-left: 50px;
 }
 
+.navbar .phone a:hover {
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
+
 .navbar .main-menu {
   margin-left: auto;
 }
@@ -1178,6 +1190,7 @@ moe
 
 .left-side ul li a:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .left-side ul li a:before {
@@ -1352,6 +1365,7 @@ moe
 
 .slider .swiper-container .slide-inner .link a:hover {
   text-decoration: none;
+  cursor: pointer !important;
 }
 
 .slider .swiper-container .slide-inner .link a:hover:after {
@@ -1671,12 +1685,13 @@ img {
   display: block;
 }
 
-.project-box .project-content h3 a:hover {
-  text-decoration: none;
-}
-
 .project-box .project-content small {
   display: block;
+}
+
+.project-box .project-content small a:hover {
+  text-decoration: none;
+  cursor: pointer !important;
 }
 
 /* CASE DETAIL */
@@ -2059,6 +2074,10 @@ img {
   margin-bottom: 20px;
 }
 
+.team figure img:hover {
+  cursor: pointer !important;
+}
+
 .team figure figcaption {
   display: block;
   margin: 0;
@@ -2081,6 +2100,11 @@ img {
   color: #fff;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+.team figure figcaption a:hover {
+  cursor: pointer;
+  text-decoration: underline !important;
 }
 
 /* LOGOS */
@@ -2686,6 +2710,11 @@ img {
   text-decoration: underline;
 }
 
+.work-with-us a:hover {
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
+
 .work-with-us small {
   display: block;
   margin: 15px 0;
@@ -2721,6 +2750,11 @@ img {
   text-decoration: underline;
 }
 
+.contact address a:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
 .contact .contact-form {
   display: block;
   margin-top: 50px;
@@ -2741,6 +2775,7 @@ img {
 }
 
 .contact .contact-form #contact .form-group span {
+  /*width: 100%; line-height: 54px; position: absolute; left: 0; top: 0; padding: 0 20px; z-index:0; @include transition;*/
   width: 100%;
   line-height: 54px;
   position: absolute;
@@ -2822,7 +2857,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 150px 0;
+  padding: 150px 0 50px 0px;
 }
 
 .footer .career {

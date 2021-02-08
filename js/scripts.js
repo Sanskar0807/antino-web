@@ -408,4 +408,58 @@ function handleCareersLink(obj)
 	window.open(careers_link);
 }
 
+function handleContactInfo(obj)
+{
+	var contact_link= obj.getAttribute('data-contact_info');
+	window.open(contact_link,"_self");
+}
+
+function displayFloatingLabels(obj)
+{
+	var id = obj.id;
+	$('#'+id).addClass('focus-visible');
+	$('#'+id).attr('data-focus-visible-added');
+
+}
+
+function sendMail()
+{
+	var name = $('#name').val();
+	var email = $('#email').val();
+	var message = $('#message').val();
+	var subject = $('#subject').val();
+
+	var email_body = `You have received a new message.
+	Here are the details:
+	Name:  ${name}
+	Email: ${email}
+	Message : ${message}`;
+	Email.send({ 
+		SecureToken :"40c740df-6674-4ad4-8730-8d2bf5ef82a8",
+        /*Host: "smtp.elasticemail.com", 
+        Username: "emailverifymili@gmail.com", 
+        Password: "6296EDAE1C1DE2F9B29BEF90B2531B43A182", */
+        To: 'marionbelmont8412@gmail.com', 
+        From: "emailverifymili@gmail.com", 
+        Subject: "Contact form submission: " + name , 
+		Body: email_body, 
+		Port:587,
+		useDefaultCredentials:false,
+
+      }) 
+        .then(function (message) { 
+			  //alert("mail sent successfully") 
+			  if(message == "OK")
+			  {
+				  $('#contact').css('display','none');
+				  $('#success').css('display','block');
+				  $('#error').css('display','none');
+			  }
+			  else
+			  {
+				$('#error').css('display','block');
+				$('#success').css('display','none');
+			  }
+        }); 
+}
 		
