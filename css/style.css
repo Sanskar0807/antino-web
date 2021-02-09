@@ -1060,7 +1060,7 @@ button[type=submit]:hover i, button[type=button]:hover i {
   padding: 14px;
   position: absolute;
   left: 50px;
-  bottom: 35px;
+  bottom: 45px;
   display: none;
 }
 .left-side .gotop img {
@@ -2603,7 +2603,6 @@ button[type=submit]:hover i, button[type=button]:hover i {
     width: 90%;
     float: none;
     display: inline-block;
-    margin: 0 6%;
   }
 
   .our-awards ul li figure {

@@ -273,7 +273,7 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 			&:after { content: ''; display: block; position: absolute; right: 0; bottom: 6px; height: 1px; width: 0; background: $color-dark; transition: width .25s ease;}
 			&:hover:before { width: 100%; background: $color-dark; transition: width .25s ease;}
 			&:hover:after { width: 100%; background: transparent; transition: all 0s ease;}}}}
-	.gotop{width: 50px; padding: 14px; position: absolute; left: 50px; bottom: 35px; display: none;
+	.gotop{width: 50px; padding: 14px; position: absolute; left: 50px; bottom: 45px; display: none;
 		img{ display: block;}}}
 
 
@@ -686,7 +686,7 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 	.works ul li{width: 50%;}
 	.our-awards ul li{
 		width:90%;
-		 float: none; display: inline-block; margin: 0 6%;}
+		 float: none; display: inline-block; }
 	.our-awards ul li figure{border-right: none;}
 	.our-awards ul li .odometer{margin-bottom: 40px;}
 	.team figure{margin-bottom: 40px;}
