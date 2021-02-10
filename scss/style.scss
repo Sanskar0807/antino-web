@@ -273,7 +273,7 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 			&:after { content: ''; display: block; position: absolute; right: 0; bottom: 6px; height: 1px; width: 0; background: $color-dark; transition: width .25s ease;}
 			&:hover:before { width: 100%; background: $color-dark; transition: width .25s ease;}
 			&:hover:after { width: 100%; background: transparent; transition: all 0s ease;}}}}
-	.gotop{width: 50px; padding: 14px; position: absolute; left: 50px; bottom: 35px; display: none;
+	.gotop{width: 50px; padding: 14px; position: absolute; left: 50px; bottom: 45px; display: none;
 		img{ display: block;}}}
 
 
@@ -492,6 +492,10 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 
 
 /* BLOG */
+.txt:hover {
+    text-decoration: underline;
+}
+
 .post-header{width: 100%; display: flex; flex-wrap: wrap;
 	.post-image{width: 100%; margin: 0;
 		img{width: 100%;}}}
@@ -521,7 +525,7 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 	&:nth-child(2){ width: 50%; float: right; padding-left: 25px;}}}
 	
 .blog{width: 100%; display: flex; flex-wrap: wrap; padding-top: 150px;
-	.post{width: 100%; display: flex; flex-wrap: wrap; margin-bottom: 150px;
+	.post{width: 100%; display: flex; flex-wrap: wrap; margin-bottom:50px;
 		.post-image{width: 100%; margin-bottom: 30px;
 			img{width: 100%;}}
 		.post-content{width: 100%; margin: 0;
@@ -669,12 +673,22 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 /* MEDIUM FIXES */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
 	body{padding: 0;}
-	.left-side{display: none;}
+    // .left-side{display: none;}
 	.navbar{padding: 30px;}
 	.slider{ width:100%; margin-right: 0;}
 	.slider .swiper-container .slide-inner{padding: 0 60px;}
 	.works .titles{padding-right: 0;}
 
+	.left-side{
+		left: unset!important;       
+		right: 0!important;
+		.logo{
+			display:none!important;
+		}
+		ul{
+			display: none!important;
+		}
+	}
 	/*.left-side{
 		display:block;
 		.logo{
@@ -707,7 +721,7 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 	.works ul li{width: 50%;}
 	.our-awards ul li{
 		width:90%;
-		 float: none; display: inline-block; margin: 0 6%;}
+		 float: none; display: inline-block; }
 	.our-awards ul li figure{border-right: none;}
 	.our-awards ul li .odometer{margin-bottom: 40px;}
 	.team figure{margin-bottom: 40px;}

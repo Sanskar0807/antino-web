@@ -2375,7 +2375,7 @@ button[type=submit]:hover i, button[type=button]:hover i {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 .blog .post .post-image {
@@ -3042,10 +3042,6 @@ button[type=submit]:hover i, button[type=button]:hover i {
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
   body {
     padding: 0;
-  }
-
-  .left-side {
-    display: none;
   }
 
   .navbar {
