@@ -408,7 +408,39 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 		h3{display: block; margin-bottom: 20px; padding-bottom: 20px;
 			a{display: block;
 				&:hover{text-decoration: none;}}}
-		span{display: block; font-weight: 600;}}}
+		span{display: block; font-weight: 600;}
+		a.post-link {
+			display: inline-block;
+			font-weight: 600;
+			padding-bottom: 8px;
+			position: unset;
+			width: fit-content;
+			float:right;
+			&:before {
+				content: "";
+				width: 29%;
+				height: 3px;
+				background: #eee;
+				position: absolute;
+				/*left: 0;*/
+				bottom: unset;
+				top:85%;
+			}
+
+			&:after {
+				content: "";
+				width: 29%;
+				height: 3px;
+				background: #282828;
+				position: absolute;
+				right: 0;
+				bottom: unset;
+				top:85%;
+				-webkit-transition: all 0.25s ease-in-out;
+				transition: all 0.25s ease-in-out;
+			}
+		}
+	}}
 
 
 
