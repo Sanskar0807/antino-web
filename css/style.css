@@ -1973,6 +1973,10 @@ button[type=submit]:hover i, button[type=button]:hover i {
   transition: all 0.25s ease-in-out;
 }
 
+.recent-news .content-box a.post-link:hover {
+  text-decoration: none;
+}
+
 /* OUR AWARDS */
 .our-awards {
   width: 100%;

@@ -439,6 +439,9 @@ h6{ font-size: 17px; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;
 				-webkit-transition: all 0.25s ease-in-out;
 				transition: all 0.25s ease-in-out;
 			}
+			&:hover{
+				text-decoration:none;
+			}
 		}
 	}}
 
