@@ -80,7 +80,8 @@ textarea {
   padding: 15px 20px;
 }
 
-button[type=submit], button[type=button] {
+button[type=submit],
+button[type=button] {
   height: 58px;
   display: -ms-flexbox;
   display: -webkit-box;
@@ -97,12 +98,14 @@ button[type=submit], button[type=button] {
   padding: 0;
 }
 
-button[type=submit] *, button[type=button] * {
+button[type=submit] *,
+button[type=button] * {
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
 
-button[type=submit] strong, button[type=button] strong {
+button[type=submit] strong,
+button[type=button] strong {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -123,11 +126,13 @@ button[type=submit] strong, button[type=button] strong {
   color: #fff;
 }
 
-button[type=submit] strong:hover, button[type=button] strong:hover {
+button[type=submit] strong:hover,
+button[type=button] strong:hover {
   text-decoration: none;
 }
 
-button[type=submit] b, button[type=button] b {
+button[type=submit] b,
+button[type=button] b {
   width: 20px;
   height: 1px;
   background: #fff;
@@ -136,7 +141,8 @@ button[type=submit] b, button[type=button] b {
   margin-top: 8px;
 }
 
-button[type=submit] i, button[type=button] i {
+button[type=submit] i,
+button[type=button] i {
   width: 0;
   height: 0;
   display: inline-block;
@@ -149,12 +155,14 @@ button[type=submit] i, button[type=button] i {
   margin-top: 5px;
 }
 
-button[type=submit]:hover b, button[type=button]:hover b {
+button[type=submit]:hover b,
+button[type=button]:hover b {
   width: 50px;
   margin-left: 20px;
 }
 
-button[type=submit]:hover i, button[type=button]:hover i {
+button[type=submit]:hover i,
+button[type=button]:hover i {
   opacity: 0;
 }
 
@@ -1234,7 +1242,7 @@ button[type=submit]:hover i, button[type=button]:hover i {
   padding: 14px;
   position: absolute;
   left: 50px;
-  bottom: 35px;
+  bottom: 45px;
   display: none;
 }
 
@@ -1947,30 +1955,29 @@ button[type=submit]:hover i, button[type=button]:hover i {
   width: -moz-fit-content;
   width: fit-content;
   float: right;
-}
-
-.recent-news .content-box a.post-link:before {
-  content: "";
-  width: 29%;
-  height: 3px;
-  background: #eee;
-  position: absolute;
-  /*left: 0;*/
-  bottom: unset;
-  top: 85%;
-}
-
-.recent-news .content-box a.post-link:after {
-  content: "";
-  width: 29%;
-  height: 3px;
-  background: #282828;
-  position: absolute;
-  right: 0;
-  bottom: unset;
-  top: 85%;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
+  font-size: 14px;
+  /*&:before {
+  		content: "";
+  		width: 29%;
+  		height: 3px;
+  		background: #eee;
+  		position: absolute;
+  		left: 0;
+  		bottom: unset;
+  		top:85%;
+  	}*/
+  /*&:after {
+  		content: "";
+  		width: 29%;
+  		height: 3px;
+  		background: #282828;
+  		position: absolute;
+  		right: 0;
+  		bottom: unset;
+  		top:85%;
+  		-webkit-transition: all 0.25s ease-in-out;
+  		transition: all 0.25s ease-in-out;
+  	}*/
 }
 
 .recent-news .content-box a.post-link:hover {
@@ -2201,6 +2208,10 @@ button[type=submit]:hover i, button[type=button]:hover i {
 }
 
 /* BLOG */
+.txt:hover {
+  text-decoration: underline;
+}
+
 .post-header {
   width: 100%;
   display: -webkit-box;
@@ -2867,7 +2878,8 @@ button[type=submit]:hover i, button[type=button]:hover i {
   font-size: 13px;
 }
 
-.contact .contact-form #success, .contact .contact-form #error {
+.contact .contact-form #success,
+.contact .contact-form #error {
   display: none;
   float: left;
 }
@@ -3061,6 +3073,19 @@ button[type=submit]:hover i, button[type=button]:hover i {
     padding-right: 0;
   }
 
+  .left-side {
+    left: unset !important;
+    right: 0 !important;
+  }
+
+  .left-side .logo {
+    display: none !important;
+  }
+
+  .left-side ul {
+    display: none !important;
+  }
+
   /*.left-side{
   	display:block;
   	.logo{
@@ -3126,7 +3151,6 @@ button[type=submit]:hover i, button[type=button]:hover i {
     width: 90%;
     float: none;
     display: inline-block;
-    margin: 0 6%;
   }
 
   .our-awards ul li figure {
