@@ -2701,4 +2701,10 @@ button[type="button"] {
     .our-awards ul li {
         width: 100%;
     }
+    /*Responsive code for */
+    .our-awards ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
