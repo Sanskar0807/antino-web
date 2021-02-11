@@ -328,6 +328,7 @@ button[type="button"]:hover i {
   font-size: 13px;
   font-weight: 600;
   border-radius: 50%;
+  padding: unset;
 }
 
 .pagination li.page-item a.page-link:hover {
