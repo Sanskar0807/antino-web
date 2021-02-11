@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CUSTOM FONTS */
 @font-face {
-  font-family: 'Mont';
+  font-family: "Mont";
   src: url("../fonts/Mont-Regular.eot");
   src: local("☺"), url("../fonts/Mont-Regular.woff") format("woff"), url("../fonts/Mont-Regular.ttf") format("truetype"), url("../fonts/Mont-Regular.svg") format("svg");
   font-weight: 400;
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: 'Mont';
+  font-family: "Mont";
   src: url("../fonts/Mont-Bold.eot");
   src: local("☺"), url("../fonts/Mont-Bold.woff") format("woff"), url("../fonts/Mont-Bold.ttf") format("truetype"), url("../fonts/Mont-Bold.svg") format("svg");
   font-weight: 600;
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: 'Mont';
+  font-family: "Mont";
   src: url("../fonts/Mont-Heavy.eot");
   src: local("☺"), url("../fonts/Mont-Heavy.woff") format("woff"), url("../fonts/Mont-Heavy.ttf") format("truetype"), url("../fonts/Mont-Heavy.svg") format("svg");
   font-weight: 800;
@@ -33,11 +33,11 @@ body {
   margin: 0;
   padding-left: 150px;
   padding-right: 50px;
-  font-family: 'Mont';
+  font-family: "Mont";
   font-size: 17px;
   color: #282828;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
@@ -46,8 +46,8 @@ body {
 /* LINKS */
 a {
   color: #282828;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 a:hover {
@@ -83,7 +83,8 @@ textarea {
   padding: 15px 20px;
 }
 
-button[type="submit"] {
+button[type="submit"],
+button[type="button"] {
   height: 58px;
   display: -ms-flexbox;
   display: -webkit-box;
@@ -100,12 +101,14 @@ button[type="submit"] {
   padding: 0;
 }
 
-button[type="submit"] * {
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+button[type="submit"] *,
+button[type="button"] * {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
-button[type="submit"] strong {
+button[type="submit"] strong,
+button[type="button"] strong {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,11 +129,13 @@ button[type="submit"] strong {
   color: #fff;
 }
 
-button[type="submit"] strong:hover {
+button[type="submit"] strong:hover,
+button[type="button"] strong:hover {
   text-decoration: none;
 }
 
-button[type="submit"] b {
+button[type="submit"] b,
+button[type="button"] b {
   width: 20px;
   height: 1px;
   background: #fff;
@@ -139,7 +144,8 @@ button[type="submit"] b {
   margin-top: 8px;
 }
 
-button[type="submit"] i {
+button[type="submit"] i,
+button[type="button"] i {
   width: 0;
   height: 0;
   display: inline-block;
@@ -152,12 +158,14 @@ button[type="submit"] i {
   margin-top: 5px;
 }
 
-button[type="submit"]:hover b {
+button[type="submit"]:hover b,
+button[type="button"]:hover b {
   width: 50px;
   margin-left: 20px;
 }
 
-button[type="submit"]:hover i {
+button[type="submit"]:hover i,
+button[type="button"]:hover i {
   opacity: 0;
 }
 
@@ -214,19 +222,19 @@ button[type="submit"]:hover i {
 }
 
 .color-dark .left-side ul li a:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
   bottom: 6px;
   height: 1px;
   width: 0;
-  -webkit-transition: width 0s ease, background .25s ease;
-  transition: width 0s ease, background .25s ease;
+  -webkit-transition: width 0s ease, background 0.25s ease;
+  transition: width 0s ease, background 0.25s ease;
 }
 
 .color-dark .left-side ul li a:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   right: 0;
@@ -234,15 +242,15 @@ button[type="submit"]:hover i {
   height: 1px;
   width: 0;
   background: #fff;
-  -webkit-transition: width .25s ease;
-  transition: width .25s ease;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
 }
 
 .color-dark .left-side ul li a:hover:before {
   width: 100%;
   background: #fff;
-  -webkit-transition: width .25s ease;
-  transition: width .25s ease;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
 }
 
 .color-dark .left-side ul li a:hover:after {
@@ -463,8 +471,8 @@ button[type="submit"]:hover i {
           transform: translateY(-50%);
   text-align: center;
   opacity: 0.05;
-  -webkit-transition-delay: 0.10s;
-          transition-delay: 0.10s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
 }
 
 .page-loaded.preloader {
@@ -812,8 +820,8 @@ button[type="submit"]:hover i {
 }
 
 .custom-link * {
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .custom-link a {
@@ -879,8 +887,8 @@ button[type="submit"]:hover i {
 }
 
 .custom-btn * {
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .custom-btn a {
@@ -901,6 +909,7 @@ button[type="submit"]:hover i {
   padding-top: 18px;
   background: #282828;
   color: #fff;
+  cursor: pointer;
 }
 
 .custom-btn a:hover {
@@ -999,15 +1008,15 @@ button[type="submit"]:hover i {
   padding: 30px 0;
   position: relative;
   z-index: 9;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .navbar.hide {
   -webkit-transform: translateY(-100px);
           transform: translateY(-100px);
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .navbar.light {
@@ -1080,19 +1089,19 @@ button[type="submit"]:hover i {
 }
 
 .navbar .main-menu ul li a:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
   bottom: 9px;
   height: 1px;
   width: 0;
-  -webkit-transition: width 0s ease, background .25s ease;
-  transition: width 0s ease, background .25s ease;
+  -webkit-transition: width 0s ease, background 0.25s ease;
+  transition: width 0s ease, background 0.25s ease;
 }
 
 .navbar .main-menu ul li a:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   right: 0;
@@ -1100,15 +1109,15 @@ button[type="submit"]:hover i {
   height: 1px;
   width: 0;
   background: #282828;
-  -webkit-transition: width .25s ease;
-  transition: width .25s ease;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
 }
 
 .navbar .main-menu ul li a:hover:before {
   width: 100%;
   background: #282828;
-  -webkit-transition: width .25s ease;
-  transition: width .25s ease;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
 }
 
 .navbar .main-menu ul li a:hover:after {
@@ -1138,8 +1147,8 @@ button[type="submit"]:hover i {
   height: 42px;
   text-align: center;
   margin-top: 35px;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
   opacity: 0;
   -webkit-transform: translateY(-30px);
           transform: translateY(-30px);
@@ -1194,19 +1203,19 @@ button[type="submit"]:hover i {
 }
 
 .left-side ul li a:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
   bottom: 6px;
   height: 1px;
   width: 0;
-  -webkit-transition: width 0s ease, background .25s ease;
-  transition: width 0s ease, background .25s ease;
+  -webkit-transition: width 0s ease, background 0.25s ease;
+  transition: width 0s ease, background 0.25s ease;
 }
 
 .left-side ul li a:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   right: 0;
@@ -1214,15 +1223,15 @@ button[type="submit"]:hover i {
   height: 1px;
   width: 0;
   background: #282828;
-  -webkit-transition: width .25s ease;
-  transition: width .25s ease;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
 }
 
 .left-side ul li a:hover:before {
   width: 100%;
   background: #282828;
-  -webkit-transition: width .25s ease;
-  transition: width .25s ease;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
 }
 
 .left-side ul li a:hover:after {
@@ -1237,7 +1246,7 @@ button[type="submit"]:hover i {
   padding: 14px;
   position: absolute;
   left: 50px;
-  bottom: 35px;
+  bottom: 45px;
   display: none;
 }
 
@@ -1286,8 +1295,8 @@ button[type="submit"]:hover i {
   -ms-flex-align: center;
   align-items: center;
   opacity: 0.3;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
   overflow: hidden;
   background-size: cover;
   background-position: center;
@@ -1307,8 +1316,8 @@ button[type="submit"]:hover i {
   padding: 0 100px;
   padding-right: 40%;
   opacity: 0;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .slider .swiper-container .slide-inner figure {
@@ -1359,8 +1368,8 @@ button[type="submit"]:hover i {
   position: absolute;
   right: 0;
   bottom: 0;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .slider .swiper-container .slide-inner .link a:hover {
@@ -1403,8 +1412,8 @@ button[type="submit"]:hover i {
   margin-left: auto;
   background: #fff;
   display: inline-block;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .swiper-button-next b {
@@ -1666,8 +1675,7 @@ button[type="submit"]:hover i {
   display: block;
 }
 
-.project-box .project-image a
-img {
+.project-box .project-image a img {
   width: 100%;
 }
 
@@ -1749,7 +1757,7 @@ img {
   color: #fff;
 }
 
-.featured-services .col-lg-3:nth-child(2n+2) {
+.featured-services .col-lg-3:nth-child(2n + 2) {
   margin-top: 134px;
 }
 
@@ -1865,25 +1873,25 @@ img {
   margin-bottom: 80px;
   padding-bottom: 40px;
   border-bottom: 1px solid rgba(40, 40, 40, 0.1);
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
   position: relative;
 }
 
 .recent-news .content-box:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
   bottom: -1px;
   height: 1px;
   width: 0;
-  -webkit-transition: width 0s ease, background .25s ease;
-  transition: width 0s ease, background .25s ease;
+  -webkit-transition: width 0s ease, background 0.25s ease;
+  transition: width 0s ease, background 0.25s ease;
 }
 
 .recent-news .content-box:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   right: 0;
@@ -1891,15 +1899,15 @@ img {
   height: 1px;
   width: 0;
   background: #282828;
-  -webkit-transition: width .25s ease;
-  transition: width .25s ease;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
 }
 
 .recent-news .content-box:hover:before {
   width: 100%;
   background: #282828;
-  -webkit-transition: width .25s ease;
-  transition: width .25s ease;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
 }
 
 .recent-news .content-box:hover:after {
@@ -1940,6 +1948,44 @@ img {
 .recent-news .content-box span {
   display: block;
   font-weight: 600;
+}
+
+.recent-news .content-box a.post-link {
+  display: inline-block;
+  font-weight: 600;
+  padding-bottom: 8px;
+  position: unset;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  float: right;
+  font-size: 14px;
+  /*&:before {
+				content: "";
+				width: 29%;
+				height: 3px;
+				background: #eee;
+				position: absolute;
+				left: 0;
+				bottom: unset;
+				top:85%;
+			}*/
+  /*&:after {
+				content: "";
+				width: 29%;
+				height: 3px;
+				background: #282828;
+				position: absolute;
+				right: 0;
+				bottom: unset;
+				top:85%;
+				-webkit-transition: all 0.25s ease-in-out;
+				transition: all 0.25s ease-in-out;
+			}*/
+}
+
+.recent-news .content-box a.post-link:hover {
+  text-decoration: none;
 }
 
 /* OUR AWARDS */
@@ -2150,8 +2196,8 @@ img {
   height: 80px;
   margin: 30px 0;
   opacity: 0.6;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
   position: relative;
 }
 
@@ -2166,6 +2212,10 @@ img {
 }
 
 /* BLOG */
+.txt:hover {
+  text-decoration: underline;
+}
+
 .post-header {
   width: 100%;
   display: -webkit-box;
@@ -2340,7 +2390,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 .blog .post .post-image {
@@ -2426,8 +2476,8 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .blog .sidebar {
@@ -2671,8 +2721,8 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 /* WORK WITH US */
@@ -2705,13 +2755,17 @@ img {
   font-size: 19px;
 }
 
-.work-with-us a {
-  color: #fff;
-  text-decoration: underline;
+.work-with-us p a:hover {
+  text-decoration: underline !important;
+  cursor: pointer !important;
 }
 
-.work-with-us a:hover {
-  text-decoration: underline !important;
+.work-with-us a.white-btn {
+  color: #fff;
+}
+
+.work-with-us a.white-btn:hover {
+  text-decoration: none;
   cursor: pointer !important;
 }
 
@@ -2783,8 +2837,8 @@ img {
   top: 0;
   padding: 0 20px;
   z-index: 0;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .contact .contact-form #contact .form-group span.label-up {
@@ -2828,7 +2882,8 @@ img {
   font-size: 13px;
 }
 
-.contact .contact-form #success, .contact .contact-form #error {
+.contact .contact-form #success,
+.contact .contact-form #error {
   display: none;
   float: left;
 }
@@ -2857,7 +2912,12 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 150px 0 50px 0px;
+  padding: 150px 0px 50px 0px;
+}
+
+.footer address a:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
 }
 
 .footer .career {
@@ -2935,19 +2995,19 @@ img {
 }
 
 .footer .sub-footer ul li a:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
   bottom: 8px;
   height: 1px;
   width: 0;
-  -webkit-transition: width 0s ease, background .25s ease;
-  transition: width 0s ease, background .25s ease;
+  -webkit-transition: width 0s ease, background 0.25s ease;
+  transition: width 0s ease, background 0.25s ease;
 }
 
 .footer .sub-footer ul li a:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   right: 0;
@@ -2955,15 +3015,15 @@ img {
   height: 1px;
   width: 0;
   background: #282828;
-  -webkit-transition: width .25s ease;
-  transition: width .25s ease;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
 }
 
 .footer .sub-footer ul li a:hover:before {
   width: 100%;
   background: #282828;
-  -webkit-transition: width .25s ease;
-  transition: width .25s ease;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
 }
 
 .footer .sub-footer ul li a:hover:after {
@@ -3000,9 +3060,6 @@ img {
   body {
     padding: 0;
   }
-  .left-side {
-    display: none;
-  }
   .navbar {
     padding: 30px;
   }
@@ -3016,6 +3073,30 @@ img {
   .works .titles {
     padding-right: 0;
   }
+  .left-side {
+    left: unset !important;
+    right: 0 !important;
+  }
+  .left-side .logo {
+    display: none !important;
+  }
+  .left-side ul {
+    display: none !important;
+  }
+  /*.left-side{
+		display:block;
+		.logo{
+			.sticky{
+				display:none!important;
+			}
+		}
+		ul{
+			display:none!important;
+		}
+		.gotop {
+			display:block;
+		}
+	}*/
 }
 
 /* RESPONSIVE TABLET FIXES */
@@ -3057,7 +3138,6 @@ img {
     width: 90%;
     float: none;
     display: inline-block;
-    margin: 0 6%;
   }
   .our-awards ul li figure {
     border-right: none;
@@ -3071,7 +3151,7 @@ img {
   .logos ul li {
     width: 33.33333%;
   }
-  .logos ul li:nth-child(n+10) {
+  .logos ul li:nth-child(n + 10) {
     display: none;
   }
   .our-awards .titles {
