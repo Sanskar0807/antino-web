@@ -171,6 +171,27 @@ button[type=button]:hover i {
   .container {
     max-width: 1200px;
   }
+
+  .container blockquote {
+    display: inline-block;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: #282828;
+    position: relative;
+    color: #fff;
+    background: url(../images/quote-bg.svg) left top no-repeat #282828;
+    background-size: contain;
+  }
+
+  .container blockquote p {
+    display: block;
+  }
+
+  .container blockquote h5 {
+    font-weight: 600;
+    margin: 0;
+  }
 }
 /* CUSTOM ELEMENTS */
 .color-dark {
