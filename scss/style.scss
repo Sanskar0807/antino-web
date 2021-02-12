@@ -1302,7 +1302,7 @@ button[type="button"] {
         position: relative;
         padding: 0 30px;
         span {
-            display: block;
+            display: inline-block;
             font-weight: 700;
             font-size: 40px;
             opacity: 0.1;
@@ -1312,6 +1312,18 @@ button[type="button"] {
             margin-top: -25px;
             font-weight: 600;
             font-size: 18px;
+            color: white;
+        }
+        a {
+            display: block;
+            margin-top: -25px;
+            font-weight: 600;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+            &:hover {
+                text-decoration: none;
+            }
         }
     }
 }
