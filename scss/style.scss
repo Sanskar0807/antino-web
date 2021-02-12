@@ -1035,6 +1035,7 @@ button[type='button'] {
     left: 50px;
     bottom: 45px;
     display: none;
+    z-index: 999;
     img {
       display: block;
     }
@@ -2523,6 +2524,7 @@ button[type='button'] {
   .left-side {
     left: unset !important;
     right: 0 !important;
+    z-index: 1;
     .logo {
       display: none !important;
     }
