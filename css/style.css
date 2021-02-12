@@ -1266,6 +1266,7 @@ button[type=button]:hover i {
   left: 50px;
   bottom: 45px;
   display: none;
+  z-index: 999;
 }
 
 .left-side .gotop img {
@@ -3112,6 +3113,7 @@ button[type=button]:hover i {
   .left-side {
     left: unset !important;
     right: 0 !important;
+    z-index: 1;
   }
 
   .left-side .logo {
