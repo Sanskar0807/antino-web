@@ -3331,4 +3331,14 @@ button[type='button']:hover i {
             justify-content: center;
   }
 }
+
+.grow {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 /*# sourceMappingURL=style.css.map */
