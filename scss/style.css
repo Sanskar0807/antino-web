@@ -3341,4 +3341,8 @@ button[type='button']:hover i {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+
+.remove-opacity {
+  opacity: 1 !important;
+}
 /*# sourceMappingURL=style.css.map */
