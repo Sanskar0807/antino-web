@@ -305,6 +305,8 @@ button[type='button'] {
   display: flex;
   flex-wrap: wrap;
   li.page-item {
+    background-color: transparent;
+
     margin-right: 5px;
     &:first-child a.page-link {
       padding-left: 0;
@@ -320,6 +322,7 @@ button[type='button'] {
       font-weight: 600;
       border-radius: 50%;
       padding: unset;
+      background-color: transparent;
       &:hover {
         background: none;
         opacity: 0.5;
@@ -768,6 +771,26 @@ button[type='button'] {
       text-decoration: none;
     }
   }
+  a.white-btn {
+    background-color: white !important;
+    color: black !important;
+    max-width: fit-content;
+    //color: #fff;
+    border-color: transparent !important;
+    background: white !important;
+    &:hover {
+      text-decoration: none;
+      cursor: pointer !important;
+    }
+    span {
+      background: black !important;
+    }
+    i {
+      color: black !important;
+      border-color: transparent transparent transparent #000;
+    }
+  }
+
   span {
     width: 20px;
     height: 1px;
@@ -1108,15 +1131,25 @@ button[type='button'] {
         color: #fff;
         margin-left: -3px;
       }
+      h4 {
+        color: #fff;
+      }
       .link {
         display: block;
         margin-top: 50px;
         a {
           display: inline-block;
-          font-weight: 600;
+          //font-weight: 600;
           color: #fff;
-          font-size: 13px;
+          //font-size: 13px;
           position: relative;
+
+          font-weight: 700;
+          padding-bottom: 8px;
+          position: relative;
+          color: white;
+          font-size: unset;
+
           &:before {
             content: '';
             width: 100%;
@@ -1292,6 +1325,10 @@ button[type='button'] {
       font-weight: 600;
     }
   }
+  .divider {
+    border-top: 1px solid rgba(40, 40, 40, 0.1);
+    padding-top: 25px;
+  }
 }
 
 /* MAIN SERVICES */
@@ -1416,6 +1453,12 @@ button[type='button'] {
           cursor: pointer !important;
         }
       }
+    }
+    .appstore-icon {
+      width: 26px;
+    }
+    .playstore-icon {
+      width: 30px;
     }
   }
 }
@@ -1634,6 +1677,11 @@ button[type='button'] {
         text-decoration: none;
       }
     }
+    .read-more-wrapper {
+      text-align: right;
+      width: 100%;
+      float: right;
+    }
   }
 }
 
@@ -1646,6 +1694,9 @@ button[type='button'] {
   .titles {
     text-align: center;
     padding: 0 20%;
+  }
+  a {
+    cursor: pointer !important;
   }
   ul {
     width: 100%;
@@ -1680,6 +1731,9 @@ button[type='button'] {
       .odometer {
         font-size: 60px;
         font-weight: 800;
+      }
+      .contact-address {
+        font-size: 0.9rem;
       }
     }
   }
@@ -2262,7 +2316,11 @@ button[type='button'] {
     }
   }
   a.white-btn {
-    color: #fff;
+    background-color: white !important;
+    color: black !important;
+    max-width: fit-content;
+    //color: #fff;
+    background: white !important;
     &:hover {
       text-decoration: none;
       cursor: pointer !important;
@@ -2394,6 +2452,10 @@ button[type='button'] {
         cursor: pointer;
       }
     }
+  }
+  .footer-border-top {
+    border-top: 1px solid rgba(40, 40, 40, 0.1);
+    padding-top: 100px;
   }
   .career {
     display: block;
@@ -2578,6 +2640,9 @@ button[type='button'] {
   .header .page-title h4 {
     padding-right: 0;
   }
+  .header .tnc-title {
+    margin-bottom: 25px !important;
+  }
   .titles {
     padding-right: 0;
   }
@@ -2721,6 +2786,9 @@ button[type='button'] {
   .about-intro h2 {
     font-size: 8vw;
   }
+  .about-intro ul.careers-bullet li p {
+    font-weight: 600;
+  }
   .main-services .titles {
     padding: 0;
   }
@@ -2748,6 +2816,13 @@ button[type='button'] {
   transform: scale(1.1);
 }
 
-.remove-opacity{
-  opacity:1!important;
+.remove-opacity {
+  opacity: 1 !important;
+}
+.calendly-popup {
+  font-weight: 700;
+  padding-bottom: 8px;
+  position: relative;
+  color: white;
+  font-size: unset;
 }

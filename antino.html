@@ -102,8 +102,8 @@
         ></script>
     </head>
     <body>
-        <div class="preloader" style="display: none">
-            <div class="inner" style="display: none">
+        <div class="preloader d-none">
+            <div class="inner d-none">
                 <figure class="logo">
                     <img src="images/logo-light.png" alt="Image" />
                 </figure>
@@ -126,13 +126,9 @@
                 </div>
                 <!-- end side-menu -->
                 <div class="sides">
-                    <div id="map">
-                        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14043.309547887797!2d76.9353291!3d28.3640678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeaafcf4b8d6c7a85!2sAntino%20Labs!5e0!3m2!1sen!2sin!4v1590759451317!5m2!1sen!2sin" width="600" height="450" style="border:0" allowfullscreen></iframe>-->
-                    </div>
                     <!-- end map -->
                     <figure>
                         <img src="images/hamburger@2x.png" alt="Image" />
-                        <!--<a><img src="images/icon-map-marker.svg" alt="Image"></a>--->
                     </figure>
                 </div>
                 <!-- end sides -->
@@ -145,28 +141,14 @@
                     <br />
                     <h4>DO YOU HAVE AN IDEA?</h4>
                     <h6 class="pb-3">Let's make it successful together</h6>
-                    <div
-                        class="custom-btn white-btn"
-                        style="background-color:white;!important;color:black!important;max-width:fit-content;"
-                    >
+                    <div class="custom-btn white-btn">
                         <a
                             class="white-btn"
                             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/antino/existing'});return false;"
-                            style="background-color:white;!important;color:black!important;"
-                            >Get In Touch<span
-                                style="background: black !important"
-                            ></span
-                            ><i
-                                style="
-                                    color: black !important;
-                                    border-color: transparent transparent
-                                        transparent #000;
-                                "
-                            ></i
+                            >Get In Touch<span></span><i></i
                         ></a>
                     </div>
                 </div>
-                <!-- end sides -->
             </div>
             <!-- end inner -->
         </div>
@@ -488,8 +470,9 @@
                         </figure>
                         <article>
                             <span>08</span>
-                        <a href="digital-marketing-services.html"
-                                >Digital Marketing</a>
+                            <a href="digital-marketing-services.html"
+                                >Digital Marketing</a
+                            >
                         </article>
                     </div>
                     <!-- end col-3 -->
@@ -818,48 +801,14 @@
         </section>
         <!-- end logos -->
         <section class="work-with-us" data-color="dark">
-            <div class="container wow fadeInUp">
-                <h6>WORK WITH PRO TEAM</h6>
-                <h2>
-                    Would you like to have a professional project? Let's talk
-                    about it!
-                </h2>
-                <div
-                    class="custom-btn white-btn"
-                    style="background-color:white;!important;color:black!important;max-width:fit-content;border-color:white!important;"
-                >
-                    <a
-                        class="white-btn"
-                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/antino/existing'});return false;"
-                        style="background-color:white;!important;color:black!important;border-color:white!important;"
-                        >Get In Touch<span
-                            style="background: black !important"
-                        ></span
-                        ><i
-                            style="
-                                color: black !important;
-                                border-color: transparent transparent
-                                    transparent #000;
-                            "
-                        ></i
-                    ></a>
-                </div>
-                <p class="mt-3">
-                    <a
-                        onclick="handleContactInfo(this)"
-                        data-contact_info="mailto:+info@antino.io"
-                        >info@antino.io</a
-                    >
-                </p>
-                <small>Or</small>
-                <p class="mt-3">
-                    <a
-                        onclick="handleContactInfo(this)"
-                        data-contact_info="tel:+18005781250"
-                        >+1 800 578 1250</a
-                    >
-                </p>
-            </div>
+<div class="container wow fadeInUp">
+    <h6>WORK WITH PRO TEAM</h6>
+    <h2>Would you like to have a professional project? Let's talk about it!</h2>
+      <div class="custom-btn white-btn" ><a class="white-btn" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/antino/existing'});return false;" >Get In Touch<span ></span><i ></i></a></div>
+      <p class="mt-3"><a onclick="handleContactInfo(this)" data-contact_info="mailto:+info@antino.io">info@antino.io</a></p>
+        <small>Or</small>
+      <p class="mt-3"><p class="mt-3"><a onclick="handleContactInfo(this)" data-contact_info="tel:+18005781250">+1 800 578 1250</a></p></p>
+  </div>
             <!-- end container -->
         </section>
         <!-- end work-with-us -->

@@ -327,6 +327,7 @@ button[type=button]:hover i {
 }
 
 .pagination li.page-item {
+  background-color: transparent;
   margin-right: 5px;
 }
 
@@ -346,6 +347,7 @@ button[type=button]:hover i {
   font-weight: 600;
   border-radius: 50%;
   padding: unset;
+  background-color: transparent;
 }
 
 .pagination li.page-item a.page-link:hover {
@@ -934,6 +936,30 @@ button[type=button]:hover i {
   text-decoration: none;
 }
 
+.custom-btn a.white-btn {
+  background-color: white !important;
+  color: black !important;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  border-color: transparent !important;
+  background: white !important;
+}
+
+.custom-btn a.white-btn:hover {
+  text-decoration: none;
+  cursor: pointer !important;
+}
+
+.custom-btn a.white-btn span {
+  background: black !important;
+}
+
+.custom-btn a.white-btn i {
+  color: black !important;
+  border-color: transparent transparent transparent #000;
+}
+
 .custom-btn span {
   width: 20px;
   height: 1px;
@@ -1355,6 +1381,10 @@ button[type=button]:hover i {
   margin-left: -3px;
 }
 
+.slider .swiper-container .slide-inner h4 {
+  color: #fff;
+}
+
 .slider .swiper-container .slide-inner .link {
   display: block;
   margin-top: 50px;
@@ -1362,10 +1392,13 @@ button[type=button]:hover i {
 
 .slider .swiper-container .slide-inner .link a {
   display: inline-block;
-  font-weight: 600;
   color: #fff;
-  font-size: 13px;
   position: relative;
+  font-weight: 700;
+  padding-bottom: 8px;
+  position: relative;
+  color: white;
+  font-size: unset;
 }
 
 .slider .swiper-container .slide-inner .link a:before {
@@ -1584,6 +1617,11 @@ button[type=button]:hover i {
   font-weight: 600;
 }
 
+.about-intro .divider {
+  border-top: 1px solid rgba(40, 40, 40, 0.1);
+  padding-top: 25px;
+}
+
 /* MAIN SERVICES */
 .main-services {
   width: 100%;
@@ -1733,6 +1771,14 @@ button[type=button]:hover i {
 .project-box .project-content small a:hover {
   text-decoration: none;
   cursor: pointer !important;
+}
+
+.project-box .project-content .appstore-icon {
+  width: 26px;
+}
+
+.project-box .project-content .playstore-icon {
+  width: 30px;
 }
 
 /* CASE DETAIL */
@@ -2021,6 +2067,12 @@ button[type=button]:hover i {
   text-decoration: none;
 }
 
+.recent-news .content-box .read-more-wrapper {
+  text-align: right;
+  width: 100%;
+  float: right;
+}
+
 /* OUR AWARDS */
 .our-awards {
   width: 100%;
@@ -2035,6 +2087,10 @@ button[type=button]:hover i {
 .our-awards .titles {
   text-align: center;
   padding: 0 20%;
+}
+
+.our-awards a {
+  cursor: pointer !important;
 }
 
 .our-awards ul {
@@ -2078,6 +2134,10 @@ button[type=button]:hover i {
 .our-awards ul li .odometer {
   font-size: 60px;
   font-weight: 800;
+}
+
+.our-awards ul li .contact-address {
+  font-size: 0.9rem;
 }
 
 /* SHOWREEL */
@@ -2794,7 +2854,12 @@ button[type=button]:hover i {
 }
 
 .work-with-us a.white-btn {
-  color: #fff;
+  background-color: white !important;
+  color: black !important;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  background: white !important;
 }
 
 .work-with-us a.white-btn:hover {
@@ -2951,6 +3016,11 @@ button[type=button]:hover i {
 .footer address a:hover {
   text-decoration: underline !important;
   cursor: pointer;
+}
+
+.footer .footer-border-top {
+  border-top: 1px solid rgba(40, 40, 40, 0.1);
+  padding-top: 100px;
 }
 
 .footer .career {
@@ -3177,6 +3247,10 @@ button[type=button]:hover i {
     padding-right: 0;
   }
 
+  .header .tnc-title {
+    margin-bottom: 25px !important;
+  }
+
   .titles {
     padding-right: 0;
   }
@@ -3358,6 +3432,10 @@ button[type=button]:hover i {
     font-size: 8vw;
   }
 
+  .about-intro ul.careers-bullet li p {
+    font-weight: 600;
+  }
+
   .main-services .titles {
     padding: 0;
   }
@@ -3401,6 +3479,14 @@ button[type=button]:hover i {
 
 .remove-opacity {
   opacity: 1 !important;
+}
+
+.calendly-popup {
+  font-weight: 700;
+  padding-bottom: 8px;
+  position: relative;
+  color: white;
+  font-size: unset;
 }
 
 /*# sourceMappingURL=style.css.map */
