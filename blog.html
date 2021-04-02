@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116279380-2"></script>
-<script>
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-116279380-2"></script>
+<script defer>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -48,13 +48,15 @@
 <link rel="stylesheet" href="css/fancybox.min.css">
 <link rel="stylesheet" href="css/swiper.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="css-dist/style.min.css">
+<link rel="stylesheet" href="css-dist/custom.min.css">
 
+<!--Lazy Loading CSS Link-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.css">
 
 <!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script></head>
+<script defer src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script></head>
 <body>
 	<div class="preloader d-none" >
   <div class="inner d-none" >
@@ -184,7 +186,12 @@
 		<div id="blogList">
 		<div id="2" class="blog-parent"  style="display:none;"  >
 			<div class="post wow fadeIn">
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/WhyHasFacebookLaunchedCatchup.png" alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/WhyHasFacebookLaunchedCatchup.png" alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/WhyHasFacebookLaunchedCatchup.png" class="progressive replace">
+							<img src="images/WhyHasFacebookLaunchedCatchup-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -199,7 +206,12 @@
 				</div>
 				<!-- end post -->
 				<div class="post wow fadeIn" hidden>
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/HowtoChooseTechStack" alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/HowtoChooseTechStack" alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/HowtoChooseTechStack" class="progressive replace">
+							<img src="images/HowtoChooseTechStack-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -214,7 +226,12 @@
 				</div>
 				<!-- end post -->
 				<div class="post wow fadeIn">
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/HowCoronoaVirusAccelratedAppInstalls.png " alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/HowCoronoaVirusAccelratedAppInstalls.png " alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/HowCoronoaVirusAccelratedAppInstalls.png" class="progressive replace">
+							<img src="images/HowCoronoaVirusAccelratedAppInstalls-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -229,7 +246,12 @@
 				</div>
 				<!-- end post -->
 				<div class="post wow fadeIn">
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/blog-python-2.png"  alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/blog-python-2.png"  alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/blog-python-2.png" class="progressive replace">
+							<img src="images/blog-python-2-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -244,7 +266,12 @@
 				</div>
 				<!-- end post -->
 				<div class="post wow fadeIn">
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/HowtoChooseTechStack.png" alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/HowtoChooseTechStack.png" alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/HowtoChooseTechStack.png" class="progressive replace">
+							<img src="images/HowtoChooseTechStack-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -261,7 +288,12 @@
 			</div>
 			<div id="3" class="blog-parent" style="display:none;"  >
 				<div class="post wow fadeIn" hidden>
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/blog06.jpg" alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/blog06.jpg" alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/blog06.jpg" class="progressive replace">
+							<img src="images/HowtoChooseTechStack-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -276,7 +308,12 @@
 				</div>
 				<!-- end post -->
 				<div class="post wow fadeIn">
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/TechSkillsToLearnDuringGlobalLockdown@2x.png" alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/TechSkillsToLearnDuringGlobalLockdown@2x.png" alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/TechSkillsToLearnDuringGlobalLockdown@2x.png" class="progressive replace">
+							<img src="images/TechSkillsToLearnDuringGlobalLockdown@2x-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -291,7 +328,12 @@
 				</div>
 				<!-- end post -->
 				<div class="post wow fadeIn">
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/HowtoChoosetheRightMobileAppDevelopmentCompany@2x.png" alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/HowtoChoosetheRightMobileAppDevelopmentCompany@2x.png" alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/HowtoChoosetheRightMobileAppDevelopmentCompany@2x.png" class="progressive replace">
+							<img src="images/HowtoChoosetheRightMobileAppDevelopmentCompany@2x-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -306,7 +348,12 @@
 				</div>
 				<!-- end post -->
 				<div class="post wow fadeIn">
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Tipstostayproductive.png" alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Tipstostayproductive.png" alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Tipstostayproductive.png" class="progressive replace">
+							<img src="images/Tipstostayproductive-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -321,7 +368,12 @@
 				</div>
 				<!-- end post -->
 				<div class="post wow fadeIn">
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/blog-google-core-update.png" alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/blog-google-core-update.png" alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/blog-google-core-update.png" class="progressive replace">
+							<img src="images/blog-google-core-update-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -339,7 +391,11 @@
 			<!--Page 3 -->
 			<div id="1" class="blog-parent"  >
 				<div class="post wow fadeIn" hidden>
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/top-react-libraries.png" alt="Image"></figure>
+					<figure class="post-image"><!--<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/top-react-libraries.png" alt="Image">-->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/top-react-libraries.png" class="progressive replace">
+							<img src="images/top-react-libraries-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -354,7 +410,12 @@
 				</div>
 				<!-- end post -->
 				<div class="post wow fadeIn">
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/ios-lib-hero-image.png" alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/ios-lib-hero-image.png" alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/ios-lib-hero-image.png" class="progressive replace">
+							<img src="images/ios-lib-hero-image-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -369,7 +430,12 @@
 				</div>
 				<!-- end post -->
 				<div class="post wow fadeIn">
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/top-5-best-web-development-tools.png" alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/top-5-best-web-development-tools.png" alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/top-5-best-web-development-tools.png" class="progressive replace">
+							<img src="images/top-5-best-web-development-tools-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -384,7 +450,12 @@
 				</div>
 				<!-- end post -->
 				<div class="post wow fadeIn">
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/best-mobile-app-development-trends-to-follow-in-2021.png" alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/best-mobile-app-development-trends-to-follow-in-2021.png" alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/best-mobile-app-development-trends-to-follow-in-2021.png" class="progressive replace">
+							<img src="images/best-mobile-app-development-trends-to-follow-in-2021-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -399,7 +470,12 @@
 				</div>
 				<!-- end post -->
 				<div class="post wow fadeIn">
-					<figure class="post-image"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/top-react-libraries.png" alt="Image"></figure>
+					<figure class="post-image">
+						<!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/top-react-libraries.png" alt="Image"> -->
+						<a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/top-react-libraries.png" class="progressive replace">
+							<img src="images/top-react-libraries-min.png" class="preview" alt="image"  loading="lazy" />
+						</a>
+					</figure>
 					<div class="post-content">
 					<div class="avatar">
 						<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-black-blog.png" alt="Image">by
@@ -568,6 +644,7 @@
 <script src='js/fancybox.min.js'></script> 
 <script src='js/wow.min.js'></script> 
 <script src='js/scripts.js'></script> 
+<script src="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.js"></script>
 <script>
 	function displayPagination(obj)
 	{
