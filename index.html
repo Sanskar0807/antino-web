@@ -60,6 +60,10 @@
 <!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script defer src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+
+<!--Lazy Loading CSS Link-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.css">
+
 </head>
 <body>
 	<div class="preloader d-none">
@@ -223,7 +227,12 @@
       </li>
       <li>
         <div class="project-box">
-          <figure class="project-image reveal-effect masker wow"> <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Bolt2x.png" alt="Image"></figure>
+          <figure class="project-image reveal-effect masker wow"> 
+            <!--<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Bolt2x.png" alt="Image">-->
+            <a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Bolt2x.png" class="progressive replace">
+              <img src="images/Bolt2x-min.png" class="preview" alt="image"  loading="lazy" />
+            </a>
+          </figure>
           <div class="project-content">
             <h3>Bolt Micromobility</h3>
             <small><a onclick="handleAppStore(this)" data-store_link = "https://apps.apple.com/gb/app/bolt-scooter-rental/id1388810070" ><img class="appstore-icon" src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/appstore-black-outline.svg" /></a>
@@ -234,7 +243,11 @@
       </li>
       <li>
         <div class="project-box">
-          <figure class="project-image reveal-effect masker wow"> <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Ontic@2x.png" alt="Image"></figure>
+          <figure class="project-image reveal-effect masker wow"> <!--<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Ontic@2x.png" alt="Image">-->
+            <a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Ontic@2x.png" class="progressive replace">
+              <img src="images/Ontic@2x-min.png" class="preview" alt="image"  loading="lazy" />
+            </a>
+          </figure>
           <div class="project-content">
             <h3>Ontic</h3>
             <small><a onclick="handleAppStore(this)" data-store_link="https://apps.apple.com/us/app/ontic-technologies/id1477464417" ><img class="appstore-icon"   src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/appstore-black-outline.svg" /></a></small> </div>
@@ -244,7 +257,11 @@
       </li>
       <li>
         <div class="project-box">
-          <figure class="project-image reveal-effect masker wow"> <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Metro@2x.png" alt="Image"></figure>
+          <figure class="project-image reveal-effect masker wow"> <!--<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Metro@2x.png" alt="Image">-->
+            <a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Metro@2x.png" class="progressive replace">
+              <img src="images/Metro@2x-min.png" class="preview" alt="image"  loading="lazy" />
+            </a>
+          </figure>
           <div class="project-content">
             <h3>Hyderabad Metro Rail</h3>
             <small><a onclick="handleAppStore(this)" data-store_link="https://www.ltmetro.com/" ><img  class="appstore-icon"  src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/webicon.png"  /></a></small> </div>
@@ -254,7 +271,11 @@
       </li>
       <li>
         <div class="project-box">
-          <figure class="project-image reveal-effect masker wow"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Lurningo@2x.png" alt="Image"></figure>
+          <figure class="project-image reveal-effect masker wow"><!--<img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Lurningo@2x.png" alt="Image">-->
+            <a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Lurningo@2x.png" class="progressive replace">
+              <img src="images/Lurningo@2x-min.png" class="preview" alt="image"  loading="lazy" />
+            </a>
+          </figure>
           <div class="project-content">
             <h3>Lurningo</h3>
             <small><a onclick="handleAppStore(this)" data-store_link="https://apps.apple.com/ae/app/lurningo-for-teams/id1462277972" ><img class="appstore-icon"  src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/appstore-black-outline.svg" /></a></small> 
@@ -643,6 +664,7 @@
 <script src='js/fancybox.min.js'></script> 
 <script src='js/wow.min.js'></script> 
 <script src='js/scripts.js'></script> 
+<script src="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.js"></script>
 <script>
 /*function handleSocialLink(obj)
 {
