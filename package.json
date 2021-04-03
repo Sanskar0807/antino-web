@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "iolazyload": "^2.1.0",
     "native-lazy-loading": "^1.1.0"
   }
 }
