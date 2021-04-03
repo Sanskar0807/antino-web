@@ -63,7 +63,10 @@
 
 <!--Lazy Loading CSS Link-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.css">
-
+ <!-- intersection observer polyfill -->
+ <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+ <!-- the iolazy load library -->
+  <script src="/node_modules/iolazyload/dist/js/iolazy.min.js" defer></script>
 </head>
 <body>
 	<div class="preloader d-none">
@@ -163,7 +166,7 @@
 <section class="slider">
   <div class="swiper-container"> 
     <div class="swiper-wrapper"> 
-      <div class="swiper-slide" data-background="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/swiperSlide01.jpg">
+      <div class="swiper-slide" data-background="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/swiperSlide01-min.jpeg">
         <div class="slide-inner">
         <figure hidden><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/client01.png" alt="Image"></figure>
         	<h4>Mobility</h4>
@@ -396,87 +399,94 @@
     <!-- end titles -->
     <ul class="wow fadeInUp">
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_hmrl.png" alt="Image">
-        <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_hmrl.png" alt="Image">
+        <figure>
+          <!-- <a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_hmrl.png" class="progressive replace reveal">
+            <img src="images/logo_hmrl-min.png" class="preview" alt="image"  loading="lazy" />
+          </a> -->
+          <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_hmrl.png" alt="Image" class="lazyload">
+          <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_hmrl.png" alt="Image" class="lazyload">
+          <!-- <a href="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_hmrl.png" class="progressive replace">
+            <img src="images/logo_hmrl-min.png" class="preview" alt="image"  loading="lazy" />
+          </a> -->
         </figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_ontic.png" alt="Image">
-        <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_ontic.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_ontic.png" alt="Image" class="lazyload">
+        <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_ontic.png" alt="Image" class="lazyload" ></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_rapido.png" alt="Image">
-        <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_rapido.png" alt="Image">
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_rapido.png" alt="Image" class="lazyload" >
+        <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_rapido.png" alt="Image" class="lazyload" >
         </figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_school_guru.png" alt="Image">
-        <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_school_guru.png" alt="Image">
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_school_guru.png" alt="Image" class="lazyload" >
+        <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_school_guru.png" alt="Image" class="lazyload" >
         </figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_ran.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_ran.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_ran.png" alt="Image" class="lazyload"  >
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_ran.png" alt="Image" class="lazyload"></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_shell.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_shell.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_shell.png" alt="Image" class="lazyload"  >
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_shell.png" alt="Image" class="lazyload"  ></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_thrill.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_thrill.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_thrill.png" alt="Image" class="lazyload" >
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_thrill.png" alt="Image" class="lazyload" ></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_next.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_next.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_next.png" alt="Image" class="lazyload" >
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_next.png" alt="Image" class="lazyload" ></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_pinpoint.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_pinpoint.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_pinpoint.png" alt="Image" class="lazyload">
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_pinpoint.png" alt="Image" class="lazyload" ></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_multi.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_multi.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_multi.png" alt="Image"  class="lazyload" >
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_multi.png" alt="Image"  class="lazyload" ></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_nord.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_nord.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_nord.png" alt="Image"  class="lazyload" >
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_nord.png" alt="Image" class="lazyload" ></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_safex.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_safex.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_safex.png" alt="Image"  class="lazyload" >
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_safex.png" alt="Image" class="lazyload" ></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_pinnacle.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_pinnacle.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_pinnacle.png" alt="Image"  class="lazyload" >
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_pinnacle.png" alt="Image"  class="lazyload" ></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_prepg.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_prepg.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_prepg.png" alt="Image" class="lazyload">
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_prepg.png" alt="Image"  class="lazyload"></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_gigl.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_gigl.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_gigl.png" alt="Image"  class="lazyload">
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_gigl.png" alt="Image"  class="lazyload"></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_alpha_md.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_alpha_md.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_alpha_md.png" alt="Image"  class="lazyload">
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_alpha_md.png" alt="Image"  class="lazyload" ></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_bolt.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_bolt.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_bolt.png" alt="Image"  class="lazyload" >
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_bolt.png" alt="Image"  class="lazyload" ></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_eggoz.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_eggoz.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_eggoz.png" alt="Image"  class="lazyload" >
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_eggoz.png" alt="Image"  class="lazyload" ></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_opinito.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_opinito.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_opinito.png" alt="Image"  class="lazyload" >
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_opinito.png" alt="Image"  class="lazyload" ></figure>
       </li>
       <li>
-        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_dnc.png" alt="Image">
-         <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_dnc.png" alt="Image"></figure>
+        <figure><img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_dnc.png" alt="Image"  class="lazyload" >
+         <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_dnc.png" alt="Image"  class="lazyload" ></figure>
       </li>
     </ul>
   </div>
@@ -532,6 +542,7 @@
 <section class="showreel" data-color="dark">
   <div class="container">
     <div class="video reveal-effect masker wow">
+      <!--src="https://antino-web.s3.ap-south-1.amazonaws.com/videos/home_page_video_2.mp4"-->
     	<video src="https://antino-web.s3.ap-south-1.amazonaws.com/videos/home_page_video_2.mp4" autoplay loop muted></video>
     	<h2 hidden>SHOWREEL</h2>
     	<!-- end content -->
