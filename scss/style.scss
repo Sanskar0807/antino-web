@@ -209,6 +209,10 @@ button[type="button"] {
 /* CUSTOM CONTAINER */
 @media (min-width: 1240px) {
   .container {
+    .contact-form-row {
+      z-index: 1;
+      position: relative;
+    }
     max-width: 1200px;
     blockquote {
       display: inline-block;
@@ -1885,6 +1889,14 @@ button[type="button"] {
         opacity: 0.6;
         @include transition;
         position: relative;
+        img {
+          display: none;
+          height: 80px;
+          position: absolute;
+          left: 50%;
+          top: 0;
+          transform: translateX(-50%);
+        }
         a {
           img {
             display: none;
@@ -2861,3 +2873,5 @@ button[type="button"] {
   color: white;
   font-size: unset;
 }
+
+/*Contact form hamburger menu issue*/
