@@ -89,7 +89,11 @@
         <link rel="stylesheet" href="css/swiper.min.css" />
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/style.css" />
-        <link  href="css/custom.css"  rel="stylesheet" />
+         <link  href="css/custom.css"  rel="stylesheet" />
+
+        <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver" async defer ></script>
+        <!-- the iolazy load library -->
+       <script src="https://cdn.jsdelivr.net/npm/iolazyload@2.1.0/dist/js/iolazy.min.js" ></script>
 
         <!-- Calendly link widget begin
         <link
@@ -153,7 +157,7 @@
     <h6 hidden class="pb-3 subtitle">Delivering Digital Innovation From Startups to Enterprises</h6><br/>
 <h4 >DO YOU HAVE AN IDEA?</h4>
 <h6 class="pb-3" >Let's make it successful together</h6>
-<div class="custom-btn white-btn" ><a class="white-btn" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/antino/existing'});return false;" >Get In Touch<span></span><i ></i></a></div>
+<div class="custom-btn white-btn" ><a class="white-btn" href="contact.html" >Get In Touch<span></span><i ></i></a></div>
 	</div>
             </div>
             <!-- end inner -->
@@ -291,7 +295,7 @@
         <!-- end page-header -->
         <section class="contact pt-0">
             <div class="container">
-                <div class="row">
+                <div class="row contact-form-row">
                                         <div class="col-lg-7 wow fadeInUp">
                         <div class="contact-form mt-0">
                             <h5>CONTACT FORM</h5>
