@@ -842,29 +842,33 @@
     </section>
 
     <section class="section-form" id="job-application">
-      <form method="POST" action="applyPost.php" enctype="multipart/form-data">
+      <form
+        id="contact"
+        name="contact"
+        method="POST"
+        action="applyPost.php"
+        enctype="multipart/form-data"
+      >
         <div class="form-group">
-          <label for="first_name">First Name</label>
           <input
             type="text"
             class="form-control"
             id="first_name"
-            placeholder="First Name"
             name="first_name"
             required
           />
+          <span>First Name</span>
         </div>
 
         <div class="form-group">
-          <label for="last_name">Last Name</label>
           <input
             type="text"
             class="form-control"
             id="last_name"
-            placeholder="Last Name"
             name="last_name"
             required
           />
+          <span>Last Name</span>
         </div>
 
         <div class="form-group">
@@ -883,32 +887,6 @@
             <option value="4">Android Developer</option>
             <option value="5">Business Analyst</option>
           </select>
-        </div>
-
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            placeholder="Email"
-            name="email"
-            required
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="contact_no">Contact No</label>
-          <input
-            type="tel"
-            class="form-control"
-            id="contact_no"
-            placeholder="Contact No"
-            name="contact_no"
-            title="Please enter valid contact number"
-            pattern="^[0-9]{10,11}$"
-            required
-          />
         </div>
 
         <div class="form-group">
@@ -931,51 +909,73 @@
         </div>
 
         <div class="form-group">
-          <label for="current_ctc">Current CTC</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            required
+          />
+          <span>Email</span>
+        </div>
+
+        <div class="form-group">
+          <input
+            type="tel"
+            class="form-control"
+            id="contact_no"
+            name="contact_no"
+            title="Please enter valid contact number"
+            pattern="^[0-9]{10,11}$"
+            required
+          />
+          <span>Contact No</span>
+        </div>
+
+        <div class="form-group">
           <input
             type="number"
             class="form-control"
             id="current_ctc"
-            placeholder="Current CTC in lacs"
             name="current_ctc"
             required
           />
+          <span>Current CTC</span>
         </div>
 
         <div class="form-group">
-          <label for="expected_ctc">Expected CTC</label>
           <input
             type="number"
             class="form-control"
             id="expected_ctc"
-            placeholder="Expected CTC in lacs"
             name="expected_ctc"
             required
           />
+          <span>Expected CTC</span>
         </div>
 
         <div class="form-group">
-          <label for="notice_period">Notice Period</label>
           <input
             type="text"
             class="form-control"
             id="notice_period"
-            placeholder="Notice Period"
             name="notice_period"
+            required
           />
+          <span>Notice Period</span>
         </div>
 
         <div class="form-group info">
-          <label for="info">Additional Info</label>
           <textarea
             class="form-control"
             id="info"
             rows="2"
             name="info"
           ></textarea>
+          <span>Additional Info</span>
         </div>
 
-        <div class="custom-file">
+        <div class="form-group custom-file">
           <input
             type="file"
             class="custom-file-input"
@@ -1239,6 +1239,9 @@
     <script src="js/odometer.min.js"></script>
     <script src="js/fancybox.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/jquery.form.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/contact.form.min.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
