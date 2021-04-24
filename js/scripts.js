@@ -140,7 +140,7 @@
           if ($("body " + hash).length != 0) {
             $(".transition-overlay").removeClass("active");
             $(".hamburger").toggleClass("open");
-            $("body").toggleClass("overflow");
+            //$("body").toggleClass("overflow");
             $(".navigation-menu").removeClass("active");
             $(".navigation-menu .inner ul").css("transition-delay", "0s");
             $(".navigation-menu .inner blockquote").css(
@@ -486,3 +486,49 @@ function displayFloatingLabels(obj) {
 document.addEventListener("DOMContentLoaded", function () {
   new IOlazy();
 });
+
+function hideTabs() {
+  $("#v-pills-android").addClass("d-none");
+  $("#v-pills-ios").addClass("d-none");
+  //$("#v-pills-react").addClass("d-none");
+  $("#v-pills-python").addClass("d-none");
+  $("#v-pills-means").addClass("d-none");
+  $("#v-pills-business").addClass("d-none");
+}
+
+function handleTabClick(obj) {
+  // var id = obj.getAttribute("id");
+  // console.log(id);
+  // switch (id) {
+  //   case "v-pills-android-tab":
+  //     hideTabs();
+  //     $("#v-pills-android").removeClass("d-none");
+  //     $("#v-pills-android").removeClass("hide");
+  //     break;
+  //   case "v-pills-ios-tab":
+  //     hideTabs();
+  //     $("#v-pills-ios").removeClass("d-none");
+  //     $("#v-pills-ios").removeClass("hide");
+  //     break;
+  //   case "v-pills-react-tab":
+  //     $("#v-pills-react").removeClass("d-none");
+  //     $("#v-pills-react").removeClass("hide");
+  //     hideTabs();
+  //     break;
+  //   case "v-pills-python-tab":
+  //     hideTabs();
+  //     $("#v-pills-python").removeClass("d-none");
+  //     $("#v-pills-python").removeClass("hide");
+  //     break;
+  //   case "v-pills-means-tab":
+  //     hideTabs();
+  //     $("#v-pills-means").removeClass("d-none");
+  //     $("#v-pills-means").removeClass("hide");
+  //     break;
+  //   case "v-pills-business-tab":
+  //     hideTabs();
+  //     $("#v-pills-business").removeClass("d-none");
+  //     $("#v-pills-business").removeClass("hide");
+  //     break;
+  // }
+}
