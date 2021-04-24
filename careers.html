@@ -357,6 +357,7 @@
                   role="tab"
                   aria-controls="v-pills-android"
                   aria-selected="true"
+                  onclick="handleTabClick(this)"
                   >Android Developer</a
                 >
                 <a
@@ -367,6 +368,7 @@
                   role="tab"
                   aria-controls="v-pills-ios"
                   aria-selected="false"
+                  onclick="handleTabClick(this)"
                   >IOS Developer</a
                 >
                 <a
@@ -377,6 +379,7 @@
                   role="tab"
                   aria-controls="v-pills-react"
                   aria-selected="false"
+                  onclick="handleTabClick(this)"
                   >React.js Developer</a
                 >
                 <a
@@ -387,6 +390,7 @@
                   role="tab"
                   aria-controls="v-pills-python"
                   aria-selected="false"
+                  onclick="handleTabClick(this)"
                   >Django Developer</a
                 >
                 <a
@@ -397,6 +401,7 @@
                   role="tab"
                   aria-controls="v-pills-means"
                   aria-selected="false"
+                  onclick="handleTabClick(this)"
                   >MEAN Stack Developer</a
                 >
                 <a
@@ -407,12 +412,17 @@
                   role="tab"
                   aria-controls="v-pills-business"
                   aria-selected="false"
+                  onclick="handleTabClick(this)"
                   >Business Analyst</a
                 >
               </div>
             </div>
             <div class="col-9">
-              <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-content"
+                id="v-pills-tabContent"
+                style="overflow: visible"
+              >
                 <div
                   class="tab-pane fade show active"
                   id="v-pills-android"
@@ -851,7 +861,6 @@
             id="first_name"
             placeholder="First Name"
             name="first_name"
-            required
           />
         </div>
 
@@ -863,18 +872,12 @@
             id="last_name"
             placeholder="Last Name"
             name="last_name"
-            required
           />
         </div>
 
         <div class="form-group">
           <label for="post-applied">Post Applied</label>
-          <select
-            id="post-applied"
-            class="form-control"
-            required
-            name="post_applied"
-          >
+          <select id="post-applied" class="form-control" name="post_applied">
             <option value="">Choose...</option>
             <option value="0">MEAN Stack Developer</option>
             <option value="1">Python Django Developer</option>
@@ -893,7 +896,6 @@
             id="email"
             placeholder="Email"
             name="email"
-            required
           />
         </div>
 
@@ -907,18 +909,12 @@
             name="contact_no"
             title="Please enter valid contact number"
             pattern="^[0-9]{10,11}$"
-            required
           />
         </div>
 
         <div class="form-group">
           <label for="experience">Experience(years)</label>
-          <select
-            name="experience"
-            id="experience"
-            class="form-control"
-            required
-          >
+          <select name="experience" id="experience" class="form-control">
             <option value="">Choose...</option>
             <option value="0">0</option>
             <option value="1">1</option>
@@ -938,7 +934,6 @@
             id="current_ctc"
             placeholder="Current CTC in lacs"
             name="current_ctc"
-            required
           />
         </div>
 
@@ -950,7 +945,6 @@
             id="expected_ctc"
             placeholder="Expected CTC in lacs"
             name="expected_ctc"
-            required
           />
         </div>
 
@@ -982,7 +976,6 @@
             id="customFile"
             name="resume"
             accept=".doc,.docx, .pdf"
-            required
           />
           <label class="custom-file-label" for="customFile">Upload CV</label>
         </div>

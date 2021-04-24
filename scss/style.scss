@@ -97,6 +97,10 @@ p {
   line-height: 1.5;
 }
 
+body {
+  overflow: visible;
+}
+
 /* FORM ELEMENTS */
 #success,
 #error {
