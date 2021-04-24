@@ -852,7 +852,7 @@
     </section>
 
     <section class="section-form" id="job-application">
-      <form method="POST" action="applyPost.php" enctype="multipart/form-data">
+      <form id="careers" method="POST" action="applyPost.php" enctype="multipart/form-data">
         <div class="form-group">
           <label for="first_name">First Name</label>
           <input
@@ -877,7 +877,7 @@
 
         <div class="form-group">
           <label for="post-applied">Post Applied</label>
-          <select id="post-applied" class="form-control" name="post_applied">
+          <select id="post_applied" class="form-control" name="post_applied">
             <option value="">Choose...</option>
             <option value="0">MEAN Stack Developer</option>
             <option value="1">Python Django Developer</option>
@@ -969,11 +969,11 @@
           ></textarea>
         </div>
 
-        <div class="custom-file">
+        <div class="custom-file form-group">
           <input
             type="file"
             class="custom-file-input"
-            id="customFile"
+            id="resume"
             name="resume"
             accept=".doc,.docx, .pdf"
           />
@@ -986,6 +986,27 @@
           </button>
         </div>
       </form>
+      <div class="form-group">
+        <div
+            id="success"
+            class="alert alert-success wow fadeInUp"
+            role="alert"
+        >
+            Your application was submitted successfully! We will
+            be in touch as soon as we can.
+        </div>
+        <!-- end success -->
+        <div
+            id="error"
+            class="alert alert-danger wow fadeInUp"
+            role="alert"
+        >
+            Something went wrong, try refreshing and
+            submitting the form again.
+        </div>
+        <!-- end error -->
+    </div>
+    <!-- end form-group -->
     </section>
 
     <section class="our-awards">
@@ -1232,6 +1253,11 @@
     <script src="js/odometer.min.js"></script>
     <script src="js/fancybox.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/jquery.form.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/applyPost.js"></script>
     <script src="js/scripts.js"></script>
+    
+    
   </body>
 </html>

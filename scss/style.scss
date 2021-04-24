@@ -2974,4 +2974,22 @@ section.why-join-us-section {
   font-size: unset;
 }
 
+#success,
+#error {
+  display: none;
+  float: left;
+}
+#error {
+  background: red;
+  color: #fff;
+}
+#success {
+  background: green;
+  color: #fff;
+}
+.alert {
+  border: none;
+  border-radius: 0;
+  padding: 20px 30px;
+}
 /*Contact form hamburger menu issue*/

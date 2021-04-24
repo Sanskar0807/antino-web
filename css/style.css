@@ -71,6 +71,10 @@ p {
   line-height: 1.5;
 }
 
+body {
+  overflow: visible;
+}
+
 /* FORM ELEMENTS */
 #success,
 #error {
@@ -3070,6 +3074,28 @@ section.why-join-us-section h3 {
   position: relative;
   color: white;
   font-size: unset;
+}
+
+#success,
+#error {
+  display: none;
+  float: left;
+}
+
+#error {
+  background: red;
+  color: #fff;
+}
+
+#success {
+  background: green;
+  color: #fff;
+}
+
+.alert {
+  border: none;
+  border-radius: 0;
+  padding: 20px 30px;
 }
 
 /*Contact form hamburger menu issue*/

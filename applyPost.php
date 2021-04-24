@@ -12,9 +12,9 @@
 	$mail->Host = "smtp.gmail.com";
 	$mail->Port = 465; // or 587
 	$mail->IsHTML(true);
-	$mail->Username = "marionbelmont8412@gmail.com";
-	$mail->Password = "ArthurBelmont8412";
-	$mail->SetFrom("marionbelmont8412@gmail.com");
+	$mail->Username = "antinocontactus@gmail.com";
+	$mail->Password = "mail@antinolabs";
+	$mail->SetFrom("antinocontactus@gmail.com");
 	$mail->Subject = "Careers Form Submissions";
 
 
@@ -97,9 +97,9 @@
 			</tr>
 		</table>
 		';
-		$mail->AddAddress("milidubey16@gmail.com");
-		// $mail->AddAddress("info@antino.io");
-		// $mail->AddAddress("ashishguptajiit@gmail.com");
+		//$mail->AddAddress("milidubey16@gmail.com");
+		$mail->AddAddress("info@antino.io");
+		$mail->AddAddress("ashishguptajiit@gmail.com");
 
 		$file_tmp  = $_FILES['resume']['uploaded_resume'];
 		$file_name = $_FILES['resume']['uploaded_resume'];

@@ -17,19 +17,14 @@
 	$mail->Host = "smtp.gmail.com";
 	$mail->Port = 465; // or 587
 	$mail->IsHTML(true);
-	$mail->Username = "marionbelmont8412@gmail.com";
-	$mail->Password = "ArthurBelmont8412";
-	$mail->SetFrom("marionbelmont8412@gmail.com");
+	$mail->Username = "antinocontactus@gmail.com";
+	$mail->Password = "mail@antinolabs";
+	$mail->SetFrom("antinocontactus@gmail.com");
 	$mail->Subject =  "Contact form submission: $name";
     $errors = '';
 
 	
-    // if (!preg_match(
-    // "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i",
-    // $email_address))
-    // {
-    //     $errors .= "\n Error: Invalid email address";
-    // }
+    
 
     if(empty($_POST['name'])  ||
     empty($_POST['email']) ||
@@ -51,9 +46,9 @@
         " Here are the details:\n Name: $name \n ".
         "Email: $email_address\n Message \n $message";
 
-		$mail->AddAddress("milidubey16@gmail.com");
-		// $mail->AddAddress("info@antino.io");
-		// $mail->AddAddress("ashishguptajiit@gmail.com");
+		//$mail->AddAddress("milidubey16@gmail.com");
+		$mail->AddAddress("info@antino.io");
+		$mail->AddAddress("ashishguptajiit@gmail.com");
 
 		if(!$mail->Send()) {
 			echo "Mailer Error: " . $mail->ErrorInfo;
