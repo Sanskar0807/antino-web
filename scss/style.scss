@@ -97,6 +97,10 @@ p {
   line-height: 1.5;
 }
 
+body {
+  overflow: visible;
+}
+
 /* FORM ELEMENTS */
 #success,
 #error {
@@ -2653,9 +2657,7 @@ button[type="button"] {
 }
 .section-form {
   form {
-    width: 80%;
-    margin: 0 auto;
-    display: unset !important;
+    // margin: 0 auto;
     // display: grid;
     // gap: 1rem 3rem;
     // grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -2708,6 +2710,7 @@ button[type="button"] {
         top: -20px;
         font-weight: 600;
       }
+
       label.error {
         color: red;
         margin-top: 5px;
@@ -2734,6 +2737,8 @@ button[type="button"] {
     text-align: center;
     grid-column: 1 / -1;
     margin: 1.2rem auto;
+    display: flex !important;
+    justify-content: center;
   }
 }
 
@@ -3031,4 +3036,22 @@ section.why-join-us-section {
   font-size: unset;
 }
 
+#success,
+#error {
+  display: none;
+  float: left;
+}
+#error {
+  background: red;
+  color: #fff;
+}
+#success {
+  background: green;
+  color: #fff;
+}
+.alert {
+  border: none;
+  border-radius: 0;
+  padding: 20px 30px;
+}
 /*Contact form hamburger menu issue*/

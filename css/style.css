@@ -71,6 +71,10 @@ p {
   line-height: 1.5;
 }
 
+body {
+  overflow: visible;
+}
+
 /* FORM ELEMENTS */
 #success,
 #error {
@@ -2701,11 +2705,6 @@ button[type=button]:hover i {
   border-radius: unset !important;
 }
 
-.section-form form {
-  width: 80%;
-  margin: 0 auto;
-  display: unset !important;
-}
 .section-form form .form-group {
   display: block;
   position: relative;
@@ -2774,6 +2773,8 @@ button[type=button]:hover i {
   text-align: center;
   grid-column: 1/-1;
   margin: 1.2rem auto;
+  display: flex !important;
+  justify-content: center;
 }
 
 section.why-join-us-section {
@@ -3124,6 +3125,28 @@ section.why-join-us-section h3 {
   position: relative;
   color: white;
   font-size: unset;
+}
+
+#success,
+#error {
+  display: none;
+  float: left;
+}
+
+#error {
+  background: red;
+  color: #fff;
+}
+
+#success {
+  background: green;
+  color: #fff;
+}
+
+.alert {
+  border: none;
+  border-radius: 0;
+  padding: 20px 30px;
 }
 
 /*Contact form hamburger menu issue*/
