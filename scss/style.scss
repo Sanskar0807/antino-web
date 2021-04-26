@@ -170,7 +170,7 @@ button[type="button"] {
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 0 30px;
+    padding: 0 28px;
     background: $color-dark;
     color: #fff;
     &:hover {
@@ -2607,8 +2607,10 @@ button[type="button"] {
   padding-top: 80px;
   padding-bottom: 150px;
   // font-size: 15px;
-  .text-center {
-    margin-top: 1.2rem;
+  button {
+    // margin-top: 1.2rem;
+    margin: 2rem auto;
+    // padding: 0 50px !important;
   }
   .titles {
     // text-align: left;
@@ -2653,10 +2655,10 @@ button[type="button"] {
   form {
     width: 80%;
     margin: 0 auto;
-
-    display: grid;
-    gap: 1rem 3rem;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    display: unset !important;
+    // display: grid;
+    // gap: 1rem 3rem;
+    // grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 
     .form-group {
       display: block;
@@ -2691,10 +2693,14 @@ button[type="button"] {
         top: -20px;
         font-weight: 600;
       }
+      select {
+        height: 54px !important;
+      }
       textarea {
         background: none;
         position: relative;
         z-index: 2;
+        height: 54px !important;
       }
       textarea:focus + span {
         font-size: 13px;
@@ -2721,7 +2727,9 @@ button[type="button"] {
   .custom-file {
     align-self: center;
   }
-
+  .custom-file-input {
+    // opacity: unset !important;
+  }
   .submit-box {
     text-align: center;
     grid-column: 1 / -1;
