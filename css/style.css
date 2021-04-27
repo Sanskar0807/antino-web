@@ -2668,7 +2668,8 @@ button[type=button]:hover i {
   padding-bottom: 150px;
 }
 .job-opening button {
-  margin: 2rem auto;
+  justify-content: center;
+  margin-top: 1.2rem;
 }
 .job-opening .titles {
   font-size: 4vw;
@@ -2771,8 +2772,6 @@ button[type=button]:hover i {
 }
 .section-form .submit-box {
   text-align: center;
-  grid-column: 1/-1;
-  margin: 1.2rem auto;
   display: flex !important;
   justify-content: center;
 }
