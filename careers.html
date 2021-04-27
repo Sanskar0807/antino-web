@@ -837,155 +837,209 @@
                     </ul>
                   </div>
                 </div>
-                <div class="text-center">
+                <!-- <div class="apply-box">
                   <a href="#job-application">
                     <button id="submit" type="submit" name="submit">
                       <strong>Apply Now<b></b> <i></i></strong>
                     </button>
                   </a>
-                </div>
+                </div> -->
+               
               </div>
+              <!-- <div class="submit-box"> -->
+                <button id="submit" type="submit" name="submit">
+                  <strong>Submit<b></b> <i></i></strong>
+                </button>
+              <!-- </div> -->
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section-form" id="job-application">
-      <form id="careers" method="POST" action="applyPost.php" enctype="multipart/form-data">
-        <div class="form-group">
-          <label for="first_name">First Name</label>
-          <input
-            type="text"
-            class="form-control"
-            id="first_name"
-            placeholder="First Name"
-            name="first_name"
-          />
-        </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <section class="section-form" id="job-application">
+          <form
+            id="contact"
+            name="contact"
+            method="POST"
+            action="applyPost.php"
+            enctype="multipart/form-data"
+          >
+          <div class="row">
+          <div class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="first_name"
+                name="first_name"
+                required
+              />
+              <span>First Name</span>
+            </div>
+          </div>
+          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
+             <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="last_name"
+                name="last_name"
+                required
+              />
+              <span>Last Name</span>
+            </div>
+          </div>
+        
+          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
+             <div class="form-group">
+              <label for="post-applied">Post Applied</label>
+              <select
+                id="post-applied"
+                class="form-control"
+                required
+                name="post_applied"
+              >
+                <option value="">Choose...</option>
+                <option value="0">MEAN Stack Developer</option>
+                <option value="1">Python Django Developer</option>
+                <option value="2">React.js Developer</option>
+                <option value="3">IOS Developer</option>
+                <option value="4">Android Developer</option>
+                <option value="5">Business Analyst</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
+            <div class="form-group">
+              <label for="experience">Experience(years)</label>
+              <select
+                name="experience"
+                id="experience"
+                class="form-control"
+                required
+              >
+                <option value="">Choose...</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                required
+              />
+              <span>Email</span>
+            </div>
+          </div>
+          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
+            <div class="form-group">
+              <input
+                type="tel"
+                class="form-control"
+                id="contact_no"
+                name="contact_no"
+                title="Please enter valid contact number"
+                pattern="^[0-9]{10,11}$"
+                required
+              />
+              <span>Contact No</span>
+            </div>
+          </div>
+          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
+             <div class="form-group">
+              <input
+                type="number"
+                class="form-control"
+                id="current_ctc"
+                name="current_ctc"
+                required
+              />
+              <span>Current CTC</span>
+            </div>
+          </div>
+          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
+             <div class="form-group">
+              <input
+                type="number"
+                class="form-control"
+                id="expected_ctc"
+                name="expected_ctc"
+                required
+              />
+              <span>Expected CTC</span>
+            </div>
+          </div>
+          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
+             <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="notice_period"
+                name="notice_period"
+                required
+              />
+              <span>Notice Period</span>
+            </div>
+          </div>
+          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
+             <!-- <div class="form-group info">
+              <textarea
+                class="form-control"
+                id="info"
+                rows="2"
+                name="info"
+              ></textarea>
+              <span>Additional Info</span>
+            </div> -->
+            <div class="form-group info">
+              <textarea
+                class="form-control"
+                id="info"
+                rows="2"
+                name="info"
+              ></textarea>
+              <span>Additional Info</span>
+            </div>
 
-        <div class="form-group">
-          <label for="last_name">Last Name</label>
-          <input
-            type="text"
-            class="form-control"
-            id="last_name"
-            placeholder="Last Name"
-            name="last_name"
-          />
-        </div>
 
-        <div class="form-group">
-          <label for="post-applied">Post Applied</label>
-          <select id="post_applied" class="form-control" name="post_applied">
-            <option value="">Choose...</option>
-            <option value="0">MEAN Stack Developer</option>
-            <option value="1">Python Django Developer</option>
-            <option value="2">React.js Developer</option>
-            <option value="3">IOS Developer</option>
-            <option value="4">Android Developer</option>
-            <option value="5">Business Analyst</option>
-          </select>
-        </div>
+          </div>
+          <div class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12 offset-lg-3">
+            <div class="form-group custom-file">
+              <input
+                type="file"
+                class="custom-file-input"
+                id="customFile"
+                name="resume"
+                accept=".doc,.docx, .pdf"
+                required
+              />
+              <label class="custom-file-label" for="customFile"
+                >Upload CV</label
+              >
+            </div>
+            </div>
+          </div>
 
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            placeholder="Email"
-            name="email"
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="contact_no">Contact No</label>
-          <input
-            type="tel"
-            class="form-control"
-            id="contact_no"
-            placeholder="Contact No"
-            name="contact_no"
-            title="Please enter valid contact number"
-            pattern="^[0-9]{10,11}$"
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="experience">Experience(years)</label>
-          <select name="experience" id="experience" class="form-control">
-            <option value="">Choose...</option>
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label for="current_ctc">Current CTC</label>
-          <input
-            type="number"
-            class="form-control"
-            id="current_ctc"
-            placeholder="Current CTC in lacs"
-            name="current_ctc"
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="expected_ctc">Expected CTC</label>
-          <input
-            type="number"
-            class="form-control"
-            id="expected_ctc"
-            placeholder="Expected CTC in lacs"
-            name="expected_ctc"
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="notice_period">Notice Period</label>
-          <input
-            type="text"
-            class="form-control"
-            id="notice_period"
-            placeholder="Notice Period"
-            name="notice_period"
-          />
-        </div>
-
-        <div class="form-group info">
-          <label for="info">Additional Info</label>
-          <textarea
-            class="form-control"
-            id="info"
-            rows="2"
-            name="info"
-          ></textarea>
-        </div>
-
-        <div class="custom-file form-group">
-          <input
-            type="file"
-            class="custom-file-input"
-            id="resume"
-            name="resume"
-            accept=".doc,.docx, .pdf"
-          />
-          <label class="custom-file-label" for="customFile">Upload CV</label>
-        </div>
-
-        <div class="submit-box">
-          <button id="submit" type="submit" name="submit">
-            <strong>Submit<b></b> <i></i></strong>
-          </button>
-        </div>
-      </form>
+            <div class="submit-box">
+              <button id="submit" type="submit" name="submit">
+                <strong>Submit<b></b> <i></i></strong>
+              </button>
+            </div>
+          </form>
       <div class="form-group">
         <div
             id="success"
@@ -1006,8 +1060,10 @@
         </div>
         <!-- end error -->
     </div>
-    <!-- end form-group -->
-    </section>
+        </section>
+      </div>
+    </div>
+    </div>
 
     <section class="our-awards">
       <div class="container">
@@ -1255,6 +1311,7 @@
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.form.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/contact.form.min.js"></script>
     <script src="js/applyPost.js"></script>
     <script src="js/scripts.js"></script>
     
