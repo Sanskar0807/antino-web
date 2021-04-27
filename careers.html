@@ -837,14 +837,21 @@
                     </ul>
                   </div>
                 </div>
-                <div class="apply-box">
+                <!-- <div class="apply-box">
                   <a href="#job-application">
                     <button id="submit" type="submit" name="submit">
                       <strong>Apply Now<b></b> <i></i></strong>
                     </button>
                   </a>
-                </div>
+                </div> -->
               </div>
+              <!-- <div class="submit-box"> -->
+              <a href="#job-application">
+                <button id="submit" type="submit" name="submit">
+                  <strong>Apply Now<b></b> <i></i></strong>
+                </button>
+              </a>
+              <!-- </div> -->
             </div>
           </div>
         </div>
@@ -852,145 +859,165 @@
     </section>
 
     <div class="container">
-    <div class="row">
-      <div class="col-xl-12 col-log-12 col-lg-12 col-md-12 col-sm-12 col-12">
-        <section class="section-form" id="job-application">
-          <form
-            id="contact"
-            name="contact"
-            method="POST"
-            action="applyPost.php"
-            enctype="multipart/form-data"
-          >
+      <div class="row">
+        <div class="col-xl-12 col-log-12 col-lg-12 col-md-12 col-sm-12 col-12">
+          <section class="section-form" id="job-application">
+            <form
+              id="contact"
+              name="contact"
+              method="POST"
+              action="applyPost.php"
+              enctype="multipart/form-data"
+            >
+              <div class="row">
+                <div
+                  class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12"
+                >
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="first_name"
+                      name="first_name"
+                      required
+                    />
+                    <span>First Name</span>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12"
+                >
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="last_name"
+                      name="last_name"
+                      required
+                    />
+                    <span>Last Name</span>
+                  </div>
+                </div>
 
-          <div class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12">
-            <div class="form-group">
-              <input
-                type="text"
-                class="form-control"
-                id="first_name"
-                name="first_name"
-                required
-              />
-              <span>First Name</span>
-            </div>
-          </div>
-          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
-             <div class="form-group">
-              <input
-                type="text"
-                class="form-control"
-                id="last_name"
-                name="last_name"
-                required
-              />
-              <span>Last Name</span>
-            </div>
-
-          </div>
-          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
-             <div class="form-group">
-              <label for="post-applied">Post Applied</label>
-              <select
-                id="post-applied"
-                class="form-control"
-                required
-                name="post_applied"
-              >
-                <option value="">Choose...</option>
-                <option value="0">MEAN Stack Developer</option>
-                <option value="1">Python Django Developer</option>
-                <option value="2">React.js Developer</option>
-                <option value="3">IOS Developer</option>
-                <option value="4">Android Developer</option>
-                <option value="5">Business Analyst</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
-            <div class="form-group">
-              <label for="experience">Experience(years)</label>
-              <select
-                name="experience"
-                id="experience"
-                class="form-control"
-                required
-              >
-                <option value="">Choose...</option>
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
-            <div class="form-group">
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                name="email"
-                required
-              />
-              <span>Email</span>
-            </div>
-          </div>
-          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
-            <div class="form-group">
-              <input
-                type="tel"
-                class="form-control"
-                id="contact_no"
-                name="contact_no"
-                title="Please enter valid contact number"
-                pattern="^[0-9]{10,11}$"
-                required
-              />
-              <span>Contact No</span>
-            </div>
-          </div>
-          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
-             <div class="form-group">
-              <input
-                type="number"
-                class="form-control"
-                id="current_ctc"
-                name="current_ctc"
-                required
-              />
-              <span>Current CTC</span>
-            </div>
-          </div>
-          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
-             <div class="form-group">
-              <input
-                type="number"
-                class="form-control"
-                id="expected_ctc"
-                name="expected_ctc"
-                required
-              />
-              <span>Expected CTC</span>
-            </div>
-          </div>
-          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
-             <div class="form-group">
-              <input
-                type="text"
-                class="form-control"
-                id="notice_period"
-                name="notice_period"
-                required
-              />
-              <span>Notice Period</span>
-            </div>
-          </div>
-          <div class="col-xl-6 col-log-6  col-lg-6 col-md-6 col-sm-6 col-12">
-             <div class="form-group info">
+                <div
+                  class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12"
+                >
+                  <div class="form-group">
+                    <label for="post-applied">Post Applied</label>
+                    <select
+                      id="post-applied"
+                      class="form-control"
+                      required
+                      name="post_applied"
+                    >
+                      <option value="">Choose...</option>
+                      <option value="0">MEAN Stack Developer</option>
+                      <option value="1">Python Django Developer</option>
+                      <option value="2">React.js Developer</option>
+                      <option value="3">IOS Developer</option>
+                      <option value="4">Android Developer</option>
+                      <option value="5">Business Analyst</option>
+                    </select>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12"
+                >
+                  <div class="form-group">
+                    <label for="experience">Experience(years)</label>
+                    <select
+                      name="experience"
+                      id="experience"
+                      class="form-control"
+                      required
+                    >
+                      <option value="">Choose...</option>
+                      <option value="0">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                    </select>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12"
+                >
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      required
+                    />
+                    <span>Email</span>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12"
+                >
+                  <div class="form-group">
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="contact_no"
+                      name="contact_no"
+                      title="Please enter valid contact number"
+                      pattern="^[0-9]{10,11}$"
+                      required
+                    />
+                    <span>Contact No</span>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12"
+                >
+                  <div class="form-group">
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="current_ctc"
+                      name="current_ctc"
+                      required
+                    />
+                    <span>Current CTC</span>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12"
+                >
+                  <div class="form-group">
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="expected_ctc"
+                      name="expected_ctc"
+                      required
+                    />
+                    <span>Expected CTC</span>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12"
+                >
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="notice_period"
+                      name="notice_period"
+                      required
+                    />
+                    <span>Notice Period</span>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12"
+                >
+                  <!-- <div class="form-group info">
               <textarea
                 class="form-control"
                 id="info"
@@ -998,53 +1025,65 @@
                 name="info"
               ></textarea>
               <span>Additional Info</span>
-            </div>
+            </div> -->
+                  <div class="form-group info">
+                    <textarea
+                      class="form-control"
+                      id="info"
+                      rows="2"
+                      name="info"
+                    ></textarea>
+                    <span>Additional Info</span>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12 offset-lg-3"
+                >
+                  <div class="form-group custom-file">
+                    <input
+                      type="file"
+                      class="custom-file-input"
+                      id="customFile"
+                      name="resume"
+                      accept=".doc,.docx, .pdf"
+                      required
+                    />
+                    <label class="custom-file-label" for="customFile"
+                      >Upload CV</label
+                    >
+                  </div>
+                </div>
+              </div>
 
-          </div>
-          <div class="col-xl-6 col-log-6 col-lg-6 col-md-6 col-sm-6 col-12">
-             <div class="form-group custom-file">
-              <input
-                type="file"
-                class="custom-file-input"
-                id="customFile"
-                name="resume"
-                accept=".doc,.docx, .pdf"
-                required
-              />
-              <label class="custom-file-label" for="customFile"
-                >Upload CV</label
+              <div class="submit-box">
+                <button id="submit" type="submit" name="submit">
+                  <strong>Submit<b></b> <i></i></strong>
+                </button>
+              </div>
+            </form>
+            <div class="form-group">
+              <div
+                id="success"
+                class="alert alert-success wow fadeInUp"
+                role="alert"
               >
+                Your application was submitted successfully! We will be in touch
+                as soon as we can.
+              </div>
+              <!-- end success -->
+              <div
+                id="error"
+                class="alert alert-danger wow fadeInUp"
+                role="alert"
+              >
+                Something went wrong, try refreshing and submitting the form
+                again.
+              </div>
+              <!-- end error -->
             </div>
-
-            <div class="submit-box">
-              <button id="submit" type="submit" name="submit">
-                <strong>Submit<b></b> <i></i></strong>
-              </button>
-            </div>
-          </form>
-      <div class="form-group">
-        <div
-            id="success"
-            class="alert alert-success wow fadeInUp"
-            role="alert"
-        >
-            Your application was submitted successfully! We will
-            be in touch as soon as we can.
+          </section>
         </div>
-        <!-- end success -->
-        <div
-            id="error"
-            class="alert alert-danger wow fadeInUp"
-            role="alert"
-        >
-            Something went wrong, try refreshing and
-            submitting the form again.
-        </div>
-        <!-- end error -->
-    </div>
-        </section>
       </div>
-    </div>
     </div>
 
     <section class="our-awards">
@@ -1296,7 +1335,5 @@
     <script src="js/contact.form.min.js"></script>
     <script src="js/applyPost.js"></script>
     <script src="js/scripts.js"></script>
-    
-    
   </body>
 </html>
