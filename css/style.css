@@ -2668,7 +2668,7 @@ button[type=button]:hover i {
   padding-bottom: 150px;
 }
 .job-opening button {
-  margin: 2rem auto;
+  margin-top: 2rem;
 }
 .job-opening .titles {
   font-size: 4vw;
