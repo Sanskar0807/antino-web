@@ -862,8 +862,8 @@
       <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
         <section class="section-form" id="job-application">
           <form
-            id="contact"
-            name="contact"
+            id="careers"
+            name="careers"
             method="POST"
             action="applyPost.php"
             enctype="multipart/form-data"
@@ -901,7 +901,8 @@
                 id="post-applied"
                 class="form-control"
                 required
-                name="post_applied"
+                name="post_applied_select"
+                onChange="handlePostChange(this)"
               >
                 <option value="">Choose...</option>
                 <option value="0">MEAN Stack Developer</option>
@@ -1024,7 +1025,7 @@
                 class="custom-file-input"
                 id="customFile"
                 name="resume"
-                accept=".doc,.docx, .pdf"
+                accept=".doc,.docx,.pdf"
                 required
               />
               <label class="custom-file-label" for="customFile"
@@ -1032,6 +1033,7 @@
               >
             </div>
             </div>
+            <input type="hidden" id="post_applied" value="" name="post_applied"/>
           </div>
 
             <div class="submit-box">
@@ -1314,7 +1316,16 @@
     <script src="js/contact.form.min.js"></script>
     <script src="js/applyPost.js"></script>
     <script src="js/scripts.js"></script>
-    
+    <script>
+      function handlePostChange(obj){
+        var id = obj.id;
+        var e = document.getElementById(id);
+        var value = e.options[e.selectedIndex].value;
+        var text = e.options[e.selectedIndex].text;
+       
+        $('#post_applied').val(text);
+      }
+    </script>
     
   </body>
 </html>
