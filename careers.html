@@ -1386,7 +1386,33 @@
               </div>
               <!-- end error -->
             </div>
-          </section>
+            </div>
+            <input type="hidden" id="post_applied" value="" name="post_applied"/>
+          </div>
+
+            <!-- <div class="submit-box">
+              <button id="submit" type="submit" name="submit">
+                <strong>Submit<b></b> <i></i></strong>
+              </button>
+            </div> -->
+          </form>
+      <div class="form-group">
+        <div
+            id="success"
+            class="alert alert-success wow fadeInUp"
+            role="alert"
+        >
+            Your application was submitted successfully! We will
+            be in touch as soon as we can.
+        </div>
+        <!-- end success -->
+        <div
+            id="error"
+            class="alert alert-danger wow fadeInUp"
+            role="alert"
+        >
+            Something went wrong, try refreshing and
+            submitting the form again.
         </div>
       </div>
     </div>
@@ -1640,5 +1666,16 @@
     <script src="js/contact.form.min.js"></script>
     <script src="js/applyPost.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+      function handlePostChange(obj){
+        var id = obj.id;
+        var e = document.getElementById(id);
+        var value = e.options[e.selectedIndex].value;
+        var text = e.options[e.selectedIndex].text;
+       
+        $('#post_applied').val(text);
+      }
+    </script>
+    
   </body>
 </html>
