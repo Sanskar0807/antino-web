@@ -2612,10 +2612,7 @@ button[type="button"] {
   padding-bottom: 150px;
   // font-size: 15px;
   button {
-    // margin-top: 1.2rem;
-    //margin: 2rem auto;
-    margin-top: 2rem;
-    // padding: 0 50px !important;
+    margin: 2rem auto;
   }
   .titles {
     // text-align: left;
@@ -2736,8 +2733,8 @@ button[type="button"] {
   }
   .submit-box {
     text-align: center;
-    grid-column: 1 / -1;
-    margin: 1.2rem auto;
+    // grid-column: 1 / -1;
+    // margin: 1.2rem auto;
     display: flex !important;
     justify-content: center;
   }
@@ -2752,6 +2749,88 @@ section.why-join-us-section {
     font-weight: 600;
   }
 }
+
+// Landing page
+.img-land {
+  opacity: 0.4;
+}
+.img2-land {
+  height: 100%;
+  width: 100%;
+}
+
+.link {
+  display: block;
+  margin-top: 50px;
+  a {
+    display: inline-block;
+    //font-weight: 600;
+    color: #fff;
+    //font-size: 13px;
+    position: relative;
+
+    font-weight: 700;
+    padding-bottom: 8px;
+    position: relative;
+    color: white;
+    font-size: unset;
+
+    &:before {
+      content: "";
+      width: 100%;
+      height: 6px;
+      background: #fff;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      opacity: 0.3;
+    }
+    &:after {
+      content: "";
+      width: 0;
+      height: 6px;
+      background: #fff;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      @include transition;
+    }
+    &:hover {
+      text-decoration: none;
+      cursor: pointer !important;
+    }
+    &:hover:after {
+      width: 100%;
+    }
+  }
+}
+.card {
+  overflow: hidden;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.cards-land {
+  margin-top: 80px;
+}
+.card-img-land {
+  position: relative;
+  left: 10px;
+  font-size: 60px;
+}
+.item-land {
+  display: flex;
+  flex-direction: row;
+}
+
 /* ANIMATIONS */
 @keyframes countdown {
   from {
@@ -2967,6 +3046,18 @@ section.why-join-us-section {
   .post-sticky .post-content {
     padding: 20px 30px;
   }
+  .title-land {
+    font-size: 1rem !important;
+  }
+  .para-land {
+    font-size: 0.7rem !important;
+  }
+  .subpara-land {
+    font-size: 0.5rem !important;
+  }
+  .content-land {
+    padding: 20px 30px;
+  }
   .post-sticky .post-content .post-link {
     display: none;
   }
@@ -3055,4 +3146,5 @@ section.why-join-us-section {
   border-radius: 0;
   padding: 20px 30px;
 }
+
 /*Contact form hamburger menu issue*/
