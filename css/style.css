@@ -3137,6 +3137,18 @@ section.why-join-us-section h3 {
     padding: 20px 30px;
   }
 
+  .title-land {
+    font-size: 1rem !important;
+  }
+
+  .para-land {
+    font-size: 0.7rem !important;
+  }
+
+  .subpara-land {
+    font-size: 0.5rem !important;
+  }
+
   .content-land {
     padding: 20px 30px;
   }

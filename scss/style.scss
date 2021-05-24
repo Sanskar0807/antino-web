@@ -2830,6 +2830,21 @@ section.why-join-us-section {
   display: flex;
   flex-direction: row;
 }
+.item1-land {
+  margin-right: 30px;
+  height: 8rem;
+  width: 20rem;
+}
+
+.item2-land {
+  margin-right: 18px;
+  height: 8rem;
+  width: 15rem;
+}
+
+.content-land {
+  line-height: 1.2 !important;
+}
 
 /* ANIMATIONS */
 @keyframes countdown {
