@@ -4,7 +4,6 @@ $myemail = 'ashishguptajiit@gmail.com';//<-----Put Your email address here.
 $firstName = $_POST["fullName"];
 $email = $_POST["emailAddress"];
 $contactNo = $_POST["phone"];
-$budget = $_POST["budget"];
 $service = $_POST["service"];
 $message = $_POST["message"];
 
@@ -44,10 +43,6 @@ $email_body =
 			<tr>
 				<td width="30%">Contact Number</td>
 				<td width="70%">'.$contactNo.'</td>
-			</tr>
-			<tr>
-				<td width="30%">Budget</td>
-				<td width="70%">'.$budget.'</td>
 			</tr>
 			<tr>
 				<td width="30%">Service</td>
