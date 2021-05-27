@@ -2450,7 +2450,7 @@ button[type=button]:hover i {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 150px;
+  padding-top: 80px;
 }
 .contact h5 {
   font-weight: 600;
