@@ -747,6 +747,15 @@ button[type=button]:hover i {
   font-weight: 300;
 }
 
+title {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-right: 50%;
+  margin-bottom: 30px;
+}
+
 /* CUSTOM LINK */
 .custom-link {
   display: -ms-flexbox;
