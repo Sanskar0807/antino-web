@@ -3291,6 +3291,12 @@ section.why-join-us-section h3 {
     align-items: center;
     justify-content: center;
   }
+
+  /*Breadcrumbs reduce font on mobile devices*/
+  .breadcrumb-container .wrapper ul.breadcrumb li {
+    display: inline;
+    font-size: 13px;
+  }
 }
 .grow {
   transition: all 0.2s ease-in-out;
@@ -3334,6 +3340,38 @@ section.why-join-us-section h3 {
   padding: 20px 30px;
 }
 
-/*Contact form hamburger menu issue*/
+/*BreadCrumb menu*/
+/* Style the list */
+.breadcrumb-container {
+  /* Display list items side by side */
+  /* Add a slash symbol (/) before/behind each list item */
+  /* Add a color to all links inside the list */
+  /* Add a color on mouse-over */
+}
+.breadcrumb-container ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: white;
+}
+.breadcrumb-container ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+.breadcrumb-container ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: #b6b6b6;
+  content: "/ ";
+}
+.breadcrumb-container ul.breadcrumb li a {
+  color: #b6b6b6;
+  text-decoration: none;
+}
+.breadcrumb-container ul.breadcrumb li a.active {
+  color: black;
+}
+.breadcrumb-container ul.breadcrumb li a:hover {
+  color: black;
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=style.css.map */
