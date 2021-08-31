@@ -1,147 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-  <loc>https://www.antino.io/</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>1.00</priority>
+  <loc>http://www.antino.io/</loc>
 </url>
 <url>
-  <loc>https://www.antino.io/antino</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://www.antino.io/about-us.html</loc>
 </url>
 <url>
-  <loc>https://www.antino.io/cases</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://www.antino.io/cases.html</loc>
 </url>
 <url>
-  <loc>https://www.antino.io/blog</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://www.antino.io/contact.html</loc>
+</url>
+<url>
+  <loc>http://www.antino.io/careers.html</loc>
+</url>
+<url>
+  <loc>http://www.antino.io/tech-consulting-services.html</loc>
+</url>
+<url>
+  <loc>http://www.antino.io/ui-ux-design-services.html</loc>
+</url>
+<url>
+  <loc>http://www.antino.io/mobile-engineering-services.html</loc>
+</url>
+<url>
+  <loc>http://www.antino.io/web-development-services.html</loc>
+</url>
+<url>
+  <loc>http://www.antino.io/intelligence-solution-servcies.html</loc>
+</url>
+<url>
+  <loc>http://www.antino.io/offshore-staffing-services.html</loc>
+</url>
+<url>
+  <loc>http://www.antino.io/ecommerce-marketplace-services.html</loc>
+</url>
+<url>
+  <loc>http://www.antino.io/digital-marketing-services.html</loc>
+</url>
+<url>
+  <loc>http://www.antino.io/terms-and-conditions.html</loc>
+</url>
+<url>
+  <loc>http://www.antino.io/privacy-policy.html</loc>
+</url>
+<url>
+  <loc>https://www.antino.io/about-us</loc>
+</url>
+<url>
+  <loc>https://www.antino.io/cases</loc>    
 </url>
 <url>
   <loc>https://www.antino.io/contact</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/index</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/tech-consulting-services</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/ui-ux-design-services</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/mobile-engineering-services</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/web-development-services</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/intelligence-solution-servcies</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/offshore-staffing-services</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/ecommerce-marketplace-services</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/digital-marketing-services</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/how-covid-accelerated-online-marketing-and-app-installs</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/googles-may-2020-core-update-a-broad-core-algorithm-update</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/how-to-choose-tech-stack-for-mobile-app-development</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/how-to-find-the-best-mobile-app-development-company</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.antino.io/careers</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.antino.io/terms-and-conditions</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://www.antino.io/blog/sitemap_index.xml</loc>
 </url>
-<url>
-  <loc>https://www.antino.io/privacy-policy</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/top-companies-using-node-js-at-its-core</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/facebook-launches-new-catchup-app-for-audio-calling</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/blog-single</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/top-10-companies-using-python-in-backend</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/techskills-to-learn-during-lockdown</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.antino.io/tips-to-stay-productive-while-working-from-home</loc>
-  <lastmod>2021-02-23T09:27:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
 </urlset>
