@@ -405,8 +405,8 @@ function handleSocialLink(obj) {
       window.open("https://www.instagram.com/antinolabs/");
       break;
 
-    case "medium":
-      window.open("https://medium.com/@antinolabs");
+    case "facebook":
+      window.open("https://www.facebook.com/antinolabsindia/");
       break;
 
     case "linkedin":
