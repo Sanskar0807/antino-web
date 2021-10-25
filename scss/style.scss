@@ -896,6 +896,7 @@ title {
   .headlines {
     width: 100%;
     margin-bottom: 100px;
+    // height: 80px;
     margin-top: 50px;
     h1 {
       font-size: 8vw;
@@ -905,6 +906,9 @@ title {
       padding-bottom: 5px;
     }
   }
+}
+.ht-ad {
+  height: 100px;
 }
 
 /* NAVBAR */
@@ -3247,6 +3251,11 @@ section.why-join-us-section {
       }
     }
   }
+
+  .ftad {
+    font-size: 2rem !important;
+    font-weight: bold;
+  }
 }
 .grow {
   transition: all 0.2s ease-in-out;
@@ -3323,4 +3332,7 @@ section.why-join-us-section {
     color: black;
     text-decoration: underline;
   }
+}
+.ht-ad {
+  height: unset !important;
 }

@@ -935,6 +935,10 @@ title {
   padding-bottom: 5px;
 }
 
+.ht-ad {
+  height: 100px;
+}
+
 /* NAVBAR */
 .navbar {
   width: 100%;
@@ -3337,6 +3341,11 @@ section.why-join-us-section h3 {
     display: inline;
     font-size: 13px;
   }
+
+  .ftad {
+    font-size: 2rem !important;
+    font-weight: bold;
+  }
 }
 .grow {
   transition: all 0.2s ease-in-out;
@@ -3412,6 +3421,10 @@ section.why-join-us-section h3 {
 .breadcrumb-container ul.breadcrumb li a:hover {
   color: black;
   text-decoration: underline;
+}
+
+.ht-ad {
+  height: unset !important;
 }
 
 /*# sourceMappingURL=style.css.map */
