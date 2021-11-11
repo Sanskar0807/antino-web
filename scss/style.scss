@@ -3,7 +3,9 @@
 @font-face {
   font-family: "Mont";
   src: url("../fonts/Mont-Regular.eot");
-  src: local("☺"), url("../fonts/Mont-Regular.woff") format("woff"), url("../fonts/Mont-Regular.ttf") format("truetype"), url("../fonts/Mont-Regular.svg") format("svg");
+  src: local("☺"), url("../fonts/Mont-Regular.woff") format("woff"),
+    url("../fonts/Mont-Regular.ttf") format("truetype"),
+    url("../fonts/Mont-Regular.svg") format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -11,7 +13,9 @@
 @font-face {
   font-family: "Mont";
   src: url("../fonts/Mont-Bold.eot");
-  src: local("☺"), url("../fonts/Mont-Bold.woff") format("woff"), url("../fonts/Mont-Bold.ttf") format("truetype"), url("../fonts/Mont-Bold.svg") format("svg");
+  src: local("☺"), url("../fonts/Mont-Bold.woff") format("woff"),
+    url("../fonts/Mont-Bold.ttf") format("truetype"),
+    url("../fonts/Mont-Bold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
 }
@@ -19,7 +23,9 @@
 @font-face {
   font-family: "Mont";
   src: url("../fonts/Mont-Heavy.eot");
-  src: local("☺"), url("../fonts/Mont-Heavy.woff") format("woff"), url("../fonts/Mont-Heavy.ttf") format("truetype"), url("../fonts/Mont-Heavy.svg") format("svg");
+  src: local("☺"), url("../fonts/Mont-Heavy.woff") format("woff"),
+    url("../fonts/Mont-Heavy.ttf") format("truetype"),
+    url("../fonts/Mont-Heavy.svg") format("svg");
   font-weight: 800;
   font-style: normal;
 }
@@ -202,6 +208,15 @@ button[type="button"] {
   &:hover i {
     opacity: 0;
   }
+}
+
+.ftad {
+  font-size: 3.5rem !important;
+  font-weight: bold;
+}
+.ftadsub {
+  font-size: 5rem !important;
+  font-weight: bold;
 }
 
 /* CUSTOM CONTAINER */
@@ -569,7 +584,7 @@ button[type="button"] {
           list-style: none;
           margin-bottom: 5px;
           a {
-            font-size: 8vw;
+            font-size: 7vw;
             color: #fff;
             font-weight: 600;
           }
@@ -890,6 +905,7 @@ title {
   .headlines {
     width: 100%;
     margin-bottom: 100px;
+    // height: 80px;
     margin-top: 50px;
     h1 {
       font-size: 8vw;
@@ -899,6 +915,10 @@ title {
       padding-bottom: 5px;
     }
   }
+}
+
+.htchck {
+  height: 200px !important;
 }
 
 /* NAVBAR */
@@ -1005,6 +1025,49 @@ title {
     margin-right: 0;
     margin-left: 30px;
   }
+}
+
+.dropbtn {
+  // background-color: #04aa6d;
+  color: white;
+  // padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  padding: 1.5em;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  margin: 5px 0;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(255, 253, 253);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  // background-color: #3e8e41;
 }
 
 /* LEFT SIDE */
@@ -2872,7 +2935,9 @@ section.why-join-us-section {
 .card {
   overflow: hidden;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
-  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
 
   cursor: pointer;
 }
@@ -2919,8 +2984,122 @@ section.why-join-us-section {
   }
 }
 
+// MODAL
+.buttonmodal {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px 0;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+.buttonmodal span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonmodal span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonmodal:hover span {
+  padding-right: 25px;
+}
+
+.buttonmodal:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 10px 0px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  z-index: 1;
+  position: fixed;
+  bottom: 85px;
+  right: -50px;
+  width: 150px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+
+  z-index: 9;
+  height: 400px;
+  overflow-y: auto;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px 20px;
+  background-color: white;
+  opacity: 1;
+}
+
+/* Full-width input fields */
+.form-container input[type="text"] {
+  width: 100%;
+  // padding: 15px;
+  // margin: 20px 0 22px 0;
+  border: 1px solid #eee;
+  // background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type="text"]:focus,
+.form-container input[type="password"]:focus {
+  // background-color: #ddd;
+  outline: none;
+  border: 1px solid #eee;
+}
+
+/* Set a style for the submit/login button */
+// .form-container .btn {
+//   background-color: #04aa6d;
+//   color: white;
+//   padding: 16px 20px;
+//   border: none;
+//   cursor: pointer;
+//   width: 100%;
+//   margin-bottom: 10px;
+//   opacity: 0.8;
+// }
+
+/* Add a red background color to the cancel button */
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+// MODAL
+
 /* MEDIUM FIXES */
-@media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
+@media only screen and (max-width: 1199px),
+  only screen and (max-device-width: 1199px) {
   body {
     padding: 0;
   }
@@ -2967,7 +3146,8 @@ section.why-join-us-section {
 }
 
 /* RESPONSIVE TABLET FIXES */
-@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+@media only screen and (max-width: 991px),
+  only screen and (max-device-width: 991px) {
   .slider .swiper-container .slide-inner {
     padding: 0 30px;
   }
@@ -3065,7 +3245,8 @@ section.why-join-us-section {
 }
 
 /* RESPONSIVE MOBILE FIXES */
-@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+@media only screen and (max-width: 767px),
+  only screen and (max-device-width: 767px) {
   .preloader .inner .percentage {
     font-size: 30vh;
   }
@@ -3194,6 +3375,34 @@ section.why-join-us-section {
       }
     }
   }
+
+  .htchck {
+    height: 100px !important;
+  }
+  .ftad {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+  }
+  .ftadsub {
+    font-size: 2rem !important;
+    font-weight: bold;
+  }
+  // .htchck {
+  //   height: unset !important;
+  // }
+  .open-button {
+    bottom: 185px !important;
+  }
+  .dropdown-content {
+    position: relative !important;
+    background-color: unset !important;
+    // height: 12px;
+    padding: 0;
+  }
+  .dropdown-content a {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 }
 .grow {
   transition: all 0.2s ease-in-out;
@@ -3270,4 +3479,7 @@ section.why-join-us-section {
     color: black;
     text-decoration: underline;
   }
+}
+.ht-ad {
+  height: unset !important;
 }

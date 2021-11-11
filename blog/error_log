@@ -1,0 +1,195 @@
+[03-Jul-2021 10:51:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_settings() on boolean in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php:223
+Stack trace:
+#0 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(43): Elementor\Core\Breakpoints\Manager->init_breakpoints()
+#1 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(76): Elementor\Core\Breakpoints\Manager->get_breakpoints()
+#2 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/includes/frontend.php(530): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#3 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(292): Elementor\Frontend->register_styles('')
+#4 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/plugin.php(484): W in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php on line 223
+[03-Jul-2021 10:51:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_settings() on boolean in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php:223
+Stack trace:
+#0 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(43): Elementor\Core\Breakpoints\Manager->init_breakpoints()
+#1 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(76): Elementor\Core\Breakpoints\Manager->get_breakpoints()
+#2 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/includes/frontend.php(530): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#3 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(292): Elementor\Frontend->register_styles('')
+#4 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/plugin.php(484): W in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php on line 223
+[03-Jul-2021 10:51:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_settings() on boolean in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php:223
+Stack trace:
+#0 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(43): Elementor\Core\Breakpoints\Manager->init_breakpoints()
+#1 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(76): Elementor\Core\Breakpoints\Manager->get_breakpoints()
+#2 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/includes/frontend.php(530): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#3 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(292): Elementor\Frontend->register_styles('')
+#4 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/plugin.php(484): W in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php on line 223
+[03-Jul-2021 10:52:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_settings() on boolean in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php:223
+Stack trace:
+#0 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(43): Elementor\Core\Breakpoints\Manager->init_breakpoints()
+#1 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(76): Elementor\Core\Breakpoints\Manager->get_breakpoints()
+#2 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/includes/frontend.php(530): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#3 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(292): Elementor\Frontend->register_styles('')
+#4 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/plugin.php(484): W in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php on line 223
+[03-Jul-2021 10:52:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_settings() on boolean in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php:223
+Stack trace:
+#0 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(43): Elementor\Core\Breakpoints\Manager->init_breakpoints()
+#1 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(76): Elementor\Core\Breakpoints\Manager->get_breakpoints()
+#2 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/includes/frontend.php(530): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#3 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(292): Elementor\Frontend->register_styles('')
+#4 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/plugin.php(484): W in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php on line 223
+[03-Jul-2021 10:52:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_settings() on boolean in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php:223
+Stack trace:
+#0 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(43): Elementor\Core\Breakpoints\Manager->init_breakpoints()
+#1 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(76): Elementor\Core\Breakpoints\Manager->get_breakpoints()
+#2 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/includes/frontend.php(530): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#3 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(292): Elementor\Frontend->register_styles('')
+#4 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/plugin.php(484): W in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php on line 223
+[03-Jul-2021 10:53:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_settings() on boolean in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php:223
+Stack trace:
+#0 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(43): Elementor\Core\Breakpoints\Manager->init_breakpoints()
+#1 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(76): Elementor\Core\Breakpoints\Manager->get_breakpoints()
+#2 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/includes/frontend.php(530): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#3 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(292): Elementor\Frontend->register_styles('')
+#4 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/plugin.php(484): W in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php on line 223
+[03-Jul-2021 10:53:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_settings() on boolean in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php:223
+Stack trace:
+#0 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(43): Elementor\Core\Breakpoints\Manager->init_breakpoints()
+#1 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(76): Elementor\Core\Breakpoints\Manager->get_breakpoints()
+#2 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/includes/frontend.php(530): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#3 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(292): Elementor\Frontend->register_styles('')
+#4 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/plugin.php(484): W in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php on line 223
+[03-Jul-2021 11:00:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_settings() on boolean in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php:223
+Stack trace:
+#0 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(43): Elementor\Core\Breakpoints\Manager->init_breakpoints()
+#1 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php(76): Elementor\Core\Breakpoints\Manager->get_breakpoints()
+#2 /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/includes/frontend.php(530): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#3 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(292): Elementor\Frontend->register_styles('')
+#4 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /home/giyotjscfern/public_html/antino0307/blog/wp-includes/plugin.php(484): W in /home/giyotjscfern/public_html/antino0307/blog/wp-content/plugins/elementor/core/breakpoints/manager.php on line 223
+[24-Jul-2021 12:50:25 UTC] WordPress database error Duplicate entry '16-3' for key 'wp_yoast_indexable_hierarchy.PRIMARY' for query INSERT INTO `wp_yoast_indexable_hierarchy` (`indexable_id`, `ancestor_id`, `depth`, `blog_id`) VALUES ('16', '3', '1', '1') made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/type/archive.php'), get_header, locate_template, load_template, require_once('/themes/type/header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_robots, apply_filters('wp_robots'), WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Front_End\WP_Robots_Integration->add_robots, Yoast\WP\SEO\Integrations\Front_End\WP_Robots_Integration->get_robots_value, Yoast\WP\SEO\Memoizers\Meta_Tags_Context_Memoizer->for_current_page, Yoast\WP\SEO\Repositories\Indexable_Repository->for_current_page, Yoast\WP\SEO\Repositories\Indexable_Repository->find_by_id_and_type, Yoast\WP\SEO\Builders\Indexable_Builder->build_for_id_and_type, Yoast\WP\SEO\Builders\Indexable_Builder->save_indexable, do_action('wpseo_save_indexable'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Watchers\Indexable_Ancestor_Watcher->reset_children, array_walk, Yoast\WP\SEO\Integrations\Watchers\Indexable_Ancestor_Watcher->update_hierarchy_and_permalink, Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->build, Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->save_ancestors, Yoast\WP\SEO\Repositories\Indexable_Hierarchy_Repository->add_ancestor, Yoast\WP\Lib\Model->save, Yoast\WP\Lib\ORM->save, Yoast\WP\Lib\ORM::execute
+[24-Jul-2021 12:50:27 UTC] WordPress database error Duplicate entry '16-3' for key 'wp_yoast_indexable_hierarchy.PRIMARY' for query INSERT INTO `wp_yoast_indexable_hierarchy` (`indexable_id`, `ancestor_id`, `depth`, `blog_id`) VALUES ('16', '3', '1', '1') made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, WP_REST_Terms_Controller->get_item, WP_REST_Terms_Controller->prepare_item_for_response, WP_REST_Controller->add_additional_fields_to_object, Yoast\WP\SEO\Routes\Yoast_Head_REST_Field->for_term, Yoast\WP\SEO\Actions\Indexables\Indexable_Head_Action->for_term, Yoast\WP\SEO\Actions\Indexables\Indexable_Head_Action->with_cache, Yoast\WP\SEO\Surfaces\Meta_Surface->for_term, Yoast\WP\SEO\Repositories\Indexable_Repository->find_by_id_and_type, Yoast\WP\SEO\Builders\Indexable_Builder->build_for_id_and_type, Yoast\WP\SEO\Builders\Indexable_Builder->save_indexable, do_action('wpseo_save_indexable'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Watchers\Indexable_Ancestor_Watcher->reset_children, array_walk, Yoast\WP\SEO\Integrations\Watchers\Indexable_Ancestor_Watcher->update_hierarchy_and_permalink, Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->build, Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->save_ancestors, Yoast\WP\SEO\Repositories\Indexable_Hierarchy_Repository->add_ancestor, Yoast\WP\Lib\Model->save, Yoast\WP\Lib\ORM->save, Yoast\WP\Lib\ORM::execute
+[24-Jul-2021 12:51:12 UTC] WordPress database error Duplicate entry '4-0' for key 'wp_yoast_indexable_hierarchy.PRIMARY' for query INSERT INTO `wp_yoast_indexable_hierarchy` (`indexable_id`, `ancestor_id`, `depth`, `blog_id`) VALUES ('4', '0', '0', '1') made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/type/archive.php'), get_header, locate_template, load_template, require_once('/themes/type/header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_robots, apply_filters('wp_robots'), WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Front_End\WP_Robots_Integration->add_robots, Yoast\WP\SEO\Integrations\Front_End\WP_Robots_Integration->get_robots_value, Yoast\WP\SEO\Memoizers\Meta_Tags_Context_Memoizer->for_current_page, Yoast\WP\SEO\Repositories\Indexable_Repository->for_current_page, Yoast\WP\SEO\Repositories\Indexable_Repository->find_by_id_and_type, Yoast\WP\SEO\Builders\Indexable_Builder->build_for_id_and_type, Yoast\WP\SEO\Builders\Indexable_Builder->save_indexable, do_action('wpseo_save_indexable'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Watchers\Indexable_Ancestor_Watcher->reset_children, array_walk, Yoast\WP\SEO\Integrations\Watchers\Indexable_Ancestor_Watcher->update_hierarchy_and_permalink, Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->build, Yoast\WP\SEO\Builders\Indexable_Hierarchy_Builder->save_ancestors, Yoast\WP\SEO\Repositories\Indexable_Hierarchy_Repository->add_ancestor, Yoast\WP\Lib\Model->save, Yoast\WP\Lib\ORM->save, Yoast\WP\Lib\ORM::execute
+[02-Aug-2021 06:01:03 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:03 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:03 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:03 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:05 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:05 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:05 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:05 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:07 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:07 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:07 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:07 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:09 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:09 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:09 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:09 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:15 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:15 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:15 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:15 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:17 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:17 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:17 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:17 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:19 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:19 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:19 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:19 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:19 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:19 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:19 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:19 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:53 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:55 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:55 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:55 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:56 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:55 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:59 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:59 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:59 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:59 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:59 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:59 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:59 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:59 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:59 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:01:59 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:00 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:00 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:00 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:00 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:09 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:10 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:10 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:11 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:17 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:17 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:17 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:17 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:17 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:17 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:17 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:17 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:54 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:54 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:54 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:54 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:55 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:55 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:55 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:02:55 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:03:43 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:03:47 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:03:51 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:04:37 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:04:38 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:04:39 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:04:47 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:05:23 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:07:37 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:11:38 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:12:27 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:12:47 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:13:27 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:15:48 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:16:26 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:21:54 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:22:27 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:23:27 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:23:29 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:24:37 UTC] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/giyotjscfern/public_html/blog/wp-content/plugins/redux-framework-4/redux-core/inc/themecheck/class-redux-themecheck.php on line 26
+[02-Aug-2021 06:26:24 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:26:24 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:26:24 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:26:24 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:27:49 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:27:49 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:27:49 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:27:49 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:27:55 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:27:55 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:27:55 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:27:55 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:27:58 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:27:58 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:27:58 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:27:58 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:28:10 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:28:10 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:28:10 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:28:10 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:30:46 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:30:46 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:30:46 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:30:46 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:38:19 UTC] PHP Warning:  Illegal string offset 'color' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:38:20 UTC] PHP Warning:  Illegal string offset 'font-family' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:38:23 UTC] PHP Warning:  Illegal string offset 'font-size' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37
+[02-Aug-2021 06:38:24 UTC] PHP Warning:  Illegal string offset 'line-height' in /home/giyotjscfern/public_html/blog/wp-content/themes/xooblog/header.php on line 37

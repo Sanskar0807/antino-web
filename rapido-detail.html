@@ -74,6 +74,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link  href="css/style.css"  rel="stylesheet" />
          <link  href="css/custom.css"  rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
         <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver" async defer ></script>
         <!-- the iolazy load library -->
@@ -106,7 +107,7 @@
             <div class="inner">
                <div class="side-menu">
       <ul>
-        <li><a href="about-us.html">Antino</a></li>
+        <li><a href="about-us.html">About</a></li>
         <li><a href="cases.html">Cases</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -147,42 +148,10 @@
                 <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/antino-logo-dark.png" alt="Image" />
             </div>
             <ul>
-                <li>
-                    <a
-                        target="_blank"
-                        rel="noopener"
-                        onclick="handleSocialLink(this)"
-                        data-social-media="instagram"
-                        >INSTAGRAM</a
-                    >
-                </li>
-                <li>
-                    <a
-                        target="_blank"
-                        onclick="handleSocialLink(this)"
-                        data-social-media="linkedin"
-                        rel="noopener"
-                        >LINKEDIN</a
-                    >
-                </li>
-                <li>
-                    <a
-                        target="_blank"
-                        rel="noopener"
-                        onclick="handleSocialLink(this)"
-                        data-social-media="medium"
-                        >MEDIUM</a
-                    >
-                </li>
-                <li>
-                    <a
-                        target="_blank"
-                        rel="noopener"
-                        onclick="handleSocialLink(this)"
-                        data-social-media="twitter"
-                        >TWITTER</a
-                    >
-                </li>
+                <li><a  target="_blank"  onclick="handleSocialLink(this)" data-social-media="linkedin" rel="noopener">LINKEDIN</a></li>
+    <li><a target="_blank" rel="noopener" onclick="handleSocialLink(this)" data-social-media="instagram">INSTAGRAM</a></li>
+    <li><a target="_blank"  rel="noopener" onclick="handleSocialLink(this)" data-social-media="facebook" >FACEBOOK</a></li>
+    <li><a  target="_blank"  rel="noopener" onclick="handleSocialLink(this)" data-social-media="twitter" >TWITTER</a></li>
             </ul>
             <a href="#top" class="gotop"
                 ><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/icon-gotop.svg" alt="Image"
@@ -203,9 +172,21 @@
                 <!-- end phone -->
                <div class="main-menu">
       <ul>
-        <li><a href="about-us.html">Antino</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li class="dropdown"><a class="dropbtn">Services</a>
+ <div class="dropdown-content">
+   <a href="tech-consulting-services.html" >Technology Consulting</a>
+     <a href="ui-ux-design-services.html">UI / UX Design</a>
+      <a href="mobile-engineering-services.html">Mobile Engineering</a>
+       <a href="web-development-services.html" >Web Development</a>
+       <a href="intelligence-solution-servcies.html">Intelligence Solution</a>
+        <a href="offshore-staffing-services.html" >Offshore Staffing</a>
+         <a href="ecommerce-marketplace-services.html" >Ecommerce & Marketplace</a>
+          <a href="digital-marketing-services.html" >Digital Marketing</a>
+ </div>
+</li>
         <li><a href="cases.html">Cases</a></li>
-        <li><a href="blog.html">Blog</a></li>
+        <li><a href="blog">Blog</a></li>
         <li><a href="contact.html">Contact</a></li>
          <li><a href="careers.html">Careers</a></li>
       </ul>
@@ -405,7 +386,7 @@
                     </div>
                     <!-- end col-4 -->
                     <div class="col-lg-3 col-md-6 wow fadeInUp">
-                        <h5>Say Hello</h5>
+                        <h4>Say Hello</h4>
                         <address>
                             <a
                                 onclick="handleContactInfo(this)"
@@ -414,7 +395,7 @@
                             ><br />
                              <a onclick="handleContactInfo(this)"
                                 data-contact_info="tel:+919582343413"
-                                >Ph: +91 958-234-3413</a>
+                                >Ph: +91 880-060-9231</a>
                            <br />
                             <a
                                 onclick="handleContactInfo(this)"
@@ -426,7 +407,7 @@
                     <div class="col-12 wow fadeInUp">
                         <div class="sub-footer">
                             <ul>
-                                <li><a href="about-us.html">About Us</a></li>
+                               <li><a href="about-us.html">About</a></li>
                                 <li><a href="careers.html">Careers</a></li>
                                 <li>
                                     <a href="tnc.html">Term & Conditions</a>
@@ -449,6 +430,83 @@
             </div>
             <!-- end container -->
         </footer>
+
+
+<!-- Get Free Qoute -->
+<button class="open-button buttonmodal" onclick="openForm()">Get Free Quote</button>
+
+<div class="form-popup" id="myForm">
+    <form
+    id="contact"
+    name="contact"
+    method="post"
+    action="email.php"
+    class="form-container"
+    >
+    <i class="btn cancel material-icons align-center d-flex justify-content-end mb-3" onclick="closeForm()">close</i>
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        id="name"
+                                        autocomplete="off"
+                                        onfocus="displayFloatingLabels(this)"
+                                        required
+                                    />
+                                    <span>Your name</span>
+                                </div>
+                                <!-- end form-group -->
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        name="email"
+                                        id="email"
+                                        autocomplete="off"
+                                        onfocus="displayFloatingLabels(this)"
+                                        required
+                                    />
+                                    <span>Your e-mail</span>
+                                </div>
+                                <!-- end form-group -->
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        name="subject"
+                                        id="subject"
+                                        autocomplete="off"
+                                        onfocus="displayFloatingLabels(this)"
+                                        required
+                                       
+                                    />
+                                    <span>Subject</span>
+                                </div>
+                                <!-- end form-group -->
+                                <div class="form-group">
+                                    <textarea
+                                        name="message"
+                                        id="message"
+                                        autocomplete="off"
+                                        onfocus="displayFloatingLabels(this)"
+                                        required
+                                    ></textarea>
+                                    <span>Your message</span>
+                                </div>
+                                <!-- end form-group -->
+                                <div class="form-group">
+                                    <button
+                                        id="submit"
+                                        type="submit"
+                                        name="submit"
+                                    >
+                                        <strong
+                                            >Submit Now<b></b> <i></i
+                                        ></strong>
+                                    </button>
+                                </div>
+                               
+                              </form>
+</div>
+<!-- Get Free Qoute -->
         <audio id="hamburger-hover" src="audio/link.mp3" preload="auto"></audio>
 
         <!-- JS FILES -->
