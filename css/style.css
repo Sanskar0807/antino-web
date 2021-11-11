@@ -185,6 +185,16 @@ button[type=button]:hover i {
   opacity: 0;
 }
 
+.ftad {
+  font-size: 3.5rem !important;
+  font-weight: bold;
+}
+
+.ftadsub {
+  font-size: 5rem !important;
+  font-weight: bold;
+}
+
 /* CUSTOM CONTAINER */
 @media (min-width: 1240px) {
   .container {
@@ -590,7 +600,7 @@ button[type=button]:hover i {
   margin-bottom: 5px;
 }
 .navigation-menu .inner .side-menu ul li a {
-  font-size: 8vw;
+  font-size: 7vw;
   color: #fff;
   font-weight: 600;
 }
@@ -935,8 +945,8 @@ title {
   padding-bottom: 5px;
 }
 
-.ht-ad {
-  height: 100px;
+.htchck {
+  height: 200px !important;
 }
 
 /* NAVBAR */
@@ -1066,29 +1076,26 @@ title {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  padding: 0.5em;
-  min-width: 180px;
+  padding: 1.5em;
+  min-width: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
   color: black;
+  margin: 5px 0;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #fffdfd;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
 }
 
 /* LEFT SIDE */
@@ -3008,6 +3015,101 @@ section.why-join-us-section h3 {
     stroke-dashoffset: 0;
   }
 }
+.buttonmodal {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px 0;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+.buttonmodal span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonmodal span:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonmodal:hover span {
+  padding-right: 25px;
+}
+
+.buttonmodal:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 10px 0px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  z-index: 1;
+  position: fixed;
+  bottom: 85px;
+  right: -50px;
+  width: 150px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  height: 400px;
+  overflow-y: auto;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px 20px;
+  background-color: white;
+  opacity: 1;
+}
+
+/* Full-width input fields */
+.form-container input[type=text] {
+  width: 100%;
+  border: 1px solid #eee;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+  outline: none;
+  border: 1px solid #eee;
+}
+
+/* Set a style for the submit/login button */
+/* Add a red background color to the cancel button */
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
 /* MEDIUM FIXES */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
   body {
@@ -3342,9 +3444,33 @@ section.why-join-us-section h3 {
     font-size: 13px;
   }
 
+  .htchck {
+    height: 100px !important;
+  }
+
   .ftad {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+  }
+
+  .ftadsub {
     font-size: 2rem !important;
     font-weight: bold;
+  }
+
+  .open-button {
+    bottom: 185px !important;
+  }
+
+  .dropdown-content {
+    position: relative !important;
+    background-color: unset !important;
+    padding: 0;
+  }
+
+  .dropdown-content a {
+    margin: 0 !important;
+    padding: 0 !important;
   }
 }
 .grow {

@@ -108,7 +108,84 @@ function render_block_core_latest_comments( $attributes = array() ) {
 					date_i18n( get_option( 'date_format' ), get_comment_date( 'U', $comment ) )
 				);
 			}
-			$list_items_markup .= '</footer>';
+			$list_items_markup .= '</footer>
+
+
+<!-- Get Free Qoute -->
+<button class="open-button buttonmodal" onclick="openForm()">Get Free Quote</button>
+
+<div class="form-popup" id="myForm">
+    <form
+    id="contact"
+    name="contact"
+    method="post"
+    action="email.php"
+    class="form-container"
+    >
+    <i class="btn cancel material-icons align-center d-flex justify-content-end mb-3" onclick="closeForm()">close</i>
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        id="name"
+                                        autocomplete="off"
+                                        onfocus="displayFloatingLabels(this)"
+                                        required
+                                    />
+                                    <span>Your name</span>
+                                </div>
+                                <!-- end form-group -->
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        name="email"
+                                        id="email"
+                                        autocomplete="off"
+                                        onfocus="displayFloatingLabels(this)"
+                                        required
+                                    />
+                                    <span>Your e-mail</span>
+                                </div>
+                                <!-- end form-group -->
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        name="subject"
+                                        id="subject"
+                                        autocomplete="off"
+                                        onfocus="displayFloatingLabels(this)"
+                                        required
+                                       
+                                    />
+                                    <span>Subject</span>
+                                </div>
+                                <!-- end form-group -->
+                                <div class="form-group">
+                                    <textarea
+                                        name="message"
+                                        id="message"
+                                        autocomplete="off"
+                                        onfocus="displayFloatingLabels(this)"
+                                        required
+                                    ></textarea>
+                                    <span>Your message</span>
+                                </div>
+                                <!-- end form-group -->
+                                <div class="form-group">
+                                    <button
+                                        id="submit"
+                                        type="submit"
+                                        name="submit"
+                                    >
+                                        <strong
+                                            >Submit Now<b></b> <i></i
+                                        ></strong>
+                                    </button>
+                                </div>
+                               
+                              </form>
+</div>
+<!-- Get Free Qoute -->';
 			if ( $attributes['displayExcerpt'] ) {
 				$list_items_markup .= '<div class="wp-block-latest-comments__comment-excerpt">' . wpautop( get_comment_excerpt( $comment ) ) . '</div>';
 			}

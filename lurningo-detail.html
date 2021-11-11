@@ -74,6 +74,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link  href="css/style.css"  rel="stylesheet" />
          <link  href="css/custom.css"  rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
         <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver" async defer ></script>
         <!-- the iolazy load library -->
@@ -172,22 +173,22 @@
                <div class="main-menu">
       <ul>
         <li><a href="about-us.html">About</a></li>
+        <li class="dropdown"><a class="dropbtn">Services</a>
+ <div class="dropdown-content">
+   <a href="tech-consulting-services.html" >Technology Consulting</a>
+     <a href="ui-ux-design-services.html">UI / UX Design</a>
+      <a href="mobile-engineering-services.html">Mobile Engineering</a>
+       <a href="web-development-services.html" >Web Development</a>
+       <a href="intelligence-solution-servcies.html">Intelligence Solution</a>
+        <a href="offshore-staffing-services.html" >Offshore Staffing</a>
+         <a href="ecommerce-marketplace-services.html" >Ecommerce & Marketplace</a>
+          <a href="digital-marketing-services.html" >Digital Marketing</a>
+ </div>
+</li>
         <li><a href="cases.html">Cases</a></li>
         <li><a href="blog">Blog</a></li>
         <li><a href="contact.html">Contact</a></li>
          <li><a href="careers.html">Careers</a></li>
-         <li class="dropdown"><a class="dropbtn">Services</a>
-  <div class="dropdown-content">
-    <a href="tech-consulting-services.html" >Technology Consulting</a>
-      <a href="ui-ux-design-services.html">UI / UX Design</a>
-       <a href="mobile-engineering-services.html">Mobile Engineering</a>
-        <a href="web-development-services.html" >Web Development</a>
-        <a href="intelligence-solution-servcies.html">Intelligence Solution</a>
-         <a href="offshore-staffing-services.html" >Offshore Staffing</a>
-          <a href="ecommerce-marketplace-services.html" >Ecommerce & Marketplace</a>
-           <a href="digital-marketing-services.html" >Digital Marketing</a>
-  </div>
-</li>
       </ul>
     </div>
                 <!-- end main-menu -->
@@ -421,6 +422,83 @@
             </div>
             <!-- end container -->
         </footer>
+
+
+<!-- Get Free Qoute -->
+<button class="open-button buttonmodal" onclick="openForm()">Get Free Quote</button>
+
+<div class="form-popup" id="myForm">
+    <form
+    id="contact"
+    name="contact"
+    method="post"
+    action="email.php"
+    class="form-container"
+    >
+    <i class="btn cancel material-icons align-center d-flex justify-content-end mb-3" onclick="closeForm()">close</i>
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        id="name"
+                                        autocomplete="off"
+                                        onfocus="displayFloatingLabels(this)"
+                                        required
+                                    />
+                                    <span>Your name</span>
+                                </div>
+                                <!-- end form-group -->
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        name="email"
+                                        id="email"
+                                        autocomplete="off"
+                                        onfocus="displayFloatingLabels(this)"
+                                        required
+                                    />
+                                    <span>Your e-mail</span>
+                                </div>
+                                <!-- end form-group -->
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        name="subject"
+                                        id="subject"
+                                        autocomplete="off"
+                                        onfocus="displayFloatingLabels(this)"
+                                        required
+                                       
+                                    />
+                                    <span>Subject</span>
+                                </div>
+                                <!-- end form-group -->
+                                <div class="form-group">
+                                    <textarea
+                                        name="message"
+                                        id="message"
+                                        autocomplete="off"
+                                        onfocus="displayFloatingLabels(this)"
+                                        required
+                                    ></textarea>
+                                    <span>Your message</span>
+                                </div>
+                                <!-- end form-group -->
+                                <div class="form-group">
+                                    <button
+                                        id="submit"
+                                        type="submit"
+                                        name="submit"
+                                    >
+                                        <strong
+                                            >Submit Now<b></b> <i></i
+                                        ></strong>
+                                    </button>
+                                </div>
+                               
+                              </form>
+</div>
+<!-- Get Free Qoute -->
         <!-- end footer -->
         <audio id="hamburger-hover" src="audio/link.mp3" preload="auto"></audio>
 
