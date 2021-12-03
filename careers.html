@@ -75,6 +75,13 @@
     <link href="css/custom.css" rel="stylesheet" />
 
     <script src="https://cdn.jsdelivr.net/npm/iolazyload@2.1.0/dist/js/iolazy.min.js"></script>
+    <script>
+      function changeLabel(e){
+        let labelUpload = document.getElementsByClassName("custom-file-label")[0];
+        let nameArr = e.value.split('\\');
+        labelUpload.innerHTML = nameArr[nameArr.length-1];
+      }
+    </script>
   </head>
   <body>
     <div class="preloader d-none">
@@ -1160,7 +1167,7 @@
             <form
               id="contact"
               name="contact"
-              method="POST"
+              method="GET"
               action="applyPost.php"
               enctype="multipart/form-data"
             >
@@ -1346,6 +1353,7 @@
                       name="resume"
                       accept=".doc,.docx, .pdf"
                       required
+                      onchange="changeLabel(this)"
                     />
                     <label class="custom-file-label" for="customFile"
                       >Upload CV</label

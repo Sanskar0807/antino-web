@@ -2973,6 +2973,11 @@ section.why-join-us-section {
 .content-land {
   line-height: 1.2 !important;
 }
+.carousel-caption {
+  top: 100px !important;
+  left: 2% !important;
+  // left:  !important;
+}
 
 /* ANIMATIONS */
 @keyframes countdown {
@@ -3241,6 +3246,12 @@ section.why-join-us-section {
   .job-opening {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+  .web-box {
+    display: none;
+  }
+  .mob-box {
+    display: block !important;
   }
 }
 
