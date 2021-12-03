@@ -3006,6 +3006,11 @@ section.why-join-us-section h3 {
   line-height: 1.2 !important;
 }
 
+.carousel-caption {
+  top: 100px !important;
+  left: 2% !important;
+}
+
 /* ANIMATIONS */
 @keyframes countdown {
   from {
@@ -3282,6 +3287,14 @@ section.why-join-us-section h3 {
   .job-opening {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .web-box {
+    display: none;
+  }
+
+  .mob-box {
+    display: block !important;
   }
 }
 /* RESPONSIVE MOBILE FIXES */
