@@ -36,7 +36,7 @@ $email))
 
 if( empty($errors))
 {
-$path = 'upload/' . $_FILES["resume"]["name"];
+$path = 'upload/'.$_FILES["resume"]["name"];
 move_uploaded_file($cvfile, $path);
 $to = $myemail;
 $email_subject = "Career form submission: $name";
