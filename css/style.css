@@ -527,7 +527,7 @@ button[type=button]:hover i {
   flex-direction: column;
   justify-content: center;
   position: fixed;
-  right: calc(-100% + -200px);
+  right: calc(-100% - 200px);
   top: 0;
   z-index: 2;
   background: #282828;
@@ -1454,10 +1454,12 @@ title {
 }
 .page-header figure {
   width: 100%;
+  height: 100vh;
   margin: 0;
 }
 .page-header figure img {
   width: 100%;
+  height: 100vh;
 }
 
 /* ABOUT INTRO */
@@ -1478,7 +1480,7 @@ title {
 }
 .about-intro p:nth-child(2) {
   margin-bottom: 30px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .about-intro .divider {
   border-top: 1px solid rgba(40, 40, 40, 0.1);
@@ -1946,24 +1948,26 @@ title {
   width: 100%;
   display: block;
   margin-bottom: 20px;
+  margin-top: 35px;
+  border-radius: 25px;
 }
 .team figure img:hover {
   cursor: pointer !important;
 }
 .team figure figcaption {
   display: block;
-  margin: 0;
+  margin-bottom: 0px;
 }
 .team figure figcaption span {
   display: block;
   font-size: 14px;
   opacity: 0.5;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .team figure figcaption h5 {
   display: block;
   font-weight: 600;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 .team figure figcaption a {
   color: #fff;
@@ -2043,11 +2047,14 @@ title {
   flex-wrap: wrap;
 }
 .post-header .post-image {
-  width: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
   margin: 0;
 }
 .post-header .post-image img {
-  width: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
+  background-size: auto;
 }
 
 .post-body {
@@ -2376,11 +2383,14 @@ title {
 }
 .post-sticky .post-image {
   width: 100%;
+  height: 100vh;
   margin-bottom: 0;
 }
 .post-sticky .post-image img {
   width: 100%;
+  height: 100vh;
   opacity: 0.5;
+  object-fit: cover;
 }
 .post-sticky .post-content {
   width: 100%;
@@ -3423,10 +3433,6 @@ section.why-join-us-section h3 {
     font-size: 8vw;
   }
 
-  .about-intro ul.careers-bullet li p {
-    font-weight: 600;
-  }
-
   .main-services .titles {
     padding: 0;
   }
@@ -3564,6 +3570,23 @@ section.why-join-us-section h3 {
 
 .ht-ad {
   height: unset !important;
+}
+
+@media screen and (max-width: 768px) {
+  #cases-figure {
+    height: auto !important;
+  }
+  #cases-figure img {
+    height: auto !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #techo {
+    height: auto !important;
+  }
+  #techo img {
+    height: auto !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
