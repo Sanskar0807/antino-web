@@ -3756,4 +3756,19 @@ section.why-join-us-section h3 {
   transform: scale(1.1);
 }
 
+#mobile {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  #mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #desktop {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

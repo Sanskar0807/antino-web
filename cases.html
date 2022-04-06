@@ -121,15 +121,41 @@
         <!-- end transition-overlay -->
         <div class="navigation-menu">
             <div class="inner">
-               <div class="side-menu">
-      <ul>
-        <li><a href="about-us.html">About</a></li>
-        <li><a href="cases.html">Cases</a></li>
-        <li><a href="blog">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-         <li><a href="careers.html">Careers</a></li>
-      </ul>
-  </div>
+            <div class="side-menu accordianNav">
+                <ul>
+                  <li><a href="about-us.html">About</a></li>
+                    <li class="dropdown">
+                      <h5 class="dropbtn" id="dropbtn"><span>Services</span></h5>
+                      <script>
+                        $(".accordianNav dropbtn").click(function() {
+                          $("dropbtn").removeClass("active");
+                          $(".accordianNav ul ul").slideUp();
+                          if (!$(this).next().is(":visible")) {
+                              $(this).next().slideDown();
+                              $(this).addClass("active");
+                          }
+                        })
+                      </script>
+                      <div class="dropdown-content" id="dropdown-content">
+                        <ul style="margin-right:8%">
+                          <li><a href="tech-consulting-services.html" >Technology Consulting</a></li>
+                          <li><a href="ui-ux-design-services.html">UI / UX Design</a></li>
+                          <li><a href="mobile-engineering-services.html">Mobile Engineering</a></li>
+                          <li><a href="web-development-services.html" >Web Development</a></li>
+                          <li><a href="intelligence-solution-servcies.html">Intelligence Solution</a></li>
+                          <li><a href="offshore-staffing-services.html" >Offshore Staffing</a></li>
+                          <li><a href="ecommerce-marketplace-services.html" >Ecommerce & Marketplace</a></li>
+                          <li><a href="digital-marketing-services.html" >Digital Marketing</a></li>
+                        </ul>
+                        
+                      </div>
+                    </li>
+                  <li><a href="cases.html">Cases</a></li>
+                  <li><a href="blog">Blog</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="careers.html">Careers</a></li>
+                </ul>
+            </div>
                 <!-- end side-menu -->
                 <div class="sides">
                     <!-- end map -->
@@ -342,8 +368,8 @@
                                 class="project-image reveal-effect masker wow"
                             >
                                 <!-- <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Ontic@2x.png" alt="Image" /> -->
-                                <a href="images/Frame 2159.jpg" class="progressive replace">
-                                    <img src="images/Frame 2159.jpg" class="preview" alt="image"  loading="lazy" />
+                                <a href="images/zee.png" class="progressive replace">
+                                    <img src="images/zee.png" class="preview" alt="image"  loading="lazy" />
                                 </a>
                             </figure>
                             <div class="project-content">

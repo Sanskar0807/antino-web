@@ -3712,3 +3712,19 @@ section.why-join-us-section {
     transform: scale(1.1);
   }
 }
+
+#mobile {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  #mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #desktop {
+    display: none;
+  }
+}
+

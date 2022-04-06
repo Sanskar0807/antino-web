@@ -3528,10 +3528,15 @@ function wp_handle_comment_submission( $comment_data ) {
 	$comment_type = 'comment';
 
 	if ( get_option( 'require_name_email' ) && ! $user->exists() ) {
+$pattern = "/[a-zA-Z ]+/";
+
 		if ( '' == $comment_author_email || '' == $comment_author ) {
 			return new WP_Error( 'require_name_email', __( '<strong>Error</strong>: Please fill the required fields (name, email).' ), 200 );
 		} elseif ( ! is_email( $comment_author_email ) ) {
 			return new WP_Error( 'require_valid_email', __( '<strong>Error</strong>: Please enter a valid email address.' ), 200 );
+		}
+		elseif( !preg_match($pattern, $comment_author_name)){
+			return new WP_Error( 'require_name_email', __( '<strong>Error</strong>: Please Enter a Valid name' ), 200 );
 		}
 	}
 

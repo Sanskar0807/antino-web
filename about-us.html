@@ -139,9 +139,35 @@
         <!-- end transition-overlay -->
         <div class="navigation-menu">
             <div class="inner">
-               <div class="side-menu">
+               	<div class="side-menu accordianNav">
       <ul>
         <li><a href="about-us.html">About</a></li>
+          <li class="dropdown">
+            <h5 class="dropbtn" id="dropbtn"><span>Services</span></h5>
+            <script>
+              $(".accordianNav dropbtn").click(function() {
+                $("dropbtn").removeClass("active");
+                $(".accordianNav ul ul").slideUp();
+                if (!$(this).next().is(":visible")) {
+                    $(this).next().slideDown();
+                    $(this).addClass("active");
+                }
+              })
+            </script>
+            <div class="dropdown-content" id="dropdown-content">
+              <ul style="margin-right:8%">
+                <li><a href="tech-consulting-services.html" >Technology Consulting</a></li>
+                <li><a href="ui-ux-design-services.html">UI / UX Design</a></li>
+                <li><a href="mobile-engineering-services.html">Mobile Engineering</a></li>
+                <li><a href="web-development-services.html" >Web Development</a></li>
+                <li><a href="intelligence-solution-servcies.html">Intelligence Solution</a></li>
+                <li><a href="offshore-staffing-services.html" >Offshore Staffing</a></li>
+                <li><a href="ecommerce-marketplace-services.html" >Ecommerce & Marketplace</a></li>
+                <li><a href="digital-marketing-services.html" >Digital Marketing</a></li>
+              </ul>
+              
+            </div>
+          </li>
         <li><a href="cases.html">Cases</a></li>
         <li><a href="blog">Blog</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -660,26 +686,7 @@
                         </figure>
                     </div>
                     <!-- end col-3 -->
-                    <div class="col-lg-3 col-6">
-                        <figure>
-                            <img
-                                onclick="handleLinkedInLinks(this)"
-                                data-linkedin-link="https://www.linkedin.com/in/ashish-gupta-2265ba103/"
-                                src="images/AshishKumar.png"
-                                class="lazyload"
-                                alt="Image"
-                            />
-                            <figcaption>
-                                <h5>Ashish Gupta</h5>
-                                <span>Co-founder & CTO</span>
-                                <a
-                                    onclick="handleLinkedInLinks(this)"
-                                    data-linkedin-link="https://www.linkedin.com/in/ashish-gupta-2265ba103/"
-                                    >Linkedin</a
-                                >
-                            </figcaption>
-                        </figure>
-                    </div>
+
                     <!-- end col-3 -->
                   
                     <!-- end col-3 -->
@@ -690,7 +697,7 @@
                           class="lazyload" />
                         <figcaption>
                           <h5>Rajesh Kumar</h5>
-                          <span>VP Operations </span>
+                          <span>Co-Founder & COO at Antino </span>
                           <a onclick="handleLinkedInLinks(this)" data-linkedin-link="https://www.linkedin.com/in/rajesh-kumar-2b4963188/">Linkedin</a>
                         </figcaption>
                       </figure>
@@ -724,6 +731,28 @@
                       </figure>
                     </div>
                     <!-- end col-3 -->
+                                        <div class="col-lg-3 col-6">
+                        <figure>
+                            <img
+                                onclick="handleLinkedInLinks(this)"
+                                data-linkedin-link="https://www.linkedin.com/in/bharatht1007/"
+                                src="images/BHARATH.png"
+                                class="lazyload"
+                                alt="Image"
+                                style="height:120%"
+                          
+                            />
+                            <figcaption>
+                                <h5 >Bharath</h5>
+                                <span>Advisory Board Member</span>
+                                <a
+                                    onclick="handleLinkedInLinks(this)"
+                                    data-linkedin-link="https://www.linkedin.com/in/bharatht1007/"
+                                    >Linkedin</a
+                                >
+                            </figcaption>
+                        </figure>
+                    </div>
 
                     <div class="col-lg-3 col-6">
                       <figure>

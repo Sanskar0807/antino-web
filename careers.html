@@ -110,9 +110,62 @@
     <!-- end transition-overlay -->
     <div class="navigation-menu">
       <div class="inner">
-        <div class="side-menu">
+        <div class="side-menu accordianNav">
           <ul>
             <li><a href="about-us.html">About</a></li>
+            <li class="dropdown">
+              <h5 class="dropbtn" id="dropbtn"><span>Services</span></h5>
+              <script>
+                $(".accordianNav dropbtn").click(function () {
+                  $("dropbtn").removeClass("active");
+                  $(".accordianNav ul ul").slideUp();
+                  if (!$(this).next().is(":visible")) {
+                    $(this).next().slideDown();
+                    $(this).addClass("active");
+                  }
+                });
+              </script>
+              <div class="dropdown-content" id="dropdown-content">
+                <ul style="margin-right: 8%">
+                  <li>
+                    <a href="tech-consulting-services.html"
+                      >Technology Consulting</a
+                    >
+                  </li>
+                  <li>
+                    <a href="ui-ux-design-services.html">UI / UX Design</a>
+                  </li>
+                  <li>
+                    <a href="mobile-engineering-services.html"
+                      >Mobile Engineering</a
+                    >
+                  </li>
+                  <li>
+                    <a href="web-development-services.html">Web Development</a>
+                  </li>
+                  <li>
+                    <a href="intelligence-solution-servcies.html"
+                      >Intelligence Solution</a
+                    >
+                  </li>
+                  <li>
+                    <a href="offshore-staffing-services.html"
+                      >Offshore Staffing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="ecommerce-marketplace-services.html"
+                      >Ecommerce & Marketplace</a
+                    >
+                  </li>
+                  <li>
+                    <a href="digital-marketing-services.html"
+                      >Digital Marketing</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
             <li><a href="cases.html">Cases</a></li>
             <li><a href="blog">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -1460,8 +1513,6 @@
         Something went wrong, try refreshing and submitting the form again.
       </div>
     </div>
-  
-
 
     <section class="our-awards">
       <div class="container">
@@ -1631,9 +1682,16 @@
             <!-- end career -->
           </div>
           <!-- end col-12 -->
-          <div class="container" >
+          <div id="desktop" class="container">
             <div class="row no-gutters">
-              <div class="col" style="width:100% !important; height:100%  !important; overflow: hidden;">
+              <div
+                class="col"
+                style="
+                  width: 100% !important;
+                  height: 100% !important;
+                  overflow: hidden;
+                "
+              >
                 <img
                   src="images/MicrosoftTeams-image (10).png"
                   class="gallery-image"
@@ -1648,7 +1706,14 @@
               <img src="images/MicrosoftTeams-image (15).png" alt="Italian Trulli">
             </div>  -->
 
-              <div class="col" style="width:100% !important; height:100%  !important; overflow: hidden;">
+              <div
+                class="col"
+                style="
+                  width: 100% !important;
+                  height: 100% !important;
+                  overflow: hidden;
+                "
+              >
                 <img
                   src="images/MicrosoftTeams-image (9).png"
                   style="height: 250px; width: 100%; object-fit: cover"
@@ -1658,7 +1723,14 @@
               </div>
             </div>
             <div class="row no-gutters">
-              <div class="col-3" style="width:100% !important; height:100%  !important; overflow: hidden;">
+              <div
+                class="col-3"
+                style="
+                  width: 100% !important;
+                  height: 100% !important;
+                  overflow: hidden;
+                "
+              >
                 <img
                   src="images/MicrosoftTeams-image (13).png"
                   style="height: 500px !important; object-fit: cover"
@@ -1666,7 +1738,14 @@
                   alt="Italian Trulli"
                 />
               </div>
-              <div class="col-9" style="width:100% !important; height:100%  !important; overflow: hidden;">
+              <div
+                class="col-9"
+                style="
+                  width: 100% !important;
+                  height: 100% !important;
+                  overflow: hidden;
+                "
+              >
                 <div class="row no-gutters">
                   <div class="col-6">
                     <img
@@ -1676,7 +1755,14 @@
                       alt="Italian Trulli"
                     />
                   </div>
-                  <div class="col-6" style="width:100% !important; height:100%  !important; overflow: hidden;">
+                  <div
+                    class="col-6"
+                    style="
+                      width: 100% !important;
+                      height: 100% !important;
+                      overflow: hidden;
+                    "
+                  >
                     <img
                       src="images/MicrosoftTeams-image (12).png"
                       style="height: 250px; width: 100%; object-fit: cover"
@@ -1684,15 +1770,35 @@
                       alt="Italian Trulli"
                     />
                   </div>
-                  <div class="col-6" style="width:100% !important; height:100%  !important; overflow: hidden;">
+                  <div
+                    class="col-6"
+                    style="
+                      width: 100% !important;
+                      height: 100% !important;
+                      overflow: hidden;
+                    "
+                  >
                     <img
                       src="images/MicrosoftTeams-image (14).png"
-                      style="height: 250px; width: 100%; object-fit: cover"
+                      style="
+                        height: 250px;
+                        width: 100%;
+                        object-fit: cover;
+                        display: flex;
+                        flex-wrap: wrap;
+                      "
                       class="gallery-image"
                       alt="Italian Trulli"
                     />
                   </div>
-                  <div class="col-6" style="width:100% !important; height:100%  !important; overflow: hidden;">
+                  <div
+                    class="col-6"
+                    style="
+                      width: 100% !important;
+                      height: 100% !important;
+                      overflow: hidden;
+                    "
+                  >
                     <img
                       src="images/MicrosoftTeams-image (11).png"
                       style="height: 250px; width: 100%; object-fit: cover"
@@ -1705,7 +1811,17 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-5 wow fadeInUp " style="margin-top: 35px;">
+
+        <div id="mobile" class="container">
+          <img src="images/MicrosoftTeams-image (10).png" alt="img" />
+          <img src="images/MicrosoftTeams-image (9).png" alt="img" />
+          <img src="images/MicrosoftTeams-image (13).png" alt="img" />
+          <img src="images/MicrosoftTeams-image (8).png" alt="img" />
+          <img src="images/MicrosoftTeams-image (11).png" alt="img" />
+          <img src="images/MicrosoftTeams-image (12).png" alt="img" />
+          <img src="images/MicrosoftTeams-image (14).png" alt="img" />
+        </div>
+        <div class="col-lg-5 wow fadeInUp" style="margin-top: 35px">
           <figure class="logo">
             <a href="/"
               ><img
@@ -1725,12 +1841,12 @@
         </address>-->
         </div>
         <!-- end col-4 -->
-        <div class="col-lg-3 col-md-6 wow fadeInUp " style="float: right;">
+        <div class="col-lg-3 col-md-6 wow fadeInUp" style="float: right">
           <h4>Say Hello</h4>
           <address>
             <a
               onclick="handleContactInfo(this)"
-              data-contact_info="mailto:+info@antino.io"
+              data-contact_info="mailto:info@antino.io"
               >info@antino.io</a
             ><br />
             <a
