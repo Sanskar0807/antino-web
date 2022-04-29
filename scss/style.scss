@@ -563,7 +563,8 @@ button[type="button"] {
     .inner {
         display: flex;
         flex-wrap: wrap;
-        align-content: center;
+        height: 100%;
+        align-content: flex-start;
         padding-right: 10%;
         // padding: 0 10%;
         color: #fff;
@@ -586,7 +587,7 @@ button[type="button"] {
                     list-style: none;
                     margin-bottom: 5px;
                     a {
-                        font-size: 7vw;
+                        font-size: 18px;
                         color: #fff;
                         font-weight: 600;
                     }
@@ -896,7 +897,7 @@ title {
 
         h2 {
             font-weight: 700;
-            font-size: 8vw;
+            font-size: 3.5rem;
             margin-bottom: 20px;
         }
         h4 {
@@ -910,7 +911,7 @@ title {
         // height: 80px;
         margin-top: 50px;
         h1 {
-            font-size: 8vw;
+            font-size: 3.5rem;
             font-weight: 800;
             line-height: 1;
             margin: 0;
@@ -1034,7 +1035,7 @@ title {
 }
 
 .dropbtn {
-    font-size: 7vw;
+    font-size: 20px;
     font-weight: 600;
     border: none;
 }
@@ -1464,7 +1465,7 @@ title {
     flex-wrap: wrap;
     padding-top: 150px;
     h2 {
-        font-size: 4vw;
+        font-size: 3.5rem;
         font-weight: 700;
         margin-bottom: 50px;
     }
@@ -1501,6 +1502,9 @@ title {
             display: inline-block;
         }
     }
+    .col-lg-3 {
+        cursor: pointer;
+    }
     article {
         width: 100%;
         float: left;
@@ -1527,7 +1531,6 @@ title {
             font-weight: 600;
             font-size: 18px;
             color: white;
-            cursor: pointer;
             &:hover {
                 text-decoration: none;
             }
@@ -1853,6 +1856,7 @@ title {
         margin: 0;
         padding: 0;
         text-align: center;
+        display: flex;
         li {
             width: 20%;
             float: left;
@@ -2476,7 +2480,7 @@ title {
         margin-bottom: 20px;
     }
     h2 {
-        font-size: 6vw;
+        font-size: 3.5rem;
         font-weight: 800;
         margin-bottom: 50px;
     }
@@ -2744,9 +2748,6 @@ title {
         font-size: 4vw;
         font-weight: 700;
         margin-bottom: 50px;
-        h2 {
-            font-size: unset !important;
-        }
     }
     a {
         cursor: pointer !important;
@@ -3109,10 +3110,8 @@ section.why-join-us-section {
     bottom: 0;
     right: 15px;
     border: 3px solid #f1f1f1;
-
     z-index: 9;
     height: 400px;
-    overflow-y: auto;
 }
 
 /* Add styles to the form container */
@@ -3411,7 +3410,7 @@ section.why-join-us-section {
         height: 65px;
     }
     .about-intro h2 {
-        font-size: 8vw;
+        font-size: 3.5rem;
     }
     // .about-intro ul.careers-bullet li p {
     //   font-weight: 600;
@@ -3494,11 +3493,12 @@ section.why-join-us-section {
         border-right: 2px solid white;
         float: right;
         position: relative;
-        top: 14px;
+        top: 50%;
         right: -8px;
         transform: rotate(45deg);
         transform-origin: center;
         z-index: 2;
+        margin-top: 7px;
     }
     .accordianNav .dropbtn.active {
         color: white;
@@ -3556,9 +3556,7 @@ section.why-join-us-section {
     .dropdown-content a {
         margin: 0 !important;
         padding: 0 !important;
-        // border-bottom: 1px solid #000;
-
-        color: white !important;
+        color: #8b8b8b !important;
         size: 1px;
         &:hover {
             text-decoration: none;
@@ -3744,5 +3742,6 @@ section.why-join-us-section {
         right: -20px;
         background-color: white;
         margin-right: 20px;
+        cursor: pointer;
     }
 }

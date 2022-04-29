@@ -636,8 +636,9 @@ button[type="button"]:hover b {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  height: 100%;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
   padding-right: 10%;
   color: #fff;
   -webkit-transform: translateX(40%);
@@ -674,7 +675,7 @@ button[type="button"]:hover b {
 }
 
 .navigation-menu .inner .side-menu ul li a {
-  font-size: 7vw;
+  font-size: 18px;
   color: #fff;
   font-weight: 600;
 }
@@ -1059,7 +1060,7 @@ title {
 
 .header .page-title h2 {
   font-weight: 700;
-  font-size: 8vw;
+  font-size: 3.5rem;
   margin-bottom: 20px;
 }
 
@@ -1075,7 +1076,7 @@ title {
 }
 
 .header .headlines h1 {
-  font-size: 8vw;
+  font-size: 3.5rem;
   font-weight: 800;
   line-height: 1;
   margin: 0;
@@ -1227,7 +1228,7 @@ title {
 }
 
 .dropbtn {
-  font-size: 7vw;
+  font-size: 20px;
   font-weight: 600;
   border: none;
 }
@@ -1242,7 +1243,7 @@ title {
   position: absolute;
   background-color: #f1f1f1;
   padding: 1.5em;
-  min-width: 250px;
+  width: 275px;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -1743,7 +1744,7 @@ title {
 }
 
 .about-intro h2 {
-  font-size: 4vw;
+  font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 50px;
 }
@@ -1790,6 +1791,10 @@ title {
   display: inline-block;
 }
 
+.main-services .col-lg-3 {
+  cursor: pointer;
+}
+
 .main-services article {
   width: 100%;
   float: left;
@@ -1820,7 +1825,6 @@ title {
   font-weight: 600;
   font-size: 18px;
   color: white;
-  cursor: pointer;
 }
 
 .main-services article a:hover {
@@ -2236,6 +2240,9 @@ title {
   margin: 0;
   padding: 0;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .our-awards ul li {
@@ -2994,7 +3001,7 @@ title {
 }
 
 .work-with-us h2 {
-  font-size: 6vw;
+  font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 50px;
 }
@@ -3316,10 +3323,6 @@ title {
   font-size: 4vw;
   font-weight: 700;
   margin-bottom: 50px;
-}
-
-.job-opening .titles h2 {
-  font-size: unset !important;
 }
 
 .job-opening a {
@@ -3720,7 +3723,6 @@ section.why-join-us-section h3 {
   border: 3px solid #f1f1f1;
   z-index: 9;
   height: 400px;
-  overflow-y: auto;
 }
 
 /* Add styles to the form container */
@@ -3997,7 +3999,7 @@ section.why-join-us-section h3 {
     height: 65px;
   }
   .about-intro h2 {
-    font-size: 8vw;
+    font-size: 3.5rem;
   }
   .main-services .titles {
     padding: 0;
@@ -4075,13 +4077,14 @@ section.why-join-us-section h3 {
     border-right: 2px solid white;
     float: right;
     position: relative;
-    top: 14px;
+    top: 50%;
     right: -8px;
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     -webkit-transform-origin: center;
             transform-origin: center;
     z-index: 2;
+    margin-top: 7px;
   }
   .accordianNav .dropbtn.active {
     color: white;
@@ -4136,7 +4139,7 @@ section.why-join-us-section h3 {
   .dropdown-content a {
     margin: 0 !important;
     padding: 0 !important;
-    color: white !important;
+    color: #8b8b8b !important;
     size: 1px;
   }
   .dropdown-content a:hover {
@@ -4303,5 +4306,19 @@ section.why-join-us-section h3 {
   #desktop {
     display: none;
   }
+}
+
+#myForm .bgn-wf-wrapper {
+  height: 100%;
+  overflow-y: auto;
+}
+
+#myForm i {
+  position: absolute;
+  top: -45px;
+  right: -20px;
+  background-color: white;
+  margin-right: 20px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
