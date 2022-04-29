@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;;;;GAMG",
+    "sources": [
+        "../blog/wp-content/plugins/redux-framework-4/sample/extension/my_extension/my_extension/redux-my-extension.scss"
+    ],
+    "names": [],
+    "file": "redux-my-extension.css"
+}
