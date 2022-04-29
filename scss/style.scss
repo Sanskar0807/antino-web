@@ -554,6 +554,7 @@ button[type="button"] {
             transform: translateX(0);
         }
     }
+
     #map {
         width: 600px;
         height: 450px;
@@ -1391,10 +1392,10 @@ title {
 /* PAGE HEADER */
 .page-header {
     height: 50%;
-    width: 93%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    background: $color-dark;
+    padding: 0px 10px;
     .video-bg {
         width: 100%;
         video {
@@ -3422,6 +3423,7 @@ section.why-join-us-section {
     }
     .about-intro h2 {
         font-size: 8vw;
+        margin-top: 20px;
     }
     .about-intro ul.careers-bullet li p {
         // font-weight: 600;
