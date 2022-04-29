@@ -238,7 +238,7 @@
                <div class="main-menu">
       <ul>
         <li><a href="about-us.html">About</a></li>
-        <li class="dropdown"><a class="dropbtn">Services</a>
+        <li class="dropdown"><a href="#" class="dropbtn">Services</a>
  <div class="dropdown-content">
    <a title="tech-consulting-services" href="tech-consulting-services.html"  >Technology Consulting</a>
      <a href="ui-ux-design-services.html">UI / UX Design</a>
@@ -317,7 +317,7 @@
 
             <div class="page-title">
                 <div class="container">
-                    <h2>Contact</h2>
+                    <h2 class="ftad">Contact</h2>
                     <h4>
                         Get in touch with us if you have any further questions
                         and we'll be happy to help you
@@ -333,7 +333,7 @@
         <section class="contact pt-0">
             <div class="container">
                 <div class="row contact-form-row">
-                     <div class="col-lg-7 wow fadeInUp">
+                     <div class="col-lg-7 wow fadeInDown">
                         <div class="contact-form mt-0">
                             <h5>CONTACT FORM</h5>
                             <form
@@ -442,7 +442,7 @@
                         <h5>CALL US</h5>
                         <address>
                             <a onclick="handleContactInfo(this)"
-                                data-contact_info="tel:+91 880-060-9231"
+                                data-contact_info="tel:+918800609231"
                                 >Ph: +91 880-060-9231</a><br />
                             <a
                                 onclick="handleContactInfo(this)"
@@ -539,7 +539,7 @@
                                 <p>
                                     <a
                                         onclick="handleContactInfo(this)"
-                                        data-contact_info="tel:+1-(202)-952-6818"
+                                        data-contact_info="tel:+1-202-952-6818"
 
                                         ><b>+1-(202)-952-6818</b></a
                                     >
@@ -553,32 +553,33 @@
                                     <img data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/us%402x.png" alt="Image"
                                     class="lazyload" />
                                 </figure>
-                                <a href="landingpage.html">
+                                <a href="Web-App-Development-Company-USA.html">
                                   <h5 class="pl-0 text-left">UNITED STATES</h5>
                                 </a>
+                                    <h5 class="pl-0 text-left">Registered Address -</h5> 
                                 
                                 <p
                                     class="pl-0 text-left pr-2 contact-address"
                                    
                                 >
-                                    <h5 class="pl-0 text-left">Registered Address -</h5> 
                                     
-                                    Antino Inc. 16192 Coastal Highway, Lewes,Delware 19958, 
-                                    Country of Sussex
+                                    Antino Inc., 16192 Coastal Highway, Lewes, Delaware 19958, 
+                                    County of Sussex
                                 </p>
+                                    <h5 class="pl-0 text-left">Corporate Address -</h5>
+
                                 <p
                                     class="pl-0 text-left pr-0 contact-address"
                                    
                                 >
-                                    <h5 class="pl-0 text-left">Corporate Address -</h5>
                                     
                                     6698 Merwell St.
-                                    San Diego, CA 92122 United States
+                                    San Diego, CA 92122, United States
                                 </p>
                                 <p><a
                                         onclick="handleContactInfo(this)"
                                         data-contact_info="tel:+1-(202)-952-6818"
-                                        ><b>+1-(202)-952-6818</b></p>
+                                        ><b>+1-(202)-952-6818</b></a></p>
                             </li>
                             <li
                                 class="wow fadeInUp text-left differentiator-5"
@@ -612,7 +613,7 @@
                 <div class="container">
                     <div  ><a
                         onclick="handleContactInfo(this)"
-                        data-contact_info="mailto:+info@antino.io"
+                        data-contact_info="mailto:info@antino.io"
                         >
                             <button
                                 id="submit"
@@ -636,7 +637,7 @@
                     <div class="col-12">
                         <div class="career wow fadeInUp">
                             <h6>CAREERS AT ANTINO LABS</h6>
-                            <h2>
+                            <h2 class="ftad">
                                 If you are innovative and passionate about
                                 digital possibilities, we would love to work
                                 with you
@@ -677,11 +678,11 @@
                         <address>
                             <a
                                 onclick="handleContactInfo(this)"
-                                data-contact_info="mailto:+info@antino.io"
+                                data-contact_info="mailto:info@antino.io"
                                 >info@antino.io</a
                             ><br />
                              <a onclick="handleContactInfo(this)"
-                                data-contact_info="tel:+919582343413"
+                                data-contact_info="tel:+91 880-060-9231"
                                 >Ph: +91 880-060-9231</a>
                            <br />
                             <a
@@ -743,7 +744,7 @@
     name="BiginWebToContactForm4873289000000737242"
     method="POST"
     enctype="multipart/form-data"
-    onSubmit='javascript:document.charset="UTF-8"; return validateForm4873289000000737242()'
+    onSubmit='javascript:document.charset="UTF-8"; validateForm4873289000000737242()'
     accept-charset="UTF-8"
     style="margin: 0"
   >
@@ -851,7 +852,7 @@
         <div class="bgn-wf-field">
           <input
             name="Email"
-            type="text"
+            type="email"
             maxlength="100"
             value=""
             placeholder=""
@@ -871,7 +872,8 @@
         <div class="bgn-wf-field">
           <input
             name="Mobile"
-            type="text"
+            type="number"
+            minlenght="8"
             maxlength="30"
             value=""
             placeholder=""
@@ -908,7 +910,7 @@
         <div class="bgn-wf-label">Source</div>
         <div class="bgn-wf-field">
           <select
-            name="CONTACTC
+            name="CONTACTC"
             class="mb-3"F1"
             style="
               border: 1px solid #e2e0df;
@@ -946,8 +948,8 @@
         <div class="bgn-wf-label">Status</div>
         <div class="bgn-wf-field">
           <select
-            name="CONTACTC
-            class="mb-3"F5"
+            name="CONTACTC"
+            class="mb-3 F5"
             style="
               border: 1px solid #e2e0df;
               padding: 10px 15px;
@@ -1013,7 +1015,6 @@
           <input
             style="
               margin-bottom: 10px;
-              opacity: ;
               font-size: 13px;
               color: #fff;
               border-radius: 3px;

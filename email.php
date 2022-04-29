@@ -28,7 +28,7 @@ $email_body = "You have received a new message. ".
 $headers = "From: $myemail\n";
 $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
-mail("vinaygupta.iitkgp@gmail.com",$email_subject,$email_body,$headers);
+mail("contact@antino.io",$email_subject,$email_body,$headers);
 mail("info@antino.io",$email_subject,$email_body,$headers);
 //redirect to the 'thank you' page
 header('Location: contact.html');

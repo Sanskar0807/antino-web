@@ -114,7 +114,9 @@
           <ul>
             <li><a href="about-us.html">About</a></li>
             <li class="dropdown">
-              <h5 class="dropbtn" id="dropbtn"><span>Services</span></h5>
+              <h5 class="dropbtn" id="dropbtn">
+                <span>Services</span>
+              </h5>
               <script>
                 $(".accordianNav dropbtn").click(function () {
                   $("dropbtn").removeClass("active");
@@ -271,7 +273,7 @@
           <ul>
             <li><a href="about-us.html">About</a></li>
             <li class="dropdown">
-              <a class="dropbtn">Services</a>
+              <a href="#" class="dropbtn">Services</a>
               <div class="dropdown-content">
                 <a href="tech-consulting-services.html"
                   >Technology Consulting</a
@@ -353,7 +355,7 @@
 
       <div class="page-title">
         <div class="container">
-          <h2>Why Join Us?</h2>
+          <h2 class="ftad">Why Join Us?</h2>
           <h4 class="pr-0">
             Our team is highly adaptable and dynamic and it helps us in
             realizing our targets in a time efficient manner.
@@ -1625,7 +1627,7 @@
               />
               <figcaption>
                 <span>02</span>
-                <h4>Competitve Salaries</h4>
+                <h4>Competitive Salaries</h4>
               </figcaption>
             </figure>
           </div>
@@ -1668,7 +1670,7 @@
           <div class="col-12">
             <div class="career wow fadeInUp">
               <h6>CAREERS AT ANTINO LABS</h6>
-              <h2>
+              <h2 class="ftad">
                 If you are innovative and passionate about digital
                 possibilities, we would love to work with you
               </h2>
@@ -1848,10 +1850,11 @@
               onclick="handleContactInfo(this)"
               data-contact_info="mailto:info@antino.io"
               >info@antino.io</a
-            ><br />
+            >
+            <br />
             <a
               onclick="handleContactInfo(this)"
-              data-contact_info="tel:+18005781250"
+              data-contact_info="tel:+1 880-060-9231"
               >Ph: +1 880-060-9231</a
             >
             <br />
@@ -1910,7 +1913,7 @@
           name="BiginWebToContactForm4873289000000737242"
           method="POST"
           enctype="multipart/form-data"
-          onSubmit='javascript:document.charset="UTF-8"; return validateForm4873289000000737242()'
+          onSubmit='javascript:document.charset="UTF-8"; validateForm4873289000000737242()'
           accept-charset="UTF-8"
           style="margin: 0"
         >
@@ -2021,7 +2024,7 @@
               <div class="bgn-wf-field">
                 <input
                   name="Email"
-                  type="text"
+                  type="email"
                   maxlength="100"
                   value=""
                   placeholder=""
@@ -2041,7 +2044,8 @@
               <div class="bgn-wf-field">
                 <input
                   name="Mobile"
-                  type="text"
+                  type="number"
+                  minlenght="8"
                   maxlength="30"
                   value=""
                   placeholder=""

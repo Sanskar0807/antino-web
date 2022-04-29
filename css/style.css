@@ -189,11 +189,6 @@ button[type="button"]:hover b {
   margin-left: 20px;
 }
 
-button[type="submit"]:hover i,
-button[type="button"]:hover i {
-  opacity: 0;
-}
-
 .ftad {
   font-size: 3.5rem !important;
   font-weight: bold;
@@ -429,11 +424,6 @@ button[type="button"]:hover i {
   position: absolute;
   left: -200px;
   top: 0;
-}
-
-.transition-overlay.active {
-  right: 0;
-  visibility: visible;
 }
 
 /* PRELOADER */
@@ -680,7 +670,7 @@ button[type="button"]:hover i {
 }
 
 .navigation-menu .inner .side-menu ul li a {
-  font-size: 7vw;
+  font-size: 18px;
   color: #fff;
   font-weight: 600;
 }
@@ -941,10 +931,6 @@ title {
   margin-left: 20px;
 }
 
-.custom-link:hover i {
-  opacity: 0;
-}
-
 /* CUSTOM BUTTON */
 .custom-btn {
   display: -ms-flexbox;
@@ -1042,10 +1028,6 @@ title {
   margin-left: 20px;
 }
 
-.custom-btn:hover i {
-  opacity: 0;
-}
-
 /* HEADER */
 .header {
   width: 100%;
@@ -1073,7 +1055,7 @@ title {
 
 .header .page-title h2 {
   font-weight: 700;
-  font-size: 8vw;
+  font-size: 3.5rem;
   margin-bottom: 20px;
 }
 
@@ -1089,7 +1071,7 @@ title {
 }
 
 .header .headlines h1 {
-  font-size: 8vw;
+  font-size: 3.5rem;
   font-weight: 800;
   line-height: 1;
   margin: 0;
@@ -1141,6 +1123,11 @@ title {
 
 .navbar.light .main-menu ul li a:hover:before {
   background: #fff;
+}
+
+.navbar.light .dropdown-content {
+  border: 2px solid white;
+  background-color: #282828;
 }
 
 .navbar .logo {
@@ -1196,11 +1183,11 @@ title {
   display: block;
   position: absolute;
   left: 0;
-  bottom: 9px;
+  bottom: 1px;
   height: 1px;
   width: 0;
-  -webkit-transition: width 0s ease, background 0.25s ease;
-  transition: width 0s ease, background 0.25s ease;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
 }
 
 .navbar .main-menu ul li a:after {
@@ -1208,7 +1195,7 @@ title {
   display: block;
   position: absolute;
   right: 0;
-  bottom: 9px;
+  bottom: 1px;
   height: 1px;
   width: 0;
   background: #282828;
@@ -1226,8 +1213,8 @@ title {
 .navbar .main-menu ul li a:hover:after {
   width: 100%;
   background: transparent;
-  -webkit-transition: all 0s ease;
-  transition: all 0s ease;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
 }
 
 .navbar .hamburger-menu {
@@ -1236,8 +1223,7 @@ title {
 }
 
 .dropbtn {
-  font-size: 7vw;
-  color: #fff;
+  font-size: 20px;
   font-weight: 600;
   border: none;
 }
@@ -1252,7 +1238,7 @@ title {
   position: absolute;
   background-color: #f1f1f1;
   padding: 1.5em;
-  min-width: 250px;
+  width: 275px;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -1264,10 +1250,6 @@ title {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #fffdfd;
 }
 
 .dropdown:hover .dropdown-content {
@@ -1705,7 +1687,6 @@ title {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* ABOUT INTRO */
 }
 
 .US-page-header .video-bg {
@@ -1746,7 +1727,8 @@ title {
   height: 100vh;
 }
 
-.US-page-header .about-intro {
+/* ABOUT INTRO */
+.about-intro {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1756,23 +1738,23 @@ title {
   padding-top: 150px;
 }
 
-.US-page-header .about-intro h2 {
-  font-size: 4vw;
+.about-intro h2 {
+  font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 50px;
 }
 
-.US-page-header .about-intro p {
+.about-intro p {
   line-height: 2;
   margin: 0;
 }
 
-.US-page-header .about-intro p:nth-child(2) {
+.about-intro p:nth-child(2) {
   margin-bottom: 30px;
   font-weight: 400;
 }
 
-.US-page-header .about-intro .divider {
+.about-intro .divider {
   border-top: 1px solid rgba(40, 40, 40, 0.1);
   padding-top: 25px;
 }
@@ -1804,6 +1786,10 @@ title {
   display: inline-block;
 }
 
+.main-services .col-lg-3 {
+  cursor: pointer;
+}
+
 .main-services article {
   width: 100%;
   float: left;
@@ -1830,11 +1816,10 @@ title {
 
 .main-services article a {
   display: block;
-  margin-top: -25px;
+  margin-top: -15px;
   font-weight: 600;
   font-size: 18px;
   color: white;
-  cursor: pointer;
 }
 
 .main-services article a:hover {
@@ -2009,20 +1994,9 @@ title {
   position: relative;
   margin: 15px 0;
   border: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.featured-services figure:hover {
-  background: #fff;
-}
-
-.featured-services figure:hover img {
-  margin: 0;
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
-}
-
-.featured-services figure:hover figcaption {
-  color: #282828;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
 }
 
 .featured-services figure img {
@@ -2062,6 +2036,14 @@ title {
   font-size: 17px;
   font-weight: 600;
   margin-bottom: 0;
+}
+
+.featured-services figure:hover {
+  background: #fff;
+}
+
+.featured-services figure:hover figcaption {
+  color: #282828;
 }
 
 /* RECENT NEWS */
@@ -2253,6 +2235,9 @@ title {
   margin: 0;
   padding: 0;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .our-awards ul li {
@@ -3011,7 +2996,7 @@ title {
 }
 
 .work-with-us h2 {
-  font-size: 6vw;
+  font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 50px;
 }
@@ -3276,11 +3261,11 @@ title {
   display: block;
   position: absolute;
   left: 0;
-  bottom: 8px;
+  bottom: 1px;
   height: 1px;
   width: 0;
-  -webkit-transition: width 0s ease, background 0.25s ease;
-  transition: width 0s ease, background 0.25s ease;
+  -webkit-transition: width 0s ease;
+  transition: width 0s ease;
 }
 
 .footer .sub-footer ul li a:after {
@@ -3288,7 +3273,7 @@ title {
   display: block;
   position: absolute;
   right: 0;
-  bottom: 8px;
+  bottom: 1px;
   height: 1px;
   width: 0;
   background: #282828;
@@ -3306,8 +3291,8 @@ title {
 .footer .sub-footer ul li a:hover:after {
   width: 100%;
   background: transparent;
-  -webkit-transition: all 0s ease;
-  transition: all 0s ease;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
 
 .footer .sub-footer span {
@@ -3333,10 +3318,6 @@ title {
   font-size: 4vw;
   font-weight: 700;
   margin-bottom: 50px;
-}
-
-.job-opening .titles h2 {
-  font-size: unset !important;
 }
 
 .job-opening a {
@@ -3455,19 +3436,6 @@ title {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-#myForm .bgn-wf-wrapper {
-  height: 100%;
-  overflow-y: auto;
-}
-
-#myForm i {
-  position: absolute;
-  top: -45px;
-  right: -20px;
-  background-color: white;
-  margin-right: 20px;
 }
 
 section.why-join-us-section {
@@ -4029,6 +3997,9 @@ section.why-join-us-section h3 {
     font-size: 8vw;
     margin-top: 20px;
   }
+  .about-intro ul.careers-bullet li p {
+    font-size: 3.5rem;
+  }
   .main-services .titles {
     padding: 0;
   }
@@ -4105,13 +4076,14 @@ section.why-join-us-section h3 {
     border-right: 2px solid white;
     float: right;
     position: relative;
-    top: 14px;
+    top: 50%;
     right: -8px;
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
     -webkit-transform-origin: center;
             transform-origin: center;
     z-index: 2;
+    margin-top: 7px;
   }
   .accordianNav .dropbtn.active {
     color: white;
@@ -4166,7 +4138,7 @@ section.why-join-us-section h3 {
   .dropdown-content a {
     margin: 0 !important;
     padding: 0 !important;
-    color: white !important;
+    color: #8b8b8b !important;
     size: 1px;
   }
   .dropdown-content a:hover {
@@ -4209,7 +4181,7 @@ section.why-join-us-section h3 {
   }
 }
 
-.tech .grow {
+.grow {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -4333,5 +4305,19 @@ section.why-join-us-section h3 {
   #desktop {
     display: none;
   }
+}
+
+#myForm .bgn-wf-wrapper {
+  height: 100%;
+  overflow-y: auto;
+}
+
+#myForm i {
+  position: absolute;
+  top: -45px;
+  right: -20px;
+  background-color: white;
+  margin-right: 20px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
