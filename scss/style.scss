@@ -3296,10 +3296,12 @@ section.why-join-us-section {
     input[type="text"] {
         border-radius: 0 !important;
         -webkit-appearance: none;
+        display: none;
     }
     textarea {
         border-radius: 0 !important;
         -webkit-appearance: none;
+        display: none;
     }
     .job-opening {
         padding-left: 3rem;
