@@ -3239,6 +3239,7 @@ section.why-join-us-section {
     }
     .header .page-title h4 {
         padding-right: 0;
+        font-size: 18px;
     }
     .header .tnc-title {
         margin-bottom: 25px !important;
@@ -3370,6 +3371,7 @@ section.why-join-us-section {
     .logos ul li {
         width: 50%;
     }
+
     .logos ul li:nth-child(9) {
         display: none;
     }
@@ -3681,12 +3683,14 @@ section.why-join-us-section {
         text-decoration: underline;
     }
 }
+
 .ht-ad {
     height: unset !important;
 }
 
 // @media screen and (max-width: 768px) {
 //   #cases-figure {
+
 //     height: auto !important;
 //     img {
 //       height: auto !important;
@@ -3711,6 +3715,7 @@ section.why-join-us-section {
 //     }
 //   }
 // }
+
 .gallery-image {
     width: 100% !important;
     height: 250px !important;
