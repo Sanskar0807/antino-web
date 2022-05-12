@@ -103,9 +103,36 @@
   <!-- end transition-overlay -->
   <div class="navigation-menu">
     <div class="inner">
-      <div class="side-menu">
+      <div class="side-menu accordianNav">
         <ul>
           <li><a href="about-us.html">About</a></li>
+          <li class="dropdown">
+            <h5 class="dropbtn" id="dropbtn"><span>Services</span></h5>
+            <script>
+              $(".accordianNav dropbtn").click(function() {
+                $("dropbtn").removeClass("active");
+                $(".accordianNav ul ul").slideUp();
+                if (!$(this).next().is(":visible")) {
+                    $(this).next().slideDown();
+                    $(this).addClass("active");
+                }
+              })
+            </script>
+            <div class="dropdown-content" id="dropdown-content">
+              <ul style="margin-right:8%">
+                <li><a href="tech-consulting-services.html" >Technology Consulting</a></li>
+                <li><a href="ui-ux-design-services.html">UI / UX Design</a></li>
+                <li><a href="mobile-engineering-services.html">Mobile Engineering</a></li>
+                <li><a href="web-development-services.html" >Web Development</a></li>
+                <li><a href="intelligence-solution-servcies.html">Intelligence Solution</a></li>
+                <li><a href="offshore-staffing-services.html" >Offshore Staffing</a></li>
+                <li><a href="ecommerce-marketplace-services.html" >Ecommerce & Marketplace</a></li>
+                <li><a href="digital-marketing-services.html" >Digital Marketing</a></li>
+              </ul>
+              
+            </div>
+          </li>
+
           <li><a href="cases.html">Cases</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -497,7 +524,7 @@
       </p>
       <small>Or</small>
       <p class="mt-3">
-      <p class="mt-3"><a onclick="handleContactInfo(this)" data-contact_info="tel:+1 880-060-9231">+1 800 578 1250</a></p>
+      <p class="mt-3"><a onclick="handleContactInfo(this)" data-contact_info="tel:+1-(202)-952-6818">+1-(202)-952-6818</a></p>
       </p>
     </div>
     <!-- end container -->
@@ -533,59 +560,62 @@
   <!-- end container --> 
 </section>
         <!-- end col-12 -->
-        <div style="display: flex; justify-content: space-evenly; flex-direction: column;">
-          <div class="col-lg-5 wow fadeInUp" >
-          <figure class="logo">
-            <a href="/"><img
-                src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Antinologo2021darkfinal.png"
-                alt="Antino-Logo" />
-            </a>
-          </figure>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="career wow fadeInUp">
+          <h6>CAREERS AT ANTINO LABS</h6>
+          <h2 class="ftad">If you are innovative and passionate about digital possibilities, we would love to work with you</h2>
+          <div class="custom-link"><a href="mailto:careers@antino.io">Apply Now</a> <span></span> <i></i>
         </div>
-        <!-- end col-5 -->
-        <div class="col-lg-4 col-md-6 wow fadeInUp">
-          <!--<h5>Location</h5>
-        <address>
-        Antino Labs<br>
-        248, Tower-B2, Spaze i-Tech Park<br>
-        Sector-49, Sohna Road Gurgaon, India
-        </address>-->
-        </div>
-        <!-- end col-4 -->
-        <div class="col-lg-3 col-md-6 wow fadeInUp" >
-          <h4>Say Hello</h4>
-          <address>
-            <a onclick="handleContactInfo(this)" data-contact_info="mailto:info@antino.io">info@antino.io</a><br />
-            <a onclick="handleContactInfo(this)" data-contact_info="tel:+91 880-060-9231">Ph: +91 880-060-9231</a>
-            <br />
-            <a onclick="handleContactInfo(this)" data-contact_info="tel:+917827325235">Mo: +91 782-732-5235</a>
-          </address>
-        </div>
-        </div>
-        
-        <!-- end col-3 -->
-        <div class="col-12 wow fadeInUp">
-          <div class="sub-footer">
-            <ul>
-              <li><a href="about-us.html">About</a></li>
-              <li><a href="careers.html">Careers</a></li>
-              <li>
-                <a href="terms-and-conditions.html">Terms & Conditions</a>
-              </li>
-              <li>
-                <a href="privacy-policy.html">Privacy Policy</a>
-              </li>
-            </ul>
-            <span>© 2021 Antino Labs - All rights Reserved</span>
+          <!-- end custom-link -->
           </div>
-          <!-- end sub-footer -->
-        </div>
-        <!-- end col-12 -->
+        <!-- end career --> 
       </div>
-      <!-- end row -->
+      <!-- end col-12 -->
+      <div class="col-lg-5 wow fadeInUp">
+        <figure class="logo"> <a href="#"><img
+                                    src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Antinologo2021darkfinal.png"
+                                    alt="Image"
+                            /> </a></figure>
+      </div>
+      <!-- end col-5 --> <div class="col-lg-4 col-md-6 wow fadeInUp">
+
+      </div>
+      <!-- end col-4 -->
+      <div class="col-lg-3 col-md-6 wow fadeInUp">
+        <h4>Say Hello</h4>
+        <address>
+        <a onclick="handleContactInfo(this)" data-contact_info="mailto:info@antino.io">info@antino.io</a><br>
+ <a onclick="handleContactInfo(this)"
+                                data-contact_info="tel:+918800609231"
+                                >Ph: +91 880-060-9231</a>
+                           <br />
+                            <a
+                                onclick="handleContactInfo(this)"
+                                data-contact_info="tel:+917827325235"
+                                >Mo: +91 782-732-5235</a>
+      </address>
+      </div>
+      <!-- end col-3 -->
+      <div class="col-12 wow fadeInUp">
+        <div class="sub-footer">
+          <ul>
+           <li><a href="about-us.html">About</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+          <span>© 2021 Antino Labs - All rights Reserved</span></div>
+        <!-- end sub-footer --> 
+      </div>
+      <!-- end col-12 --> 
     </div>
-    <!-- end container -->
-  </footer>
+    <!-- end row --> 
+  </div>
+  <!-- end container --> 
+</footer>
   <!-- Get Free Qoute -->
   <button class="open-button buttonmodal" onclick="openForm()">Get Free Quote</button>
   <div class="form-popup" id="myForm">

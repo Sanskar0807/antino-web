@@ -1054,7 +1054,7 @@ title {
 }
 
 .header .page-title h2 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 3.5rem;
   margin-bottom: 20px;
 }
@@ -1740,7 +1740,7 @@ title {
 
 .about-intro h2 {
   font-size: 3.5rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 50px;
 }
 
@@ -2875,13 +2875,13 @@ title {
 
 .post-sticky .post-image {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin-bottom: 0;
 }
 
 .post-sticky .post-image img {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   opacity: 0.5;
   -o-object-fit: cover;
      object-fit: cover;
@@ -3998,7 +3998,7 @@ section.why-join-us-section h3 {
     margin-top: 20px;
   }
   .about-intro ul.careers-bullet li p {
-    font-size: 3.5rem;
+    /* font-size: 3.5rem; */
   }
   .main-services .titles {
     padding: 0;
