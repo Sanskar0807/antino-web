@@ -6,6 +6,7 @@
             async
             src="https://www.googletagmanager.com/gtag/js?id=UA-116279380-2"
         ></script>
+
         <script defer>
             window.dataLayer = window.dataLayer || [];
             function gtag() {
@@ -13,6 +14,29 @@
             }
             gtag("js", new Date());
             gtag("config", "UA-116279380-2");
+        </script>
+        <script>
+          function sendMail() {
+            let name = document.getElementById("name").value
+            let subject = document.getElementById("subject").value
+            let message = document.getElementById("message").value
+            let email = document.getElementById("email").value
+            if (!name && !subject && !message && !email) {
+              return;
+            }
+            let payload = {
+              name: name,
+              subject: subject,
+              message: message,
+              email: email
+            }
+            console.log(payload);
+            fetch('https://contact-mail.antino.ca', {
+              method: "POST",
+              body: JSON.stringify(payload),
+              headers: { "Content-type": "application/json; charset=UTF-8" }
+            }).then(res => res.json()).then(data => console.log(data))
+          }
         </script>
         <meta charset="utf-8" />
         <meta
@@ -29,7 +53,7 @@
         />
         <meta
             name="keywords"
-            content="mobile app, web app, backend, ecommerce, CMS, digital marketing, design, agency, company, experienced, top, development, creative, gurgaon, india, middle east, USA, canada, global"
+            content="mobile app, web app, backend, ecommerce, CMS, Blockchain & Web 3.0, design, agency, company, experienced, top, development, creative, gurgaon, india, middle east, USA, canada, global"
         />
 
         <!-- SOCIAL MEDIA META -->
@@ -177,8 +201,8 @@
                 <li><a href="web-development-services.html" >Web Development</a></li>
                 <li><a href="intelligence-solution-servcies.html">Intelligence Solution</a></li>
                 <li><a href="offshore-staffing-services.html" >Offshore Staffing</a></li>
-                <li><a href="ecommerce-marketplace-services.html" >Ecommerce & Marketplace</a></li>
-                <li><a href="digital-marketing-services.html" >Digital Marketing</a></li>
+                <li><a href="index.html" >DevOps & Cloud</a></li>
+                <li><a href="index.html" >Blockchain & Web 3.0</a></li>
               </ul>
               
             </div>
@@ -246,8 +270,8 @@
        <a href="web-development-services.html" >Web Development</a>
        <a href="intelligence-solution-servcies.html">Intelligence Solution</a>
         <a href="offshore-staffing-services.html" >Offshore Staffing</a>
-         <a href="ecommerce-marketplace-services.html" >Ecommerce & Marketplace</a>
-          <a href="digital-marketing-services.html" >Digital Marketing</a>
+         <a href="index.html" >DevOps & Cloud</a>
+          <a href="index.html" >Blockchain & Web 3.0</a>
  </div>
 </li>
         <li><a href="cases.html">Cases</a></li>
@@ -336,72 +360,37 @@
                      <div class="col-lg-7 wow fadeInDown">
                         <div class="contact-form mt-0">
                             <h5>CONTACT FORM</h5>
-                            <form
-                                id="contact"
-                                name="contact"
-                                method="post"
-                                action="email.php"
-                            >
-                                <div class="form-group">
-                                    <input
-                                        type="text"
-                                        name="name"
-                                        id="name"
-                                        autocomplete="off"
-                                        onfocus="displayFloatingLabels(this)"
-                                        required
-                                    />
-                                    <span>Your name</span>
-                                </div>
-                                <!-- end form-group -->
-                                <div class="form-group">
-                                    <input
-                                        type="text"
-                                        name="email"
-                                        id="email"
-                                        autocomplete="off"
-                                        onfocus="displayFloatingLabels(this)"
-                                        required
-                                    />
-                                    <span>Your e-mail</span>
-                                </div>
-                                <!-- end form-group -->
-                                <div class="form-group">
-                                    <input
-                                        type="text"
-                                        name="subject"
-                                        id="subject"
-                                        autocomplete="off"
-                                        onfocus="displayFloatingLabels(this)"
-                                        required
-                                       
-                                    />
-                                    <span>Subject</span>
-                                </div>
-                                <!-- end form-group -->
-                                <div class="form-group">
-                                    <textarea
-                                        name="message"
-                                        id="message"
-                                        autocomplete="off"
-                                        onfocus="displayFloatingLabels(this)"
-                                        required
-                                    ></textarea>
-                                    <span>Your message</span>
-                                </div>
-                                <!-- end form-group -->
-                                <div class="form-group">
-                                    <button
-                                        id="submit"
-                                        type="submit"
-                                        name="submit"
-                                    >
-                                        <strong
-                                            >Submit Now<b></b> <i></i
-                                        ></strong>
-                                    </button>
-                                </div>
-                                <!-- end form-group -->
+                            <form id="contact" name="contact" method="post" onsubmit="sendMail()">
+                              <div class="form-group">
+                                <input type="text" name="name" id="name" autocomplete="off" onfocus="displayFloatingLabels(this)"
+                                  required />
+                                <span>Your name</span>
+                              </div>
+                              <!-- end form-group -->
+                              <div class="form-group">
+                                <input type="text" name="email" id="email" autocomplete="off" onfocus="displayFloatingLabels(this)"
+                                  required />
+                                <span>Your e-mail</span>
+                              </div>
+                              <!-- end form-group -->
+                              <div class="form-group">
+                                <input type="text" name="subject" id="subject" autocomplete="off" onfocus="displayFloatingLabels(this)"
+                                  required />
+                                <span>Subject</span>
+                              </div>
+                              <!-- end form-group -->
+                              <div class="form-group">
+                                <textarea name="message" id="message" autocomplete="off" onfocus="displayFloatingLabels(this)"
+                                  required></textarea>
+                                <span>Your message</span>
+                              </div>
+                              <!-- end form-group -->
+                              <div class="form-group">
+                                <button id="submit" type="submit" name="submit">
+                                  <strong>Submit Now<b></b> <i></i></strong>
+                                </button>
+                              </div>
+              <!-- end form-group -->
                             </form>
                             <!-- end form -->
                             <div class="form-group">
@@ -658,7 +647,7 @@
                             </h2>
                             <div class="custom-link">
                                 <a
-                                   href="mailto:careers@antino.io"
+                                   href="http://antino.freshteam.com/jobs/" target="_blank"
                                     >Email Us</a
                                 >
                                 <span></span> <i></i>
@@ -737,7 +726,7 @@
 
 
 <!-- Get Free Qoute -->
-<button class="open-button buttonmodal" onclick="openForm()">Get Free Quote</button>
+<button class="open-button buttonmodal" onclick="openForm()">Request a Callback</button>
 
 <div class="form-popup" id="myForm">
  <div
@@ -798,7 +787,7 @@
           padding-left: 15px;
         "
       >
-        Request a Proposal
+        Request a Callback
       </div>
           <i class="btn cancel material-icons align-center d-flex justify-content-end mb-3" onclick="closeForm()">close</i>
     </div>
@@ -903,7 +892,7 @@
         </div>
       </div>
       <div class="bgn-wf-row">
-        <div class="bgn-wf-label">Project Requirement Details</div>
+        <div class="bgn-wf-label">Message</div>
         <div class="bgn-wf-field">
           <textarea
             name="Description"
@@ -915,6 +904,7 @@
               padding: 10px 15px;
               max-width: 480px;
               border-radius: 3px;
+              height:50%;
               width: 100%;
             "
           ></textarea>
