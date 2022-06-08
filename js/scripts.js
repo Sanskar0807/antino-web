@@ -130,7 +130,7 @@
     }
 
     // PAGE TRANSITION
-    $("body a").on("click", function (e) {
+    $("body a:not([noAnimation])").on("click", function (e) {
       if (typeof $(this).data("fancybox") == "undefined") {
         e.preventDefault();
         var url = this.getAttribute("href");
