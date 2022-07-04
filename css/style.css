@@ -3704,7 +3704,7 @@ section.why-join-us-section h3 {
   opacity: 0.8;
   z-index: 1;
   position: fixed;
-  bottom: 85px;
+  bottom: 45%;
   right: -50px;
   width: 180px;
 }
@@ -4049,7 +4049,7 @@ section.why-join-us-section h3 {
     font-weight: bold;
   }
   .open-button {
-    bottom: 185px !important;
+    bottom: 45% !important;
   }
   .accordianNav {
     border-radius: 4px;
@@ -4605,4 +4605,14 @@ section.why-join-us-section h3 {
   display: flex;
   justify-content:center;
   margin-top:4rem
+}
+
+.primary-design-text {
+  font-size:3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .primary-design-text {
+    font-size:1.5rem;
+  }
 }
