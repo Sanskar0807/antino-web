@@ -1358,7 +1358,8 @@ body.full-overlay-active {
 	box-sizing: border-box;
 	position: fixed;
 	min-width: 300px;
-	max-width: 600px;
+	max-width: 500px;
+width: 90%;
 	width: 18%;
 	height: 100%;
 	top: 0;

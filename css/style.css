@@ -4351,11 +4351,12 @@ section.why-join-us-section h3 {
 }
 
 #myForm i {
-  position: absolute;
+  margin-left: auto;
+  /* position: absolute;
   top: -45px;
-  right: -20px;
+  right: -20px; */
   background-color: white;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   cursor: pointer;
 }
 

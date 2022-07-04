@@ -1201,7 +1201,8 @@
 }
 
 .about-wrap .headline-feature img {
-	max-width: 600px;
+	max-width: 500px;
+width: 90%;
 	width: 100%;
 }
 

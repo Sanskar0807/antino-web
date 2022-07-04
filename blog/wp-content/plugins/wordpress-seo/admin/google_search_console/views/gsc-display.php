@@ -25,7 +25,8 @@ $gsc_style_alert         = '
 	background: #f8d7da;
 ';
 $gsc_style_alert_icon    = 'display: block; margin-right: 8px;';
-$gsc_style_alert_content = 'max-width: 600px;';
+$gsc_style_alert_content = 'max-width: 500px;
+width: 90%;';
 $gsc_style_alert_link    = 'color: #004973;';
 $gsc_notification        = sprintf(
 	/* Translators: %1$s: expands to opening anchor tag, %2$s expands to closing anchor tag. */
