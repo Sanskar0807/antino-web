@@ -2585,7 +2585,8 @@ body {
 }
 
 .single-magazine.the-post-modern .post-top .sub-title {
-  max-width: 600px;
+  max-width: 500px;
+width: 90%;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.6;
@@ -6747,7 +6748,7 @@ a.post-title:hover {
 
 .fashion-slider .overlay {
   max-width: 680px;
-  min-width: 50%;
+  
   opacity: 0;
   will-change: opacity;
   pointer-events: auto;
