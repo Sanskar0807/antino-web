@@ -4616,3 +4616,10 @@ section.why-join-us-section h3 {
     font-size:1.5rem;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .primary-design-text {
+    font-size:1.5rem;
+  }
+}
+
