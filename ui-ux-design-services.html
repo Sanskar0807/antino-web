@@ -131,7 +131,7 @@
               display: flex;
           }
           .bgn-wf-label{
-              padding: 7px 20px 5px 35px;
+              padding: 7px 20px 5px 0px;
               width: 26%;
               border: 0;
               align-self: center;
@@ -214,7 +214,7 @@
                 <li><a href="web-development-services.html" >Web Development</a></li>
                 <li><a href="intelligence-solution-servcies.html">Intelligence Solution</a></li>
                 <li><a href="offshore-staffing-services.html" >Offshore Staffing</a></li>
-                <li><a href="index.html" >DevOps & Cloud</a></li>
+                <li><a href="Cloud-DevOps-Services.html">DevOps & Cloud</a></li>
                 <li><a href="index.html" >Blockchain & Web 3.0</a></li>
               </ul>
               
@@ -284,7 +284,7 @@
        <a href="web-development-services.html" >Web Development</a>
        <a href="intelligence-solution-servcies.html">Intelligence Solution</a>
         <a href="offshore-staffing-services.html" >Offshore Staffing</a>
-         <a href="index.html" >DevOps & Cloud</a>
+         <a href="Cloud-DevOps-Services.html">DevOps & Cloud</a>
           <a href="index.html" >Blockchain & Web 3.0</a>
  </div>
 </li>
@@ -377,11 +377,11 @@
                 <div class="row">
                     <div class="col-12">
                         <p>
-                          Antino has a renowned UI/UX Design team with three years of expertise in quality services. We help our clients create a robust digital media presence through our research, customization, and feedback. Our User Interface and User Experience are always tailored to your business goals, allowing you to focus on what you do best. We understand your business goals, objectives, and resources and then mirror them in the form of a virtual representation of your website or app.
+                          Antino has a <b>renowned UI/UX Design team</b> with three years of expertise in quality services. We help our clients create a robust digital media presence through our research, customization, and feedback. Our User Interface and User Experience are always tailored to your business goals, allowing you to focus on what you do best. We understand your business goals, objectives, and resources and then mirror them in the form of a virtual representation of your website or app.
                         </p>
                         <br/>
 
-                        <p>As a UI/UX design company, we recognize how crucial the user experience is. Our goal is to create products that are simple and enjoyable to use. We analyze the data and combine it with our expertise in the UI/UX industry. By aligning viewers' goals with organizational goals, we make the most of your company. Our UI/UX team ensures that every site we develop stands out and assists our clients in gaining massive customer access as well as customer delight.</p>
+                        <p>As a <b>UI/UX design company</b>, we recognize how crucial the user experience is. Our goal is to create products that are simple and enjoyable to use. We analyze the data and combine it with our expertise in the UI/UX industry. By aligning viewers' goals with organizational goals, we make the most of your company. Our UI/UX team ensures that every site we develop stands out and assists our clients in gaining massive customer access as well as customer delight.</p>
                         <br/>
                     </div>
                     <!-- end col-12 -->
@@ -396,7 +396,7 @@
 
                             <li>
                               <h4>UI and UX Consulting</h4>
-                              <p style="font-weight: normal;">Our experienced UI/UX consulting team assists businesses in determining what framework to follow for the UX research, what UI-UX strategy to go for and which technology stack to use. There’s so much more to us, just a bit of exploration from your side is needed!
+                              <p style="font-weight: normal;">Our experienced <b>UI/UX consulting team</b> assists businesses in determining what framework to follow for the UX research, what UI-UX strategy to go for and which technology stack to use. There’s so much more to us, just a bit of exploration from your side is needed!
                               </p>
                           </li>
 
@@ -458,7 +458,7 @@
                     <!-- end col-12 -->
 
                     <div class="col-12 pt-5">
-                      <h4 class="mb-0 text-center primary-design-text">Our Primary Designing Tools</h4>
+                      <h4 class="mb-0 text-center primary-design-text" style="font-weight:600">Our Primary Designing Tools</h4>
                       <img class="mt-0" src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/designsoftwares.png" alt="Design logos" /> 
                   </div>
 
@@ -485,8 +485,8 @@
                     </ul>
                 </div>
 
-                <h2>Frequently Asked Questions</h2>
-                <div class="web-accordion">
+                <h3 style="font-weight:600;font-size:1.85rem ; margin-bottom: 15px;">Frequently Asked Questions</h3>
+                <div class="web-accordion ">
                   
                   <div class="web-accordion-item">
                     <button id="web-accordion-button-1" aria-expanded="false">
@@ -647,7 +647,7 @@
 <div class="form-popup" id="myForm" style="visibility:visible !important;">
     
   <div class='bgn-wf-wrapper' id='BiginWebToEntityFormDiv4873289000000737242'
-    style='max-width:526px;margin:2em auto;padding: 15px;border:1px solid #e1e1e1;background-color:#FFFFFF;color:#000000; height: 85%;'>
+    style='max-width:526px;margin:2em auto;padding: 15px;border:1px solid #e1e1e1;background-color:#FFFFFF;color:#000000; '>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
     <form id='BiginWebToContactForm4873289000000737242' name='BiginWebToContactForm4873289000000737242' method='POST'
@@ -788,5 +788,22 @@
         <script src="js/fancybox.min.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script>
+          const items = document.querySelectorAll('.web-accordion button');
+      
+          function toggleAccordion() {
+            const itemToggle = this.getAttribute('aria-expanded');
+      
+            for (i = 0; i < items.length; i++) {
+              items[i].setAttribute('aria-expanded', 'false');
+            }
+      
+            if (itemToggle == 'false') {
+              this.setAttribute('aria-expanded', 'true');
+            }
+          }
+      
+          items.forEach((item) => item.addEventListener('click', toggleAccordion));
+        </script>
     </body>
 </html>

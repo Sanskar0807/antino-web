@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116279380-2"></script>
+
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="theme-color" content="#282828" />
+  <title>Cloud & DevOps Services</title>
+  <meta name="author" content="Antino Labs Private Limited" />
+  <meta name="description" content="From efficient management of cloud and devops services to the smooth migration between infrastructures, our experts aid your business with consistent support in your desirable journey to effective cloud management."/>
+  <meta name="keywords"
+    content="Cloud & DevOps Services, DevOps & Cloud services, devops services and solutions , devops service providers, devops services, ">
+  <link href="https://www.antino.io/Cloud-DevOps-Services" rel="canonical" />
+
+
+  <!-- SOCIAL MEDIA META -->
+  <meta property="og:description"
+    content="Antino Labs | Delivering technology innovation from startups to enterprise. | Web, Android, ios, Backend Development | UI/UX, Product Design" />
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/antinolabs/company-resources/master/Logo-2021-Dark-Only.png" />
+  <meta property="og:site_name" content="antino" />
+  <meta property="og:title" content="Antino Labs | Delivering technology innovation from startups to enterprise." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://antino.io" />
+
+  <!-- TWITTER META -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@AntinoLabs" />
+  <meta name="twitter:creator" content="@AntinoLabs" />
+  <meta name="twitter:title" content="AntinoLabs" />
+  <meta name="twitter:description"
+    content="Antino Labs | Delivering technology innovation from startups to enterprise." />
+  <meta name="twitter:image"
+    content="https://raw.githubusercontent.com/antinolabs/company-resources/master/Logo-2021-Dark-Only.png" />
+
+  <!-- FAVICON FILES -->
+  <link href="images/favicon_144.png" rel="apple-touch-icon" sizes="144x144" />
+  <link href="images/favicon_144.png" rel="apple-touch-icon" sizes="114x114" />
+  <link href="images/favicon_72.png" rel="apple-touch-icon" sizes="72x72" />
+  <link href="images/favicon_72.png" rel="apple-touch-icon" />
+  <link
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEUAAAD///+9vb3v7+8bGxvAwMD7+/vs7OwNDQ3p6enExMSKior4+Pjm5ubDw8NSUlKEhIR4eHgiIiJZWVmPj49eXl4uLi4wMDDg4OBnZ2fQ0NBVVVUnJycfHx9JSUl/f38TExNCQkJlZWVxcXG2trapqak2NjaVlZU7Ozubm5ulUkv/AAAE/ElEQVR4nO2dC1PaUBCFCWAEjFat70KlxUf9/3+wIjcRhGzODXRy9vZ8Y2cEMzZnds8+kpT2ekIIIYQQQgghhBBCCCGEEEIIIf4xz/16Jo/hoJen+05Pch/6mcFDOOjyLsu+dXqa7TEFTsJBo/H7i8KnxCNE4OV49fq601NtByTw5rR853unJ9sGyIPDSmCWe4siJHB0uvZm/qPTE45lgqTodLz5vqdEhTw4Pf36Ez8SoTYxH2/9KPciERI43BboJoqRbWITD+UGiuC2BwMOmgY+qjmVGDWq7YZbYss2sQlzuTEFnoWDZg0CmZsGJHB3m9jkV6cy6jlDBN4AAlk3YiiCTR784KRTHbVAAo028clVpzpqgQTabSLw2qmOWqA2cYukKGkEsVHNcYpi69IxIJC0yJgb/VE4aJq6wFvHKXq4KkoaQdOD1SyKpChpBM0U7YeDoBQljSCUotAsStrosYtOjlMUu+ikNuFUYNSoRioQStEdV7a3IS0y5kZfpajjIgMJfHEcQWxUQyJ43qmOWrDroqm2iWqjT3WbqBp96gKhjZ60yECTjOdRDbqy7dmD0DYBbfSkArG7S44nGWybcCzwcG2CtMi0fU4mrQh6vvliejCqTZAKhFLUswehFIWuqpEKTP7mC7TR1z2rtoGqaDdgs6jjSQYSCI1qpB5MflSD9kHP9+hNgVFX1Ug9CPVB6MIvaQRND1aNPlWByXswaqMnFQhFMFkPVs+LDgCBj+bf0xlQikJtgvTu0uGuqpEKPNxzMqSNHuqDM8SDpEUGepTrBRFImqJPxaCeUuAfxx4c3QzrmYWDoNtnpG0CAtroST0I4dmDEJAHPUewdwcIJPbg9PziC4vF+9fyT3h97j1F34wTL/K8KHL3KXoFxAiK4IT230qeHEbgQ1b87FZIPYjT6glF5mH5Pa3EfaIYPPghkPjjg14PI5BZYtty80VglpwXqyKzRlIS14vMZxRpEzW+3OyKYFISawRmxIkaJzEUmV3XQPIkolgfwSyNRA1Fpu4qlv+mYUbwA9ooYhJXAoeGQOLPnEMS9W116K15/aagXaaAKA6Cy+z7wblnL5aF5NJ+9IvWi0CilhLtx9h5ExWRGD77yL7lxtsXkUQNJ9+QqLQV9RGQGE6+4dO8XEcRKjdJeNG+v+96DC+gvsibqIjEcPIzu/XTJirgxXJusZ/65m0aQEXNoabB60WkaUCJ6tuLULkpaD+oNEKi/ThDEonqddOIkDi0y00KTaPBi54lVuXGjiLtpnEBRDHEx+umgUgM8fHqRWS6KZcppzMqUlEhL/4PW7/nKJZebBjDaSUi5aYcw51uGotmiWUKzp16EYhi6cUGibSbRkzTsBPVtcTgMq8DHODFMj4j+9FbWokRM6rtRd5EjWkaZhR5+yKSqOHk7TGcd7qJ8OLc9qLnRK1av52oniWCAxxtRUUGOKxppODFkdMBLiKKQ6devAck/l4d2lBRaRM1QmKDF2mjGNH6G7xIG8WIGdVcpvqjbnUYIOWmOVGfuhVhg3ix/M/U6yRSC8Qk2jMqucD9+yK9wH2bhgOBUeVmy4suBO6TqE4Etm8affvXMhHRNNYkuongEiSKXyW6Ethm03AmsNe7joyiIw+WxA1w7iK4ZDEYDI6Pl1+1lE+3TZ+7PdXWjEo+v9tkPmv+JUIIIYQQQgghhBBCCCGEEEIIIYTwxF99QV5WCdZp0wAAAABJRU5ErkJggg=="
+    rel="shortcut icon" />
+
+  <!-- CSS FILES -->
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/odometer.min.css" />
+  <link rel="stylesheet" href="css/fancybox.min.css" />
+  <link rel="stylesheet" href="css/swiper.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver" async defer></script>
+  <!-- the iolazy load library -->
+  <script src="https://cdn.jsdelivr.net/npm/iolazyload@2.1.0/dist/js/iolazy.min.js"></script>
+
+  <!-- Calendly link widget begin -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+  <style type="text/css">
+    html,
+    body {
+      margin: 0px;
+    }
+
+    .bgn-wf-wrapper * {
+      box-sizing: border-box;
+    }
+
+    .bgn-wf-wrapper {
+      width: 100%;
+      max-width: 900px;
+      margin: auto;
+      border: none;
+      padding: 15px;
+      background-color: #fff;
+      color: #333;
+    }
+
+    .bgn-wf-row {
+      padding: 5px 0 15px 0;
+      display: flex;
+    }
+
+    .bgn-wf-label {
+      padding: 7px 20px 5px 0px;
+      width: 26%;
+      border: 0;
+      align-self: center;
+      word-break: break-word;
+      position: relative;
+    }
+
+    .bgn-wf-field {
+      vertical-align: top;
+      text-align: left;
+      word-break: break-word;
+      border: 0;
+      flex: 1;
+    }
+
+    input::focus {
+      border: 1px solid #1980d8;
+    }
+
+    .bgn-star {
+      color: #bb0707;
+      width: 10px;
+      height: 10px;
+      z-index: 1;
+      font-size: 14px;
+      text-transform: inherit;
+      position: absolute;
+    }
+
+    @media screen and (max-width: 590px) {
+      .bgn-wf-wrapper {
+        max-width: 80% !Important;
+        border: 0;
+      }
+
+      .bgn-wf-row,
+      .bgn-wf-label,
+      .bgn-wf-field {
+        display: block;
+        width: 100%;
+      }
+
+      .bgn-wf-field input[type=text],
+      .bgn-wf-field select,
+      .bgn-wf-field textarea {
+        width: 100% !important;
+      }
+
+      .bgn-wf-field div>select {
+        width: auto !important;
+      }
+
+      .bgn-wf-label:empty {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W75Z7JH" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="preloader" style="display: none">
+    <div class="inner" style="display: none">
+      <figure class="logo">
+        <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo-light.png" alt="Antino-logo" />
+      </figure>
+      <span class="percentage"></span>
+    </div>
+    <!-- end inner -->
+  </div>
+  <!-- end preloader -->
+  <div class="transition-overlay"></div>
+  <!-- end transition-overlay -->
+  <div class="navigation-menu">
+    <div class="inner">
+      <div class="side-menu accordianNav">
+        <ul>
+          <li><a href="about-us.html">About</a></li>
+          <li class="dropdown">
+            <h5 class="dropbtn" id="dropbtn"><span>Services</span></h5>
+            <script>
+              $(".accordianNav dropbtn").click(function () {
+                $("dropbtn").removeClass("active");
+                $(".accordianNav ul ul").slideUp();
+                if (!$(this).next().is(":visible")) {
+                  $(this).next().slideDown();
+                  $(this).addClass("active");
+                }
+              })
+            </script>
+            <div class="dropdown-content" id="dropdown-content">
+              <ul style="margin-right:8%">
+                <li><a href="tech-consulting-services.html">Technology Consulting</a></li>
+                <li><a href="ui-ux-design-services.html">UI / UX Design</a></li>
+                <li><a href="mobile-engineering-services.html">Mobile Engineering</a></li>
+                <li><a href="web-development-services.html">Web Development</a></li>
+                <li><a href="intelligence-solution-servcies.html">Intelligence Solution</a></li>
+                <li><a href="offshore-staffing-services.html">Offshore Staffing</a></li>
+                <li><a href="Cloud-DevOps-Services.html">DevOps & Cloud</a></li>
+                <li><a href="index.html">Blockchain & Web 3.0</a></li>
+              </ul>
+
+            </div>
+          </li>
+
+          <li><a href="cases.html">Cases</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+      </div>
+      <!-- end side-menu -->
+      <div class="sides">
+        <!-- end map -->
+        <figure><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/hamburger@2x.png"
+            alt="WorkSpace-Image">
+        </figure>
+      </div>
+      <!-- end sides -->
+      <div class="sides">
+        <h1 hidden>Antino Labs </h1>
+        <h6 hidden class="pb-3 subtitle">Delivering Digital Innovation From Startups to Enterprises</h6><br />
+        <h4>DO YOU HAVE AN IDEA?</h4>
+        <h6 class="pb-3">Let's make it successful together</h6>
+        <div class="custom-btn white-btn"><a class="white-btn" href="contact.html">Get In Touch<span></span><i></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- end inner -->
+  </div>
+  <!-- end navigation-menu -->
+  <aside class="left-side">
+    <div class="logo">
+      <a href="/"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/antino-logo-dark.png"
+          alt="Antino-logo" /></a>
+    </div>
+    <ul>
+      <li><a target="_blank" onclick="handleSocialLink(this)" data-social-media="linkedin" rel="noopener">LINKEDIN</a>
+      </li>
+      <li><a target="_blank" rel="noopener" onclick="handleSocialLink(this)" data-social-media="instagram">INSTAGRAM</a>
+      </li>
+      <li><a target="_blank" rel="noopener" onclick="handleSocialLink(this)" data-social-media="facebook">FACEBOOK</a>
+      </li>
+      <li><a target="_blank" rel="noopener" onclick="handleSocialLink(this)" data-social-media="twitter">TWITTER</a>
+      </li>
+    </ul>
+    <a href="#top" class="gotop"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/icon-gotop.svg"
+        alt="Up-Arrow" /></a>
+  </aside>
+  <!-- end left-side -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="/"><img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Antinologo2021darkfinal.png"
+            alt="Antino-Logo" /></a>
+      </div>
+      <!-- end logo -->
+      <!--<div class="phone"><a onclick="handleContactInfo(this)" data-contact_info="tel:+911244015088"> T: +91 1244015088 </a></div>-->
+      <!-- end phone -->
+      <div class="main-menu">
+        <ul>
+          <li><a href="about-us.html">About</a></li>
+          <li class="dropdown"><a href="#" class="dropbtn">Services</a>
+            <div class="dropdown-content">
+              <a href="tech-consulting-services.html">Technology Consulting</a>
+              <a href="ui-ux-design-services.html">UI / UX Design</a>
+              <a href="mobile-engineering-services.html">Mobile Engineering</a>
+              <a href="web-development-services.html">Web Development</a>
+              <a href="intelligence-solution-servcies.html">Intelligence Solution</a>
+              <a href="offshore-staffing-services.html">Offshore Staffing</a>
+              <a href="Cloud-DevOps-Services.html">DevOps & Cloud</a>
+              <a href="index.html">Blockchain & Web 3.0</a>
+            </div>
+          </li>
+          <li><a href="cases.html">Cases</a></li>
+          <li><a href="blog">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+      </div>
+      <!-- end main-menu -->
+      <div class="hamburger-menu" id="hamburger-menu">
+        <div class="burger">
+          <svg id="burger-svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+            <title>Show / Hide Navigation</title>
+            <rect class="burger-svg__base" width="50" height="50" />
+            <g class="burger-svg__bars">
+              <rect class="burger-svg__bar burger-svg__bar-1" x="14" y="18" width="22" height="2" />
+              <rect class="burger-svg__bar burger-svg__bar-2" x="14" y="24" width="22" height="2" />
+              <rect class="burger-svg__bar burger-svg__bar-3" x="14" y="30" width="22" height="2" />
+            </g>
+          </svg>
+        </div>
+        <!-- end burger -->
+      </div>
+      <!-- end hamburger-menu -->
+    </nav>
+    <!-- end navbar -->
+
+    <!--breadcrumb menu-->
+    <div class="breadcrumb-container">
+      <div class="wrapper">
+        <ul class="breadcrumb">
+          <li><a href="/">Antino Labs</a></li>
+          <li><a href="javascript:history.back()">Services</a></li>
+          <li><a href="#" class="active">Cloud & DevOps Services</a></li>
+
+        </ul>
+      </div>
+      <!-- end container -->
+    </div>
+    <!--end of breadcrumb menu-->
+    <div class="headlines">
+      <div class="container">
+        <h1 class="display-1">Cloud & DevOps Services</h1>
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end page-title -->
+  </header>
+  <!-- end header -->
+  <section class="page-header">
+    <div class="post-sticky wow fadeIn">
+      <figure class="post-image">
+        <img class="remove-opacity" src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Devops+(1).jpg"
+          alt="Offshore Staffing Services" />
+      </figure>
+    </div>
+    <!-- end video-bg -->
+  </section>
+
+  <!-- end page-header -->
+  <section class="about-intro pt-5">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12">
+          <h2 style="font-weight:600;font-size:2rem ;margin-top: 10px;margin-bottom: 0px;">To start with, what is DevOps
+            and Cloud Infrastructure?</h2>
+          <p class="mt-4" style="font-weight: normal;">
+            DevOps is not a tech stack, tool, or framework, instead, it is a delivery process that focuses on the
+            cross-functional approach of building and shipping efficient applications in a faster manner through
+            automation of infrastructure, workflow as well as performance evaluation. Rapid product development through
+            DevOps allows more time for the product to be marketed.</p>
+          <p class="mt-4">
+            DevOps services promote agile delivery of the product as well as effective coordination and communication
+            integrated through Cloud Infrastructure. It aids the automation of development tasks and allows for the
+            continuous integration of product lines on cloud delivery platforms. DevOps allows your company to take
+            leverage of constructive cloud infrastructure for deploying applications and smooth migrations. </p>
+          <p class="mt-4">
+            From the establishment and management of cloud infrastructure to the plain sailing migration between
+            infrastructures, platforms, or software, our experts at Antino aid your business with consistent support and
+            efficiency in all aspects of your desirable journey to effective cloud management. </p>
+
+
+
+        </div>
+
+        <div class="col-12">
+          <h3 style="font-weight:600;font-size:2rem ;margin-top: 36px; margin-bottom: 0px;">Why DevOps Services?</h3>
+          <p class="mt-4" style="font-weight: normal;">
+            To be concise, DevOps overcomes all the challenges incurred by the miscommunication among development, QA,
+            and IT departments. But to take it further, these are the major upper hands of using DevOps and Cloud
+            Infrastructure for your business: </p>
+        </div>
+
+
+        <!-- end col-12 -->
+        <div class="col-12 pt-4">
+          <div>
+            <h3 class="mb-0 text-center primary-design-text" style="font-weight:600;font-size:2rem ;margin-bottom: 0px;">
+                                Benefits of DevOps Services
+                            </h3>
+
+
+            <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/cloud+and+devops.jpg"
+              alt="benefit-of-devops-services"  />
+          </div>
+        </div>
+
+        <section class="">
+          <div class="container">
+            <div class="col-12">
+              <h3 style="font-weight:600;font-size:1.85rem ; margin-bottom: 0px;">Our Cloud & DevOps Services</h3>
+
+              <br>
+
+            </div>
+
+            <div class="col-12 pt-1">
+              <ul class="careers-bullet" style="font-weight: normal; line-height: 1.5em;">
+                <li>
+                  <h4>Cloud Infrastructure</h4>
+                  <p class="mt-4">Our expert engineers will assist you in cloud solution architectures and
+                    infrastructure requirements for different projects through components such as databases, servers,
+                    cloud storage and software integrations etc.
+                  </p>
+                </li>
+                <li>
+                  <h4>Cloud Infrastructure Monitoring</h4>
+                  <p class="mt-4">We will help you with in-depth monitoring of the diversified line-up of your
+                    infrastructure components. Leverage experts’ consultancy to track and analyze the performance of
+                    your comprehensive range of servers, operating systems, hypervisors, applications, and much more.
+                  </p>
+                </li>
+                <li>
+                  <h4>IaC - Infrastructure as Code</h4>
+                  <p class="mt-4">Under Infrastructure as Code (IaC), our experts ensure automation of provisioning
+                    resources, configuration, and control of all environments to eliminate human inefficiencies in the
+                    integration process. </p>
+                </li>
+                <li>
+                  <h4>Configuration Management</h4>
+                  <p class="mt-4">Our Configuration Management Services ensure the swift establishment and management of
+                    the product's performance as well as functional & physical attributes throughout its operational
+                    life. </p>
+                </li>
+                <li>
+                  <h4>CI/CD and Automation</h4>
+                  <p class="mt-4">Leverage expertise in Continuous Integration and Continuous Delivery/Deployment loop
+                    stretching from the beginning of software development to delivery, maintenance, and security in the
+                    project pipeline.</p>
+                </li>
+
+                <li>
+                  <h4>Containerisation and Orchestration</h4>
+                  <p class="mt-4">Our certified engineers strategize the Kubernetes and Docker implementations to
+                    deliver dynamic experiences using container orchestration. Efficiently automate processes such as
+                    deployment, scaling, load balancing, networking, and more through our expertise.</p>
+                </li>
+                <li>
+                  <h4>Cloud Auditing</h4>
+                  <p class="mt-4">Antino’s cloud audit experts perform a superintendent and controlled evaluation of
+                    your infrastructural components including firewalls, network entry points, and public IP addresses
+                    accessing the website to ensure strategic security of the systems.</p>
+                </li>
+                <li>
+                  <h4>Cloud Migration</h4>
+                  <p class="mt-4">Ensuring your smoothest move from traditional or any Cloud Service Provider to another
+                    one through our end-to-end migration support and expert consultancy to achieve the desired Cloud
+                    vision effectively.</p>
+                </li>
+
+              </ul>
+
+
+
+
+              
+              <div class="col-12 pt-">
+                <div class="">
+                  <h3 class="tech-stack mb-0 text-center primary-design-text-1 " style="font-weight:600;margin-top: 46px; margin-bottom: 0px;">
+                    Tools & Technologies We Work With
+                                  </h3>
+      
+      
+                  <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Tools+and+tech.+we+work+with.jpg"
+                    alt="benefit-of-devops-services" style="margin-top:1rem;margin-bottom:1rem;" />
+                </div>
+              </div>
+
+
+
+              <div class="col-12">
+                <h3 style="font-weight:600;font-size:1.85rem ;margin-top: 36px;     margin-bottom: 0px;">Why choose Antino for DevOps and Cloud Services?</h3>
+  
+                <br>
+  
+              </div>
+
+              <ul class="careers-bullet" style="font-weight: normal; line-height: 1.5em;">
+                <li>
+                  <h4>Punctual Delivery</h4>
+                  <p class="mt-4">With Antino’s expertise, you will be accessing projects on a timely delivery basis. Because we understand how valuable your time is, we never delay the delivery of a project.
+                  </p>
+                </li>
+                <li>
+                  <h4>Reduced Maintenance Costs</h4>
+                  <p class="mt-4">We focus on maintenance cost minimization for our clients because Antino ensures trial and feedback integration during deployment.
+                  </p>
+                </li>
+                <li>
+                  <h4>Improved Productivity</h4>
+                  <p class="mt-4">Antino is all about punctuality and detail orientation. Thus, rest assured of the project’s productivity</p>
+                </li>
+                <li>
+                  <h4>24 x 7 Availability and Active Support</h4>
+                  <p class="mt-4">We understand how important it is to be available for your customers’ problems. Thus, we got your back anytime you face issues with the design.  </p>
+                </li>
+                <li>
+                  <h4>Trusted by so many Companies</h4>
+                  <p class="mt-4">With 200+ projects in our portfolio, we proudly boast our client base. Our clients trusted our design and you should also give us a try!</p>
+                </li>
+
+                
+              </ul>
+
+
+
+
+
+              <h3 style="font-weight:600;font-size:1.85rem ; margin-bottom: 15px;">Frequently Asked Questions</h3>
+              <div class="web-accordion">
+
+                <div class="web-accordion-item">
+                  <button id="web-accordion-button-1" aria-expanded="false">
+                    <span class="web-accordion-title">How is DevOps different from agile methodology?</span>
+                    <span class="icon" aria-hidden="true"></span>
+                  </button>
+                  <div class="web-accordion-content">
+                    <p>
+                      DevOps is a practice of bringing together development as well as operations teams with a focus on continuous testing and deployment, whereas Agile is an iterative model that focuses collaboration, user feedback, and small releases. DevOps is more concerned with operational and business willingness, whereas Agile is more concerned with functional and non-functional readiness.</p>
+                  </div>
+                </div>
+
+                <div class="web-accordion-item">
+                  <button id="web-accordion-button-2" aria-expanded="false">
+                    <span class="web-accordion-title">Why Does Your Business Need DevOps?</span>
+                    <span class="icon" aria-hidden="true"></span>
+                  </button>
+                  <div class="web-accordion-content">
+                    <p>DevOps services provide for product agility as well as effective communication and cooperation via Cloud Infrastructure. It enables the continuous integration of product offerings on cloud delivery platforms and aids in the automated processes of development tasks. DevOps enables your company to take advantage of purposeful cloud infrastructure for application deployment and smooth migrations.</p>
+                  </div>
+                </div>
+
+                <div class="web-accordion-item">
+                  <button id="web-accordion-button-3" aria-expanded="false">
+                    <span class="web-accordion-title">How DevOps help in reducing cost?</span>
+                    <span class="icon" aria-hidden="true"></span>
+                  </button>
+                  <div class="web-accordion-content">
+                    <p>Automation of business processes improves enterprise-wide operational effectiveness and resilience. The DevOps cycle itself reduces costs by reducing engineers' manual labour and shortening time to market. It allows your teams to build, test, as well as deploy more quickly and with fewer errors. Thus, resulting in reduced cost through DevOps Services!
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+
+
+
+          </div>
+
+
+
+
+
+
+      </div>
+  </section>
+  <!-- end col-12 -->
+  </div>
+  <!-- end row -->
+  </div>
+  <!-- end container -->
+  </section>
+  <!-- end featured-services -->
+  <section class="work-with-us" data-color="dark">
+    <div class="container wow fadeInUp">
+      <h6>WORK WITH PRO TEAM</h6>
+      <h2>We are here to professionalize your project. Let's talk!</h2>
+      <div class="custom-btn white-btn"><a class="white-btn" href="contact.html"
+          style="background-color:white !important;color:black!important;border-color:white!important;">Get In
+          Touch<span style="background:black!important;"></span><i
+            style="color:black!important;border-color: transparent transparent transparent #000;"></i></a></div>
+      <p class="mt-3"><a onclick="handleContactInfo(this)" data-contact_info="mailto:info@antino.io">info@antino.io</a>
+      </p>
+      <small>Or</small>
+      <p class="mt-3">
+      <p class="mt-3"><a onclick="handleContactInfo(this)" data-contact_info="tel:+16193780258">+1-(619)-378-0258</a>
+      </p>
+      </p>
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end work-with-us -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="career wow fadeInUp">
+            <h6>CAREERS AT ANTINO LABS</h6>
+            <h2 class="ftad">
+              If you are innovative and passionate about
+              digital possibilities, we would love to work
+              with you
+            </h2>
+            <div class="custom-link">
+              <a href="http://antino.freshteam.com/jobs/" target="_blank">Apply Now</a>
+              <span></span> <i></i>
+            </div>
+            <!-- end custom-link -->
+          </div>
+          <!-- end career -->
+        </div>
+        <!-- end col-12 -->
+        <div class="col-lg-5 wow fadeInUp">
+          <figure class="logo">
+            <a href="/"><img
+                src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Antinologo2021darkfinal.png"
+                alt="Antino-logo" />
+            </a>
+          </figure>
+        </div>
+        <!-- end col-5 -->
+        <div class="col-lg-4 col-md-6 wow fadeInUp">
+          <!--<h5>Location</h5>
+        <address>
+        Antino Labs<br>
+        248, Tower-B2, Spaze i-Tech Park<br>
+        Sector-49, Sohna Road Gurgaon, India
+        </address>-->
+        </div>
+        <!-- end col-4 -->
+        <div class="col-lg-3 col-md-6 wow fadeInUp">
+          <h4>Say Hello</h4>
+          <address>
+            <a onclick="handleContactInfo(this)" data-contact_info="mailto:info@antino.io">info@antino.io</a><br />
+            <a onclick="handleContactInfo(this)" data-contact_info="tel:+91 880-060-9231">Ph: +91 880-060-9231</a>
+            <br />
+            <a onclick="handleContactInfo(this)" data-contact_info="tel:+917827325235">Mo: +91 782-732-5235</a>
+          </address>
+        </div>
+        <!-- end col-3 -->
+        <div class="col-12 wow fadeInUp">
+          <div class="sub-footer">
+            <ul>
+              <li><a href="about-us.html">About</a></li>
+              <li><a href="careers.html">Careers</a></li>
+              <li>
+                <a href="terms-and-conditions.html">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="privacy-policy.html">Privacy Policy</a>
+              </li>
+            </ul>
+            <span>© 2021 Antino Labs - All rights Reserved</span>
+          </div>
+          <!-- end sub-footer -->
+        </div>
+        <!-- end col-12 -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </footer>
+
+
+  <!-- Get Free Qoute -->
+  <button class="open-button buttonmodal" onclick="openForm()">
+    Request a Proposal
+
+
+  </button>
+
+  <div class="form-popup" id="myForm" style="visibility:visible !important;">
+
+    <div class='bgn-wf-wrapper' id='BiginWebToEntityFormDiv4873289000000737242'
+      style='max-width:526px;margin:2em auto;padding: 15px;border:1px solid #e1e1e1;background-color:#FFFFFF;color:#000000; '>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
+      <form id='BiginWebToContactForm4873289000000737242' name='BiginWebToContactForm4873289000000737242' method='POST'
+        enctype='multipart/form-data'
+        onSubmit='javascript:document.charset="UTF-8"; return validateForm4873289000000737242()' accept-charset='UTF-8'
+        style='margin: 0;'>
+        <!-- Do not remove this code. -->
+        <input type='text' style='display:none;' name='xnQsjsdp'
+          value='8922943cc84a4d7fa733681062863ebc3a2308d74cb1dc3878d3b68e23b2ab93' />
+        <input type='hidden' name='zc_gad' id='zc_gad' value='' />
+        <input type='text' style='display:none;' name='xmIwtLD'
+          value='60cb3405266c55df21bbf56f05611154ce521a9241a23e486549cb35666ff03a' />
+        <input type='text' style='display:none;' name='actionType' value='Q29udGFjdHM=' />
+        <input type='text' style='display:none;' name='returnURL' value='https://www.antino.io/thankyou' />
+        <div style="font-size: 21px; margin-bottom: 25px;word-break: break-word;padding-left: 15px; display: flex;">
+          Request a Proposal
+          <i class="btn cancel material-icons align-center d-flex justify-content-end mb-3"
+            onclick="closeForm()">close</i>
+        </div>
+        <div id="elementDiv4873289000000737242"
+          style="border:0;width: 100%;background-color: #FFFFFF;color:#000000;font-family:Arial;text-align:left; font-size: 15;">
+          <div class="bgn-wf-row">
+            <div class="bgn-wf-label">Name
+              <span class="bgn-star">&#42;</span>
+            </div>
+            <div class="bgn-wf-field">
+              <input name="Last Name" type="text" maxlength="80" value="" placeholder=""
+                style=" border: 2px solid #777272;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 76%;" />
+            </div>
+          </div>
+          <div class="bgn-wf-row">
+            <div class="bgn-wf-label">Email
+              <span class="bgn-star">&#42;</span>
+            </div>
+            <div class="bgn-wf-field">
+              <input name="Email" type="text" maxlength="100" value="" placeholder=""
+                style="  border: 2px solid #777272;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 76%;" />
+            </div>
+          </div>
+          <div class="bgn-wf-row">
+            <div class="bgn-wf-label">Message
+            </div>
+            <div class="bgn-wf-field">
+              <textarea name="Description" maxlength="32000" placeholder=""
+                style="  border: 2px solid #777272;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 76%;height: 100px;"></textarea>
+            </div>
+          </div>
+          <div class="bgn-wf-row" style="display:none;">
+            <div class="bgn-wf-label">Source
+            </div>
+            <div class="bgn-wf-field">
+              <select name="CONTACTCF1"
+                style=" border: 2px solid #777272;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;">
+                <option value="-None-">-None-</option>
+                <option value="LinkedIn">LinkedIn</option>
+                <option value="Upwork">Upwork</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Whatsapp/Telegram">Whatsapp/Telegram</option>
+                <option value="Client/Lead Referral">Client/Lead Referral</option>
+                <option value="Website">Website</option>
+                <option value="Email">Email</option>
+                <option value="Phone">Phone</option>
+                <option value="Digital Ads">Digital Ads</option>
+                <option value="Vinay Network">Vinay Network</option>
+                <option value="Personal Network">Personal Network</option>
+                <option value="Others">Others</option>
+                <option value="Forbes 30 under 30">Forbes 30 under 30</option>
+                <option value="Recently Funded">Recently Funded</option>
+                <option value="Channel Partnership Engagement">Channel Partnership Engagement</option>
+                <option value="Twitter">Twitter</option>
+                <option selected value="Contact Us Form">Contact Us Form</option>
+                <option value="IIM Network">IIM Network</option>
+                <option value="Slintel/DB">Slintel/DB</option>
+                <option value="Crunchbase">Crunchbase</option>
+              </select>
+            </div>
+          </div>
+          <div class="bgn-wf-row" style="display:none;">
+            <div class="bgn-wf-label">Status
+            </div>
+            <div class="bgn-wf-field">
+              <select name="CONTACTCF5"
+                style=" border: 2px solid #777272;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;">
+                <option value="-None-">-None-</option>
+                <option value="Prospecting">Prospecting</option>
+                <option value="Request Accepted">Request Accepted</option>
+                <option selected value="Followup">Followup</option>
+                <option value="Under Discussion">Under Discussion</option>
+                <option value="Rejected">Rejected</option>
+                <option value="Deal Created">Deal Created</option>
+                <option value="Contact in Future">Contact in Future</option>
+                <option value="Qualified Future Leads">Qualified Future Leads</option>
+                <option value="Converted">Converted</option>
+                <option value="Intro Mail">Intro Mail</option>
+                <option value="Intro Mail (Customized)">Intro Mail (Customized)</option>
+              </select>
+            </div>
+          </div>
+          <div class="bgn-wf-row" style="display:none;">
+            <div class="bgn-wf-label">Source Link
+            </div>
+            <div class="bgn-wf-field">
+              <input name="CONTACTCF2" type="text" maxlength="255" value="Antino Website Contact Us" placeholder=""
+                style="  border: 2px solid #777272;padding: 10px 15px;max-width: 480px;border-radius:3px;width: 60%;" />
+            </div>
+          </div>
+          <div class="bgn-wf-row" style="margin-top: 5px;">
+            <div class="bgn-wf-label"></div>
+            <div class="bgn-wf-field">
+              <input onclick='disableSubmitwhileReset4873289000000737242()' type='reset'
+                style=' margin-right: 10px;margin-bottom: 10px;font-size:13px;border-radius: 3px;vertical-align: middle;background-color: #fff;border-color: #222;padding: 8px 15px;color: #3c3c3c;border: solid 1px #d4d3d2;display: inline-block;width: auto;'
+                value='Reset' />
+              <input
+                style='margin-bottom: 10px;  font-size:13px;color: #fff;border-radius: 3px;vertical-align: middle;background-color: #333333;border-color: #333333;padding: 8px 15px;display: inline-block;width: auto;'
+                id='formsubmit4873289000000737242' type='submit' value='Submit' />
+            </div>
+          </div>
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+  <!-- Get Free Qoute -->
+  <!-- end footer -->
+  <audio id="hamburger-hover" src="audio/link.mp3" preload="auto"></audio>
+
+  <!-- JS FILES -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/isotope.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <script src="js/odometer.min.js"></script>
+  <script src="js/fancybox.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <script>
+    const items = document.querySelectorAll('.web-accordion button');
+
+    function toggleAccordion() {
+      const itemToggle = this.getAttribute('aria-expanded');
+
+      for (i = 0; i < items.length; i++) {
+        items[i].setAttribute('aria-expanded', 'false');
+      }
+
+      if (itemToggle == 'false') {
+        this.setAttribute('aria-expanded', 'true');
+      }
+    }
+
+    items.forEach((item) => item.addEventListener('click', toggleAccordion));
+  </script>
+</body>
+
+</html>

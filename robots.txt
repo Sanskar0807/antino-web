@@ -6,5 +6,15 @@ Disallow: /thankyou
 Disallow: /blog/tag
 Disallow: /blog/category
 Disallow: /blog/page
+Disallow: /digital-marketing-services
+Disallow: /ecommerce-marketplace-services
+
+Noindex: /blog/wp-admin/
+Noindex: /thankyou
+Noindex: /blog/tag
+Noindex: /blog/category
+Noindex: /blog/page
+Noindex: /digital-marketing-services
+Noindex: /ecommerce-marketplace-services
 
 Sitemap: https://www.antino.io/sitemap.xml
