@@ -542,18 +542,18 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 // CRM
-// function disableSubmitwhileReset4873289000000737242() {
-//   var submitbutton = document.getElementById("formsubmit4873289000000737242");
-//   if (
-//     document.getElementById("privacyTool4873289000000737242") !== null ||
-//     document.getElementById("consentTool") !== null
-//   ) {
-//     submitbutton.disabled = true;
-//     submitbutton.style.opacity = "0.5;";
-//   } else {
-//     submitbutton.removeAttribute("disabled");
-//   }
-// }
+function disableSubmitwhileReset4873289000000737242() {
+  var submitbutton = document.getElementById("formsubmit4873289000000737242");
+  if (
+    document.getElementById("privacyTool4873289000000737242") !== null ||
+    document.getElementById("consentTool") !== null
+  ) {
+    submitbutton.disabled = true;
+    submitbutton.style.opacity = "0.5;";
+  } else {
+    submitbutton.removeAttribute("disabled");
+  }
+}
 // function checkMandatory4873289000000737242() {
 //   var mndFields = new Array("Last Name", "Email");
 //   var fldLangVal = new Array("Name", "Email");
