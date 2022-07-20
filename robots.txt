@@ -8,6 +8,10 @@ Disallow: /blog/category
 Disallow: /blog/page
 Disallow: /digital-marketing-services
 Disallow: /ecommerce-marketplace-services
+Disallow: /best-ios-libraries-to-checkout-in-2021
+Disallow: /how-to-choose-tech-stack-for-mobile-app-development
+Disallow: /top-companies-using-node-js-at-its-core
+Disallow: /googles-may-2020-core-update-a-broad-core-algorithm-update
 
 Noindex: /blog/wp-admin/
 Noindex: /thankyou

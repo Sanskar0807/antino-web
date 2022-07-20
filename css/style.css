@@ -4624,6 +4624,13 @@ section.why-join-us-section h3 {
   .primary-design-text-1 {
     font-size:1.5rem;
   }
+  
+}
+@media only screen and (max-width: 991px) {
+  .setImgSize{
+    margin: 25px 0px;
+    width: 160;
+  }
 }
 
 
