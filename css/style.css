@@ -3935,6 +3935,9 @@ section.why-join-us-section h3 {
   .header .page-title h2 {
     font-size: 14vw;
   }
+  .header .page-title2 h2 {
+    font-size: 14vw;
+  }
   .works ul li {
     width: 100%;
   }
@@ -4328,7 +4331,7 @@ section.why-join-us-section h3 {
     .form-popup {
       display: none;
       position: fixed;
-      top: 110px;
+      top: 0px;
       right: 10px;
       border: 3px solid #f1f1f1;
       z-index: 9;
@@ -4544,7 +4547,7 @@ section.why-join-us-section h3 {
       display: inline-block;
       position: absolute;
       top: 22px;
-      right: -20px;
+      right: -10px;
       width: 22px;
       height: 22px;
       border: 1px solid;
@@ -4611,6 +4614,9 @@ section.why-join-us-section h3 {
 .primary-design-text {
   font-size:3rem;
 }
+#img-center{
+  padding-left: 90px ;
+}
 .primary-design-text-1 {
   font-size:3rem;
 }
@@ -4624,13 +4630,28 @@ section.why-join-us-section h3 {
   .primary-design-text-1 {
     font-size:1.5rem;
   }
+  .primary-design-text-2 {
+    font-size:1rem !important;
+    padding-top: 1px;
+  }
+  #img-center{
+    padding-left: 1px ;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
   
 }
 @media only screen and (max-width: 991px) {
   .setImgSize{
     margin: 25px 0px;
-    width: 160;
+    width: 152;
   }
 }
 
+@media only screen and (max-width: 575px) {
+  .setImgMargin{
+    margin-bottom: 40px;
+  }
+}
 
