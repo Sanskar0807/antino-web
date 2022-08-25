@@ -74,7 +74,7 @@ class WPSEO_Sitemaps_Router {
 	public function needs_sitemap_index_redirect() {
 		global $wp_query;
 
-		$protocol = 'http://';
+		$protocol = 'https://';
 		if ( ! empty( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] === 'on' ) {
 			$protocol = 'https://';
 		}

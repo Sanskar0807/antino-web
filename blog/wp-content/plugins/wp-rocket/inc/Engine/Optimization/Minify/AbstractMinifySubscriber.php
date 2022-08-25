@@ -94,7 +94,7 @@ abstract class AbstractMinifySubscriber implements Subscriber_Interface {
 			return $url;
 		}
 
-		return str_replace( 'http://', 'https://', $url );
+		return str_replace( 'https://', 'https://', $url );
 	}
 
 	/**

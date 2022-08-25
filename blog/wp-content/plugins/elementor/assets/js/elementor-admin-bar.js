@@ -1148,7 +1148,7 @@ module.exports = !__webpack_require__(/*! ./_descriptors */ "../node_modules/@ba
 /*! CommonJS bailout: module.exports is used directly at 2:0-14 */
 /***/ ((module) => {
 
-// fast apply, http://jsperf.lnkit.com/fast-apply/5
+// fast apply, https://jsperf.lnkit.com/fast-apply/5
 module.exports = function (fn, args, that) {
   var un = that === undefined;
   switch (args.length) {

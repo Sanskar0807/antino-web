@@ -271,7 +271,7 @@ if ( ! class_exists( 'Redux_Welcome', false ) ) {
 		public function actions() {
 			?>
 			<p class="redux-actions">
-				<a href="http://devs.redux.io/" class="docs button button-primary">Docs</a>
+				<a href="https://devs.redux.io/" class="docs button button-primary">Docs</a>
 				<a
 					href="https://wordpress.org/support/view/plugin-reviews/redux-framework?filter=5#postform"
 					class="review-us button button-primary"
@@ -310,7 +310,7 @@ if ( ! class_exists( 'Redux_Welcome', false ) ) {
 				<script>
 					!function( d, s, id ) {
 						var js, fjs = d.getElementsByTagName( s )[0],
-							p = /^http:/.test( d.location ) ? 'http' : 'https';
+							p = /^https:/.test( d.location ) ? 'http' : 'https';
 						if ( !d.getElementById( id ) ) {
 							js = d.createElement( s );
 							js.id = id;

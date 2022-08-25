@@ -8,7 +8,7 @@
 defined( 'ABSPATH' ) || exit;
 
 ?>
-<div class="wrap about-wrap" xmlns="http://www.w3.org/1999/html">
+<div class="wrap about-wrap" xmlns="https://www.w3.org/1999/html">
 	<h1><?php esc_html_e( 'Get Support', 'redux-framework' ); ?></h1>
 	<div class="about-text">
 		<?php esc_html_e( 'Sometimes you just need some help. Use this form to submit a support URL and then provide that link to the product developer or our staff.', 'redux-framework' ); ?>

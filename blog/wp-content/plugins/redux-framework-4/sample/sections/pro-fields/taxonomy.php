@@ -1,7 +1,7 @@
 <?php
 /**
  * Redux Pro Taxonomy Meta config.
- * For full documentation, please visit: http://devs.redux.io/
+ * For full documentation, please visit: https://devs.redux.io/
  *
  * @package Redux Pro
  */
@@ -96,7 +96,7 @@ Redux_Taxonomy::set_term(
 						'compiler' => 'true',
 						'desc'     => __( 'Basic media uploader with disabled URL input field.', 'your-textdomain-here' ),
 						'subtitle' => __( 'Upload any media using the WordPress native uploader', 'your-textdomain-here' ),
-						'default'  => array( 'url' => 'http://s.wordpress.org/style/images/codeispoetry.png' ),
+						'default'  => array( 'url' => 'https://s.wordpress.org/style/images/codeispoetry.png' ),
 					),
 					array(
 						'id'     => 'section-media-end',

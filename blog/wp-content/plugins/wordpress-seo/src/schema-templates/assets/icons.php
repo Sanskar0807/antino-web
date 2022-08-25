@@ -14,7 +14,7 @@ class Icons {
 	/**
 	 * Represents the start of the SVG tag.
 	 */
-	const SVG_START_TAG = "<svg xmlns='http://www.w3.org/2000/svg' fill='none' style='fill:none' viewBox='0 0 24 24' stroke='currentColor' height='%SIZE%' width='%SIZE%' >";
+	const SVG_START_TAG = "<svg xmlns='https://www.w3.org/2000/svg' fill='none' style='fill:none' viewBox='0 0 24 24' stroke='currentColor' height='%SIZE%' width='%SIZE%' >";
 
 	/**
 	 * The default height and width of an icon.

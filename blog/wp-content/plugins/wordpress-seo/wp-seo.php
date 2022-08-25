@@ -4,7 +4,7 @@
  *
  * @package   WPSEO\Main
  * @copyright Copyright (C) 2008-2021, Yoast BV - support@yoast.com
- * @license   http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License, version 3 or higher
+ * @license   https://www.gnu.org/licenses/gpl-3.0.html GNU General Public License, version 3 or higher
  *
  * @wordpress-plugin
  * Plugin Name: Yoast SEO
@@ -33,12 +33,12 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 if ( ! function_exists( 'add_filter' ) ) {
 	header( 'Status: 403 Forbidden' );
-	header( 'HTTP/1.1 403 Forbidden' );
+	header( ' 403 Forbidden' );
 	exit();
 }
 

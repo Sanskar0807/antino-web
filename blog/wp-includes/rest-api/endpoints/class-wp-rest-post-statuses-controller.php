@@ -294,7 +294,7 @@ class WP_REST_Post_Statuses_Controller extends WP_REST_Controller {
 		}
 
 		$schema = array(
-			'$schema'    => 'http://json-schema.org/draft-04/schema#',
+			'$schema'    => 'https://json-schema.org/draft-04/schema#',
 			'title'      => 'status',
 			'type'       => 'object',
 			'properties' => array(

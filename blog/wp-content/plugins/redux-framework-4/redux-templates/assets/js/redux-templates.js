@@ -588,7 +588,7 @@ var _ref2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
 var SvgIconColor = function SvgIconColor(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 19 19",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref, _ref2);
 };
 
@@ -618,7 +618,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgIcon = function SvgIcon(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 19 19",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -817,7 +817,7 @@ __webpack_require__.r(__webpack_exports__);
 const SVG = wp.components.SVG;
 /* harmony default export */ __webpack_exports__["default"] = (wp.element.createElement(SVG, {
   viewBox: "0 0 24 24",
-  xmlns: "http://www.w3.org/2000/svg"
+  xmlns: "https://www.w3.org/2000/svg"
 }, wp.element.createElement("path", {
   fill: "none",
   d: "M0 0h24v24H0V0z"
@@ -4197,7 +4197,7 @@ function TabHeader(props) {
   }, wp.element.createElement("svg", {
     width: "24",
     height: "24",
-    xmlns: "http://www.w3.org/2000/svg",
+    xmlns: "https://www.w3.org/2000/svg",
     viewBox: "0 0 24 24",
     role: "img",
     "aria-hidden": "true",
@@ -4294,7 +4294,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgViewFew = function SvgViewFew(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 50 50",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -4324,7 +4324,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgViewMany = function SvgViewMany(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 50 50",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -4354,7 +4354,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgViewNormal = function SvgViewNormal(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 50 50",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -5149,7 +5149,7 @@ var _ref5 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
 var SvgAcfBlocks = function SvgAcfBlocks(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 20 20",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref, _ref2, _ref3, _ref4, _ref5);
 };
 
@@ -5181,7 +5181,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgAdvancedCustomFields = function SvgAdvancedCustomFields(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 20 20",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -5210,7 +5210,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 
 var SvgAdvancedGutenbergBlocks = function SvgAdvancedGutenbergBlocks(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -5250,7 +5250,7 @@ var _ref3 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
 var SvgAtomicBlocks = function SvgAtomicBlocks(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 20 20",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref, _ref2, _ref3);
 };
 
@@ -5280,7 +5280,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgBlockOptions = function SvgBlockOptions(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 20 20",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -5320,7 +5320,7 @@ var SvgBlockSlider = function SvgBlockSlider(props) {
     id: "block-slider_svg__Layer_1",
     viewBox: "0 0 20 20",
     xmlSpace: "preserve",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref, _ref2, _ref3);
 };
 
@@ -5349,7 +5349,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 
 var SvgCoblocks = function SvgCoblocks(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -5378,7 +5378,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 
 var SvgCreativeBlocks = function SvgCreativeBlocks(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -5408,7 +5408,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgEditorplus = function SvgEditorplus(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 20 20",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -5437,7 +5437,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 
 var SvgElegantBlocks = function SvgElegantBlocks(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -5473,7 +5473,7 @@ var _ref2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
 var SvgEnhancedBlocks = function SvgEnhancedBlocks(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 256 256",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref, _ref2);
 };
 
@@ -5534,7 +5534,7 @@ var _ref2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
 
 var SvgEssentialBlocks = function SvgEssentialBlocks(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref, _ref2);
 };
 
@@ -5738,7 +5738,7 @@ var SvgFormsGutenberg = function SvgFormsGutenberg(props) {
     id: "forms-gutenberg_svg__Layer_1",
     viewBox: "0 0 32 32",
     xmlSpace: "preserve",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref, _ref2, _ref3, _ref4, _ref5, _ref6, _ref7, _ref8, _ref9, _ref10, _ref11, _ref12, _ref13, _ref14, _ref15, _ref16, _ref17, _ref18, _ref19, _ref20, _ref21);
 };
 
@@ -5884,7 +5884,7 @@ var _ref24 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEle
 var SvgGetwid = function SvgGetwid(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 128 128",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref, _ref2, _ref3, _ref4, _ref5, _ref6, _ref7, _ref8, _ref9, _ref10, _ref11, _ref12, _ref13, _ref14, _ref15, _ref16, _ref17, _ref18, _ref19, _ref20, _ref21, _ref22, _ref23, _ref24);
 };
 
@@ -5913,7 +5913,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 
 var SvgGhostkit = function SvgGhostkit(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -5974,7 +5974,7 @@ var SvgGuteblock = function SvgGuteblock(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 100 100",
     "aria-hidden": "true",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref, _ref2);
 };
 
@@ -6008,7 +6008,7 @@ var _ref2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
 var SvgGutentor = function SvgGutentor(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "-1.1 -0.2 20 20",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref, _ref2);
 };
 
@@ -6049,7 +6049,7 @@ var SvgKadenceBlocks = function SvgKadenceBlocks(props) {
     clipRule: "evenodd",
     strokeLinejoin: "round",
     strokeMiterlimit: 1.414,
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref, _ref2);
 };
 
@@ -6079,7 +6079,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgKiokenBlocks = function SvgKiokenBlocks(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 -0.5 24 24",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -6121,7 +6121,7 @@ var _ref4 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
 var SvgOtterBlocks = function SvgOtterBlocks(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 29 32",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref, _ref2, _ref3, _ref4);
 };
 
@@ -6159,7 +6159,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 
 var SvgQodeblock = function SvgQodeblock(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -6189,7 +6189,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgQubely = function SvgQubely(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "-1 -1 20 20",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -6218,7 +6218,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 
 var SvgSnowMonkeyBlocks = function SvgSnowMonkeyBlocks(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -6248,7 +6248,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgStackableUltimateGutenbergBlocks = function SvgStackableUltimateGutenbergBlocks(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 200 200",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -6278,7 +6278,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgUltimateAddonsForGutenberg = function SvgUltimateAddonsForGutenberg(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 54 54",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -6308,7 +6308,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgUltimateBlocks = function SvgUltimateBlocks(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 20 20",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -6338,7 +6338,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgUltimatePost = function SvgUltimatePost(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "0 0 18 18",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -6368,7 +6368,7 @@ var _ref = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createEleme
 var SvgWordpress = function SvgWordpress(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
     viewBox: "-2 -2 24 24",
-    xmlns: "http://www.w3.org/2000/svg"
+    xmlns: "https://www.w3.org/2000/svg"
   }, props), _ref);
 };
 
@@ -6740,7 +6740,7 @@ Object(_wordpress_dom_ready__WEBPACK_IMPORTED_MODULE_32__["default"])(() => {
   const redux_templatesGradient = document.createElement('DIV');
   document.querySelector('body').appendChild(redux_templatesGradient);
   Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_31__["render"])(wp.element.createElement("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
+    xmlns: "https://www.w3.org/2000/svg",
     className: "redux-gradient",
     height: "0",
     width: "0",
@@ -9682,7 +9682,7 @@ function FullyOverlayFooter(props) {
   }, wp.element.createElement("a", {
     className: "redux-templates-button-download",
     target: "_blank",
-    href: "http://redux-templates.io/"
+    href: "https://redux-templates.io/"
   }, wp.element.createElement("i", {
     className: "fas fa-upload"
   }), "\xA0", __('Upgrade to Pro', redux_templates.i18n))) : wp.element.createElement("a", {

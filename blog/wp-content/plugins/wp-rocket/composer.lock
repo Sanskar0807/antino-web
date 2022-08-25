@@ -212,11 +212,11 @@
                 {
                     "name": "Jordi Boggiano",
                     "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be"
+                    "homepage": "https://seld.be"
                 }
             ],
             "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
-            "homepage": "http://github.com/Seldaek/monolog",
+            "homepage": "https://github.com/Seldaek/monolog",
             "keywords": [
                 "log",
                 "logging",
@@ -269,7 +269,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common Container Interface (PHP FIG PSR-11)",
@@ -364,7 +364,7 @@
                 }
             ],
             "description": "Method redefinition (monkey-patching) functionality for PHP.",
-            "homepage": "http://patchwork2.org/",
+            "homepage": "https://patchwork2.org/",
             "keywords": [
                 "aop",
                 "aspect",
@@ -537,12 +537,12 @@
                 {
                     "name": "Franck Nijhof",
                     "email": "franck.nijhof@dealerdirect.com",
-                    "homepage": "http://www.frenck.nl",
+                    "homepage": "https://www.frenck.nl",
                     "role": "Developer / IT Manager"
                 }
             ],
             "description": "PHP_CodeSniffer Standards Composer Installer Plugin",
-            "homepage": "http://www.dealerdirect.com",
+            "homepage": "https://www.dealerdirect.com",
             "keywords": [
                 "PHPCodeSniffer",
                 "PHP_CodeSniffer",
@@ -726,7 +726,7 @@
                 {
                     "name": "Phil Bennett",
                     "email": "philipobenito@gmail.com",
-                    "homepage": "http://www.philipobenito.com",
+                    "homepage": "https://www.philipobenito.com",
                     "role": "Developer"
                 }
             ],
@@ -929,12 +929,12 @@
             "authors": [
                 {
                     "name": "Frank Kleine",
-                    "homepage": "http://frankkleine.de/",
+                    "homepage": "https://frankkleine.de/",
                     "role": "Developer"
                 }
             ],
             "description": "Virtual file system to mock the real file system in unit tests.",
-            "homepage": "http://vfs.bovigo.org/",
+            "homepage": "https://vfs.bovigo.org/",
             "time": "2019-10-30T15:31:00+00:00"
         },
         {
@@ -1026,7 +1026,7 @@
                 {
                     "name": "Serban Ghita",
                     "email": "serbanghita@gmail.com",
-                    "homepage": "http://mobiledetect.net",
+                    "homepage": "https://mobiledetect.net",
                     "role": "Developer"
                 }
             ],
@@ -1088,12 +1088,12 @@
                 {
                     "name": "Pádraic Brady",
                     "email": "padraic.brady@gmail.com",
-                    "homepage": "http://blog.astrumfutura.com"
+                    "homepage": "https://blog.astrumfutura.com"
                 },
                 {
                     "name": "Dave Marshall",
                     "email": "dave.marshall@atstsolutions.co.uk",
-                    "homepage": "http://davedevelopment.co.uk"
+                    "homepage": "https://davedevelopment.co.uk"
                 }
             ],
             "description": "Mockery is a simple yet flexible PHP mock object framework",
@@ -1358,7 +1358,7 @@
                 }
             ],
             "description": "A set of sniffs for PHP_CodeSniffer that checks for PHP cross-version compatibility.",
-            "homepage": "http://techblog.wimgodden.be/tag/codesniffer/",
+            "homepage": "https://techblog.wimgodden.be/tag/codesniffer/",
             "keywords": [
                 "compatibility",
                 "phpcs",
@@ -1408,7 +1408,7 @@
                 }
             ],
             "description": "A set of rulesets for PHP_CodeSniffer to check for PHP cross-version compatibility issues in projects, while accounting for polyfills provided by the Paragonie polyfill libraries.",
-            "homepage": "http://phpcompatibility.com/",
+            "homepage": "https://phpcompatibility.com/",
             "keywords": [
                 "compatibility",
                 "paragonie",
@@ -1459,7 +1459,7 @@
                 }
             ],
             "description": "A ruleset for PHP_CodeSniffer to check for PHP cross-version compatibility issues in projects, while accounting for polyfills provided by WordPress.",
-            "homepage": "http://phpcompatibility.com/",
+            "homepage": "https://phpcompatibility.com/",
             "keywords": [
                 "compatibility",
                 "phpcs",
@@ -1507,7 +1507,7 @@
                 }
             ],
             "description": "Common reflection classes used by phpdocumentor to reflect the code structure",
-            "homepage": "http://www.phpdoc.org",
+            "homepage": "https://www.phpdoc.org",
             "keywords": [
                 "FQSEN",
                 "phpDocumentor",
@@ -1658,7 +1658,7 @@
                 {
                     "name": "Konstantin Kudryashov",
                     "email": "ever.zet@gmail.com",
-                    "homepage": "http://everzet.com"
+                    "homepage": "https://everzet.com"
                 },
                 {
                     "name": "Marcello Duarte",
@@ -2690,7 +2690,7 @@
                 }
             ],
             "description": "Provides functionality to handle HHVM/PHP environments",
-            "homepage": "http://www.github.com/sebastianbergmann/environment",
+            "homepage": "https://www.github.com/sebastianbergmann/environment",
             "keywords": [
                 "Xdebug",
                 "environment",
@@ -2764,7 +2764,7 @@
                 }
             ],
             "description": "Provides the functionality to export PHP variables for visualization",
-            "homepage": "http://www.github.com/sebastianbergmann/exporter",
+            "homepage": "https://www.github.com/sebastianbergmann/exporter",
             "keywords": [
                 "export",
                 "exporter"
@@ -2822,7 +2822,7 @@
                 }
             ],
             "description": "Snapshotting of global state",
-            "homepage": "http://www.github.com/sebastianbergmann/global-state",
+            "homepage": "https://www.github.com/sebastianbergmann/global-state",
             "keywords": [
                 "global state"
             ],
@@ -2982,7 +2982,7 @@
                 }
             ],
             "description": "Provides functionality to recursively process PHP variables",
-            "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
+            "homepage": "https://www.github.com/sebastianbergmann/recursion-context",
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",

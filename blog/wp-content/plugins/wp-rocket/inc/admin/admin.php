@@ -43,7 +43,7 @@ function rocket_plugin_row_meta( $plugin_meta, $plugin_file ) {
 
 		if ( false !== $update_plugins && isset( $update_plugins->response[ $plugin_file ] ) && empty( $update_plugins->response[ $plugin_file ]->package ) ) {
 
-			$link = '<span class="dashicons dashicons-update rocket-dashicons"></span> <span class="rocket-renew">Renew your licence of WP Rocket to receive access to automatic upgrades and support.</span> <a href="http://wp-rocket.me" target="_blank" class="rocket-purchase">Purchase now</a>.';
+			$link = '<span class="dashicons dashicons-update rocket-dashicons"></span> <span class="rocket-renew">Renew your licence of WP Rocket to receive access to automatic upgrades and support.</span> <a href="https://wp-rocket.me" target="_blank" class="rocket-purchase">Purchase now</a>.';
 
 			$plugin_meta = array_merge( (array) $link, $plugin_meta );
 		}

@@ -119,7 +119,7 @@ class CDN {
 		}
 
 		$home_url = [
-			'http://' . $home_host,
+			'https://' . $home_host,
 			'https://' . $home_host,
 		];
 

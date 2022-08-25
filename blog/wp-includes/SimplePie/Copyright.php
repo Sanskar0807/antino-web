@@ -37,8 +37,8 @@
  * @author Ryan Parman
  * @author Sam Sneddon
  * @author Ryan McCue
- * @link http://simplepie.org/ SimplePie
- * @license http://www.opensource.org/licenses/bsd-license.php BSD License
+ * @link https://simplepie.org/ SimplePie
+ * @license https://www.opensource.org/licenses/bsd-license.php BSD License
  */
 
 /**

@@ -31,7 +31,7 @@ if ( ! class_exists( 'Redux_ThirdParty_Fixes', false ) ) {
 		 * GT3 Page Buiolder fix.
 		 */
 		private function gt3_page_builder() {
-			// Fix for the GT3 page builder: http://www.gt3themes.com/wordpress-gt3-page-builder-plugin/.
+			// Fix for the GT3 page builder: https://www.gt3themes.com/wordpress-gt3-page-builder-plugin/.
 			if ( has_action( 'ecpt_field_options_' ) ) {
 				global $pagenow;
 

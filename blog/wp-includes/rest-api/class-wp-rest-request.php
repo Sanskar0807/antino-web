@@ -689,7 +689,7 @@ class WP_REST_Request implements ArrayAccess {
 			$this->parsed_json = false;
 
 			$error_data = array(
-				'status'             => WP_Http::BAD_REQUEST,
+				'status'             => WP_https::BAD_REQUEST,
 				'json_error_code'    => json_last_error(),
 				'json_error_message' => json_last_error_msg(),
 			);

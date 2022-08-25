@@ -4,7 +4,7 @@
  *
  * This template overrides woocommerce/templates/single-product/short-description.php.
  *
- * @see 	    http://docs.woothemes.com/document/template-structure/
+ * @see 	    https://docs.woothemes.com/document/template-structure/
  * @version     3.3.0
  */
 

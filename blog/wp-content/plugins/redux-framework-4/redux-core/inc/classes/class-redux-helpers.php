@@ -543,7 +543,7 @@ if ( ! class_exists( 'Redux_Helpers', false ) ) {
 		// phpcs:ignore Squiz.PHP.CommentedOutCode
 		// public static function tracking_object() {
 		// $data = wp_remote_post(
-		// 'http://verify.redux.io',
+		// 'https://verify.redux.io',
 		// array(
 		// 'body' => array(
 		// 'hash' => $_GET['action'], // phpcs:ignore WordPress.Security.NonceVerification, sanitization ok.

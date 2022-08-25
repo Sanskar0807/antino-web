@@ -5,7 +5,7 @@
  * Used internally by the WP_Embed class, but is designed to be generic.
  *
  * @link https://wordpress.org/support/article/embeds/
- * @link http://oembed.com/
+ * @link https://oembed.com/
  *
  * @package WordPress
  * @subpackage oEmbed
@@ -432,7 +432,7 @@ class WP_oEmbed {
 		 *
 		 * @since 4.0.0
 		 *
-		 * @see WP_Http::request()
+		 * @see WP_https::request()
 		 *
 		 * @param array  $args oEmbed remote get arguments.
 		 * @param string $url  URL to be inspected.

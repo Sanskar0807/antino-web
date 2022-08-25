@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  *
  * @copyright Copyright (c) Alex Bilbie <hello@alexbilbie.com>
- * @license http://opensource.org/licenses/MIT MIT
- * @link http://thephpleague.com/oauth2-client/ Documentation
+ * @license https://opensource.org/licenses/MIT MIT
+ * @link https://thephpleague.com/oauth2-client/ Documentation
  * @link https://packagist.org/packages/league/oauth2-client Packagist
  * @link https://github.com/thephpleague/oauth2-client GitHub
  */
@@ -25,7 +25,7 @@ use YoastSEO_Vendor\League\OAuth2\Client\Tool\RequiredParameterTrait;
  * credentials, and client credentials -- as well as an extensibility
  * mechanism for defining additional types.
  *
- * @link http://tools.ietf.org/html/rfc6749#section-1.3 Authorization Grant (RFC 6749, §1.3)
+ * @link https://tools.ietf.org/html/rfc6749#section-1.3 Authorization Grant (RFC 6749, §1.3)
  */
 abstract class AbstractGrant
 {

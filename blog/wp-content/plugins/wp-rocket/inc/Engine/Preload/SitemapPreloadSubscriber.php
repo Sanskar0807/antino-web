@@ -118,7 +118,7 @@ class SitemapPreloadSubscriber implements Subscriber_Interface {
 		$message = sprintf(
 			// Translators: %1$s = opening link tag, %2$s = closing link tag.
 			__( '%1$sSimpleXML PHP extension%2$s is not enabled on your server. Please contact your host to enable it before running sitemap-based cache preloading.', 'rocket' ),
-			'<a href="http://php.net/manual/en/book.simplexml.php" target="_blank" rel="noopener noreferrer">',
+			'<a href="https://php.net/manual/en/book.simplexml.php" target="_blank" rel="noopener noreferrer">',
 			'</a>'
 		);
 

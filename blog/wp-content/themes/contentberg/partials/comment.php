@@ -37,7 +37,7 @@ if (!function_exists('contentberg_comment')):
 			?>
 		
 			<li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>">
-				<article id="comment-<?php comment_ID(); ?>" class="comment the-comment" itemscope itemtype="http://schema.org/UserComments">
+				<article id="comment-<?php comment_ID(); ?>" class="comment the-comment" itemscope itemtype="https://schema.org/UserComments">
 				
 					<div class="comment-avatar">
 						<?php echo get_avatar($comment, 60); ?>
@@ -46,7 +46,7 @@ if (!function_exists('contentberg_comment')):
 					<div class="comment-content">
 						
 						<div class="comment-meta">
-							<span class="comment-author" itemprop="creator" itemscope itemtype="http://schema.org/Person">
+							<span class="comment-author" itemprop="creator" itemscope itemtype="https://schema.org/Person">
 								<span itemprop="name"><?php comment_author_link(); ?></span>
 															
 								<?php if (!empty($comment->user_id) && $post_author == $comment->user_id): ?>

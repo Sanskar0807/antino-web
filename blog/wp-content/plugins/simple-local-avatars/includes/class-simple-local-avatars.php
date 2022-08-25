@@ -200,7 +200,7 @@ class Simple_Local_Avatars {
 			}
 		}
 
-		$host = is_ssl() ? 'https://secure.gravatar.com' : 'http://0.gravatar.com';
+		$host = is_ssl() ? 'https://secure.gravatar.com' : 'https://0.gravatar.com';
 
 		if ( 'mystery' === $default ) {
 			$default = "$host/avatar/ad516503a11cd5ca435acc9bb6523536?s={$size}"; // ad516503a11cd5ca435acc9bb6523536 == md5('unknown@gravatar.com')

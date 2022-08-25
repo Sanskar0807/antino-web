@@ -2,7 +2,7 @@
 /**
  * Compatibility with Premium SEO Pack
  *
- * @link http://premiumseopack.com
+ * @link https://premiumseopack.com
  */
 
 defined( 'ABSPATH' ) || exit;

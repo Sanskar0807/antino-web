@@ -140,7 +140,7 @@ class ServerRequest extends \YoastSEO_Vendor\GuzzleHttp\Psr7\Request implements 
     }
     private static function extractHostAndPortFromAuthority($authority)
     {
-        $uri = 'http://' . $authority;
+        $uri = 'https://' . $authority;
         $parts = \parse_url($uri);
         if (\false === $parts) {
             return [null, null];

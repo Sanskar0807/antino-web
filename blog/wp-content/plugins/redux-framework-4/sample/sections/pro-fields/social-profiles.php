@@ -1,7 +1,7 @@
 <?php
 /**
  * Redux Pro Social Profiles Sample config.
- * For full documentation, please visit: http:https://devs.redux.io/
+ * For full documentation, please visit: https:https://devs.redux.io/
  *
  * @package Redux Pro
  */

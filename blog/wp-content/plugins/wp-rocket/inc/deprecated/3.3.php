@@ -693,7 +693,7 @@ if ( ! function_exists( 'rocket_updates_exclude' ) ) :
 			return $request;
 		}
 
-		if ( 0 !== strpos( $url, 'http://api.wordpress.org/plugins/update-check' ) || ! isset( $request['body']['plugins'] ) ) {
+		if ( 0 !== strpos( $url, 'https://api.wordpress.org/plugins/update-check' ) || ! isset( $request['body']['plugins'] ) ) {
 			return $request; // Not a plugin update request. Stop immediately.
 		}
 

@@ -252,7 +252,7 @@ class Bunyad_Theme_Lazyload
 			return $this->svg_cache[$id];
 		}
 		
-		$svg = "<svg viewBox='0 0 {$width} {$height}' xmlns='http://www.w3.org/2000/svg'></svg>";
+		$svg = "<svg viewBox='0 0 {$width} {$height}' xmlns='https://www.w3.org/2000/svg'></svg>";
 		
 		// For saving few bytes: $svg = str_replace('%20', ' ', rawurlencode($svg));
 		// But the browser support might be limited
@@ -264,7 +264,7 @@ class Bunyad_Theme_Lazyload
 	/**
 	 * Get all registered image sizes, including default ones
 	 * 
-	 * @link http://core.trac.wordpress.org/ticket/18947 Reference ticket
+	 * @link https://core.trac.wordpress.org/ticket/18947 Reference ticket
 	 */
 	public function get_registered_sizes()
 	{

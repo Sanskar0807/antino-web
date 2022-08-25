@@ -235,7 +235,7 @@ function get_rocket_htaccess_mod_rewrite() { // phpcs:ignore WordPress.NamingCon
 			$rules .= 'SetEnvIfNoCase Request_URI \.html_gzip$ no-gzip' . PHP_EOL;
 		$rules .= '</IfModule>' . PHP_EOL . PHP_EOL;
 
-		$gzip_rules .= 'RewriteCond %{HTTP:Accept-Encoding} gzip' . PHP_EOL;
+		$gzip_rules .= 'RewriteCond %{https:Accept-Encoding} gzip' . PHP_EOL;
 		$gzip_rules .= 'RewriteRule .* - [E=WPR_ENC:_gzip]' . PHP_EOL;
 
 		$enc = '%{ENV:WPR_ENC}';
@@ -252,7 +252,7 @@ function get_rocket_htaccess_mod_rewrite() { // phpcs:ignore WordPress.NamingCon
 
 	$cookies = get_rocket_cache_reject_cookies();
 	if ( $cookies ) {
-		$rules .= 'RewriteCond %{HTTP:Cookie} !(' . $cookies . ') [NC]' . PHP_EOL;
+		$rules .= 'RewriteCond %{https:Cookie} !(' . $cookies . ') [NC]' . PHP_EOL;
 	}
 
 	$uri = get_rocket_cache_reject_uri();
@@ -296,8 +296,8 @@ function get_rocket_htaccess_mobile_rewritecond() { // phpcs:ignore WordPress.Na
 		return;
 	}
 
-	$rules  = 'RewriteCond %{HTTP:X-Wap-Profile} !^[a-z0-9\"]+ [NC]' . PHP_EOL;
-	$rules .= 'RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]' . PHP_EOL;
+	$rules  = 'RewriteCond %{https:X-Wap-Profile} !^[a-z0-9\"]+ [NC]' . PHP_EOL;
+	$rules .= 'RewriteCond %{https:Profile} !^[a-z0-9\"]+ [NC]' . PHP_EOL;
 	$rules .= 'RewriteCond %{HTTP_USER_AGENT} !^.*(2.0\ MMP|240x320|400X240|AvantGo|BlackBerry|Blazer|Cellphone|Danger|DoCoMo|Elaine/3.0|EudoraWeb|Googlebot-Mobile|hiptop|IEMobile|KYOCERA/WX310K|LG/U990|MIDP-2.|MMEF20|MOT-V|NetFront|Newt|Nintendo\ Wii|Nitro|Nokia|Opera\ Mini|Palm|PlayStation\ Portable|portalmmm|Proxinet|ProxiNet|SHARP-TQ-GX10|SHG-i900|Small|SonyEricsson|Symbian\ OS|SymbianOS|TS21i-10|UP.Browser|UP.Link|webOS|Windows\ CE|WinWAP|YahooSeeker/M1A1-R2D2|iPhone|iPod|Android|BlackBerry9530|LG-TU915\ Obigo|LGE\ VX|webOS|Nokia5800).* [NC]' . PHP_EOL;
 	$rules .= 'RewriteCond %{HTTP_USER_AGENT} !^(w3c\ |w3c-|acs-|alav|alca|amoi|audi|avan|benq|bird|blac|blaz|brew|cell|cldc|cmd-|dang|doco|eric|hipt|htc_|inno|ipaq|ipod|jigs|kddi|keji|leno|lg-c|lg-d|lg-g|lge-|lg/u|maui|maxo|midp|mits|mmef|mobi|mot-|moto|mwbp|nec-|newt|noki|palm|pana|pant|phil|play|port|prox|qwap|sage|sams|sany|sch-|sec-|send|seri|sgh-|shar|sie-|siem|smal|smar|sony|sph-|symb|t-mo|teli|tim-|tosh|tsm-|upg1|upsi|vk-v|voda|wap-|wapa|wapi|wapp|wapr|webc|winw|winw|xda\ |xda-).* [NC]' . PHP_EOL;
 
@@ -316,7 +316,7 @@ function get_rocket_htaccess_mobile_rewritecond() { // phpcs:ignore WordPress.Na
 /**
  * Rules for SSL requests
  *
- * @since 2.7 Added rewrite condition for `%{HTTP:X-Forwarded-Proto}`.
+ * @since 2.7 Added rewrite condition for `%{https:X-Forwarded-Proto}`.
  * @since 2.0
  *
  * @return string $rules Rules that will be printed
@@ -324,7 +324,7 @@ function get_rocket_htaccess_mobile_rewritecond() { // phpcs:ignore WordPress.Na
 function get_rocket_htaccess_ssl_rewritecond() { // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals
 	$rules  = 'RewriteCond %{HTTPS} on [OR]' . PHP_EOL;
 	$rules .= 'RewriteCond %{SERVER_PORT} ^443$ [OR]' . PHP_EOL;
-	$rules .= 'RewriteCond %{HTTP:X-Forwarded-Proto} https' . PHP_EOL;
+	$rules .= 'RewriteCond %{https:X-Forwarded-Proto} https' . PHP_EOL;
 	$rules .= 'RewriteRule .* - [E=WPR_SSL:-https]' . PHP_EOL;
 
 	/**

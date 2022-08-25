@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Rocket 3.4\n"
-"Report-Msgid-Bugs-To: http://wp-rocket.me/\n"
+"Report-Msgid-Bugs-To: https://wp-rocket.me/\n"
 "POT-Creation-Date: 2020-05-28 13:07-0400\n"
 "PO-Revision-Date: 2019-08-26 15:14+0000\n"
 "Last-Translator: Tomas Hrdina <mot2425@gmail.com>, 2020\n"
@@ -895,11 +895,11 @@ msgstr "URL adresy pro přednačítání"
 
 #: inc/Engine/Admin/Settings/Page.php:1123
 msgid ""
-"Specify external hosts to be prefetched (no <code>http:</code>, one per "
+"Specify external hosts to be prefetched (no <code>https:</code>, one per "
 "line)"
 msgstr ""
 "Zadejte externí hostitele, kteří se mají předběžně načítat (bez "
-"<code>http:</code>, pište jednoho na řádek)"
+"<code>https:</code>, pište jednoho na řádek)"
 
 #: inc/Engine/Admin/Settings/Page.php:1132
 msgid "Fonts to preload"
@@ -1558,11 +1558,11 @@ msgstr "Relativní protokol"
 #: inc/Engine/Admin/Settings/Page.php:1942
 msgid ""
 "Should only be used with Cloudflare's flexible SSL feature. URLs of static "
-"files (CSS, JS, images) will be rewritten to use // instead of http:// or "
+"files (CSS, JS, images) will be rewritten to use // instead of https:// or "
 "https://."
 msgstr ""
 "Mělo by být použito jen s Cloudflare funkcí „flexible SSL“. URL adresy "
-"statických souborů (CSS, JS, obrázky) budou používat „//“ místo „http://“ "
+"statických souborů (CSS, JS, obrázky) budou používat „//“ místo „https://“ "
 "nebo „https://“."
 
 #: inc/Engine/Admin/Settings/Page.php:1980

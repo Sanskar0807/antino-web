@@ -331,7 +331,7 @@ if ( ! class_exists( 'Redux_Connection_Banner', false ) ) {
 			?>
 			<div id="redux-connect-message" class="updated redux-banner-container" data-nonce="<?php echo wp_create_nonce( $this->nonce ); ?>">
 				<div class="redux-banner-container-top-text">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="0" fill="none" width="24" height="24"/><g><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm1 15h-2v-2h2v2zm0-4h-2l-.5-6h3l-.5 6z"/></g></svg>
+					<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="0" fill="none" width="24" height="24"/><g><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm1 15h-2v-2h2v2zm0-4h-2l-.5-6h3l-.5 6z"/></g></svg>
 					<span>
 						<?php esc_html_e( 'You’re almost done. Register for our service to unlock even more tools to help you build better sites faster in WordPress.', 'redux-framework' ); ?>
 					</span>
@@ -434,7 +434,7 @@ if ( ! class_exists( 'Redux_Connection_Banner', false ) ) {
 				<div class="redux-banner-full-container">
 					<div class="redux-banner-full-container-card">
 						<div class="redux-banner-full-dismiss">
-							<svg class="redux-banner-svg-dismiss" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Dismiss Redux Connection Window</title><rect x="0" fill="none" /><g><path d="M17.705 7.705l-1.41-1.41L12 10.59 7.705 6.295l-1.41 1.41L10.59 12l-4.295 4.295 1.41 1.41L12 13.41l4.295 4.295 1.41-1.41L13.41 12l4.295-4.295z"/></g></svg>
+							<svg class="redux-banner-svg-dismiss" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Dismiss Redux Connection Window</title><rect x="0" fill="none" /><g><path d="M17.705 7.705l-1.41-1.41L12 10.59 7.705 6.295l-1.41 1.41L10.59 12l-4.295 4.295 1.41 1.41L12 13.41l4.295 4.295 1.41-1.41L13.41 12l4.295-4.295z"/></g></svg>
 						</div>
 
 						<img

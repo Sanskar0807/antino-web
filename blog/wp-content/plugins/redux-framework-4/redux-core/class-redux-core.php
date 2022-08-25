@@ -298,7 +298,7 @@ if ( ! class_exists( 'Redux_Core', false ) ) {
 
 			$upload_dir       = wp_upload_dir();
 			self::$upload_dir = $upload_dir['basedir'] . '/redux/';
-			self::$upload_url = str_replace( array( 'https://', 'http://' ), '//', $upload_dir['baseurl'] . '/redux/' );
+			self::$upload_url = str_replace( array( 'https://', 'https://' ), '//', $upload_dir['baseurl'] . '/redux/' );
 
 			// phpcs:ignore WordPress.NamingConventions.ValidHookName
 			self::$upload_dir = apply_filters( 'redux/upload_dir', self::$upload_dir );

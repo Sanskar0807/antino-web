@@ -830,7 +830,7 @@ class Column extends Base {
 	 * and universally identify a given database row without any direct
 	 * connection or correlation to the data in that row.
 	 *
-	 * From http://php.net/manual/en/function.uniqid.php#94959
+	 * From https://php.net/manual/en/function.uniqid.php#94959
 	 *
 	 * @since 1.0.0
 	 * @param string $value The UUID value (empty on insert, string on update)

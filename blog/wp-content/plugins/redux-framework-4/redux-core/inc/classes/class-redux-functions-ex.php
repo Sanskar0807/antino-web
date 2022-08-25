@@ -65,7 +65,7 @@ if ( ! class_exists( 'Redux_Functions_Ex', false ) ) {
 
 		/**
 		 * Merge arrays without converting values with duplicate keys to arrays as array_merge_recursive does.
-		 * As seen here http://php.net/manual/en/function.array-merge-recursive.php#92195
+		 * As seen here https://php.net/manual/en/function.array-merge-recursive.php#92195
 		 *
 		 * @since   3.5.7.11
 		 *
@@ -175,10 +175,10 @@ if ( ! class_exists( 'Redux_Functions_Ex', false ) ) {
 		 */
 		public static function verify_url_protocol( $url ) {
 			// phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotValidated
-			$protocol = ! empty( $_SERVER['HTTPS'] ) && 'off' !== $_SERVER['HTTPS'] || ( ! empty( $_SERVER['SERVER_PORT'] ) && 443 === $_SERVER['SERVER_PORT'] ) ? 'https://' : 'http://';
+			$protocol = ! empty( $_SERVER['HTTPS'] ) && 'off' !== $_SERVER['HTTPS'] || ( ! empty( $_SERVER['SERVER_PORT'] ) && 443 === $_SERVER['SERVER_PORT'] ) ? 'https://' : 'https://';
 			if ( isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && ! empty( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) ) { // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotValidated
 				$new_protocol = sanitize_text_field( wp_unslash( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) ) . '://'; // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotValidated
-				if ( 'http://' === $protocol && $new_protocol !== $protocol && false === strpos( $url, $new_protocol ) ) {
+				if ( 'https://' === $protocol && $new_protocol !== $protocol && false === strpos( $url, $new_protocol ) ) {
 					$url = str_replace( $protocol, $new_protocol, $url );
 				}
 			}

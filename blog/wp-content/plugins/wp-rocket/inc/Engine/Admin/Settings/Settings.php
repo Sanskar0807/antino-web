@@ -529,7 +529,7 @@ class Settings {
 				continue;
 			}
 
-			$url = preg_replace( '/^(?:https?)?:?\/{3,}/i', 'http://', $url );
+			$url = preg_replace( '/^(?:https?)?:?\/{3,}/i', 'https://', $url );
 			$url = esc_url_raw( $url );
 
 			if ( empty( $url ) ) {
@@ -608,7 +608,7 @@ class Settings {
 			}
 		}
 
-		$file = str_replace( [ 'http:', 'https:' ], '', $file );
+		$file = str_replace( [ 'https:', 'https:' ], '', $file );
 		$file = str_replace( $hosts, '', $file );
 		$file = '/' . ltrim( $file, '/' );
 

@@ -134,7 +134,7 @@ domReady(() => {
 	document.querySelector('body').appendChild(redux_templatesGradient)
 	render(
 		<svg
-			xmlns="http://www.w3.org/2000/svg"
+			xmlns="https://www.w3.org/2000/svg"
 			className="redux-gradient"
 			height="0"
 			width="0"

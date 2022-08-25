@@ -309,7 +309,7 @@ class WP_Http {
 
 		// WP allows passing in headers as a string, weirdly.
 		if ( ! is_array( $parsed_args['headers'] ) ) {
-			$processedHeaders       = WP_Http::processHeaders( $parsed_args['headers'] );
+			$processedHeaders       = WP_https::processHeaders( $parsed_args['headers'] );
 			$parsed_args['headers'] = $processedHeaders['headers'];
 		}
 
@@ -348,7 +348,7 @@ class WP_Http {
 
 		// If we've got cookies, use and convert them to Requests_Cookie.
 		if ( ! empty( $parsed_args['cookies'] ) ) {
-			$options['cookies'] = WP_Http::normalize_cookies( $parsed_args['cookies'] );
+			$options['cookies'] = WP_https::normalize_cookies( $parsed_args['cookies'] );
 		}
 
 		// SSL certificate handling.
@@ -556,8 +556,8 @@ class WP_Http {
 	 * The order for requests is cURL, and then PHP Streams.
 	 *
 	 * @since 3.2.0
-	 * @deprecated 5.1.0 Use WP_Http::request()
-	 * @see WP_Http::request()
+	 * @deprecated 5.1.0 Use WP_https::request()
+	 * @see WP_https::request()
 	 *
 	 * @param string $url  URL to request.
 	 * @param array  $args Request arguments.
@@ -1042,7 +1042,7 @@ class WP_Http {
 			$redirect_location = array_pop( $redirect_location );
 		}
 
-		$redirect_location = WP_Http::make_absolute_url( $redirect_location, $url );
+		$redirect_location = WP_https::make_absolute_url( $redirect_location, $url );
 
 		// POST requests should not POST to a redirected location.
 		if ( 'POST' === $args['method'] ) {
@@ -1071,7 +1071,7 @@ class WP_Http {
 	 * This does not verify if the IP is a valid IP, only that it appears to be
 	 * an IP address.
 	 *
-	 * @link http://home.deds.nl/~aeron/regex/ for IPv6 regex.
+	 * @link https://home.deds.nl/~aeron/regex/ for IPv6 regex.
 	 *
 	 * @since 3.7.0
 	 *

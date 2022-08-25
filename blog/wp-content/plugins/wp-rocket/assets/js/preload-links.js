@@ -152,7 +152,7 @@ class RocketPreloadLinks {
 			! 'href' in linkElem
 			||
 			// Link prefetching only works on http/https protocol.
-			[ 'http:', 'https:' ].indexOf( linkElem.protocol ) === -1
+			[ 'https:', 'https:' ].indexOf( linkElem.protocol ) === -1
 		) {
 			return null;
 		}

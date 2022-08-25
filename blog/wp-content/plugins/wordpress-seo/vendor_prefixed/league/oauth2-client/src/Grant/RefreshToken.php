@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  *
  * @copyright Copyright (c) Alex Bilbie <hello@alexbilbie.com>
- * @license http://opensource.org/licenses/MIT MIT
- * @link http://thephpleague.com/oauth2-client/ Documentation
+ * @license https://opensource.org/licenses/MIT MIT
+ * @link https://thephpleague.com/oauth2-client/ Documentation
  * @link https://packagist.org/packages/league/oauth2-client Packagist
  * @link https://github.com/thephpleague/oauth2-client GitHub
  */
@@ -17,7 +17,7 @@ namespace YoastSEO_Vendor\League\OAuth2\Client\Grant;
 /**
  * Represents a refresh token grant.
  *
- * @link http://tools.ietf.org/html/rfc6749#section-6 Refreshing an Access Token (RFC 6749, §6)
+ * @link https://tools.ietf.org/html/rfc6749#section-6 Refreshing an Access Token (RFC 6749, §6)
  */
 class RefreshToken extends \YoastSEO_Vendor\League\OAuth2\Client\Grant\AbstractGrant
 {

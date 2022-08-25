@@ -7,7 +7,7 @@ Tested up to: 5.7
 Requires PHP: 5.3
 Stable tag: 2.2.0
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Adds an avatar upload field to user profiles. Generates requested sizes on demand just like Gravatar!
 
@@ -31,7 +31,7 @@ Just edit a user profile, and scroll down to the new "Avatar" field. The plug-in
 1. If you only want users with file upload capabilities to upload avatars, check the applicable option under Settings > Discussion
 1. Start uploading avatars by editing user profiles!
 
-Use avatars in your theme using WordPress' built in `get_avatar()` function: [http://codex.wordpress.org/Function_Reference/get_avatar](http://codex.wordpress.org/Function_Reference/get_avatar "get_avatar function")
+Use avatars in your theme using WordPress' built in `get_avatar()` function: [https://codex.wordpress.org/Function_Reference/get_avatar](https://codex.wordpress.org/Function_Reference/get_avatar "get_avatar function")
 
 You can also use `get_simple_local_avatar()` (with the same arguments) to retreive local avatars a bit faster, but this will make your theme dependent on this plug-in.
 

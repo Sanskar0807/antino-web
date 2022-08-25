@@ -4,7 +4,7 @@
  *
  * This template overrides woocommerce/templates/content-widget-product.php.
  * 
- * @see 	http://docs.woothemes.com/document/template-structure/
+ * @see 	https://docs.woothemes.com/document/template-structure/
  * @version 3.5.5
  */
 

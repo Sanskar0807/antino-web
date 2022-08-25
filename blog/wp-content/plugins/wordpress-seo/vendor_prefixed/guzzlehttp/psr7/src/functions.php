@@ -529,7 +529,7 @@ function mimetype_from_filename($filename)
  * @param $extension string The file extension.
  *
  * @return string|null
- * @link http://svn.apache.org/repos/asf/httpd/httpd/branches/1.3.x/conf/mime.types
+ * @link https://svn.apache.org/repos/asf/httpd/httpd/branches/1.3.x/conf/mime.types
  */
 function mimetype_from_extension($extension)
 {
@@ -568,7 +568,7 @@ function _parse_message($message)
     }
     list($startLine, $rawHeaders) = $headerParts;
     if (\preg_match("/(?:^HTTP\\/|^[A-Z]+ \\S+ HTTP\\/)(\\d+(?:\\.\\d+)?)/i", $startLine, $matches) && $matches[1] === '1.0') {
-        // Header folding is deprecated for HTTP/1.1, but allowed in HTTP/1.0
+        // Header folding is deprecated for , but allowed in HTTP/1.0
         $rawHeaders = \preg_replace(\YoastSEO_Vendor\GuzzleHttp\Psr7\Rfc7230::HEADER_FOLD_REGEX, ' ', $rawHeaders);
     }
     /** @var array[] $headerLines */

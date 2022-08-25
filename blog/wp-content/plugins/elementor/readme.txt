@@ -867,7 +867,7 @@ No. Elementor supports WordPress 5.0 or greater, and is compatible with PHP 5.6 
 * Tweak: Updated `e-icons` library to v5.5.0
 * Tweak: Updated `e-gallery` library to v1.1.0
 * Tweak: Dropped Support for WP v4.9, now supporting WP v5.0+
-* Tweak: Dropped delete revision option in Revisions Panel since WordPress v5.3 ([Topic](http://core.trac.wordpress.org/ticket/43709))
+* Tweak: Dropped delete revision option in Revisions Panel since WordPress v5.3 ([Topic](https://core.trac.wordpress.org/ticket/43709))
 * Tweak: Added compatibility with WordPress v5.3
 * Fix: Use CSS Flex to align and order button icon ([#561](https://github.com/elementor/elementor/issues/561))
 * Fix: Remove Ninja Forms compatibility script which causes server issues ([#8267](https://github.com/elementor/elementor/issues/8267))

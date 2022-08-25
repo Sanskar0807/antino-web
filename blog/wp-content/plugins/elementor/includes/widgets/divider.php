@@ -1011,7 +1011,7 @@ class Widget_Divider extends Widget_Base {
 		$pattern_attribute_string = $this->get_render_attribute_string( 'svg' );
 		$shape = $selected_pattern['shape'];
 
-		return '<svg xmlns="http://www.w3.org/2000/svg" ' . $pattern_attribute_string . '>' . $shape . '</svg>';
+		return '<svg xmlns="https://www.w3.org/2000/svg" ' . $pattern_attribute_string . '>' . $shape . '</svg>';
 	}
 
 	public function svg_to_data_uri( $svg ) {

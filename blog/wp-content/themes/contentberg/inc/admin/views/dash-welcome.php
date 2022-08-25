@@ -59,14 +59,14 @@
 <div class="ts-dash-box">
 	<h3>Setting up your site</h3>
 	
-	<p>Our <a href="http://contentberg.theme-sphere.com/documentation/" target="_blank">documentation</a> has all the information you need on getting setup.</p>
+	<p>Our <a href="https://contentberg.theme-sphere.com/documentation/" target="_blank">documentation</a> has all the information you need on getting setup.</p>
 	
 	<ol>
 		<?php if (!TGM_Plugin_Activation::get_instance()->is_tgmpa_complete()): ?>
 			<li>Make sure you have activated the <a href="<?php echo esc_url(admin_url('admin.php?page=tgmpa-install-plugins')); ?>" target="_blank">required plugins</a>.</li>
 		<?php endif; ?>
 		<li>You can <a href="<?php echo esc_url(admin_url('admin.php?page=sphere-dash-demos')); ?>" target="_blank">import a demo</a>. If it's a fresh install or a test site, you can import full demo content. If it's a site with existing content, only import settings.</li>
-		<li>Add a logo, configure your menus, setup your home-page. Learn all these in <a href="http://contentberg.theme-sphere.com/documentation/#post-install" target="_blank">this guide</a>.</li>
+		<li>Add a logo, configure your menus, setup your home-page. Learn all these in <a href="https://contentberg.theme-sphere.com/documentation/#post-install" target="_blank">this guide</a>.</li>
 	</ol>
 </div>
 

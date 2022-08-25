@@ -156,7 +156,7 @@ class PurgeExpiredCache {
 			 *     Ex:
 			 *     [
 			 *         [
-			 *             'home_url'  => 'http://example.com/home1',
+			 *             'home_url'  => 'https://example.com/home1',
 			 *             'home_path' => '/path-to/home1/wp-content/cache/wp-rocket/example.com/home1',
 			 *             'logged_in' => false,
 			 *             'files'     => [
@@ -165,7 +165,7 @@ class PurgeExpiredCache {
 			 *             ],
 			 *         ],
 			 *         [
-			 *             'home_url'  => 'http://example.com/home1',
+			 *             'home_url'  => 'https://example.com/home1',
 			 *             'home_path' => '/path-to/home1/wp-content/cache/wp-rocket/example.com-Greg-594d03f6ae698691165999/home1',
 			 *             'logged_in' => true,
 			 *             'files'     => [
@@ -203,7 +203,7 @@ class PurgeExpiredCache {
 		 *     Ex:
 		 *     [
 		 *         [
-		 *             'home_url'  => 'http://example.com/home1',
+		 *             'home_url'  => 'https://example.com/home1',
 		 *             'home_path' => '/path-to/home1/wp-content/cache/wp-rocket/example.com/home1',
 		 *             'logged_in' => false,
 		 *             'files'     => [
@@ -212,7 +212,7 @@ class PurgeExpiredCache {
 		 *             ],
 		 *         ],
 		 *         [
-		 *             'home_url'  => 'http://example.com/home1',
+		 *             'home_url'  => 'https://example.com/home1',
 		 *             'home_path' => '/path-to/home1/wp-content/cache/wp-rocket/example.com-Greg-594d03f6ae698691165999/home1',
 		 *             'logged_in' => true,
 		 *             'files'     => [
@@ -221,7 +221,7 @@ class PurgeExpiredCache {
 		 *             ],
 		 *         ],
 		 *         [
-		 *             'home_url'  => 'http://example.com/home4',
+		 *             'home_url'  => 'https://example.com/home4',
 		 *             'home_path' => '/path-to/home4/wp-content/cache/wp-rocket/example.com-Greg-71edg8d6af865569979569/home4',
 		 *             'logged_in' => true,
 		 *             'files'     => [

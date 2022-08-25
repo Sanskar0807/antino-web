@@ -106,8 +106,8 @@ class WP_Import extends \WP_Importer {
 	 * @param string[] $disposition_header List of Content-Disposition header values.
 	 *
 	 * @return string|null Filename if available, or null if not found.
-	 * @link  http://tools.ietf.org/html/rfc2388
-	 * @link  http://tools.ietf.org/html/rfc6266
+	 * @link  https://tools.ietf.org/html/rfc2388
+	 * @link  https://tools.ietf.org/html/rfc6266
 	 *
 	 * @see WP_REST_Attachments_Controller::get_filename_from_disposition()
 	 *

@@ -717,11 +717,11 @@ class WP_Exporter {
 <!--    contained in this file into your site. -->
 $generator
 <rss version="2.0"
-	xmlns:excerpt="http://wordpress.org/export/$wxr_version/excerpt/"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:wp="http://wordpress.org/export/$wxr_version/"
+	xmlns:excerpt="https://wordpress.org/export/$wxr_version/excerpt/"
+	xmlns:content="https://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="https://wellformedweb.org/CommentAPI/"
+	xmlns:dc="https://purl.org/dc/elements/1.1/"
+	xmlns:wp="https://wordpress.org/export/$wxr_version/"
 >
 	<channel>
 		<title>$rss_info_name</title>

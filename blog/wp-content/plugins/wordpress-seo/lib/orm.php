@@ -10,7 +10,7 @@ use Yoast\WP\SEO\Config\Migration_Status;
  *
  * Based on Idiorm
  *
- * URL: http://github.com/j4mie/idiorm/
+ * URL: https://github.com/j4mie/idiorm/
  *
  * A single-class super-simple database abstraction layer for PHP.
  * Provides (nearly) zero-configuration object-relational mapping
@@ -45,7 +45,7 @@ use Yoast\WP\SEO\Config\Migration_Status;
  * The methods documented below are magic methods that conform to PSR-1.
  * This documentation exposes these methods to doc generators and IDEs.
  *
- * @see http://www.php-fig.org/psr/psr-1/
+ * @see https://www.php-fig.org/psr/psr-1/
  */
 class ORM implements \ArrayAccess {
 

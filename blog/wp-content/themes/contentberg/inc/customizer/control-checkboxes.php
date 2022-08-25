@@ -2,7 +2,7 @@
 /**
  * Supports multiple checkboxes for the customizer.
  * 
- * Based on: http://justintadlock.com/archives/2015/05/26/multiple-checkbox-customizer-control
+ * Based on: https://justintadlock.com/archives/2015/05/26/multiple-checkbox-customizer-control
  */
 class Bunyad_Customizer_Control_Checkboxes extends WP_Customize_Control
 {

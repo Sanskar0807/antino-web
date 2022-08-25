@@ -2,7 +2,7 @@
 Contributors: yoast, joostdevalk, omarreiss
 Donate link: https://yoa.st/1up
 License: GPLv3
-License URI: http://www.gnu.org/licenses/gpl.html
+License URI: https://www.gnu.org/licenses/gpl.html
 Tags: SEO, XML sitemap, Content analysis, Readability, Schema
 Tested up to: 5.8
 Stable tag: 16.7

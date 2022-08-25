@@ -852,7 +852,7 @@ class WP_REST_Plugins_Controller extends WP_REST_Controller {
 		}
 
 		$this->schema = array(
-			'$schema'    => 'http://json-schema.org/draft-04/schema#',
+			'$schema'    => 'https://json-schema.org/draft-04/schema#',
 			'title'      => 'plugin',
 			'type'       => 'object',
 			'properties' => array(

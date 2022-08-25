@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  *
  * @copyright Copyright (c) Alex Bilbie <hello@alexbilbie.com>
- * @license http://opensource.org/licenses/MIT MIT
- * @link http://thephpleague.com/oauth2-client/ Documentation
+ * @license https://opensource.org/licenses/MIT MIT
+ * @link https://thephpleague.com/oauth2-client/ Documentation
  * @link https://packagist.org/packages/league/oauth2-client Packagist
  * @link https://github.com/thephpleague/oauth2-client GitHub
  */
@@ -34,7 +34,7 @@ use UnexpectedValueException;
 /**
  * Represents a service provider (authorization server).
  *
- * @link http://tools.ietf.org/html/rfc6749#section-1.1 Roles (RFC 6749, §1.1)
+ * @link https://tools.ietf.org/html/rfc6749#section-1.1 Roles (RFC 6749, §1.1)
  */
 abstract class AbstractProvider
 {
@@ -679,7 +679,7 @@ abstract class AbstractProvider
      * Returns the authorization headers used by this provider.
      *
      * Typically this is "Bearer" or "MAC". For more information see:
-     * http://tools.ietf.org/html/rfc6749#section-7.1
+     * https://tools.ietf.org/html/rfc6749#section-7.1
      *
      * No default is provided, providers must overload this method to activate
      * authorization headers.

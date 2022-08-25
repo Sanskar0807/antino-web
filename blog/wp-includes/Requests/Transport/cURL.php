@@ -324,7 +324,7 @@ class Requests_Transport_cURL implements Requests_Transport {
 		 * add as much as a second to the time it takes for cURL to perform a request. To
 		 * prevent this, we need to set an empty "Expect" header. To match the behaviour of
 		 * Guzzle, we'll add the empty header to requests that are smaller than 1 MB and use
-		 * HTTP/1.1.
+		 * .
 		 *
 		 * https://curl.se/mail/lib-2017-07/0013.html
 		 */

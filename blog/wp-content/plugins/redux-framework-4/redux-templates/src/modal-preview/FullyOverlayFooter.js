@@ -20,7 +20,7 @@ function FullyOverlayFooter(props) {
                 {
                     pro ?
                         <div className="action-buttons">
-                            <a className="redux-templates-button-download" target="_blank" href="http://redux-templates.io/">
+                            <a className="redux-templates-button-download" target="_blank" href="https://redux-templates.io/">
                                 <i className="fas fa-upload"></i>&nbsp;{__('Upgrade to Pro', redux_templates.i18n)}
                             </a>
                         </div>

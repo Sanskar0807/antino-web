@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
- *  Elusive Icons 2.0.0 by @ReduxFramework - http://elusiveicons.com - @reduxframework
- *  License - http://elusiveicons.com/license (Font: SIL OFL 1.1, CSS: MIT License)
+ *  Elusive Icons 2.0.0 by @ReduxFramework - https://elusiveicons.com - @reduxframework
+ *  License - https://elusiveicons.com/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 @font-face {
   font-family: "Elusive-Icons";
@@ -2612,7 +2612,7 @@
 
 /*!
  * jQuery UI Bootstrap (0.5)
- * http://addyosmani.github.com/jquery-ui-bootstrap
+ * https://addyosmani.github.com/jquery-ui-bootstrap
  *
  * Copyright 2012 - 2013, Addy Osmani
  * Dual licensed under the MIT or GPL Version 2 licenses.
@@ -2633,13 +2633,13 @@
   /*
      * jQuery UI CSS Framework 1.10.0
      *
-     * Copyright 2013, AUTHORS.txt (http://jqueryui.com/about)
+     * Copyright 2013, AUTHORS.txt (https://jqueryui.com/about)
      * Dual licensed under the MIT or GPL Version 2 licenses.
-     * http://jquery.org/license
+     * https://jquery.org/license
      *
      *
      *
-     * To view and modify this theme, visit http://jqueryui.com/themeroller/
+     * To view and modify this theme, visit https://jqueryui.com/themeroller/
      */
   /* Component containers
     ----------------------------------*/
@@ -2660,21 +2660,21 @@
   /*
      * jQuery UI Accordion 1.10.0
      *
-     * Copyright 2013, AUTHORS.txt (http://jqueryui.com/about)
+     * Copyright 2013, AUTHORS.txt (https://jqueryui.com/about)
      * Dual licensed under the MIT or GPL Version 2 licenses.
-     * http://jquery.org/license
+     * https://jquery.org/license
      *
-     * http://jqueryui.com/accordion/
+     * https://jqueryui.com/accordion/
      */
   /* IE/Win - Fix animation bug - #4615 */
   /*
      * jQuery UI Button 1.10.0
      *
-     * Copyright 2013, AUTHORS.txt (http://jqueryui.com/about)
+     * Copyright 2013, AUTHORS.txt (https://jqueryui.com/about)
      * Dual licensed under the MIT or GPL Version 2 licenses.
-     * http://jquery.org/license
+     * https://jquery.org/license
      *
-     * http://docs.jquery.com/UI/Button#theming
+     * https://docs.jquery.com/UI/Button#theming
      */
   /* the overflow property removes extra width in IE */
   /* to make room for the icon, a width needs to be set here */
@@ -2689,11 +2689,11 @@
   /*
      * jQuery UI Datepicker 1.9.0
      *
-     * Copyright 2012-10-11, AUTHORS.txt (http://jqueryui.com/about)
+     * Copyright 2012-10-11, AUTHORS.txt (https://jqueryui.com/about)
      * Dual licensed under the MIT or GPL Version 2 licenses.
-     * http://jquery.org/license
+     * https://jquery.org/license
      *
-     * http://jqueryui.com/datepicker/
+     * https://jqueryui.com/datepicker/
      */
   /* with multiple calendars */
   /* RTL support */
@@ -5249,11 +5249,11 @@
 
 /*
  * qTip2 - Pretty powerful tooltips - v2.2.1
- * http://qtip2.com
+ * https://qtip2.com
  *
  * Copyright (c) 2014
  * Released under the MIT licenses
- * http://jquery.org/license
+ * https://jquery.org/license
  *
  * Date: Sat Sep 6 2014 11:12 GMT+0100+0100
  * Plugins: tips modal viewport svg imagemap ie6
@@ -5830,7 +5830,7 @@ License: MIT
   box-sizing: content-box;
 }
 
-/* http://ansciath.tumblr.com/post/7347495869/css-aspect-ratio */
+/* https://ansciath.tumblr.com/post/7347495869/css-aspect-ratio */
 .sp-top {
   position: relative;
   width: 100%;
@@ -6086,7 +6086,7 @@ License: MIT
 /*
 Theme authors:
 Here are the basic themeable display options (colors, fonts, global widths).
-See http://bgrins.github.io/spectrum/themes/ for instructions.
+See https://bgrins.github.io/spectrum/themes/ for instructions.
 */
 .sp-container {
   border-radius: 0;
@@ -6277,7 +6277,7 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
   padding-bottom: 0;
 }
 
-/* Buttons: http://hellohappy.org/css3-buttons/ */
+/* Buttons: https://hellohappy.org/css3-buttons/ */
 .sp-container button {
   background-color: #eee;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));

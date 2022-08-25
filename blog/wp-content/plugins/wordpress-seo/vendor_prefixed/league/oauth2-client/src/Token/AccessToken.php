@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  *
  * @copyright Copyright (c) Alex Bilbie <hello@alexbilbie.com>
- * @license http://opensource.org/licenses/MIT MIT
- * @link http://thephpleague.com/oauth2-client/ Documentation
+ * @license https://opensource.org/licenses/MIT MIT
+ * @link https://thephpleague.com/oauth2-client/ Documentation
  * @link https://packagist.org/packages/league/oauth2-client Packagist
  * @link https://github.com/thephpleague/oauth2-client GitHub
  */
@@ -19,7 +19,7 @@ use RuntimeException;
 /**
  * Represents an access token.
  *
- * @link http://tools.ietf.org/html/rfc6749#section-1.4 Access Token (RFC 6749, §1.4)
+ * @link https://tools.ietf.org/html/rfc6749#section-1.4 Access Token (RFC 6749, §1.4)
  */
 class AccessToken implements \YoastSEO_Vendor\League\OAuth2\Client\Token\AccessTokenInterface, \YoastSEO_Vendor\League\OAuth2\Client\Token\ResourceOwnerAccessTokenInterface
 {

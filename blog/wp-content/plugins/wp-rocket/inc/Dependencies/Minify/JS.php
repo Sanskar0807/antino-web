@@ -24,7 +24,7 @@ namespace WP_Rocket\Dependencies\Minify;
 class JS extends Minify
 {
 	/**
-	 * Var-matching regex based on http://stackoverflow.com/a/9337047/802993.
+	 * Var-matching regex based on https://stackoverflow.com/a/9337047/802993.
 	 *
 	 * Note that regular expressions using that bit must have the PCRE_UTF8
 	 * pattern modifier (/u) set.

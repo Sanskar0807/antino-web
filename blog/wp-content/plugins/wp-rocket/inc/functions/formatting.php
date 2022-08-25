@@ -5,7 +5,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Get relative url
  * Clean URL file to get only the equivalent of REQUEST_URI
- * ex: rocket_clean_exclude_file( 'http://www.geekpress.fr/referencement-wordpress/') return /referencement-wordpress/
+ * ex: rocket_clean_exclude_file( 'https://www.geekpress.fr/referencement-wordpress/') return /referencement-wordpress/
  *
  * @since 1.3.5 Redo the function
  * @since 1.0
@@ -284,9 +284,9 @@ function rocket_remove_url_protocol( $url, $no_dots = false ) {
  * @return string $url The URL with protocol.
  */
 function rocket_add_url_protocol( $url ) {
-	// Bail out if the URL starts with http:// or https://.
+	// Bail out if the URL starts with https:// or https://.
 	if (
-		strpos( $url, 'http://' ) !== false
+		strpos( $url, 'https://' ) !== false
 		||
 		strpos( $url, 'https://' ) !== false
 	) {
@@ -320,9 +320,9 @@ function rocket_set_internal_url_scheme( $url ) {
 
 /**
  * Get the domain of an URL without subdomain
- * (ex: rocket_get_domain( 'http://www.geekpress.fr' ) return geekpress.fr
+ * (ex: rocket_get_domain( 'https://www.geekpress.fr' ) return geekpress.fr
  *
- * @source : http://stackoverflow.com/a/15498686
+ * @source : https://stackoverflow.com/a/15498686
  * @since 2.7.3 undeprecated & updated
  * @since 1.0
  *

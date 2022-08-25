@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Rocket 3.4\n"
-"Report-Msgid-Bugs-To: http://wp-rocket.me/\n"
+"Report-Msgid-Bugs-To: https://wp-rocket.me/\n"
 "POT-Creation-Date: 2020-08-25 17:35-0400\n"
 "PO-Revision-Date: 2019-08-26 15:14+0000\n"
 "Last-Translator: Tony Tong <tw191@163.com>, 2020\n"
@@ -835,9 +835,9 @@ msgstr "预读取的URL"
 
 #: inc/Engine/Admin/Settings/Page.php:1188
 msgid ""
-"Specify external hosts to be prefetched (no <code>http:</code>, one per "
+"Specify external hosts to be prefetched (no <code>https:</code>, one per "
 "line)"
-msgstr "指定要预读取的外部主机名（不带 <code>http:</code>，每行一个）"
+msgstr "指定要预读取的外部主机名（不带 <code>https:</code>，每行一个）"
 
 #: inc/Engine/Admin/Settings/Page.php:1197
 msgid "Fonts to preload"
@@ -1412,10 +1412,10 @@ msgstr "相对协议"
 #: inc/Engine/Admin/Settings/Page.php:2015
 msgid ""
 "Should only be used with Cloudflare's flexible SSL feature. URLs of static "
-"files (CSS, JS, images) will be rewritten to use // instead of http:// or "
+"files (CSS, JS, images) will be rewritten to use // instead of https:// or "
 "https://."
 msgstr ""
-"仅适用于 Cloudflare的 flexible SSL 功能。静态文件（CSS, JS和图片）URL的 http:// 或 https:// "
+"仅适用于 Cloudflare的 flexible SSL 功能。静态文件（CSS, JS和图片）URL的 https:// 或 https:// "
 "将被重写为 // 。"
 
 #: inc/Engine/Admin/Settings/Page.php:2053

@@ -47,7 +47,7 @@ class WPSEO_Sitemaps {
 	 *
 	 * @var string
 	 */
-	protected $http_protocol = 'HTTP/1.1';
+	protected $http_protocol = '';
 
 	/**
 	 * Holds the n variable.

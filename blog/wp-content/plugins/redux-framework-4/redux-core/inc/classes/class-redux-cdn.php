@@ -108,7 +108,7 @@ if ( ! class_exists( 'Redux_CDN', false ) ) {
 				}
 			} else {
 
-				$prefix = '/' === $src_cdn[1] ? 'http:' : '';
+				$prefix = '/' === $src_cdn[1] ? 'https:' : '';
 
 				// phpcs:ignore WordPress.PHP.NoSilencedErrors
 				$cdn_response = @wp_remote_get( $prefix . $src_cdn );

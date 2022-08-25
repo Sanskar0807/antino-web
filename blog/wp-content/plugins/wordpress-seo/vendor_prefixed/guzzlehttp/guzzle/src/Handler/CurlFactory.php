@@ -119,7 +119,7 @@ class CurlFactory implements \YoastSEO_Vendor\GuzzleHttp\Handler\CurlFactoryInte
         if ($easy->onHeadersException) {
             return \YoastSEO_Vendor\GuzzleHttp\Promise\rejection_for(new \YoastSEO_Vendor\GuzzleHttp\Exception\RequestException('An error was encountered during the on_headers event', $easy->request, $easy->response, $easy->onHeadersException, $ctx));
         }
-        $message = \sprintf('cURL error %s: %s (%s)', $ctx['errno'], $ctx['error'], 'see http://curl.haxx.se/libcurl/c/libcurl-errors.html');
+        $message = \sprintf('cURL error %s: %s (%s)', $ctx['errno'], $ctx['error'], 'see https://curl.haxx.se/libcurl/c/libcurl-errors.html');
         // Create a connection exception if it was a specific error code.
         $error = isset($connectionErrors[$easy->errno]) ? new \YoastSEO_Vendor\GuzzleHttp\Exception\ConnectException($message, $easy->request, null, $ctx) : new \YoastSEO_Vendor\GuzzleHttp\Exception\RequestException($message, $easy->request, $easy->response, null, $ctx);
         return \YoastSEO_Vendor\GuzzleHttp\Promise\rejection_for($error);
@@ -150,7 +150,7 @@ class CurlFactory implements \YoastSEO_Vendor\GuzzleHttp\Handler\CurlFactoryInte
         }
         $method = $easy->request->getMethod();
         if ($method === 'PUT' || $method === 'POST') {
-            // See http://tools.ietf.org/html/rfc7230#section-3.3.2
+            // See https://tools.ietf.org/html/rfc7230#section-3.3.2
             if (!$easy->request->hasHeader('Content-Length')) {
                 $conf[\CURLOPT_HTTPHEADER][] = 'Content-Length: 0';
             }

@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Rocket 3.3.7\n"
-"Report-Msgid-Bugs-To: http://wp-rocket.me/\n"
+"Report-Msgid-Bugs-To: https://wp-rocket.me/\n"
 "POT-Creation-Date: 2019-08-26 11:14-0400\n"
 "PO-Revision-Date: 2019-08-26 15:14+0000\n"
 "Last-Translator: m615926 <m615926@gmail.com>, 2019\n"
@@ -1039,9 +1039,9 @@ msgstr "預先取得的 URL"
 
 #: inc/classes/admin/settings/class-page.php:1068
 msgid ""
-"Specify external hosts to be prefetched (no <code>http:</code>, one per "
+"Specify external hosts to be prefetched (no <code>https:</code>, one per "
 "line)"
-msgstr "指定外部主機網址來預先請求 DNS (輸入網址不需要打<code>http:</code>，每行一個)"
+msgstr "指定外部主機網址來預先請求 DNS (輸入網址不需要打<code>https:</code>，每行一個)"
 
 #: inc/classes/admin/settings/class-page.php:1091
 msgid "Advanced Rules"
@@ -1546,11 +1546,11 @@ msgstr "相對協定"
 #: inc/classes/admin/settings/class-page.php:1880
 msgid ""
 "Should only be used with Cloudflare's flexible SSL feature. URLs of static "
-"files (CSS, JS, images) will be rewritten to use // instead of http:// or "
+"files (CSS, JS, images) will be rewritten to use // instead of https:// or "
 "https://."
 msgstr ""
 "僅可使用 Cloudflare 中的 Flexible SSL 加密協定， 靜態資源( CSS、JS、圖片 )的網址將會使用 // 來取代 "
-"http:// 或是 https://。"
+"https:// 或是 https://。"
 
 #: inc/classes/admin/settings/class-page.php:1920
 msgid "Sucuri credentials"

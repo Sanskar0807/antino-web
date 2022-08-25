@@ -1151,7 +1151,7 @@
 
 			processMethod = processMethod || api.addMenuItemToBottom;
 
-			if ( '' === url || 'https://' == url || 'http://' == url ) {
+			if ( '' === url || 'https://' == url || 'https://' == url ) {
 				$('#customlinkdiv').addClass('form-invalid');
 				return false;
 			}

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*! Elusive Icons 2.0.0 by @ReduxFramework - http://elusiveicons.com - @reduxframework License - http://elusiveicons.com/license (Font: SIL OFL 1.1, CSS: MIT License) */
+/*! Elusive Icons 2.0.0 by @ReduxFramework - https://elusiveicons.com - @reduxframework License - https://elusiveicons.com/license (Font: SIL OFL 1.1, CSS: MIT License) */
 @font-face { font-family: "Elusive-Icons"; src: url("../../fonts/elusiveicons-webfont.eot?v=2.0.0"); src: url("../../fonts/elusiveicons-webfont.eot?#iefix&v=2.0.0") format("embedded-opentype"), url("../../fonts/elusiveicons-webfont.woff?v=2.0.0") format("woff"), url("../../fonts/elusiveicons-webfont.ttf?v=2.0.0") format("truetype"), url("../../fonts/elusiveicons-webfont.svg?v=2.0.0#elusiveiconsregular") format("svg"); font-weight: normal; font-style: normal; }
 
 .el { display: inline-block; font: normal normal normal 14px/1 "Elusive-Icons"; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -webkit-transform: translate(0, 0); transform: translate(0, 0); }
@@ -972,9 +972,9 @@
 
 .select2-container--default .select2-results__group { cursor: default; display: block; padding: 6px; }
 
-/*! jQuery UI Bootstrap (0.5) http://addyosmani.github.com/jquery-ui-bootstrap Copyright 2012 - 2013, Addy Osmani Dual licensed under the MIT or GPL Version 2 licenses. Portions copyright jQuery UI & Twitter Bootstrap */
+/*! jQuery UI Bootstrap (0.5) https://addyosmani.github.com/jquery-ui-bootstrap Copyright 2012 - 2013, Addy Osmani Dual licensed under the MIT or GPL Version 2 licenses. Portions copyright jQuery UI & Twitter Bootstrap */
 .redux-container, .control-section-redux, .control-panel-redux, .redux-metabox { /* Interaction Cues
-----------------------------------*/ /* Icons ----------------------------------*/ /* states and images */ /* Misc visuals ----------------------------------*/ /* jQuery UI CSS Framework 1.10.0 Copyright 2013, AUTHORS.txt (http://jqueryui.com/about) Dual licensed under the MIT or GPL Version 2 licenses. http://jquery.org/license To view and modify this theme, visit http://jqueryui.com/themeroller/ */ /* Component containers ----------------------------------*/ /* Interaction states ----------------------------------*/ /* Interaction Cues ----------------------------------*/ /* For IE8 - See #6059 */ /* Icons ----------------------------------*/ /* states and images */ /* positioning */ /* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */ /* Misc visuals ----------------------------------*/ /* Corner radius */ /* Overlays */ /* jQuery UI Accordion 1.10.0 Copyright 2013, AUTHORS.txt (http://jqueryui.com/about) Dual licensed under the MIT or GPL Version 2 licenses. http://jquery.org/license http://jqueryui.com/accordion/ */ /* IE/Win - Fix animation bug - #4615 */ /* jQuery UI Button 1.10.0 Copyright 2013, AUTHORS.txt (http://jqueryui.com/about) Dual licensed under the MIT or GPL Version 2 licenses. http://jquery.org/license http://docs.jquery.com/UI/Button#theming */ /* the overflow property removes extra width in IE */ /* to make room for the icon, a width needs to be set here */ /* button elements seem to need a little more width */ /*button text element */ /* no icon support for input elements, provide padding by default */ /* input.ui-button { padding: .4em 1em; } */ /*button icon element(s) */ /*button sets*/ /* workarounds */ /* reset extra padding in Firefox */ /* jQuery UI Datepicker 1.9.0 Copyright 2012-10-11, AUTHORS.txt (http://jqueryui.com/about) Dual licensed under the MIT or GPL Version 2 licenses. http://jquery.org/license http://jqueryui.com/datepicker/ */ /* with multiple calendars */ /* RTL support */ /* IE6 IFRAME FIX (taken from datepicker 1.5.3 */ }
+----------------------------------*/ /* Icons ----------------------------------*/ /* states and images */ /* Misc visuals ----------------------------------*/ /* jQuery UI CSS Framework 1.10.0 Copyright 2013, AUTHORS.txt (https://jqueryui.com/about) Dual licensed under the MIT or GPL Version 2 licenses. https://jquery.org/license To view and modify this theme, visit https://jqueryui.com/themeroller/ */ /* Component containers ----------------------------------*/ /* Interaction states ----------------------------------*/ /* Interaction Cues ----------------------------------*/ /* For IE8 - See #6059 */ /* Icons ----------------------------------*/ /* states and images */ /* positioning */ /* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */ /* Misc visuals ----------------------------------*/ /* Corner radius */ /* Overlays */ /* jQuery UI Accordion 1.10.0 Copyright 2013, AUTHORS.txt (https://jqueryui.com/about) Dual licensed under the MIT or GPL Version 2 licenses. https://jquery.org/license https://jqueryui.com/accordion/ */ /* IE/Win - Fix animation bug - #4615 */ /* jQuery UI Button 1.10.0 Copyright 2013, AUTHORS.txt (https://jqueryui.com/about) Dual licensed under the MIT or GPL Version 2 licenses. https://jquery.org/license https://docs.jquery.com/UI/Button#theming */ /* the overflow property removes extra width in IE */ /* to make room for the icon, a width needs to be set here */ /* button elements seem to need a little more width */ /*button text element */ /* no icon support for input elements, provide padding by default */ /* input.ui-button { padding: .4em 1em; } */ /*button icon element(s) */ /*button sets*/ /* workarounds */ /* reset extra padding in Firefox */ /* jQuery UI Datepicker 1.9.0 Copyright 2012-10-11, AUTHORS.txt (https://jqueryui.com/about) Dual licensed under the MIT or GPL Version 2 licenses. https://jquery.org/license https://jqueryui.com/datepicker/ */ /* with multiple calendars */ /* RTL support */ /* IE6 IFRAME FIX (taken from datepicker 1.5.3 */ }
 
 .redux-container .ui-state-disabled, .control-section-redux .ui-state-disabled, .control-panel-redux .ui-state-disabled, .redux-metabox .ui-state-disabled { cursor: default !important; }
 
@@ -1558,7 +1558,7 @@
 
 .wp-customizer #ui-datepicker-div { z-index: 999999 !important; }
 
-/* qTip2 - Pretty powerful tooltips - v2.2.1 http://qtip2.com Copyright (c) 2014 Released under the MIT licenses http://jquery.org/license Date: Sat Sep 6 2014 11:12 GMT+0100+0100 Plugins: tips modal viewport svg imagemap ie6 Styles: core basic css3 */
+/* qTip2 - Pretty powerful tooltips - v2.2.1 https://qtip2.com Copyright (c) 2014 Released under the MIT licenses https://jquery.org/license Date: Sat Sep 6 2014 11:12 GMT+0100+0100 Plugins: tips modal viewport svg imagemap ie6 Styles: core basic css3 */
 .qtip { position: absolute; left: -28000px; top: -28000px; display: none; max-width: 280px; min-width: 50px; font-size: 10.5px; line-height: 12px; direction: ltr; -webkit-box-shadow: none; box-shadow: none; padding: 0; }
 
 .qtip-content { position: relative; padding: 5px 9px; overflow: hidden; text-align: left; word-wrap: break-word; }
@@ -1752,7 +1752,7 @@ License: MIT
 /* Fix for * { box-sizing: border-box; } */
 .sp-container, .sp-container * { -webkit-box-sizing: content-box; box-sizing: content-box; }
 
-/* http://ansciath.tumblr.com/post/7347495869/css-aspect-ratio */
+/* https://ansciath.tumblr.com/post/7347495869/css-aspect-ratio */
 .sp-top { position: relative; width: 100%; display: inline-block; }
 
 .sp-top-inner { position: absolute; top: 0; left: 0; bottom: 0; right: 0; }
@@ -1839,7 +1839,7 @@ License: MIT
 /*
 Theme authors:
 Here are the basic themeable display options (colors, fonts, global widths).
-See http://bgrins.github.io/spectrum/themes/ for instructions.
+See https://bgrins.github.io/spectrum/themes/ for instructions.
 */
 .sp-container { border-radius: 0; background-color: #ececec; border: solid 1px #f0c49b; padding: 0; }
 
@@ -1902,7 +1902,7 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
 
 .sp-container { padding-bottom: 0; }
 
-/* Buttons: http://hellohappy.org/css3-buttons/ */
+/* Buttons: https://hellohappy.org/css3-buttons/ */
 .sp-container button { background-color: #eee; background-image: -webkit-linear-gradient(top, #eee, #ccc); background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc)); background-image: linear-gradient(to bottom, #eee, #ccc); border: 1px solid #ccc; border-bottom: 1px solid #bbb; border-radius: 3px; color: #333; font-size: 14px; line-height: 1; padding: 5px 4px; text-align: center; text-shadow: 0 1px 0 #eee; vertical-align: middle; }
 
 .sp-container button:hover { background-color: #ddd; background-image: -webkit-linear-gradient(top, #ddd, #bbb); background-image: -webkit-gradient(linear, left top, left bottom, from(#ddd), to(#bbb)); background-image: linear-gradient(to bottom, #ddd, #bbb); border: 1px solid #bbb; border-bottom: 1px solid #999; cursor: pointer; text-shadow: 0 1px 0 #ddd; }

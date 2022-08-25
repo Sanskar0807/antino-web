@@ -1,7 +1,7 @@
 <?php
 /**
  * Redux Framework field validation config.
- * For full documentation, please visit: http://devs.redux.io/
+ * For full documentation, please visit: https://devs.redux.io/
  *
  * @package Redux Framework
  */
@@ -128,7 +128,7 @@ Redux::set_section(
 				'title'    => esc_html__( 'Textarea Option - HTML Validated', 'your-textdomain-here' ),
 				'subtitle' => esc_html__( 'HTML Allowed (wp_kses)', 'your-textdomain-here' ),
 				'desc'     => esc_html__( 'This is the description field, again good for additional info.', 'your-textdomain-here' ),
-				'validate' => 'html', // See http://codex.wordpress.org/Function_Reference/wp_kses_post.
+				'validate' => 'html', // See https://codex.wordpress.org/Function_Reference/wp_kses_post.
 				'default'  => 'HTML is allowed in here.',
 			),
 			array(
@@ -140,7 +140,7 @@ Redux::set_section(
 				'validate'     => 'html_custom',
 				'default'      => '<p>Some HTML is allowed in here.</p>',
 
-				// See http://codex.wordpress.org/Function_Reference/wp_kses.
+				// See https://codex.wordpress.org/Function_Reference/wp_kses.
 				'allowed_html' => array(
 					'a'      => array(
 						'href'  => array(),

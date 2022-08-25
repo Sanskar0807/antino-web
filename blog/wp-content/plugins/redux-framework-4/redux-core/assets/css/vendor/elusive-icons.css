@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*! Elusive Icons 2.0.0 by @ReduxFramework - http://elusiveicons.com - @reduxframework License - http://elusiveicons.com/license (Font: SIL OFL 1.1, CSS: MIT License) */
+/*! Elusive Icons 2.0.0 by @ReduxFramework - https://elusiveicons.com - @reduxframework License - https://elusiveicons.com/license (Font: SIL OFL 1.1, CSS: MIT License) */
 @font-face { font-family: "Elusive-Icons"; src: url("../../fonts/elusiveicons-webfont.eot?v=2.0.0"); src: url("../../fonts/elusiveicons-webfont.eot?#iefix&v=2.0.0") format("embedded-opentype"), url("../../fonts/elusiveicons-webfont.woff?v=2.0.0") format("woff"), url("../../fonts/elusiveicons-webfont.ttf?v=2.0.0") format("truetype"), url("../../fonts/elusiveicons-webfont.svg?v=2.0.0#elusiveiconsregular") format("svg"); font-weight: normal; font-style: normal; }
 
 .el { display: inline-block; font: normal normal normal 14px/1 "Elusive-Icons"; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -webkit-transform: translate(0, 0); transform: translate(0, 0); }

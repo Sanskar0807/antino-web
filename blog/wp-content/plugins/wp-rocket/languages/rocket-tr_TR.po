@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Rocket 3.4\n"
-"Report-Msgid-Bugs-To: http://wp-rocket.me/\n"
+"Report-Msgid-Bugs-To: https://wp-rocket.me/\n"
 "POT-Creation-Date: 2021-05-13 15:06-0400\n"
 "PO-Revision-Date: 2019-08-26 15:14+0000\n"
 "Last-Translator: BouRock, 2021\n"
@@ -957,10 +957,10 @@ msgstr "Önceden gertirmek için URL’ler"
 
 #: inc/Engine/Admin/Settings/Page.php:1215
 msgid ""
-"Specify external hosts to be prefetched (no <code>http:</code>, one per "
+"Specify external hosts to be prefetched (no <code>https:</code>, one per "
 "line)"
 msgstr ""
-"Önceden getirilecek olan harici anamakineleri belirtin (<code>http:</code> "
+"Önceden getirilecek olan harici anamakineleri belirtin (<code>https:</code> "
 "olmadan, her satıra bir tane)"
 
 #: inc/Engine/Admin/Settings/Page.php:1224
@@ -1573,11 +1573,11 @@ msgstr "Göreli protokol"
 #: inc/Engine/Admin/Settings/Page.php:1984
 msgid ""
 "Should only be used with Cloudflare's flexible SSL feature. URLs of static "
-"files (CSS, JS, images) will be rewritten to use // instead of http:// or "
+"files (CSS, JS, images) will be rewritten to use // instead of https:// or "
 "https://."
 msgstr ""
 "Sadece Cloudflare’in esnek SSL özelliği ile kullanılmalıdır. Sabit "
-"dosyaların (CSS, JS, resimler) URL’leri, http:// veya https:// yerine // "
+"dosyaların (CSS, JS, resimler) URL’leri, https:// veya https:// yerine // "
 "kullanmak için yeniden yazılacaktır."
 
 #: inc/Engine/Admin/Settings/Page.php:2022

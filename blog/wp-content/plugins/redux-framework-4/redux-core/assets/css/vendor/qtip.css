@@ -1,4 +1,4 @@
-/* qTip2 - Pretty powerful tooltips - v2.2.1 http://qtip2.com Copyright (c) 2014 Released under the MIT licenses http://jquery.org/license Date: Sat Sep 6 2014 11:12 GMT+0100+0100 Plugins: tips modal viewport svg imagemap ie6 Styles: core basic css3 */
+/* qTip2 - Pretty powerful tooltips - v2.2.1 https://qtip2.com Copyright (c) 2014 Released under the MIT licenses https://jquery.org/license Date: Sat Sep 6 2014 11:12 GMT+0100+0100 Plugins: tips modal viewport svg imagemap ie6 Styles: core basic css3 */
 .qtip { position: absolute; left: -28000px; top: -28000px; display: none; max-width: 280px; min-width: 50px; font-size: 10.5px; line-height: 12px; direction: ltr; -webkit-box-shadow: none; box-shadow: none; padding: 0; }
 
 .qtip-content { position: relative; padding: 5px 9px; overflow: hidden; text-align: left; word-wrap: break-word; }

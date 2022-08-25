@@ -244,7 +244,7 @@ abstract class WP_REST_Meta_Fields {
 				__( 'Could not delete meta value from database.' ),
 				array(
 					'key'    => $name,
-					'status' => WP_Http::INTERNAL_SERVER_ERROR,
+					'status' => WP_https::INTERNAL_SERVER_ERROR,
 				)
 			);
 		}
@@ -330,7 +330,7 @@ abstract class WP_REST_Meta_Fields {
 					sprintf( __( 'Could not update the meta value of %s in database.' ), $meta_key ),
 					array(
 						'key'    => $name,
-						'status' => WP_Http::INTERNAL_SERVER_ERROR,
+						'status' => WP_https::INTERNAL_SERVER_ERROR,
 					)
 				);
 			}
@@ -344,7 +344,7 @@ abstract class WP_REST_Meta_Fields {
 					sprintf( __( 'Could not update the meta value of %s in database.' ), $meta_key ),
 					array(
 						'key'    => $name,
-						'status' => WP_Http::INTERNAL_SERVER_ERROR,
+						'status' => WP_https::INTERNAL_SERVER_ERROR,
 					)
 				);
 			}
@@ -396,7 +396,7 @@ abstract class WP_REST_Meta_Fields {
 				sprintf( __( 'Could not update the meta value of %s in database.' ), $meta_key ),
 				array(
 					'key'    => $name,
-					'status' => WP_Http::INTERNAL_SERVER_ERROR,
+					'status' => WP_https::INTERNAL_SERVER_ERROR,
 				)
 			);
 		}

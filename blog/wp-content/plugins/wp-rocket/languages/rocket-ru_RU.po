@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Rocket 3.4\n"
-"Report-Msgid-Bugs-To: http://wp-rocket.me/\n"
+"Report-Msgid-Bugs-To: https://wp-rocket.me/\n"
 "POT-Creation-Date: 2021-01-06 14:57-0500\n"
 "PO-Revision-Date: 2019-08-26 15:14+0000\n"
 "Last-Translator: Bogdan Gerasymenko <bogdan@at.ua>, 2021\n"
@@ -897,10 +897,10 @@ msgstr "URL для кэширования"
 
 #: inc/Engine/Admin/Settings/Page.php:1179
 msgid ""
-"Specify external hosts to be prefetched (no <code>http:</code>, one per "
+"Specify external hosts to be prefetched (no <code>https:</code>, one per "
 "line)"
 msgstr ""
-"Укажите удаленные хосты для кэширования (без <code>http:</code>, по одному в"
+"Укажите удаленные хосты для кэширования (без <code>https:</code>, по одному в"
 " строке)"
 
 #: inc/Engine/Admin/Settings/Page.php:1188
@@ -1555,11 +1555,11 @@ msgstr "Относительный протокол"
 #: inc/Engine/Admin/Settings/Page.php:2008
 msgid ""
 "Should only be used with Cloudflare's flexible SSL feature. URLs of static "
-"files (CSS, JS, images) will be rewritten to use // instead of http:// or "
+"files (CSS, JS, images) will be rewritten to use // instead of https:// or "
 "https://."
 msgstr ""
 "Будет использоваться относительный протокол // для CSS, JS и изображений "
-"вместо http:// или https://."
+"вместо https:// или https://."
 
 #: inc/Engine/Admin/Settings/Page.php:2046
 msgid "Sucuri credentials"

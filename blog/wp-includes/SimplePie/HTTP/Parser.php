@@ -37,8 +37,8 @@
  * @author Ryan Parman
  * @author Sam Sneddon
  * @author Ryan McCue
- * @link http://simplepie.org/ SimplePie
- * @license http://www.opensource.org/licenses/bsd-license.php BSD License
+ * @link https://simplepie.org/ SimplePie
+ * @license https://www.opensource.org/licenses/bsd-license.php BSD License
  */
 
 
@@ -510,8 +510,8 @@ class SimplePie_HTTP_Parser
 		if (false !== stripos($data, "HTTP/1.0 200 Connection established\r\n\r\n")) {
 			$data = str_ireplace("HTTP/1.0 200 Connection established\r\n\r\n", '', $data);
 		}
-		if (false !== stripos($data, "HTTP/1.1 200 Connection established\r\n\r\n")) {
-			$data = str_ireplace("HTTP/1.1 200 Connection established\r\n\r\n", '', $data);
+		if (false !== stripos($data, " 200 Connection established\r\n\r\n")) {
+			$data = str_ireplace(" 200 Connection established\r\n\r\n", '', $data);
 		}
 		return $data;
 	}

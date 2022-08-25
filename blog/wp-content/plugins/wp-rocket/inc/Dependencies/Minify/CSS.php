@@ -571,7 +571,7 @@ class CSS extends Minify
 
 		// reusable bits of code throughout these regexes:
 		// before & after are used to make sure we don't match lose unintended
-		// 0-like values (e.g. in #000, or in http://url/1.0)
+		// 0-like values (e.g. in #000, or in https://url/1.0)
 		// units can be stripped from 0 values, or used to recognize non 0
 		// values (where wa may be able to strip a .0 suffix)
 		$before = '(?<=[:(, ])';

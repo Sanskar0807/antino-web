@@ -428,7 +428,7 @@ class WP_REST_Block_Types_Controller extends WP_REST_Controller {
 		);
 
 		$schema = array(
-			'$schema'    => 'http://json-schema.org/draft-04/schema#',
+			'$schema'    => 'https://json-schema.org/draft-04/schema#',
 			'title'      => 'block-type',
 			'type'       => 'object',
 			'properties' => array(

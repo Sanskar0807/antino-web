@@ -114,7 +114,7 @@
  * Limit the characters that may be entered in a text field
  * Common options: alphanumeric, alphabetic or numeric
  * Kevin Sheedy, 2012
- * http://github.com/KevinSheedy/jquery.alphanum
+ * https://github.com/KevinSheedy/jquery.alphanum
  *********************************************************************/
 
 (function( $ ) {
@@ -784,7 +784,7 @@
 /**********************************************************
  * Selection Library
  * Used to determine what text is highlighted in the textbox before a key is pressed.
- * http://donejs.com/docs.html#!jQuery.fn.selection
+ * https://donejs.com/docs.html#!jQuery.fn.selection
  * https://github.com/jupiterjs/jquerymx/blob/master/dom/selection/selection.js
  ***********************************************************/
 (function( $ ) {
@@ -1048,8 +1048,8 @@
 *	Examples/Docs: github.com/dennyferra/TypeWatch
 *
 *  Dual licensed under the MIT and GPL licenses:
-*  http://www.opensource.org/licenses/mit-license.php
-*  http://www.gnu.org/licenses/gpl.html
+*  https://www.opensource.org/licenses/mit-license.php
+*  https://www.gnu.org/licenses/gpl.html
 */
 
 !function(root, factory) {
@@ -1156,14 +1156,14 @@
  * A Google Chrome extension to display JSON in a user-friendly format
  *
  * This is a chromeified version of the JSONView Firefox extension by Ben Hollis:
- * http://jsonview.com
- * http://code.google.com/p/jsonview
+ * https://jsonview.com
+ * https://code.google.com/p/jsonview
  *
  * Also based on the XMLTree Chrome extension by Moonty & alan.stroop
  * https://chrome.google.com/extensions/detail/gbammbheopgpmaagmckhpjbfgdfkpadb
  *
- * port by Jamie Wilkinson (@jamiew) | http://jamiedubs.com | http://github.com/jamiew
- * MIT license / copyfree (f) F.A.T. Lab http://fffff.at
+ * port by Jamie Wilkinson (@jamiew) | https://jamiedubs.com | https://github.com/jamiew
+ * MIT license / copyfree (f) F.A.T. Lab https://fffff.at
  * Speed Project Approved: 2h
  */
 
@@ -1256,7 +1256,7 @@ function jsonView( id, target ) {
 			console.log( 'JSONView: sexytime!' );
 		}
 		// JSONFormatter json->HTML prototype straight from Firefox JSONView
-		// For reference: http://code.google.com/p/jsonview.
+		// For reference: https://code.google.com/p/jsonview.
 		function JSONFormatter() {
 			// No magic required.
 		}

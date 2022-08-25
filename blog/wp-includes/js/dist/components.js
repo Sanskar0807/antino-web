@@ -1087,7 +1087,7 @@ module.exports = function() {
     var err = new Error(
       'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
       'Use PropTypes.checkPropTypes() to call them. ' +
-      'Read more at http://fb.me/use-check-prop-types'
+      'Read more at https://fb.me/use-check-prop-types'
     );
     err.name = 'Invariant Violation';
     throw err;
@@ -1143,7 +1143,7 @@ module.exports = function() {
 
 if (false) { var throwOnDirectAccess, ReactIs; } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
-  // http://fb.me/prop-types-in-prod
+  // https://fb.me/prop-types-in-prod
   module.exports = __webpack_require__("16Al")();
 }
 
@@ -1468,7 +1468,7 @@ function addEventListener(target, eventName, listener, options) {
  */
 
 const chevronRight = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M10.6 6L9.4 7l4.6 5-4.6 5 1.2 1 5.4-6z"
@@ -1626,7 +1626,7 @@ exports['default'] = _propTypes2['default'].oneOf(_constants.WEEKDAYS);
  */
 
 const chevronLeft = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M14.6 7l-1.2-1L8 12l5.4 6 1.2-1-4.6-5z"
@@ -1852,7 +1852,7 @@ module.exports = __webpack_require__("50qU");
 // var modulo = require('./modulo');
 var $floor = Math.floor;
 
-// http://262.ecma-international.org/5.1/#sec-5.2
+// https://262.ecma-international.org/5.1/#sec-5.2
 
 module.exports = function floor(x) {
 	// return x - modulo(x, 1);
@@ -3027,7 +3027,7 @@ module.exports =
 	      }
 	
 	      // Prevent browsers like Firefox from getting stuck in an infinite loop
-	      // See http://www.regexguru.com/2008/04/watch-out-for-zero-length-matches/
+	      // See https://www.regexguru.com/2008/04/watch-out-for-zero-length-matches/
 	      if (match.index === regex.lastIndex) {
 	        regex.lastIndex++;
 	      }
@@ -4862,7 +4862,7 @@ var hasOwnProperty = objectProto.hasOwnProperty;
 
 /**
  * Used to resolve the
- * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * [`toStringTag`](https://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
  * of values.
  */
 var nativeObjectToString = objectProto.toString;
@@ -5102,7 +5102,7 @@ var external_wp_primitives_ = __webpack_require__("Tqx9");
  */
 
 const pencil = Object(external_wp_element_["createElement"])(external_wp_primitives_["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(external_wp_element_["createElement"])(external_wp_primitives_["Path"], {
   d: "M20.1 5.1L16.9 2 6.2 12.7l-1.3 4.4 4.5-1.3L20.1 5.1zM4 20.8h8v-1.5H4v1.5z"
@@ -5265,7 +5265,7 @@ module.exports = function isPrimitive(value) {
  */
 
 const link = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M15.6 7.2H14v1.5h1.6c2 0 3.7 1.7 3.7 3.7s-1.7 3.7-3.7 3.7H14v1.5h1.6c2.8 0 5.2-2.3 5.2-5.2 0-2.9-2.3-5.2-5.2-5.2zM4.7 12.4c0-2 1.7-3.7 3.7-3.7H10V7.2H8.4c-2.9 0-5.2 2.3-5.2 5.2 0 2.9 2.3 5.2 5.2 5.2H10v-1.5H8.4c-2 0-3.7-1.7-3.7-3.7zm4.6.9h5.3v-1.5H9.3v1.5z"
@@ -6788,7 +6788,7 @@ module.exports = function shimContains() {
 
 /**
  * Checks if `value` is the
- * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * [language type](https://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
  * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
  *
  * @static
@@ -6845,7 +6845,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
 
 var $isNaN = __webpack_require__("HwJD");
 
-// http://262.ecma-international.org/5.1/#sec-9.12
+// https://262.ecma-international.org/5.1/#sec-9.12
 
 module.exports = function SameValue(x, y) {
 	if (x === y) { // 0 === -0, but they are not identical.
@@ -7238,7 +7238,7 @@ var GetIntrinsic = __webpack_require__("rZ7t");
 
 var $abs = GetIntrinsic('%Math.abs%');
 
-// http://262.ecma-international.org/5.1/#sec-5.2
+// https://262.ecma-international.org/5.1/#sec-5.2
 
 module.exports = function abs(x) {
 	return $abs(x);
@@ -7822,7 +7822,7 @@ exports.parse = (GradientParser || {}).parse;
  */
 
 const external = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M18.2 17c0 .7-.6 1.2-1.2 1.2H7c-.7 0-1.2-.6-1.2-1.2V7c0-.7.6-1.2 1.2-1.2h3.2V4.2H7C5.5 4.2 4.2 5.5 4.2 7v10c0 1.5 1.2 2.8 2.8 2.8h10c1.5 0 2.8-1.2 2.8-2.8v-3.6h-1.5V17zM14.9 3v1.5h3.7l-6.4 6.4 1.1 1.1 6.4-6.4v3.7h1.5V3h-6.3z"
@@ -7940,7 +7940,7 @@ var objectProto = Object.prototype;
 
 /**
  * Used to resolve the
- * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * [`toStringTag`](https://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
  * of values.
  */
 var nativeObjectToString = objectProto.toString;
@@ -8132,7 +8132,7 @@ var isPrimitive = __webpack_require__("Teho");
 
 var isCallable = __webpack_require__("IdCN");
 
-// http://ecma-international.org/ecma-262/5.1/#sec-8.12.8
+// https://ecma-international.org/ecma-262/5.1/#sec-8.12.8
 var ES5internalSlots = {
 	'[[DefaultValue]]': function (O) {
 		var actualHint;
@@ -8159,7 +8159,7 @@ var ES5internalSlots = {
 	}
 };
 
-// http://ecma-international.org/ecma-262/5.1/#sec-9.1
+// https://ecma-international.org/ecma-262/5.1/#sec-9.1
 module.exports = function ToPrimitive(input) {
 	if (isPrimitive(input)) {
 		return input;
@@ -8589,7 +8589,7 @@ function setUserFocus(element, value) {
  */
 
 const linkOff = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M15.6 7.3h-.7l1.6-3.5-.9-.4-3.9 8.5H9v1.5h2l-1.3 2.8H8.4c-2 0-3.7-1.7-3.7-3.7s1.7-3.7 3.7-3.7H10V7.3H8.4c-2.9 0-5.2 2.3-5.2 5.2 0 2.9 2.3 5.2 5.2 5.2H9l-1.4 3.2.9.4 5.7-12.5h1.4c2 0 3.7 1.7 3.7 3.7s-1.7 3.7-3.7 3.7H14v1.5h1.6c2.9 0 5.2-2.3 5.2-5.2 0-2.9-2.4-5.2-5.2-5.2z"
@@ -9104,7 +9104,7 @@ exports['default'] = (0, _reactWithStyles.withStyles)(function (_ref2) {
  */
 
 const upload = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M18.5 15v3.5H13V6.7l4.5 4.1 1-1.1-6.2-5.8-5.8 5.8 1 1.1 4-4v11.7h-6V15H4v5h16v-5z"
@@ -9130,7 +9130,7 @@ const upload = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createEle
 
 const chevronDown = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   viewBox: "0 0 24 24",
-  xmlns: "http://www.w3.org/2000/svg"
+  xmlns: "https://www.w3.org/2000/svg"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M17.5 11.6L12 16l-5.5-4.4.9-1.2L12 14l4.5-3.6 1 1.2z"
 }));
@@ -10929,7 +10929,7 @@ function hasFocusWithin(element) {
 
 var ToPrimitive = __webpack_require__("vLdR");
 
-// http://262.ecma-international.org/5.1/#sec-9.3
+// https://262.ecma-international.org/5.1/#sec-9.3
 
 module.exports = function ToNumber(value) {
 	var prim = ToPrimitive(value, Number);
@@ -11052,7 +11052,7 @@ function isObject(arg) {
  */
 
 const plus = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M18 11.2h-5.2V6h-1.6v5.2H6v1.6h5.2V18h1.6v-5.2H18z"
@@ -11307,7 +11307,7 @@ function _createForOfIteratorHelperLoose(o, allowArrayLike) {
  */
 
 const check = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M18.3 5.6L9.9 16.9l-4.6-3.4-.9 1.2 5.8 4.3 9.3-12.6z"
@@ -31734,7 +31734,7 @@ function DropZoneProvider({
  */
 
 const menu_menu = Object(external_wp_element_["createElement"])(external_wp_primitives_["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(external_wp_element_["createElement"])(external_wp_primitives_["Path"], {
   d: "M5 5v1.5h14V5H5zm0 7.8h14v-1.5H5v1.5zM5 19h14v-1.5H5V19z"
@@ -32146,7 +32146,7 @@ function DropdownMenu({
  */
 
 const swatch = Object(external_wp_element_["createElement"])(external_wp_primitives_["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(external_wp_element_["createElement"])(external_wp_primitives_["Path"], {
   d: "M5 17.7c.4.5.8.9 1.2 1.2l1.1-1.4c-.4-.3-.7-.6-1-1L5 17.7zM5 6.3l1.4 1.1c.3-.4.6-.7 1-1L6.3 5c-.5.4-.9.8-1.3 1.3zm.1 7.8l-1.7.5c.2.6.4 1.1.7 1.6l1.5-.8c-.2-.4-.4-.8-.5-1.3zM4.8 12v-.7L3 11.1v1.8l1.7-.2c.1-.2.1-.5.1-.7zm3 7.9c.5.3 1.1.5 1.6.7l.5-1.7c-.5-.1-.9-.3-1.3-.5l-.8 1.5zM19 6.3c-.4-.5-.8-.9-1.2-1.2l-1.1 1.4c.4.3.7.6 1 1L19 6.3zm-.1 3.6l1.7-.5c-.2-.6-.4-1.1-.7-1.6l-1.5.8c.2.4.4.8.5 1.3zM5.6 8.6l-1.5-.8c-.3.5-.5 1-.7 1.6l1.7.5c.1-.5.3-.9.5-1.3zm2.2-4.5l.8 1.5c.4-.2.8-.4 1.3-.5l-.5-1.7c-.6.2-1.1.4-1.6.7zm8.8 13.5l1.1 1.4c.5-.4.9-.8 1.2-1.2l-1.4-1.1c-.2.3-.5.6-.9.9zm1.8-2.2l1.5.8c.3-.5.5-1.1.7-1.6l-1.7-.5c-.1.5-.3.9-.5 1.3zm2.6-4.3l-1.7.2v1.4l1.7.2V12v-.9zM11.1 3l.2 1.7h1.4l.2-1.7h-1.8zm3 2.1c.5.1.9.3 1.3.5l.8-1.5c-.5-.3-1.1-.5-1.6-.7l-.5 1.7zM12 19.2h-.7l-.2 1.8h1.8l-.2-1.7c-.2-.1-.5-.1-.7-.1zm2.1-.3l.5 1.7c.6-.2 1.1-.4 1.6-.7l-.8-1.5c-.4.2-.8.4-1.3.5z"
@@ -33407,7 +33407,7 @@ function FocalPoint({
     style: style
   }), Object(external_wp_element_["createElement"])(PointerIconSVG, {
     className: "components-focal-point-picker__icon",
-    xmlns: "http://www.w3.org/2000/svg",
+    xmlns: "https://www.w3.org/2000/svg",
     viewBox: "0 0 30 30"
   }, Object(external_wp_element_["createElement"])(PointerIconPathOutline, {
     className: "components-focal-point-picker__icon-outline",
@@ -36822,7 +36822,7 @@ const PageControlIcon = ({
   width: "8",
   height: "8",
   fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
+  xmlns: "https://www.w3.org/2000/svg"
 }, Object(external_wp_element_["createElement"])(external_wp_primitives_["Circle"], {
   cx: "4",
   cy: "4",
@@ -43929,7 +43929,7 @@ if (true) {
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
   Copyright (c) 2018 Jed Watson.
   Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
+  https://jedwatson.github.io/classnames
 */
 /* global define */
 
@@ -45441,7 +45441,7 @@ const getStyledClassNameFromKey = memize__WEBPACK_IMPORTED_MODULE_1___default()(
 // var modulo = require('./modulo');
 var $floor = Math.floor;
 
-// http://262.ecma-international.org/5.1/#sec-5.2
+// https://262.ecma-international.org/5.1/#sec-5.2
 
 module.exports = function floor(x) {
 	// return x - modulo(x, 1);
@@ -45979,7 +45979,7 @@ var GetMethod = function GetMethod(O, P) {
 	return void 0;
 };
 
-// http://www.ecma-international.org/ecma-262/6.0/#sec-toprimitive
+// https://www.ecma-international.org/ecma-262/6.0/#sec-toprimitive
 module.exports = function ToPrimitive(input) {
 	if (isPrimitive(input)) {
 		return input;
@@ -46051,7 +46051,7 @@ var $isNaN = __webpack_require__("HwJD");
 var $isFinite = __webpack_require__("ald4");
 var $sign = __webpack_require__("6I5v");
 
-// http://262.ecma-international.org/5.1/#sec-9.4
+// https://262.ecma-international.org/5.1/#sec-9.4
 
 module.exports = function ToInteger(value) {
 	var number = ToNumber(value);
@@ -46213,7 +46213,7 @@ module.exports = {
 
 const chevronUp = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
   viewBox: "0 0 24 24",
-  xmlns: "http://www.w3.org/2000/svg"
+  xmlns: "https://www.w3.org/2000/svg"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M6.5 12.4L12 8l5.5 4.4-.9 1.2L12 10l-4.5 3.6-1-1.2z"
 }));
@@ -47861,7 +47861,7 @@ var update = function update() {
           lastTime = animation.lastTime !== void 0 ? animation.lastTime : time;
           velocity = animation.lastVelocity !== void 0 ? animation.lastVelocity : config.initialVelocity; // If we lost a lot of frames just jump to the end.
 
-          if (time > lastTime + 64) lastTime = time; // http://gafferongames.com/game-physics/fix-your-timestep/
+          if (time > lastTime + 64) lastTime = time; // https://gafferongames.com/game-physics/fix-your-timestep/
 
           var numSteps = Math.floor(time - lastTime);
 
@@ -49186,7 +49186,7 @@ function (_AnimatedObject) {
   return AnimatedStyle;
 }(AnimatedObject);
 
-// http://www.w3.org/TR/css3-color/#svg-color
+// https://www.w3.org/TR/css3-color/#svg-color
 var colors = {
   transparent: 0x00000000,
   aliceblue: 0xf0f8ffff,
@@ -49790,12 +49790,12 @@ tinycolor.prototype = {
         return this._a;
     },
     getBrightness: function() {
-        //http://www.w3.org/TR/AERT#color-contrast
+        //https://www.w3.org/TR/AERT#color-contrast
         var rgb = this.toRgb();
         return (rgb.r * 299 + rgb.g * 587 + rgb.b * 114) / 1000;
     },
     getLuminance: function() {
-        //http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+        //https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
         var rgb = this.toRgb();
         var RsRGB, GsRGB, BsRGB, R, G, B;
         RsRGB = rgb.r/255;
@@ -50081,11 +50081,11 @@ function inputToRGB(color) {
 // --------------------
 
 // `rgbToHsl`, `rgbToHsv`, `hslToRgb`, `hsvToRgb` modified from:
-// <http://mjijackson.com/2008/02/rgb-to-hsl-and-rgb-to-hsv-color-model-conversion-algorithms-in-javascript>
+// <https://mjijackson.com/2008/02/rgb-to-hsl-and-rgb-to-hsv-color-model-conversion-algorithms-in-javascript>
 
 // `rgbToRgb`
 // Handle bounds / percentage checking to conform to CSS color spec
-// <http://www.w3.org/TR/css3-color/>
+// <https://www.w3.org/TR/css3-color/>
 // *Assumes:* r, g, b in [0, 255] or [0, 1]
 // *Returns:* { r, g, b } in [0, 255]
 function rgbToRgb(r, g, b){
@@ -50441,7 +50441,7 @@ tinycolor.mix = function(color1, color2, amount) {
 
 // Readability Functions
 // ---------------------
-// <http://www.w3.org/TR/2008/REC-WCAG20-20081211/#contrast-ratiodef (WCAG Version 2)
+// <https://www.w3.org/TR/2008/REC-WCAG20-20081211/#contrast-ratiodef (WCAG Version 2)
 
 // `contrast`
 // Analyze the 2 colors and returns the color contrast defined by (WCAG Version 2)
@@ -50523,7 +50523,7 @@ tinycolor.mostReadable = function(baseColor, colorList, args) {
 
 // Big List of Colors
 // ------------------
-// <http://www.w3.org/TR/css3-color/#svg-color>
+// <https://www.w3.org/TR/css3-color/#svg-color>
 var names = tinycolor.names = {
     aliceblue: "f0f8ff",
     antiquewhite: "faebd7",
@@ -50737,7 +50737,7 @@ function parseIntFromHex(val) {
 }
 
 // Need to handle 1.0 as 100%, since once it is a number, there is no difference between it and 1
-// <http://stackoverflow.com/questions/7422072/javascript-how-to-detect-number-as-a-decimal-including-1-0>
+// <https://stackoverflow.com/questions/7422072/javascript-how-to-detect-number-as-a-decimal-including-1-0>
 function isOnePointZero(n) {
     return typeof n == "string" && n.indexOf('.') != -1 && parseFloat(n) === 1;
 }
@@ -50772,10 +50772,10 @@ function convertHexToDecimal(h) {
 
 var matchers = (function() {
 
-    // <http://www.w3.org/TR/css3-values/#integers>
+    // <https://www.w3.org/TR/css3-values/#integers>
     var CSS_INTEGER = "[-\\+]?\\d+%?";
 
-    // <http://www.w3.org/TR/css3-values/#number-value>
+    // <https://www.w3.org/TR/css3-values/#number-value>
     var CSS_NUMBER = "[-\\+]?\\d*\\.\\d+%?";
 
     // Allow positive/negative integer/number.  Don't capture the either/or, just the entire outcome.
@@ -51133,7 +51133,7 @@ var GetIntrinsic = __webpack_require__("v7lB");
 
 var $TypeError = GetIntrinsic('%TypeError%');
 
-// http://www.ecma-international.org/ecma-262/5.1/#sec-9.10
+// https://www.ecma-international.org/ecma-262/5.1/#sec-9.10
 
 module.exports = function CheckObjectCoercible(value, optMessage) {
 	if (value == null) {
@@ -51179,7 +51179,7 @@ module.exports = function HasProperty(O, P) {
 "use strict";
 
 
-// http://262.ecma-international.org/5.1/#sec-9.11
+// https://262.ecma-international.org/5.1/#sec-9.11
 
 module.exports = __webpack_require__("Asd8");
 
@@ -51214,7 +51214,7 @@ module.exports = Number.isFinite || function (x) { return typeof x === 'number' 
  */
 
 const closeSmall = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M12 13.06l3.712 3.713 1.061-1.06L13.061 12l3.712-3.712-1.06-1.06L12 10.938 8.288 7.227l-1.061 1.06L10.939 12l-3.712 3.712 1.06 1.061L12 13.061z"
@@ -51286,7 +51286,7 @@ if (true) {
  */
 
 const search = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M13.5 6C10.5 6 8 8.5 8 11.5c0 1.1.3 2.1.9 3l-3.4 3 1 1.1 3.4-2.9c1 .9 2.2 1.4 3.6 1.4 3 0 5.5-2.5 5.5-5.5C19 8.5 16.5 6 13.5 6zm0 9.5c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z"
@@ -53243,7 +53243,7 @@ var PX = 'px';
 
 function _getComputedStyleIE(elem, name) {
   // currentStyle maybe null
-  // http://msdn.microsoft.com/en-us/library/ms535231.aspx
+  // https://msdn.microsoft.com/en-us/library/ms535231.aspx
   var ret = elem[CURRENT_STYLE] && elem[CURRENT_STYLE][name];
 
   // 当 width/height 设置为百分比时，通过 pixelLeft 方式转换的 width/height 值
@@ -53252,7 +53252,7 @@ function _getComputedStyleIE(elem, name) {
   // borderWidth 等值也有问题，但考虑到 borderWidth 设为百分比的概率很小，这里就不考虑了
 
   // From the awesome hack by Dean Edwards
-  // http://erik.eae.net/archives/2007/07/27/18.54.15/#comment-102291
+  // https://erik.eae.net/archives/2007/07/27/18.54.15/#comment-102291
   // If we're not dealing with a regular pixel number
   // but a number that has a weird ending, we need to convert it to pixels
   // exclude left right for relativity
@@ -54842,7 +54842,7 @@ if (DefinePropertyOrThrow && $construct) {
 "use strict";
 
 
-// http://262.ecma-international.org/5.1/#sec-9.2
+// https://262.ecma-international.org/5.1/#sec-9.2
 
 module.exports = function ToBoolean(value) { return !!value; };
 
@@ -54889,7 +54889,7 @@ var GetIntrinsic = __webpack_require__("rZ7t");
 
 var $TypeError = GetIntrinsic('%TypeError%');
 
-// http://262.ecma-international.org/5.1/#sec-9.10
+// https://262.ecma-international.org/5.1/#sec-9.10
 
 module.exports = function CheckObjectCoercible(value, optMessage) {
 	if (value == null) {
@@ -55525,7 +55525,7 @@ var GetIntrinsic = __webpack_require__("rZ7t");
 
 var $abs = GetIntrinsic('%Math.abs%');
 
-// http://262.ecma-international.org/5.1/#sec-5.2
+// https://262.ecma-international.org/5.1/#sec-5.2
 
 module.exports = function abs(x) {
 	return $abs(x);
@@ -58044,7 +58044,7 @@ function getVisibleDays(month, numberOfMonths, enableOutsideDays, withoutTransit
  */
 
 const textColor = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M12.9 6h-2l-4 11h1.9l1.1-3h4.2l1.1 3h1.9L12.9 6zm-2.5 6.5l1.5-4.9 1.7 4.9h-3.2z"
@@ -58471,7 +58471,7 @@ module.exports = function GetIntrinsic(name, allowMissing) {
 "use strict";
 
 
-// http://262.ecma-international.org/5.1/#sec-9.1
+// https://262.ecma-international.org/5.1/#sec-9.1
 
 module.exports = __webpack_require__("Lxf3");
 
@@ -58772,7 +58772,7 @@ module.exports = function ToLength(argument) {
  */
 
 const close = Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24"
 }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_primitives__WEBPACK_IMPORTED_MODULE_1__["Path"], {
   d: "M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"

@@ -470,7 +470,7 @@ if ( ! class_exists( 'Redux_Options_Object', false ) ) {
 
 						// CORRECT URLS if media URLs are wrong, but attachment IDs are present.
 						if ( 'media' === $field['type'] ) {
-							if ( isset( $core->options[ $field['id'] ]['id'] ) && isset( $core->options[ $field['id'] ]['url'] ) && ! empty( $core->options[ $field['id'] ]['url'] ) && strpos( $core->options[ $field['id'] ]['url'], str_replace( 'http://', '', WP_CONTENT_URL ) ) === false ) {
+							if ( isset( $core->options[ $field['id'] ]['id'] ) && isset( $core->options[ $field['id'] ]['url'] ) && ! empty( $core->options[ $field['id'] ]['url'] ) && strpos( $core->options[ $field['id'] ]['url'], str_replace( 'https://', '', WP_CONTENT_URL ) ) === false ) {
 								$data = wp_get_attachment_url( $core->options[ $field['id'] ]['id'] );
 
 								if ( isset( $data ) && ! empty( $data ) ) {
@@ -491,7 +491,7 @@ if ( ! class_exists( 'Redux_Options_Object', false ) ) {
 						}
 
 						if ( 'background' === $field['type'] ) {
-							if ( isset( $core->options[ $field['id'] ]['media']['id'] ) && isset( $core->options[ $field['id'] ]['background-image'] ) && ! empty( $core->options[ $field['id'] ]['background-image'] ) && strpos( $core->options[ $field['id'] ]['background-image'], str_replace( array( 'http://', 'https://' ), '', WP_CONTENT_URL ) ) === false ) {
+							if ( isset( $core->options[ $field['id'] ]['media']['id'] ) && isset( $core->options[ $field['id'] ]['background-image'] ) && ! empty( $core->options[ $field['id'] ]['background-image'] ) && strpos( $core->options[ $field['id'] ]['background-image'], str_replace( array( 'https://', 'https://' ), '', WP_CONTENT_URL ) ) === false ) {
 								$data = wp_get_attachment_url( $core->options[ $field['id'] ]['media']['id'] );
 
 								if ( isset( $data ) && ! empty( $data ) ) {
@@ -512,7 +512,7 @@ if ( ! class_exists( 'Redux_Options_Object', false ) ) {
 						}
 
 						if ( 'slides' === $field['type'] ) {
-							if ( isset( $core->options[ $field['id'] ] ) && is_array( $core->options[ $field['id'] ] ) && isset( $core->options[ $field['id'] ][0]['attachment_id'] ) && isset( $core->options[ $field['id'] ][0]['image'] ) && ! empty( $core->options[ $field['id'] ][0]['image'] ) && strpos( $core->options[ $field['id'] ][0]['image'], str_replace( array( 'http://', 'https://' ), '', WP_CONTENT_URL ) ) === false ) {
+							if ( isset( $core->options[ $field['id'] ] ) && is_array( $core->options[ $field['id'] ] ) && isset( $core->options[ $field['id'] ][0]['attachment_id'] ) && isset( $core->options[ $field['id'] ][0]['image'] ) && ! empty( $core->options[ $field['id'] ][0]['image'] ) && strpos( $core->options[ $field['id'] ][0]['image'], str_replace( array( 'https://', 'https://' ), '', WP_CONTENT_URL ) ) === false ) {
 								foreach ( $core->options[ $field['id'] ] as $key => $val ) {
 									$data = wp_get_attachment_url( $val['attachment_id'] );
 

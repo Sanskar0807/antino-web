@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Rocket 3.4\n"
-"Report-Msgid-Bugs-To: http://wp-rocket.me/\n"
+"Report-Msgid-Bugs-To: https://wp-rocket.me/\n"
 "POT-Creation-Date: 2020-08-17 15:20-0400\n"
 "PO-Revision-Date: 2019-08-26 15:14+0000\n"
 "Last-Translator: Dan Caragea <dan_caragea@yahoo.com>, 2020\n"
@@ -939,10 +939,10 @@ msgstr "URL-uri de pre-adus"
 
 #: inc/Engine/Admin/Settings/Page.php:1186
 msgid ""
-"Specify external hosts to be prefetched (no <code>http:</code>, one per "
+"Specify external hosts to be prefetched (no <code>https:</code>, one per "
 "line)"
 msgstr ""
-"Specifică gazdele externe care să fie pre-aduse (fără <code>http:</code>, "
+"Specifică gazdele externe care să fie pre-aduse (fără <code>https:</code>, "
 "una pe linie)"
 
 #: inc/Engine/Admin/Settings/Page.php:1195
@@ -1607,12 +1607,12 @@ msgstr "Protocol relativ"
 #: inc/Engine/Admin/Settings/Page.php:2013
 msgid ""
 "Should only be used with Cloudflare's flexible SSL feature. URLs of static "
-"files (CSS, JS, images) will be rewritten to use // instead of http:// or "
+"files (CSS, JS, images) will be rewritten to use // instead of https:// or "
 "https://."
 msgstr ""
 "Ar trebui să fie folosit numai cu funcționalitatea SSL flexibil de la "
 "Cloudflare. URL-urile fișierelor statice (CSS, JS, imagini) vor fi rescrise "
-"pentru a folosi // în loc de http:// sau https://."
+"pentru a folosi // în loc de https:// sau https://."
 
 #: inc/Engine/Admin/Settings/Page.php:2051
 msgid "Sucuri credentials"

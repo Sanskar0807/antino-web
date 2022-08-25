@@ -1162,7 +1162,7 @@ return apply_filters('bunyad_theme_options', array(
 					
 					array(
 						'name'  => 'footer_copyright',
-						'value' => '&copy; 2019 ThemeSphere. Designed by <a href="http://theme-sphere.com">ThemeSphere</a>.', // Example copyright message in Customizer
+						'value' => '&copy; 2019 ThemeSphere. Designed by <a href="https://theme-sphere.com">ThemeSphere</a>.', // Example copyright message in Customizer
 						'label' => esc_html_x('Copyright Message', 'Admin', 'contentberg'),
 						'desc'  => '',
 						'type'  => 'text'

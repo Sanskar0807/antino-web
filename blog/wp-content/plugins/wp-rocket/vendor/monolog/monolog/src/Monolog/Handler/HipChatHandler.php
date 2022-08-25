@@ -176,11 +176,11 @@ class HipChatHandler extends SocketHandler
     private function buildHeader($content)
     {
         if ($this->version == self::API_V1) {
-            $header = "POST /v1/rooms/message?format=json&auth_token={$this->token} HTTP/1.1\r\n";
+            $header = "POST /v1/rooms/message?format=json&auth_token={$this->token} \r\n";
         } else {
             // needed for rooms with special (spaces, etc) characters in the name
             $room = rawurlencode($this->room);
-            $header = "POST /v2/room/{$room}/notification?auth_token={$this->token} HTTP/1.1\r\n";
+            $header = "POST /v2/room/{$room}/notification?auth_token={$this->token} \r\n";
         }
 
         $header .= "Host: {$this->host}\r\n";

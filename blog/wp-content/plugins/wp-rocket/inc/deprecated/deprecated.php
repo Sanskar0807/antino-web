@@ -252,7 +252,7 @@ function rocket_defered_module() {
 				<p class="rkt-module-drag">
 					<span class="dashicons dashicons-sort rkt-module-move hide-if-no-js"></span>
 
-					<input style="width: 32em" type="text" placeholder="http://" class="deferred_js regular-text" name="wp_rocket_settings[deferred_js_files][<?php echo $k; ?>]" value="<?php echo esc_url( $_url ); ?>" />
+					<input style="width: 32em" type="text" placeholder="https://" class="deferred_js regular-text" name="wp_rocket_settings[deferred_js_files][<?php echo $k; ?>]" value="<?php echo esc_url( $_url ); ?>" />
 
 					<span class="dashicons dashicons-no rkt-module-remove hide-if-no-js"></span>
 				</p>
@@ -267,7 +267,7 @@ function rocket_defered_module() {
 			<p class="rkt-module-drag">
 				<span class="dashicons dashicons-sort rkt-module-move hide-if-no-js"></span>
 
-				<input style="width: 32em" type="text" placeholder="http://" class="deferred_js regular-text" name="wp_rocket_settings[deferred_js_files][0]" value="" />
+				<input style="width: 32em" type="text" placeholder="https://" class="deferred_js regular-text" name="wp_rocket_settings[deferred_js_files][0]" value="" />
 			</p>
 			<!-- .rkt-module-drag -->
 
@@ -282,7 +282,7 @@ function rocket_defered_module() {
 		<p class="rkt-module-drag">
 			<span class="dashicons dashicons-sort rkt-module-move hide-if-no-js"></span>
 
-			<input style="width: 32em" type="text" placeholder="http://" class="deferred_js regular-text" name="wp_rocket_settings[deferred_js_files][]" value="" />
+			<input style="width: 32em" type="text" placeholder="https://" class="deferred_js regular-text" name="wp_rocket_settings[deferred_js_files][]" value="" />
 
 			<span class="dashicons dashicons-no rkt-module-remove hide-if-no-js"></span>
 		</p>
@@ -1544,7 +1544,7 @@ if ( ! function_exists( 'rocket_cnames_module' ) ) {
 
 					<p>
 
-						<input style="width: 32em" type="text" placeholder="http://" class="regular-text" name="wp_rocket_settings[cdn_cnames][<?php echo $k; ?>]" value="<?php echo esc_attr( $_url ); ?>" />
+						<input style="width: 32em" type="text" placeholder="https://" class="regular-text" name="wp_rocket_settings[cdn_cnames][<?php echo $k; ?>]" value="<?php echo esc_attr( $_url ); ?>" />
 
 						<label>
 							<?php _e( 'reserved for', 'rocket' ); ?>
@@ -1581,7 +1581,7 @@ if ( ! function_exists( 'rocket_cnames_module' ) ) {
 
 					<p>
 
-						<input style="width: 32em" type="text" placeholder="http://" class="regular-text" name="wp_rocket_settings[cdn_cnames][]" value="" />
+						<input style="width: 32em" type="text" placeholder="https://" class="regular-text" name="wp_rocket_settings[cdn_cnames][]" value="" />
 
 						<label>
 							<?php _e( 'reserved for', 'rocket' ); ?>
@@ -1609,7 +1609,7 @@ if ( ! function_exists( 'rocket_cnames_module' ) ) {
 
 				<p>
 
-					<input style="width: 32em" type="text" placeholder="http://" class="regular-text" name="wp_rocket_settings[cdn_cnames][]" value="" />
+					<input style="width: 32em" type="text" placeholder="https://" class="regular-text" name="wp_rocket_settings[cdn_cnames][]" value="" />
 
 					<label>
 						<?php _e( 'reserved for', 'rocket' ); ?>
@@ -2226,7 +2226,7 @@ if ( ! function_exists( 'rocket_fix_ssl_minify' ) ) {
 		_deprecated_function( __FUNCTION__, '3.1' );
 
 		if ( is_ssl() && false === strpos( $url, 'https://' ) && ! in_array( rocket_extract_url_component( $url, PHP_URL_HOST ), get_rocket_cnames_host( array( 'all', 'css_js', 'css', 'js' ) ), true ) ) {
-			$url = str_replace( 'http://', 'https://', $url );
+			$url = str_replace( 'https://', 'https://', $url );
 		}
 
 		return $url;
@@ -2350,7 +2350,7 @@ if ( ! function_exists( 'get_rocket_exclude_files' ) ) {
 
 if ( ! function_exists( 'rocket_concatenate_google_fonts' ) ) {
 	/**
-	 * Concatenates Google Fonts tags (http://fonts.googleapis.com/css?...)
+	 * Concatenates Google Fonts tags (https://fonts.googleapis.com/css?...)
 	 *
 	 * @since 2.3
 	 * @deprecated 3.1

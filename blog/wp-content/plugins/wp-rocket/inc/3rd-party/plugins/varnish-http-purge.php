@@ -49,7 +49,7 @@ function rocket_clean_varnish_http_purge() {
 			$path = $p['path'];
 		}
 
-		$schema = apply_filters( 'varnish_http_purge_schema', 'http://' ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals
+		$schema = apply_filters( 'varnish_http_purge_schema', 'https://' ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals
 
 		// If we made varniship, let it sail.
 		if ( ! empty( $varniship ) ) {

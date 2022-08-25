@@ -9,7 +9,7 @@
 
 if ( ! defined( 'WPSEO_VERSION' ) ) {
 	header( 'Status: 403 Forbidden' );
-	header( 'HTTP/1.1 403 Forbidden' );
+	header( ' 403 Forbidden' );
 	exit();
 }
 
@@ -26,7 +26,7 @@ echo '<h2 class="help-button-inline">' . esc_html__( 'Webmaster Tools verificati
 echo $webmaster_tools_help->get_panel_html();
 
 $msverify_link = 'https://www.bing.com/toolbox/webmaster/#/Dashboard/?url=' .
-	rawurlencode( str_replace( 'http://', '', get_bloginfo( 'url' ) ) );
+	rawurlencode( str_replace( 'https://', '', get_bloginfo( 'url' ) ) );
 
 $googleverify_link = add_query_arg(
 	[
@@ -44,7 +44,7 @@ printf(
 	esc_html__( 'Get your Baidu verification code in %1$sBaidu Webmaster Tools%2$s.', 'wordpress-seo' ),
 	/*
 	 * Get the Baidu Webmaster Tools site add link from this 3rd party article.
-	 * {@link http://www.dragonmetrics.com/how-to-optimize-your-site-with-baidu-webmaster-tools/}
+	 * {@link https://www.dragonmetrics.com/how-to-optimize-your-site-with-baidu-webmaster-tools/}
 	 * We are unable to create a Baidu Webmaster Tools account due to the Chinese phone number verification.
 	 */
 	'<a target="_blank" href="' . esc_url( 'https://ziyuan.baidu.com/site/siteadd' ) . '" rel="noopener noreferrer">',

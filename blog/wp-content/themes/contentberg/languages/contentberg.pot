@@ -3016,7 +3016,7 @@ msgid "ThemeSphere"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://theme-sphere.com"
+msgid "https://theme-sphere.com"
 msgstr ""
 
 #. Template Name of the plugin/theme

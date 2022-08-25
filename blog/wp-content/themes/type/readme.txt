@@ -5,7 +5,7 @@ Tested up to: 5.6
 Requires PHP: 5.6
 Stable tag: 1.1.2
 License: GPLv3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Build a professional blog, an online store or a magazine style website with Type WordPress Theme.
 
@@ -117,10 +117,10 @@ Please visit https://wordpress.org/support/theme/type/ if you have any questions
 
 == Resources ==
 
-* Type Theme is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc. - GPLv2
+* Type Theme is based on Underscores https://underscores.me/, (C) 2012-2016 Automattic, Inc. - GPLv2
 * normalize.css https://github.com/necolas/normalize.css, (C) Copyright Nicolas Gallagher and Jonathan Neal - MIT
 * Material design icons, the official icon set from Google - Apache 2.0
-* Socicon http://www.socicon.com - SIL Open Font License 1.1
+* Socicon https://www.socicon.com - SIL Open Font License 1.1
 * Images URL in the screenshot:
   https://www.pexels.com/photo/asphalt-dark-dawn-endless-531321/ - (C) Pexels, CC0
   https://stocksnap.io/photo/spoon-cup-VI0RJQ3IMH - (C) StockSnap, CC0

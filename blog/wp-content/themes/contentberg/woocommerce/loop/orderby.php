@@ -2,7 +2,7 @@
 /**
  * Show options for ordering
  * 
- * @see 	    http://docs.woothemes.com/document/template-structure/
+ * @see 	    https://docs.woothemes.com/document/template-structure/
  * @version     3.6.0
  */
 

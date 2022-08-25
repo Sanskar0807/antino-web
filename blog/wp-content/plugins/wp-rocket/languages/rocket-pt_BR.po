@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Rocket 3.4\n"
-"Report-Msgid-Bugs-To: http://wp-rocket.me/\n"
+"Report-Msgid-Bugs-To: https://wp-rocket.me/\n"
 "POT-Creation-Date: 2021-05-13 15:06-0400\n"
 "PO-Revision-Date: 2019-08-26 15:14+0000\n"
 "Last-Translator: Fabio Fava <go@fabiofava.com>, 2021\n"
@@ -956,11 +956,11 @@ msgstr "URLs a pré-capturar"
 
 #: inc/Engine/Admin/Settings/Page.php:1215
 msgid ""
-"Specify external hosts to be prefetched (no <code>http:</code>, one per "
+"Specify external hosts to be prefetched (no <code>https:</code>, one per "
 "line)"
 msgstr ""
 "Especifique os servidores externos a serem pré-carregados (sem "
-"<code>http:</code>, um por linha)"
+"<code>https:</code>, um por linha)"
 
 #: inc/Engine/Admin/Settings/Page.php:1224
 msgid "Fonts to preload"
@@ -1572,12 +1572,12 @@ msgstr "Protocolo relativo"
 #: inc/Engine/Admin/Settings/Page.php:1984
 msgid ""
 "Should only be used with Cloudflare's flexible SSL feature. URLs of static "
-"files (CSS, JS, images) will be rewritten to use // instead of http:// or "
+"files (CSS, JS, images) will be rewritten to use // instead of https:// or "
 "https://."
 msgstr ""
 "Só deve ser usado com a função de SSL flexível do Cloudflare. URLs de "
 "arquivos estáticos (CSS, JS, imagens) serão reescritos para usar // ao invés"
-" de http:// ou https://."
+" de https:// ou https://."
 
 #: inc/Engine/Admin/Settings/Page.php:2022
 msgid "Sucuri credentials"

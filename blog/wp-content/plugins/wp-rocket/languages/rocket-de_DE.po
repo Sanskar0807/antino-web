@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Rocket 3.4\n"
-"Report-Msgid-Bugs-To: http://wp-rocket.me/\n"
+"Report-Msgid-Bugs-To: https://wp-rocket.me/\n"
 "POT-Creation-Date: 2021-05-13 15:06-0400\n"
 "PO-Revision-Date: 2019-08-26 15:14+0000\n"
 "Last-Translator: Christian Herrmann, 2021\n"
@@ -956,10 +956,10 @@ msgstr "Vorzeitig aufzulösende URLs"
 
 #: inc/Engine/Admin/Settings/Page.php:1215
 msgid ""
-"Specify external hosts to be prefetched (no <code>http:</code>, one per "
+"Specify external hosts to be prefetched (no <code>https:</code>, one per "
 "line)"
 msgstr ""
-"Vorzeitig aufzulösende externe Domains (kein <code>http:</code>, eine pro "
+"Vorzeitig aufzulösende externe Domains (kein <code>https:</code>, eine pro "
 "Zeile)"
 
 #: inc/Engine/Admin/Settings/Page.php:1224
@@ -1568,11 +1568,11 @@ msgstr "Relatives Protokoll"
 #: inc/Engine/Admin/Settings/Page.php:1984
 msgid ""
 "Should only be used with Cloudflare's flexible SSL feature. URLs of static "
-"files (CSS, JS, images) will be rewritten to use // instead of http:// or "
+"files (CSS, JS, images) will be rewritten to use // instead of https:// or "
 "https://."
 msgstr ""
 "Sollte ausschließlich mit Flexible SSL von Cloudflare genutzt werden. URLs "
-"statischer Dateien (CSS, JS, Bilder) werden auf // anstatt http:// oder "
+"statischer Dateien (CSS, JS, Bilder) werden auf // anstatt https:// oder "
 "https:// umgeschrieben."
 
 #: inc/Engine/Admin/Settings/Page.php:2022

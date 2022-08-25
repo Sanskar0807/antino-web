@@ -1204,7 +1204,7 @@ class Page {
 						'wpr-field--children',
 					],
 					'description'       => __( 'Specify XML sitemap(s) to be used for preloading', 'rocket' ),
-					'placeholder'       => 'http://example.com/sitemap.xml',
+					'placeholder'       => 'https://example.com/sitemap.xml',
 					'parent'            => 'sitemap_preload',
 					'section'           => 'preload_section',
 					'page'              => 'preload',
@@ -1214,7 +1214,7 @@ class Page {
 				'dns_prefetch'  => [
 					'type'              => 'textarea',
 					'label'             => __( 'URLs to prefetch', 'rocket' ),
-					'description'       => __( 'Specify external hosts to be prefetched (no <code>http:</code>, one per line)', 'rocket' ),
+					'description'       => __( 'Specify external hosts to be prefetched (no <code>https:</code>, one per line)', 'rocket' ),
 					'placeholder'       => '//example.com',
 					'section'           => 'dns_prefetch_section',
 					'page'              => 'preload',
@@ -1983,7 +1983,7 @@ class Page {
 				'cloudflare_protocol_rewrite' => [
 					'type'              => 'sliding_checkbox',
 					'label'             => __( 'Relative protocol', 'rocket' ),
-					'description'       => __( 'Should only be used with Cloudflare\'s flexible SSL feature. URLs of static files (CSS, JS, images) will be rewritten to use // instead of http:// or https://.', 'rocket' ),
+					'description'       => __( 'Should only be used with Cloudflare\'s flexible SSL feature. URLs of static files (CSS, JS, images) will be rewritten to use // instead of https:// or https://.', 'rocket' ),
 					'default'           => 0,
 					'section'           => 'cloudflare_settings',
 					'page'              => 'cloudflare',

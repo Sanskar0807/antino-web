@@ -4,7 +4,7 @@
  *
  * This template overrides woocommerce/templates/single-product/meta.php.
  *
- * @see 	    http://docs.woothemes.com/document/template-structure/
+ * @see 	    https://docs.woothemes.com/document/template-structure/
  * @version     3.0.0
  */
 

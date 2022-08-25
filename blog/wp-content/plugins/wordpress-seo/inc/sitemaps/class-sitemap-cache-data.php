@@ -106,7 +106,7 @@ class WPSEO_Sitemap_Cache_Data implements Serializable, WPSEO_Sitemap_Cache_Data
 	/**
 	 * String representation of object.
 	 *
-	 * @link http://php.net/manual/en/serializable.serialize.php
+	 * @link https://php.net/manual/en/serializable.serialize.php
 	 *
 	 * @since 5.1.0
 	 *
@@ -125,7 +125,7 @@ class WPSEO_Sitemap_Cache_Data implements Serializable, WPSEO_Sitemap_Cache_Data
 	/**
 	 * Constructs the object.
 	 *
-	 * @link http://php.net/manual/en/serializable.unserialize.php
+	 * @link https://php.net/manual/en/serializable.unserialize.php
 	 *
 	 * @since 5.1.0
 	 *

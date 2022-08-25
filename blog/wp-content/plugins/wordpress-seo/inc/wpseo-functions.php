@@ -7,7 +7,7 @@
 
 if ( ! defined( 'WPSEO_VERSION' ) ) {
 	header( 'Status: 403 Forbidden' );
-	header( 'HTTP/1.1 403 Forbidden' );
+	header( ' 403 Forbidden' );
 	exit();
 }
 
@@ -139,7 +139,7 @@ function wpseo_register_var_replacement( $var, $replace_function, $type = 'advan
  *
  * It adds new keys to a wpml-config.xml file for a custom post type title, metadesc,
  * title-ptarchive and metadesc-ptarchive fields translation.
- * Documentation: http://wpml.org/documentation/support/language-configuration-files/
+ * Documentation: https://wpml.org/documentation/support/language-configuration-files/
  *
  * @global $sitepress
  *

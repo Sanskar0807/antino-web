@@ -25,7 +25,7 @@ The issue tracker isn't the best place for usage questions. This format is not w
 - Try Redux: https://demo.redux.io/
 - Read the docs: https://devs.redux.io/
 - Look for/ask questions on StackOverflow: https://stackoverflow.com/questions/tagged/redux-framework
-- Ask in our community Slack channel: http://slack.redux.io/
+- Ask in our community Slack channel: https://slack.redux.io/
 - For Premium support or advanced customizations we offer premium support. See https://redux.io/extension/premium-support/ for more information.
 
 Questions about a Redux extension?

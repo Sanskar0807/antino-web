@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Rocket 3.4\n"
-"Report-Msgid-Bugs-To: http://wp-rocket.me/\n"
+"Report-Msgid-Bugs-To: https://wp-rocket.me/\n"
 "POT-Creation-Date: 2021-04-14 11:16-0400\n"
 "PO-Revision-Date: 2019-08-26 15:14+0000\n"
 "Last-Translator: Borko Livić <borkolivic@gmail.com>, 2021\n"
@@ -931,10 +931,10 @@ msgstr "URL-ovi koje treba prethodno dohvatiti (prefetch)"
 
 #: inc/Engine/Admin/Settings/Page.php:1206
 msgid ""
-"Specify external hosts to be prefetched (no <code>http:</code>, one per "
+"Specify external hosts to be prefetched (no <code>https:</code>, one per "
 "line)"
 msgstr ""
-"Odredite vanjske hostove za pretragu (bez <code>http:</code>, jedan po "
+"Odredite vanjske hostove za pretragu (bez <code>https:</code>, jedan po "
 "retku)"
 
 #: inc/Engine/Admin/Settings/Page.php:1215
@@ -1559,12 +1559,12 @@ msgstr "Relativni protokol"
 #: inc/Engine/Admin/Settings/Page.php:1975
 msgid ""
 "Should only be used with Cloudflare's flexible SSL feature. URLs of static "
-"files (CSS, JS, images) will be rewritten to use // instead of http:// or "
+"files (CSS, JS, images) will be rewritten to use // instead of https:// or "
 "https://."
 msgstr ""
 "Treba se koristiti samo s Cloudflare-ovom fleksibilnom SSL značajkom. URL-"
 "ovi statičkih datoteka (CSS, JS, slike) bit će prepisani tako da koriste // "
-"umjesto http:// ili https://."
+"umjesto https:// ili https://."
 
 #: inc/Engine/Admin/Settings/Page.php:2013
 msgid "Sucuri credentials"

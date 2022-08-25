@@ -947,7 +947,7 @@ class WPSEO_Meta {
 	 * Matching keys' values in the second array overwrite those in the first array, as is the
 	 * case with array_merge.
 	 *
-	 * Freely based on information found on http://www.php.net/manual/en/function.array-merge-recursive.php
+	 * Freely based on information found on https://www.php.net/manual/en/function.array-merge-recursive.php
 	 *
 	 * {@internal Should be moved to a general utility class.}}
 	 *

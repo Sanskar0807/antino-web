@@ -115,7 +115,7 @@ class Requests_Response {
 			}
 		}
 		elseif (!$this->success) {
-			$exception = Requests_Exception_HTTP::get_class($this->status_code);
+			$exception = Requests_Exception_https::get_class($this->status_code);
 			throw new $exception(null, $this);
 		}
 	}

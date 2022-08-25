@@ -6,7 +6,7 @@ Requires PHP: 7.1
 Tested up to: 5.7.3
 Stable tag: 4.1.28
 License: GPL-2.0+
-License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+License URI: https://www.gnu.org/licenses/gpl-2.0.txt
 
 Supercharge the Gutenberg editor with our ever-growing library of block-based templates!
 

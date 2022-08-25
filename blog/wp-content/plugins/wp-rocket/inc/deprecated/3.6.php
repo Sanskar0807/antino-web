@@ -619,7 +619,7 @@ function rocket_get_compressed_assets_rules() {
 
 	$rules = <<<HTACCESS
 <IfModule mod_headers.c>
-    RewriteCond %{HTTP:Accept-Encoding} gzip
+    RewriteCond %{https:Accept-Encoding} gzip
     RewriteCond %{REQUEST_FILENAME}\.gz -f
     RewriteRule \.(css|js)$ %{REQUEST_URI}.gz [L]
 

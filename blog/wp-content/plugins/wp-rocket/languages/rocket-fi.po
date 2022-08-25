@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Rocket 3.3.7\n"
-"Report-Msgid-Bugs-To: http://wp-rocket.me/\n"
+"Report-Msgid-Bugs-To: https://wp-rocket.me/\n"
 "POT-Creation-Date: 2019-08-26 11:14-0400\n"
 "PO-Revision-Date: 2019-08-26 15:14+0000\n"
 "Last-Translator: Riku Turunen <riku@ksf.fi>, 2019\n"
@@ -1148,10 +1148,10 @@ msgstr "URL-osoitteet esilataukseen"
 
 #: inc/classes/admin/settings/class-page.php:1068
 msgid ""
-"Specify external hosts to be prefetched (no <code>http:</code>, one per "
+"Specify external hosts to be prefetched (no <code>https:</code>, one per "
 "line)"
 msgstr ""
-"Määritä verkko-isännät jotka esiladataan (ei <code>http:</code>, yksi isäntä"
+"Määritä verkko-isännät jotka esiladataan (ei <code>https:</code>, yksi isäntä"
 " per rivi)"
 
 #: inc/classes/admin/settings/class-page.php:1091
@@ -1725,7 +1725,7 @@ msgstr "Suhteellinen protokolla"
 #: inc/classes/admin/settings/class-page.php:1880
 msgid ""
 "Should only be used with Cloudflare's flexible SSL feature. URLs of static "
-"files (CSS, JS, images) will be rewritten to use // instead of http:// or "
+"files (CSS, JS, images) will be rewritten to use // instead of https:// or "
 "https://."
 msgstr ""
 "Tätä tulisi käyttää vain yhdessä Cloudflaren \"flexible SSL\" -ominaisuuden "

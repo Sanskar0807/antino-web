@@ -15,7 +15,7 @@
  *  - Author Archives
  *  - Date Archives
  * 
- * @link http://codex.wordpress.org/images/1/18/Template_Hierarchy.png
+ * @link https://codex.wordpress.org/images/1/18/Template_Hierarchy.png
  */
 
 

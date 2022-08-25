@@ -210,11 +210,11 @@
             {
                 "name": "Jordi Boggiano",
                 "email": "j.boggiano@seld.be",
-                "homepage": "http://seld.be"
+                "homepage": "https://seld.be"
             }
         ],
         "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
-        "homepage": "http://github.com/Seldaek/monolog",
+        "homepage": "https://github.com/Seldaek/monolog",
         "keywords": [
             "log",
             "logging",
@@ -269,7 +269,7 @@
         "authors": [
             {
                 "name": "PHP-FIG",
-                "homepage": "http://www.php-fig.org/"
+                "homepage": "https://www.php-fig.org/"
             }
         ],
         "description": "Common Container Interface (PHP FIG PSR-11)",

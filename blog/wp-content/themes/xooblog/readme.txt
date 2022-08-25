@@ -4,7 +4,7 @@ Tested up to: 5.5
 Requires at least: 4.5
 Stable tag: 1.0.3
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 == Description ==
@@ -110,7 +110,7 @@ Source: https://getbootstrap.com/
 
 popper.js
 Copyright (c) 2019 Federico Zivolo
-License: Distributed under the MIT License (license terms are at http://opensource.org/licenses/MIT)
+License: Distributed under the MIT License (license terms are at https://opensource.org/licenses/MIT)
 Source: https://github.com/popperjs/popper-core
 
 

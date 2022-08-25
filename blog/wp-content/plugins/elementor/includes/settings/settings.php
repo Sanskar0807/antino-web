@@ -451,7 +451,7 @@ class Settings extends Settings_Page {
 								'label' => __( 'Looking for the Style settings?', 'elementor' ),
 								'field_args' => [
 									'type' => 'raw_html',
-									'html' => __( 'The Style settings changed its location and can now be found within Elementor Editor\'s <b>Panel > Hamburger Menu > Site Settings</b>.<br>You can use the Site Settings to make changes and see them live!', 'elementor' ) . sprintf( ' <a target="_blank" href="http://go.elementor.com/panel-layout-settings">%s</a>', __( 'Learn More', 'elementor' ) ),
+									'html' => __( 'The Style settings changed its location and can now be found within Elementor Editor\'s <b>Panel > Hamburger Menu > Site Settings</b>.<br>You can use the Site Settings to make changes and see them live!', 'elementor' ) . sprintf( ' <a target="_blank" href="https://go.elementor.com/panel-layout-settings">%s</a>', __( 'Learn More', 'elementor' ) ),
 								],
 							],
 						],

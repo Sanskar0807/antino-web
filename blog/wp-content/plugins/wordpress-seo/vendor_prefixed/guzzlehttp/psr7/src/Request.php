@@ -106,7 +106,7 @@ class Request implements \YoastSEO_Vendor\Psr\Http\Message\RequestInterface
             $this->headerNames['host'] = 'Host';
         }
         // Ensure Host is the first header.
-        // See: http://tools.ietf.org/html/rfc7230#section-5.4
+        // See: https://tools.ietf.org/html/rfc7230#section-5.4
         $this->headers = [$header => [$host]] + $this->headers;
     }
 }

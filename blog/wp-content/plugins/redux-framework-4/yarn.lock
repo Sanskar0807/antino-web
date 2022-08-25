@@ -9352,7 +9352,7 @@
 
 "get-stream@^3.0.0", "get-stream@3.0.0":
   "integrity" "sha1-jpQ9E1jcN1VQVOy+LtsFqhdO3hQ="
-  "resolved" "http://registry.npmjs.org/get-stream/-/get-stream-3.0.0.tgz"
+  "resolved" "https://registry.npmjs.org/get-stream/-/get-stream-3.0.0.tgz"
   "version" "3.0.0"
 
 "get-stream@^4.0.0":
@@ -10805,7 +10805,7 @@
 
 "into-stream@^3.1.0":
   "integrity" "sha1-lvsKk2wSur1v8XUqF9BWFqvQlMY="
-  "resolved" "http://registry.npmjs.org/into-stream/-/into-stream-3.1.0.tgz"
+  "resolved" "https://registry.npmjs.org/into-stream/-/into-stream-3.1.0.tgz"
   "version" "3.1.0"
   dependencies:
     "from2" "^2.1.1"
@@ -12241,7 +12241,7 @@
 
 "kind-of@^1.1.0":
   "integrity" "sha1-FAo9LUGjbS78+pN3tiwk+ElaXEQ="
-  "resolved" "http://registry.npmjs.org/kind-of/-/kind-of-1.1.0.tgz"
+  "resolved" "https://registry.npmjs.org/kind-of/-/kind-of-1.1.0.tgz"
   "version" "1.1.0"
 
 "kind-of@^2.0.1":
@@ -14306,7 +14306,7 @@
 
 "os-tmpdir@^1.0.0", "os-tmpdir@~1.0.2":
   "integrity" "sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ="
-  "resolved" "http://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz"
+  "resolved" "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz"
   "version" "1.0.2"
 
 "osenv@0":
@@ -17050,7 +17050,7 @@
 
 "safe-regex@^1.1.0":
   "integrity" "sha1-QKNmnzsHfR6UPURinhV91IAjvy4="
-  "resolved" "http://registry.npmjs.org/safe-regex/-/safe-regex-1.1.0.tgz"
+  "resolved" "https://registry.npmjs.org/safe-regex/-/safe-regex-1.1.0.tgz"
   "version" "1.1.0"
   dependencies:
     "ret" "~0.1.10"
@@ -17254,7 +17254,7 @@
 
 "semver@~5.3.0":
   "integrity" "sha1-myzl094C0XxgEq0yaqa00M9U+U8="
-  "resolved" "http://registry.npmjs.org/semver/-/semver-5.3.0.tgz"
+  "resolved" "https://registry.npmjs.org/semver/-/semver-5.3.0.tgz"
   "version" "5.3.0"
 
 "semver@5.5.0":
@@ -17441,7 +17441,7 @@
 
 "shelljs@0.3.x":
   "integrity" "sha1-NZbmMHp4FUT1kfN9phg2DzHbV7E="
-  "resolved" "http://registry.npmjs.org/shelljs/-/shelljs-0.3.0.tgz"
+  "resolved" "https://registry.npmjs.org/shelljs/-/shelljs-0.3.0.tgz"
   "version" "0.3.0"
 
 "shellwords@^0.1.1":
@@ -17688,7 +17688,7 @@
 
 "source-map@^0.4.2":
   "integrity" "sha1-66T12pwNyZneaAMti092FzZSA2s="
-  "resolved" "http://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz"
+  "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz"
   "version" "0.4.4"
   dependencies:
     "amdefine" ">=0.0.4"
@@ -18196,7 +18196,7 @@
 
 "strip-eof@^1.0.0":
   "integrity" "sha1-u0P/VZim6wXYm1n80SnJgzE2Br8="
-  "resolved" "http://registry.npmjs.org/strip-eof/-/strip-eof-1.0.0.tgz"
+  "resolved" "https://registry.npmjs.org/strip-eof/-/strip-eof-1.0.0.tgz"
   "version" "1.0.0"
 
 "strip-final-newline@^2.0.0":

@@ -162,7 +162,7 @@ class Svg_Handler extends Files_Upload_Handler {
 
 	/**
 	 * Check if the contents are gzipped
-	 * @see http://www.gzip.org/zlib/rfc-gzip.html#member-format
+	 * @see https://www.gzip.org/zlib/rfc-gzip.html#member-format
 	 *
 	 * @param $contents
 	 * @return bool
@@ -416,7 +416,7 @@ class Svg_Handler extends Files_Upload_Handler {
 	 * @param \DOMElement $element
 	 */
 	private function strip_xlinks( $element ) {
-		$xlinks = $element->getAttributeNS( 'http://www.w3.org/1999/xlink', 'href' );
+		$xlinks = $element->getAttributeNS( 'https://www.w3.org/1999/xlink', 'href' );
 
 		if ( ! $xlinks ) {
 			return;
@@ -431,7 +431,7 @@ class Svg_Handler extends Files_Upload_Handler {
 		];
 		if ( 1 === preg_match( self::SCRIPT_REGEX, $xlinks ) ) {
 			if ( ! in_array( substr( $xlinks, 0, 14 ), $allowed_links ) ) {
-				$element->removeAttributeNS( 'http://www.w3.org/1999/xlink', 'href' );
+				$element->removeAttributeNS( 'https://www.w3.org/1999/xlink', 'href' );
 			}
 		}
 	}
@@ -441,7 +441,7 @@ class Svg_Handler extends Files_Upload_Handler {
 	 * @param $element
 	 */
 	private function validate_use_tag( $element ) {
-		$xlinks = $element->getAttributeNS( 'http://www.w3.org/1999/xlink', 'href' );
+		$xlinks = $element->getAttributeNS( 'https://www.w3.org/1999/xlink', 'href' );
 		if ( $xlinks && '#' !== substr( $xlinks, 0, 1 ) ) {
 			$element->parentNode->removeChild( $element ); // phpcs:ignore -- php DomNode
 		}
@@ -465,7 +465,7 @@ class Svg_Handler extends Files_Upload_Handler {
 		$elements = $this->svg_dom->getElementsByTagName( '*' );
 		// loop through all elements
 		// we do this backwards so we don't skip anything if we delete a node
-		// see comments at: http://php.net/manual/en/class.domnamednodemap.php
+		// see comments at: https://php.net/manual/en/class.domnamednodemap.php
 		for ( $index = $elements->length - 1; $index >= 0; $index-- ) {
 			/**
 			 * @var \DOMElement $current_element

@@ -4,8 +4,8 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  *
- * @copyright Copyright (c) Ben Ramsey (http://benramsey.com)
- * @license   http://opensource.org/licenses/MIT MIT
+ * @copyright Copyright (c) Ben Ramsey (https://benramsey.com)
+ * @license   https://opensource.org/licenses/MIT MIT
  * @package Redux Framework
  */
 

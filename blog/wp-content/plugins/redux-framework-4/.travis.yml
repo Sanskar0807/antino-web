@@ -2,7 +2,7 @@
 # @link https://travis-ci.org/
 
 # Declare project language and PHP versions to test against.
-# @link http://about.travis-ci.org/docs/user/languages/php/
+# @link https://about.travis-ci.org/docs/user/languages/php/
 language: php
 services:
     - mysql
@@ -22,8 +22,8 @@ notifications:
     slack: redux:yeR6PY87fwfQ0sBPnJFmCmjY
 
 # Ditch sudo and use containers.
-# @link http://docs.travis-ci.com/user/migrating-from-legacy/#Why-migrate-to-container-based-infrastructure%3F
-# @link http://docs.travis-ci.com/user/workers/container-based-infrastructure/#Routing-your-build-to-container-based-infrastructure
+# @link https://docs.travis-ci.com/user/migrating-from-legacy/#Why-migrate-to-container-based-infrastructure%3F
+# @link https://docs.travis-ci.com/user/workers/container-based-infrastructure/#Routing-your-build-to-container-based-infrastructure
 sudo: false
 
 # Declare which versions of WordPress to test against.
@@ -72,10 +72,10 @@ before_script:
     # After CodeSniffer install you should refresh your path.
     - phpenv rehash
     # Install JSCS: JavaScript Code Style checker
-    # @link http://jscs.info/
+    # @link https://jscs.info/
     - npm install -g jscs
     # Install JSHint, a JavaScript Code Quality Tool
-    # @link http://jshint.com/docs/
+    # @link https://jshint.com/docs/
     - npm install -g jshint
     - wget https://develop.svn.wordpress.org/trunk/.jshintrc
     # Install Yarn
@@ -98,7 +98,7 @@ script:
     - yarn run stylelint
     # WordPress Coding Standards
     # @link https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards
-    # @link http://pear.php.net/package/PHP_CodeSniffer/
+    # @link https://pear.php.net/package/PHP_CodeSniffer/
     # -p flag: Show progress of the run.
     # -s flag: Show sniff codes in all reports.
     # -v flag: Print verbose output.

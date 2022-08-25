@@ -5,7 +5,7 @@
  * Limit the characters that may be entered in a text field
  * Common options: alphanumeric, alphabetic or numeric
  * Kevin Sheedy, 2012
- * http://github.com/KevinSheedy/jquery.alphanum
+ * https://github.com/KevinSheedy/jquery.alphanum
  *********************************************************************/
 
 (function( $ ) {
@@ -675,7 +675,7 @@
 /**********************************************************
  * Selection Library
  * Used to determine what text is highlighted in the textbox before a key is pressed.
- * http://donejs.com/docs.html#!jQuery.fn.selection
+ * https://donejs.com/docs.html#!jQuery.fn.selection
  * https://github.com/jupiterjs/jquerymx/blob/master/dom/selection/selection.js
  ***********************************************************/
 (function( $ ) {

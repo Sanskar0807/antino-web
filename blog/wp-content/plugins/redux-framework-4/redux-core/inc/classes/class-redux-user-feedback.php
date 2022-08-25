@@ -9,7 +9,7 @@
  * @package   Redux
  * @author    Jeffrey Carandang
  * @link      https://redux.io
- * @license   http://opensource.org/licenses/gpl-2.0.php GNU Public License
+ * @license   https://opensource.org/licenses/gpl-2.0.php GNU Public License
  */
 
 // Exit if accessed directly.

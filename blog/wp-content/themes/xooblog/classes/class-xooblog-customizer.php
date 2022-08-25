@@ -3,7 +3,7 @@
 /**
  * Contains methods for customizing the theme customization screen.
  * 
- * @link http://codex.wordpress.org/Theme_Customization_API
+ * @link https://codex.wordpress.org/Theme_Customization_API
 
  */
 class xooblog_customize
@@ -17,7 +17,7 @@ class xooblog_customize
      *  
      * @see add_action('customize_register',$func)
      * @param \WP_Customize_Manager $wp_customize
-     * @link http://ottopress.com/2012/how-to-leverage-the-theme-customizer-in-your-own-themes/
+     * @link https://ottopress.com/2012/how-to-leverage-the-theme-customizer-in-your-own-themes/
  
      */
     public static function register($wp_customize)

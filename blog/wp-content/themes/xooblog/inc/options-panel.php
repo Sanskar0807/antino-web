@@ -638,7 +638,7 @@ Redux::setSection($opt_name, array(
 //             'subtitle' => __('Paste your CSS code here.', 'xooblog'),
 //             'mode'     => 'css',
 //             'theme'    => 'monokai',
-//             'desc'     => 'Possible modes can be found at http://ace.c9.io/.',
+//             'desc'     => 'Possible modes can be found at https://ace.c9.io/.',
 //             'default'  => ""
 //         ),
 //         array(
@@ -648,7 +648,7 @@ Redux::setSection($opt_name, array(
 //             'subtitle' => __('Paste your CSS code here.', 'xooblog'),
 //             'mode'     => 'css',
 //             'theme'    => 'monokai',
-//             'desc'     => 'Possible modes can be found at http://ace.c9.io/.',
+//             'desc'     => 'Possible modes can be found at https://ace.c9.io/.',
 //             'default'  => ""
 //         ),
 //         array(
@@ -658,7 +658,7 @@ Redux::setSection($opt_name, array(
 //             'subtitle' => __('Paste your CSS code here.', 'xooblog'),
 //             'mode'     => 'css',
 //             'theme'    => 'monokai',
-//             'desc'     => 'Possible modes can be found at http://ace.c9.io/.',
+//             'desc'     => 'Possible modes can be found at https://ace.c9.io/.',
 //             'default'  => ""
 //         ),
 

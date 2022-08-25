@@ -186,7 +186,7 @@ class StreamHandler
         if (!$methods) {
             $methods = \array_flip(\get_class_methods(__CLASS__));
         }
-        // HTTP/1.1 streams using the PHP stream wrapper require a
+        //  streams using the PHP stream wrapper require a
         // Connection: close header
         if ($request->getProtocolVersion() == '1.1' && !$request->hasHeader('Connection')) {
             $request = $request->withHeader('Connection', 'close');

@@ -37,8 +37,8 @@
  * @author Ryan Parman
  * @author Sam Sneddon
  * @author Ryan McCue
- * @link http://simplepie.org/ SimplePie
- * @license http://www.opensource.org/licenses/bsd-license.php BSD License
+ * @link https://simplepie.org/ SimplePie
+ * @license https://www.opensource.org/licenses/bsd-license.php BSD License
  */
 
 /**
@@ -50,7 +50,7 @@
  *
  * @package SimplePie
  * @subpackage HTTP
- * @todo Move to properly supporting RFC2616 (HTTP/1.1)
+ * @todo Move to properly supporting RFC2616 ()
  */
 class SimplePie_File
 {
@@ -188,7 +188,7 @@ class SimplePie_File
 					{
 						$get = '/';
 					}
-					$out = "GET $get HTTP/1.1\r\n";
+					$out = "GET $get \r\n";
 					$out .= "Host: $url_parts[host]\r\n";
 					$out .= "User-Agent: $useragent\r\n";
 					if (extension_loaded('zlib'))

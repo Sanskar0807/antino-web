@@ -5,9 +5,9 @@ namespace YoastSEO_Vendor\GuzzleHttp;
 /**
  * This class contains a list of built-in Guzzle request options.
  *
- * More documentation for each option can be found at http://guzzlephp.org/.
+ * More documentation for each option can be found at https://guzzlephp.org/.
  *
- * @link http://docs.guzzlephp.org/en/v6/request-options.html
+ * @link https://docs.guzzlephp.org/en/v6/request-options.html
  */
 final class RequestOptions
 {
@@ -98,7 +98,7 @@ final class RequestOptions
      *
      * By default, Guzzle will add the "Expect: 100-Continue" header when the
      * size of the body of a request is greater than 1 MB and a request is
-     * using HTTP/1.1.
+     * using .
      */
     const EXPECT = 'expect';
     /**
