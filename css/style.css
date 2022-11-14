@@ -1304,6 +1304,7 @@ title {
   left: 50%;
   top: 50%;
   text-align: center;
+  z-index: -1;
 }
 
 .left-side ul li {
@@ -3974,7 +3975,7 @@ section.why-join-us-section h3 {
     font-size: 0.5rem !important;
   }
   .content-land {
-    padding: 20px 30px;
+    padding: 6px 0px;
   }
   .post-sticky .post-content .post-link {
     display: none;
@@ -4654,4 +4655,36 @@ section.why-join-us-section h3 {
     margin-bottom: 40px;
   }
 }
+.Social-media {
+  display: flex;
+}
+
+.Footer-link img {
+  width: 3% !important;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.Footer-link a {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  color: #282828 !important;
+}
+
+.Social-media img {
+  /* width: 10%; */
+  cursor: pointer;
+}
+
+@media screen and (max-width: 590px) {
+  .Footer-link {
+    padding: 10px 0px 10px 0px !important;
+  }
+
+  .Footer-link a {
+    margin-left: 8px;
+  }
+}
+
 

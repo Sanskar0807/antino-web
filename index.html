@@ -110,6 +110,8 @@
   }
   </script>
 
+
+
   <style type="text/css">
     html,
     body {
@@ -207,7 +209,7 @@
 
       <figure class="logo"><img
           data-src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/logo_light-compress.png"
-          alt="Antino-Logo" class="lazyload"></figure>
+          alt="Antino-Logo" class="lazyload" style="cursor: pointer;"></figure>
       <span class="percentage"></span>
     </div>
     <!-- end inner -->
@@ -282,7 +284,7 @@
   <!-- end navigation-menu -->
   <aside class="left-side">
     <div class="logo">
-      <a href="#"><img loading="lazy"
+      <a href="#"><img loading="lazy" style="cursor: pointer !important"
           src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/antino_logo_dark-compress.png"
           alt="Antino-logo"></a>
     </div>
@@ -384,8 +386,8 @@
         end slide-inner -->
         <!-- </div> -->
         <!-- end swiper-slide -->
-        <div class="swiper-slide" 
-          data-background="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/slide02-compress1.jpg" >
+        <div class="swiper-slide"
+          data-background="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/slide02-compress1.jpg">
           <div class="slide-inner">
 
             <h4>Health and Wellness</h4>
@@ -399,7 +401,7 @@
         </div>
         <!-- end swiper-slide -->
         <div class="swiper-slide"
-          data-background="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/slide03.jpg" >
+          data-background="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/slide03.jpg">
           <div class="slide-inner">
 
             <h4>Education</h4>
@@ -412,7 +414,7 @@
           <!-- end slide-inner -->
         </div>
         <div class="swiper-slide"
-          data-background="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/banner4.jpg" >
+          data-background="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/banner4.jpg">
           <div class="slide-inner">
 
             <h4>Fin-Tech</h4>
@@ -474,9 +476,12 @@
             <figure class="project-image reveal-effect masker wow">
               <!--<img loading="lazy" src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Bolt2x.png" alt="Image">-->
               <!-- <a href="images/zee.png" class="progressive replace"> -->
-              <img loading="lazy"
-                src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/min-images/Zeetv-min.jpg"
-                class="preview" alt="Client-section" loading="lazy" />
+              <picture>
+                <source type="image/webp" srcset="./ZeetvTest.webp">
+                <img loading="lazy"
+                  src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/min-images/Zeetv-min.jpg"
+                  class="preview" alt="Client-section" loading="lazy" />
+              </picture>
               </a>
             </figure>
             <div class="project-content">
@@ -1277,7 +1282,11 @@
 
   <!-- JS FILES -->
 
+
+
   <script>
+
+
     var TxtRotate = function (el, toRotate, period) {
       this.toRotate = toRotate;
       this.el = el;
@@ -1338,6 +1347,18 @@
       document.body.appendChild(css);
     };
   </script>
+  <script>
+    window.onload = function () {
+      localStorage.clear();
+      let localStorageData = localStorage.getItem('UserFirstTime')
+      console.log(localStorageData);
+      if (localStorageData = null) {
+        localStorage.clear();
+        localStorage.setItem('UserFirstTime', 1);
+      }
+    }
+
+  </script>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -1385,7 +1406,7 @@
   <script id='wf_script'
     src='https://bigin.zoho.com/crm/WebformScriptServlet?rid=60cb3405266c55df21bbf56f05611154ce521a9241a23e486549cb35666ff03agid8922943cc84a4d7fa733681062863ebc3a2308d74cb1dc3878d3b68e23b2ab93'></script>
 
-  
+
 
 </body>
 

@@ -319,3 +319,36 @@
   z-index: 10000;
 }
 /*# sourceMappingURL=styles.css.map */
+/* footer */
+.Social-media {
+  display: flex;
+}
+
+.Footer-link img {
+  width: 3%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.Footer-link a {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  color: #282828 !important;
+}
+
+
+.Social-media img {
+  /* width: 10%; */
+  cursor: pointer;
+}
+
+@media screen and (max-width: 590px) {
+  .Footer-link {
+    padding: 10px 0px 10px 0px !important;
+  }
+
+  .Footer-link a {
+    margin-left: 8px;
+  }
+}

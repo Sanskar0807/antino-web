@@ -350,6 +350,8 @@
     });
   });
 
+
+
   // SCROLL BG COLOR
   $(window)
     .scroll(function () {
@@ -358,7 +360,7 @@
         $panel = $("section, footer, header");
 
       var scroll = $window.scrollTop() + $window.height() / 3;
-
+      console.log("Scroll",scroll)
       $panel.each(function () {
         var $this = $(this);
         if (
@@ -418,6 +420,7 @@ function handleSocialLink(obj) {
       break;
   }
 }
+
 
 function handleLinkedInLinks(obj) {
   var linkedin_link = obj.getAttribute("data-linkedin-link");

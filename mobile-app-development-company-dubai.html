@@ -12,29 +12,48 @@
 
 
         gtag('config', 'UA-116279380-2');
+    </script> <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-W75Z7JH");
     </script>
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-W75Z7JH');</script>
     <!-- End Google Tag Manager -->
+    <!-- Schema Code -->
+    <script type="application/ld+json">{
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+  "@type":"AggregateRating",
+  "itemReviewed":{
+    "@type":"Organization",
+    "name":"Antino"
+  },
+  "bestRating": "5",
+  "ratingValue": "4.8",
+  "reviewCount": "417"
+}
+    ]
+  }</script>
     <base target="_self" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-116279380-2"></script>
     <meta name="format-detection" content="telephone=no" />
     <meta name="theme-color" content="#282828" />
-    <title> Mobile App Development Company in Chennai | Antino Labs </title>
+    <title>Mobile App Development Company in Duabi - Antino</title>
     <meta name="author" content="Antino Labs Private Limited" />
-    <meta name="description"
-            content="" />
-        <meta name="keywords"
-        content="Being the best Mobile App development Company in Chennai, our team of professionals and highly skilled app developers serve effective user experiences in Native, Hybrid as well as PWA apps.">
-    <link href="https://www.antino.io/mobile-app-development-company-in-chennai" rel="canonical" />
+    <meta name="description" content="Antino - a leading mobile app development company in Dubai serves value through convergence in numerous industries including Healthcare, Ed-Tech, Social Media & Entertainment, Mobility & Travel, E-commerce, and Fintech.
+        " />
+    <meta name="keywords"
+        content="best mobile app development company in dubai, dubai mobile app development company, dubai app development, dubai app development company" />
 
     <!-- SOCIAL MEDIA META -->
     <meta property="og:description"
@@ -140,6 +159,12 @@
             position: absolute;
         }
 
+        .logoImg {
+            top: 24px;
+            right: 24px;
+            position: absolute;
+        }
+
         @media screen and (max-width: 590px) {
             .bgn-wf-wrapper {
                 max-width: 80% !Important;
@@ -169,27 +194,390 @@
             }
         }
 
-        #topHeading {
-            font-size: 2.9rem;
-        }
+        @media screen and (max-width: 590px) {
+            #cardBox {
 
-        @media only screen and (max-width: 414px) {
-
-            #mobile-app-head {
-                font-size: 2.2rem !important;
+                padding: 10px 10px;
             }
-            #topHeading {
-            font-size: 2rem;
         }
+    </style>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* html {
+      font-size: 14px;
+    } */
+
+        /* body {
+      background: #f6f9fc;
+      font-family: "Open Sans", sans-serif;
+      color: #525f7f;
+    } */
+
+        /* h2 {
+      margin: 5%;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 100;
+    } */
+        #ReduceSize {
+            font-size: 3rem;
+        }
+
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            margin: 20px auto;
+            position: relative;
+        }
+
+        .timeline__event {
+            margin-bottom: 20px;
+            position: relative;
+            display: flex;
+            margin: 20px 0;
+            border-radius: 6px;
+            align-self: center;
+            width: 50vw;
+            width: 100%;
+        }
+
+        .timeline__event:nth-child(2n+1) {
+            flex-direction: row-reverse;
+            width: 100%;
+        }
+
+        .timeline__event:nth-child(2n+1) .timeline__event__date {
+            border-radius: 0 6px 6px 0;
+        }
+
+        .timeline__event:nth-child(2n+1) .timeline__event__content {
+            border-radius: 6px 0 0 6px;
+            width: 60%;
+        }
+
+        .timeline__event:nth-child(2n+1) .timeline__event__icon:before {
+            content: "";
+            width: 2px;
+            height: 100%;
+            background: #f6a4ec;
+            position: absolute;
+            top: 0%;
+            left: 50%;
+            right: auto;
+            z-index: -1;
+            transform: translateX(-50%);
+            -webkit-animation: fillTop 2s forwards 4s ease-in-out;
+            animation: fillTop 2s forwards 4s ease-in-out;
+        }
+
+        .timeline__event:nth-child(2n+1) .timeline__event__icon:after {
+            content: "";
+            width: 100%;
+            height: 2px;
+            background: #f6a4ec;
+            position: absolute;
+            right: 0;
+            z-index: -1;
+            top: 50%;
+            left: auto;
+            transform: translateY(-50%);
+            -webkit-animation: fillLeft 2s forwards 4s ease-in-out;
+            animation: fillLeft 2s forwards 4s ease-in-out;
+        }
+
+        .timeline__event__title {
+            font-size: 1.2rem;
+            line-height: 1.4;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #9251ac;
+            letter-spacing: 1.5px;
+        }
+
+        .timeline__event__content {
+            padding: 20px;
+            box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+            background: #fff;
+            width: calc(40vw - 84px);
+            border-radius: 0 6px 6px 0;
+            width: 60%;
+        }
+
+        .timeline__event__date {
+            color: #f6a4ec;
+            font-size: 1.5rem;
+            font-weight: 600;
+            background: #9251ac;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
+            padding: 0 20px;
+            border-radius: 6px 0 0 6px;
+            width: 21%;
+        }
+
+        .timeline__event__icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #9251ac;
+            padding: 20px;
+            align-self: center;
+            margin: 0 20px;
+            background: #f6a4ec;
+            border-radius: 100%;
+            width: 40px;
+            box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+            padding: 40px;
+            height: 40px;
+            position: relative;
+        }
+
+        .timeline__event__icon i {
+            font-size: 32px;
+        }
+
+        .timeline__event__icon:before {
+            content: "";
+            width: 2px;
+            height: 100%;
+            background: #f6a4ec;
+            position: absolute;
+            top: 0%;
+            z-index: -1;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-animation: fillTop 2s forwards 4s ease-in-out;
+            animation: fillTop 2s forwards 4s ease-in-out;
+        }
+
+        .timeline__event__icon:after {
+            content: "";
+            width: 100%;
+            height: 2px;
+            background: #f6a4ec;
+            position: absolute;
+            left: 0%;
+            z-index: -1;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-animation: fillLeftOdd 2s forwards 4s ease-in-out;
+            animation: fillLeftOdd 2s forwards 4s ease-in-out;
+        }
+
+        .card-title1 {
+            text-decoration: none !important;
+        }
+
+        .timeline__event__description {
+            flex-basis: 60%;
+        }
+
+        .timeline__event--type2:after {
+            background: #555ac0;
+        }
+
+        .timeline__event--type2 .timeline__event__date {
+            color: #87bbfe;
+            background: #555ac0;
+        }
+
+        #extraMargin {
+            margin-right: 11rem;
+        }
+
+        .timeline__event--type2:nth-child(2n+1) .timeline__event__icon:before,
+        .timeline__event--type2:nth-child(2n+1) .timeline__event__icon:after {
+            background: #87bbfe;
+        }
+
+        .timeline__event--type2 .timeline__event__icon {
+            background: #87bbfe;
+            color: #555ac0;
+        }
+
+        .timeline__event--type2 .timeline__event__icon:before,
+        .timeline__event--type2 .timeline__event__icon:after {
+            background: #87bbfe;
+        }
+
+        .timeline__event--type2 .timeline__event__title {
+            color: #555ac0;
+        }
+
+        .timeline__event--type3:after {
+            background: #24b47e;
+        }
+
+        .timeline__event--type3 .timeline__event__date {
+            color: #aff1b6;
+            background-color: #24b47e;
+        }
+
+        .timeline__event--type3:nth-child(2n+1) .timeline__event__icon:before,
+        .timeline__event--type3:nth-child(2n+1) .timeline__event__icon:after {
+            background: #aff1b6;
+        }
+
+        .timeline__event--type3 .timeline__event__icon {
+            background: #aff1b6;
+            color: #24b47e;
+        }
+
+        .timeline__event--type3 .timeline__event__icon:before,
+        .timeline__event--type3 .timeline__event__icon:after {
+            background: #aff1b6;
+        }
+
+        .timeline__event--type3 .timeline__event__title {
+            color: #24b47e;
+        }
+
+        .timeline__event:last-child .timeline__event__icon:before {
+            content: none;
+        }
+
+        .ExtraImgWidth {
+            width: 17%;
+        }
+
+        #topImg {
+            width: 89%;
+            height: 100%;
+        }
+
+        #topImgContainer {
+            display: flex;
+            justify-content: center;
+        }
+
+        #topHeadline {
+            margin-bottom: 39px;
+            margin-top: 6px;
+        }
+
+        #ExtraTopHeading {
+            margin-bottom: 25px;
+        }
+
+        #extraAbout-intro {
+            padding-top: 30px;
+        }
+
+        @media (max-width: 786px) {
+            #ReduceSize {
+                font-size: 2.5rem;
+            }
+
+            .timeline__event {
+                flex-direction: column;
+                align-self: center;
+                width: 100%;
+            }
+
+            #extraMargin {
+                margin-right: 0;
+            }
+
+            .timeline__event__content {
+                width: 100% !important;
+            }
+
+            .timeline__event__icon {
+                border-radius: 6px 6px 0 0;
+                width: 100%;
+                margin: 0;
+                box-shadow: none;
+            }
+
+            .logoImg {
+                top: 24px;
+                right: 161px;
+                position: absolute;
+            }
+
+            .timeline__event__icon:before,
+            .timeline__event__icon:after {
+                display: none;
+            }
+
+            .timeline__event__date {
+                border-radius: 0;
+                padding: 20px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            .timeline__event:nth-child(2n+1) {
+                flex-direction: column;
+                align-self: center;
+                width: 100%;
+            }
+
+            .timeline__event:nth-child(2n+1) .timeline__event__date {
+                border-radius: 0;
+                padding: 20px;
+            }
+
+            .timeline__event:nth-child(2n+1) .timeline__event__icon {
+                border-radius: 6px 6px 0 0;
+                margin: 0;
+                width: 100%;
+            }
+
+            #postDeploy {
+                font-size: 18px;
+            }
+        }
+
+        @-webkit-keyframes fillLeft {
+            100% {
+                right: 100%;
+            }
+        }
+
+        @keyframes fillLeft {
+            100% {
+                right: 100%;
+            }
+        }
+
+        @-webkit-keyframes fillTop {
+            100% {
+                top: 100%;
+            }
+        }
+
+        @keyframes fillTop {
+            100% {
+                top: 100%;
+            }
+        }
+
+        @-webkit-keyframes fillLeftOdd {
+            100% {
+                left: 100%;
+            }
+        }
+
+        @keyframes fillLeftOdd {
+            100% {
+                left: 100%;
+            }
         }
     </style>
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W75Z7JH" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+            style="display: none; visibility: hidden"></iframe></noscript>
     <div class="preloader" style="display: none">
         <div class="inner" style="display: none">
             <figure class="logo">
@@ -256,7 +644,8 @@
                 <h4>DO YOU HAVE AN IDEA?</h4>
                 <h6 class="pb-3">Let's make it successful together</h6>
                 <div class="custom-btn white-btn"><a class="white-btn" href="contact.html">Get In
-                        Touch<span></span><i></i></a></div>
+                        Touch<span></span><i></i></a>
+                </div>
             </div>
         </div>
         <!-- end inner -->
@@ -269,13 +658,17 @@
         </div>
         <ul>
             <li><a target="_blank" onclick="handleSocialLink(this)" data-social-media="linkedin"
-                    rel="noopener">LINKEDIN</a></li>
+                    rel="noopener">LINKEDIN</a>
+            </li>
             <li><a target="_blank" rel="noopener" onclick="handleSocialLink(this)"
-                    data-social-media="instagram">INSTAGRAM</a></li>
+                    data-social-media="instagram">INSTAGRAM</a>
+            </li>
             <li><a target="_blank" rel="noopener" onclick="handleSocialLink(this)"
-                    data-social-media="facebook">FACEBOOK</a></li>
+                    data-social-media="facebook">FACEBOOK</a>
+            </li>
             <li><a target="_blank" rel="noopener" onclick="handleSocialLink(this)"
-                    data-social-media="twitter">TWITTER</a></li>
+                    data-social-media="twitter">TWITTER</a>
+            </li>
         </ul>
         <a href="#top" class="gotop"><img
                 src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/icon-gotop.svg" alt="Image" /></a>
@@ -316,7 +709,7 @@
             <!-- end main-menu -->
             <div class="hamburger-menu" id="hamburger-menu">
                 <div class="burger">
-                    <svg id="burger-svg" data-name="Layer 1" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                    <svg id="burger-svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
                         <title>Show / Hide Navigation</title>
                         <rect class="burger-svg__base" width="50" height="50" />
                         <g class="burger-svg__bars">
@@ -338,19 +731,17 @@
                 <ul class="breadcrumb">
                     <li><a href="/">Antino Labs</a></li>
                     <li><a href="javascript:history.back()">Services</a></li>
-                    <li><a href="#" class="active">Mobile App Development in Chennai </a></li>
+                    <li><a href="#" class="active">Mobile App Development Company in Dubai</a></li>
 
                 </ul>
             </div>
             <!-- end container -->
         </div>
         <!--end of breadcrumb menu-->
-
-
-
-        <div class="headlines">
+        <div class="headlines" id="topHeadline">
             <div class="container">
-                <h1 id="topHeading">Mobile App Development Company in Chennai</h1>
+                <h1 class="display-1" id="ReduceSize">Mobile App Development Company</h1>
+
             </div>
             <!-- end container -->
         </div>
@@ -359,174 +750,242 @@
     <!-- end header -->
     <section class="page-header">
         <div class="post-sticky wow fadeIn">
-            <figure class="post-image">
-                <img class="remove-opacity"
-                    src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/MobileEngineering.png"
-                    alt="Image" />
+            <figure class="post-image" id="topImgContainer">
+                <img class="remove-opacity" id="topImg"
+                    src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/web-development.jpg" alt="Leading Dubai App Development Company
+" />
             </figure>
         </div>
         <!-- end video-bg -->
     </section>
     <!-- end page-header -->
-    <section class="about-intro pt-5">
+    <section class="about-intro" id="extraAbout-intro">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p>
-                        Our team of Antino Labs is backed by three pillars of expertise - proficiency, versatility, and
-                        punctuality. This is what endures us as the best mobile app development company in Chennai.
-                        Understanding the pinpoints of the user journeys, we extract and analyze every bit of the
-                        experience to offer you the best mobile applications possible.
-                    </p> <br>
-                    <p style="font-weight:normal;">
-                        Throughout the process of end-to-end development, the loop of planning, strategizing, and
-                        implementing the framework for mobile engineering remains consistent. Antino Labs has a
-                        dedicated team of experienced and professional thinkers consistently striving to improve through
-                        creativity, innovation, and the latest frameworks aided by the advanced tech stacks of the
-                        process.
-                    </p> <br>
-                    <p style="font-weight:normal;">
-                        From android and iOS native applications to hybrid applications and Progressive Web
-                        Applications, our tech-competent app developers have a vast and unparalleled portfolio spread
-                        over industries like Healthcare, Ed-Tech, Social Media & Entertainment, Mobility & Travel,
-                        E-commerce, Fintech, and many more.
+                   <h2 style="font-weight:600;font-size:2rem;margin-bottom:20px;">Antino Labs - #1 Mobile App Development Company in Dubai</h2>
+                    <p style="font-weight: normal;">
+                        With a current number of 6.4 billion active smartphone users and 88% of the mobile time being
+                        spent on applications, mobile apps are highly significant for business growth. Ignoring mobile
+                        optimization can cause blunders in businesses. The statistics depict that the mobile audience
+                        constitutes a majority of your target audience. Thus, mobile applications seem to be a mandate
+                        for outreaching potential clients in this digital age.
+                    </p>
+                    <p class="mt-4">
+                        The demand for mobile applications remains high and so does the search for a suitable mobile app
+                        development company in Dubai. Team Antino can be your end-to-search for your app development
+                        requisites. Having the expertise of skilled developers by our side, we got your back in android
+                        and iOS native applications, hybrid apps, and Progressive Web Applications as well.
                     </p>
                 </div>
+                <div class="col-12 pt-3">
+                    <h3 style="font-weight:600">Dubai App
+                        Development Services We Offer</h3>
+                    <p class="mt-2" style="font-weight: normal; font-size: 1.3em;">
+                        With plenty of other services on the list, our mobile app development services include the
+                        following:</p>
+                    <!-- Engagement model -->
+                    <section class=" container">
+                        <div class="container">
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col" id="cardBox">
+                                    <div class="card h-100" style="padding-bottom: 0px;">
+                                        <a href="#contact-form-land" class="card-title1">
+                                            <div class="card-img-land">
+                                                <i class="fas fa-wallet"></i>
+                                                <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/CustomWebsiteDevelopment.svg"
+                                                    class="ExtraImgWidth" alt="logo" srcset="">
+                                            </div>
+                                            <div class="card-body">
+                                                <b>
+                                                    <h4 class="card-title">Android & iOS Native Apps</h4>
+                                                </b>
+                                                <p class="card-text">Helping you develop highly intuitive, fast, robust, and high-quality native
+                                                    apps, Team Antino serves technical competence. Android & iOS Native Apps make up the premise
+                                                    of mobile scrolling and we ensure this time spent is directly streamlined to your business.</p>
 
-                <div class="col-12 pt-5">
-                    <h3 style="font-weight:600" class="mb-3">Our Services</h3>
-                    <p style="font-weight: normal;">Our team's mobile app development services hover over the following,
-                        but we are definitely open to other inquiries you have been meaning on:</p>
+                                            </div>
+                                        </a>
 
-                    <ul class="careers-bullet ">
-                        <li class="ml-3">
-                            <h4 style="font-weight:500 ">Android & iOS Native Apps</h4>
-                            <p style="font-weight: normal;">Leverage our expertise in Android and iOS app development
-                                projects to ensure the highly intuitive, fast, robust, and high-quality native apps
-                                paving your way to better customer attraction, retention and satisfaction.</p>
-                        </li>
-                        <li class="ml-3">
-                            <h4 style="font-weight:500 ">Hybrid Apps</h4>
-                            <p style="font-weight: normal;">We at Antino have worked on a diversified range of hybrid
-                                projects. Our belief in quality over quantity ensures the proficiency of projects we are
-                                associated with. Thus, you can rest assured of the quality hybrid apps we are onboarded
-                                with!</p>
-                        </li>
+                                    </div>
+                                </div>
+                                <div class="col" id="cardBox">
+                                    <div class="card h-100" style="padding-bottom: 0px;">
+                                        <a href="#contact-form-land" class="card-title1">
+                                            <div class="card-img-land">
+                                                <!-- <i class="far fa-calendar-alt"></i> -->
+                                                <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/ContentManagementSystem.svg"
+                                                    class="ExtraImgWidth" alt="logo" srcset="">
 
-                        <li class="ml-3">
-                            <h4 style="font-weight:500 ">PWA</h4>
-                            <p style="font-weight: normal;">We at Antino combine brand-new web development technologies
-                                with battle-tested frameworks and practices for creating Progressive Web Applications
-                                paving the way to accessible and captivating experiences for users. </p>
-                        </li>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title" id="card-title1">Hybrid Apps</h4>
+                                                <p class="card-text">Our portfolio of a diversified range of hybrid projects corroborates our
+                                                    expertise. Paving your way to better customer attraction, retention, and satisfaction, we
+                                                    can be your end-to-search for hybrid app development companies in Dubai.</p>
 
-                    </ul>
+                                            </div>
+                                        </a>
 
+                                    </div>
+                                </div>
+                                <div class="col" id="cardBox">
+                                    <a href="#contact-form-land" class="card-title1">
+                                        <div class="card h-100" style="paddding-bottom: 0px;">
+                                            <div class="card-img-land">
+                                                <!-- <i class="fas fa-cloud-upload-alt"></i> -->
+                                                <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/E-commerceMarketplace.svg"
+                                                    class="ExtraImgWidth" alt="logo" srcset="">
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Progressive Web Applications (PWA)</h4>
+                                                <p class="card-text">Progressive Web Applications are an easier way to captivate the target audience
+                                                    without needing much of the native app complications. With skilled and experienced
+                                                    developers by our side, you can rest assured of the quality PWAs we are associated with. </p>
 
+                                            </div>
+                                    </a>
 
-
-
+                                </div>
+                            </div>
+                        </div>
                 </div>
 
-                <div class="col-12 pt-5">
-                    <h3 class="mb-0 text-center primary-design-text-1" style="font-weight:540">Our Primary Tech Stacks
-                    </h3>
-                    <img class="mt-0"
-                        src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/mobile-development.jpg"
-                        alt="Design logos" />
-                </div>
-
-
 
 
                 <div class="col-12 pt-5">
-                    <h3 style="font-weight:600" class="mb-3">We Build Brands, not just Mobile Applications!</h3>
-                    <p style="font-weight: normal;">Data-driven and user-oriented optimization make Antino Labs the best
-                        Mobile App Development company in the Chennai. Before diving straight into the planning and
-                        development stages of the project, our team of experienced and exceptionally skilled developers
-                        delves deeper into the target audience, user requirements, statistics, project requisites &
-                        business objectives to analyze every minute detail thoroughly. This framework is followed with
-                        all the facts and figures in our hands to plan the optimum utilization of resources.
-                    </p>
-                    <p style="font-weight: normal;">UI-UX research remains the most important aspect of our whole
-                        process. This lets us get into the shoes of the user to understand what exactly they expect.
-                        Following all the data, the project is planned and implemented with the agile methodology as our
-                        KRA. Because we recognize what the project and its target users expect, our team develops and
-                        optimizes the best user experiences. Being known as the best mobile app development company in
-                        Chennai, we help businesses turn into brands through intriguing and “making-the-users-stay” user
-                        experiences!
-                    </p>
-                </div>
+                    <div class="">
+                        <h3 class="mb-0 text-center primary-design-text-2"
+                            style="font-weight:600;font-size:2rem;margin-bottom: 0px;">
+                            Our Primary Tech Stacks
+                        </h3>
 
+
+                        <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/mobile-development.jpg"
+                            alt="cloud-services" style="margin-top:1.5rem;" />
+                    </div>
+                </div>
 
 
                 <!-- end col-12 -->
 
 
-                <div class="col-12 pt-5 ">
-                    <h3 class="mb-0 text-center primary-design-text-1" style="font-weight:540; padding-bottom:20px;">Why
-                        are Antino App Development Services considered best in the industry?</h3>
-                    <img class="mt-0 pb-5"
-                        src="https://antino-web.s3.ap-south-1.amazonaws.com/images/mobile-app-development-company-in-gurgaon1.jpg"
-                        alt="Design logos" />
-                    <h3 style="font-weight:600;font-size:1.85rem ;margin-left: 7px; margin-bottom: 15px;">Frequently
-                        Asked Questions</h3>
-                </div>
+                <div class="col-12 pt-1 container">
+                    <h3 style="font-weight:600">Optimizing the Mobile Presence through App Development</h3>
 
-                <div class="web-accordion ml-4">
+                    <p class="mt-4">In this digital age of advancements, mobile optimization has become a mandate.
+                        And, Team Antino is your go-to company for all the app development requisites in UAE.
+                        Combining brand-new app development technologies with battle-tested frameworks and App
+                        Optimization practices, we have helped multiple businesses capture their target audience.
+                    </p>
+                    <p class="mt-4">Not only with the development, but we stand right behind you in maintenance as
+                        well as expansion. From creating value through convergence to digitally transforming
+                        businesses with our proficient app development services, Team Antino serves quality
+                        projects. We understand what business objectives demand and what the end users want, thus,
+                        aligning both ends simultaneously with the advanced technologies, we are your end-to-search
+                        for app developers in Dubai! </p>
 
-                    <div class="web-accordion-item ">
-                        <button id="web-accordion-button-1" aria-expanded="false">
-                            <span class="web-accordion-title">Why is a mobile app important?</span>
-                            <span class="icon" aria-hidden="true"></span>
-                        </button>
-                        <div class="web-accordion-content">
-                            <p>
-                                Mobile apps provide users with ease, convenience, functional information, products, and
-                                services wrapped up in a single accessible platform on handy mobile devices. The apps
-                                are designed for hands-on interaction and act as an excellent marketing tool that can
-                                help your company stay ahead of the competition.</p>
-                        </div>
-                    </div>
-
-                    <div class="web-accordion-item">
-                        <button id="web-accordion-button-2" aria-expanded="false">
-                            <span class="web-accordion-title">Why is mobile app development important?</span>
-                            <span class="icon" aria-hidden="true"></span>
-                        </button>
-                        <div class="web-accordion-content">
-                            <p>
-                                In this digital age of technical competence, mobile app development helps in building
-                                loyalty, reinforcing your brand voice, increasing your product visibility, increasing
-                                accessibility, and a better portrayal of brand image. </p>
-                        </div>
-                    </div>
-
-                    <div class="web-accordion-item">
-                        <button id="web-accordion-button-3" aria-expanded="false">
-                            <span class="web-accordion-title">What is the cost of mobile app development in
-                                Chennai?</span>
-                            <span class="icon" aria-hidden="true"></span>
-                        </button>
-                        <div class="web-accordion-content">
-                            <p>
-                                Mobile app development has a much wider scope. To assess the actual cost of a mobile app
-                                development project, type of functionalities, API and third-party integrations, tech
-                                stack being used and so many other factors are to be considered. But, when talking about
-                                a basic version of an app, the development cost in the Chennai may start from $2.5k.</p>
-                        </div>
-                    </div>
 
                 </div>
-                <!-- end col-12 -->
 
-                <!-- end col-12 -->
+
+
+
+
 
             </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
     </section>
+    </div>
+    <!-- end col-12 -->
+
+
+
+    <section>
+        <div class=" pt-4">
+            <!-- <h2  class="text-center primary-design-text" style="font-weight:600;font-size:2rem ; margin-bottom: 15px;">
+      Our primary Tech Stacks
+    </h2> -->
+            <h3 class=" text-center primary-design-text-1 " style="font-weight:600;font-size:2rem ;">
+                Serving the best in the Industry
+            </h3>
+            <img src="https://antino-web.s3.ap-south-1.amazonaws.com/images/technology-consulting-services1.jpg"
+                alt="tech-stacks" style="margin-top:2rem;margin-bottom:1rem;" />
+        </div>
+        <div class="container pt-2">
+            <h3 class="pt-4" style="font-weight:600;font-size:1.85rem ; margin-bottom: 15px;">Frequently Asked Questions
+            </h3>
+            <div class="web-accordion">
+                <div class="web-accordion-item">
+                    <button id="web-accordion-button-1" aria-expanded="false">
+                        <span class="web-accordion-title">Does Antino Provide ongoing support, maintenance, and updates?
+                        </span>
+                        <span class="icon" aria-hidden="true"></span>
+                    </button>
+                    <div class="web-accordion-content">
+                        <p>
+                            Yes of course! Our association does not end with the project launch. Whether it is about minor
+                            errors or major updates or regular maintenance requisites, Team Antino got your back 24*7. Even
+                            if the client's needs are only concerning the ongoing support, maintenance and updations, we are
+                            there for you.
+                        </p>
+                    </div>
+                </div>
+                <div class="web-accordion-item">
+                    <button id="web-accordion-button-1" aria-expanded="false">
+                        <span class="web-accordion-title">What programming languages do you use?
+                        </span>
+                        <span class="icon" aria-hidden="true"></span>
+                    </button>
+                    <div class="web-accordion-content">
+                        <p>
+                            Django, Flutter, React, and Nodejs are some of the major programming languages that we use. But
+                            it all depends on you and the project requisites. We are totally open and customizable to the
+                            programming language you would like us to consider.
+                        </p>
+                    </div>
+                </div>
+                <div class="web-accordion-item">
+                    <button id="web-accordion-button-1" aria-expanded="false">
+                        <span class="web-accordion-title">Why should you consider Antino for your next
+                            project?</span>
+                        <span class="icon" aria-hidden="true"></span>
+                    </button>
+                    <div class="web-accordion-content">
+                        <p>
+                            Our experience speaks it all. With 200+ successful projects spread over numerous categories, our
+                            portfolio corroborates our technical competence. Also, we recognize what availability means,
+                            thus, we are there for you on a 24*7 basis. Multiple businesses have trusted us and still do and
+                            so should you!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   
+
+
+    <script>
+        const items = document.querySelectorAll('.web-accordion button');
+
+        function toggleAccordion() {
+            const itemToggle = this.getAttribute('aria-expanded');
+
+            for (i = 0; i < items.length; i++) {
+                items[i].setAttribute('aria-expanded', 'false');
+            }
+
+            if (itemToggle == 'false') {
+                this.setAttribute('aria-expanded', 'true');
+            }
+        }
+
+        items.forEach((item) => item.addEventListener('click', toggleAccordion));
+    </script>
+
+
     <!-- end featured-services -->
     <section class="work-with-us" data-color="dark">
         <div class="container wow fadeInUp">
@@ -538,17 +997,17 @@
                         style="color:black!important;border-color: transparent transparent transparent #000;"></i></a>
             </div>
             <p class="mt-3"><a onclick="handleContactInfo(this)"
-                    data-contact_info="mailto:info@antino.io">info@antino.io</a></p>
+                    data-contact_info="mailto:info@antino.io">info@antino.io</a>
+            </p>
             <small>Or</small>
             <p class="mt-3">
             <p class="mt-3"><a onclick="handleContactInfo(this)"
-                    data-contact_info="tel:+16193780258">+1-(619)-378-0258</a></p>
+                    data-contact_info="tel:+16193780258">+1-(619)-378-0258</a>
+            </p>
             </p>
         </div>
         <!-- end container -->
     </section>
-
-
     <!-- end work-with-us -->
     <footer class="footer" style="padding-top: 70px!important">
         <div class="container">
@@ -690,6 +1149,7 @@
         <!-- end container -->
       </footer>
 
+
     <!-- Get Free Qoute -->
     <button class="open-button buttonmodal" onclick="openForm()">
         Request a Proposal
@@ -700,7 +1160,7 @@
     <div class="form-popup" id="myForm" style="visibility:visible !important;">
 
         <div class='bgn-wf-wrapper' id='BiginWebToEntityFormDiv4873289000000737242'
-            style='max-width:414px;margin:2em auto;padding: 15px;border:1px solid #e1e1e1;background-color:#FFFFFF;color:#000000; border-radius: 9px;'>
+            style='max-width:414px;margin:2em auto;padding: 15px;border:1px solid #e1e1e1;background-color:#FFFFFF;color:#000000;border-radius: 9px; '>
             <meta name='viewport' content='width=device-width, initial-scale=1.0'>
             <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
             <form id='BiginWebToContactForm4873289000000737242' name='BiginWebToContactForm4873289000000737242'
@@ -900,8 +1360,6 @@
             return true;
         }
         function validateFileUpload() { var e = document.getElementById("theFile"), t = 0; if (e) { if (e.files.length > 3) return alert("You can upload a maximum of three files at a time."), !1; if ("files" in e) { var i = e.files.length; if (0 !== i) { for (var o = 0; o < i; o++) { var a = e.files[o]; "size" in a && (t += a.size) } if (t > 20971520) return alert("Total file(s) size should not exceed 20MB."), !1 } } } return !0 }</script>
-    <script id='wf_script'
-        src='https://bigin.zoho.com/crm/WebformScriptServlet?rid=60cb3405266c55df21bbf56f05611154ce521a9241a23e486549cb35666ff03agid8922943cc84a4d7fa733681062863ebc3a2308d74cb1dc3878d3b68e23b2ab93'></script>
         <script>
 
             $(window)
@@ -931,23 +1389,9 @@
               .scroll();
   
           </script>
-    <script>
-        const items = document.querySelectorAll('.web-accordion button');
+    <script id='wf_script'
+        src='https://bigin.zoho.com/crm/WebformScriptServlet?rid=60cb3405266c55df21bbf56f05611154ce521a9241a23e486549cb35666ff03agid8922943cc84a4d7fa733681062863ebc3a2308d74cb1dc3878d3b68e23b2ab93'></script>
 
-        function toggleAccordion() {
-            const itemToggle = this.getAttribute('aria-expanded');
-
-            for (i = 0; i < items.length; i++) {
-                items[i].setAttribute('aria-expanded', 'false');
-            }
-
-            if (itemToggle == 'false') {
-                this.setAttribute('aria-expanded', 'true');
-            }
-        }
-
-        items.forEach((item) => item.addEventListener('click', toggleAccordion));
-    </script>
 </body>
 
 </html>
