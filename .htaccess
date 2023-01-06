@@ -62,3 +62,5 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^antino.io [NC]
 
 RewriteRule ^(.*)$ https://www.antino.io/$1 [L,R=301,NC]
+
+ErrorDocument 404 https://www.antino.io/404.html

@@ -69,6 +69,7 @@
   <link href="//fonts.googleapis.com/css?family=Comfortaa&subset=latin" rel="stylesheet" type="text/css">
   <!-- CSS FILES -->
 
+  <link rel="preload" href="css/extra.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="css/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="css/odometer.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link href="css/fancybox.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -109,7 +110,94 @@
     "image" : rel="preconnect" "https://antino-web.s3.ap-south-1.amazonaws.com/images/images/antino_logo_dark-compress.png"
   }
   </script>
+ 
 
+  <style>
+    
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+  </style>
 
 
   <style type="text/css">
@@ -224,7 +312,7 @@
           <li><a href="about-us.html">About</a></li>
           <li class="dropdown">
             <h5 class="dropbtn" id="dropbtn"><span>Services</span></h5>
-            <script>
+            <!-- <script>
               $(".accordianNav dropbtn").click(function () {
                 $("dropbtn").removeClass("active");
                 $(".accordianNav ul ul").slideUp();
@@ -233,7 +321,7 @@
                   $(this).addClass("active");
                 }
               })
-            </script>
+            </script> -->
             <div class="dropdown-content" id="dropdown-content">
               <ul style="margin-right:8%">
                 <li><a href="tech-consulting-services.html">Technology Consulting</a></li>
@@ -281,6 +369,30 @@
     </div>
     <!-- end inner -->
   </div>
+ 
+
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">My Modal</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h5>Add content here.</h5>
+                <p>This is a vertically centered modal. Modal body text goes here. This content can be whatever you'd like. Text, images, forms, etc.. can be added here in the modal body.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary mx-auto d-none" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+  
+
+   
   <!-- end navigation-menu -->
   <aside class="left-side">
     <div class="logo">
@@ -978,104 +1090,59 @@
     </div>
     <!-- end container -->
   </section>
-  <!-- end work-with-us -->
-
-  <!-- <section class="recent-news">
-  <div class="container"> 
-	<div class="row align-items-end">
-		<div class="col-12 wow fadeInUp">
-			<div class="content-box selected">
-				<small>Web Development, Blogs</small>
-				<h3><a href="best-ios-libraries-to-checkout-in-2021.html">Best iOS libraries To Check Out In 2021</a></h3>
-				<span>07 March, 2021</span>
-			</div>
-			<!-- end content-box -->
-  <!-- </div>
-		<!-- end col-12 -->
-  <!-- <div class="col-lg-4 wow fadeInUp">
-			<div class="content-box">
-				<small>Web Development, Blogs</small>
-				<h3><a href="top-10-react-libraries-you-shouldnt-miss-in-2021.html">Top 10 React Libraries You Shouldn’t Miss in 2021. 
-        </a></h3>
-				<span>31 March, 2021</span>
-        <div class="read-more-wrapper" ><a href="top-10-react-libraries-you-shouldnt-miss-in-2021.html" class="post-link">READ MORE</a></div>
-			</div> -->
-  <!-- end content-box -->
-  <!-- </div>
-		<!-- end col-4 -->
-  <!-- <div class="col-lg-4 wow fadeInUp">
-		
-			<div class="content-box">
-				<small>Web Development, Blogs</small>
-				<h3><a href="best-web-development-tools-you-need-to-know.html">Best Web Development Tools You Need To Know in 2021</a></h3>
-				<span>24 February, 2021</span>
-        <div class="read-more-wrapper" ><a href="best-web-development-tools-you-need-to-know.html" class="post-link">READ MORE</a></div>
-			</div> -->
-  <!-- end content-box -->
-  <!-- </div>
-		<!-- end col-4 -->
-
-  <!-- <div class="col-lg-4 wow fadeInUp">
-			<div class="content-box">
-				<small>App Development, Mobile</small>
-				<h3><a href="best-mobile-app-development-trends-to-follow-in-2021.html">Best Mobile App Development Trends To Follow In 2021</a></h3>
-				<span>13 February, 2021</span>
-        <div class="read-more-wrapper" ><a href="best-mobile-app-development-trends-to-follow-in-2021.html" class="post-link">READ MORE</a></div>
-			</div> -->
-  <!-- end content-box -->
-  <!-- </div>
-		<!-- end col-4 -->
-  <!-- </div>
-	<!-- end row -->
-  <!-- </div>
-  <!-- end container -->
-  <!-- </section> -->
-  <!-- end recent-news -->
+  
   <footer class="footer" style="padding-top: 70px!important">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 " style="padding-bottom:75px !important">
-          <h4 class="mb-0 text-center primary-design-text" style="font-weight:600">Awards and Recognition</h4>
+    <div class="container ">
+      <div class="row ">
+        <div class="col-12 AwardInnerClass" >
+          <h4 class="mb-0 text-center primary-design-text" style="font-weight:600; width: 100%;">Awards and Recognition</h4>
           <div class="row" style="margin-top: 50px; display: flex;">
 
 
 
-            <div class="col-sm-3 col-6 m-auto wow fadeInUp  setImgSize ">
+            <div class="col-sm-4 col-6 m-auto wow fadeInUp  setImgSize ">
               <div> <a target="_blank"><img loading="lazy" style="width:185px; margin-top: 4px;"
-                    src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/images/iso.jpg"
+                    src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/iso-min.png"
                     alt="GoodFirms Badge"></a></div>
             </div>
 
-            <div class="col-sm-3 col-6 m-auto wow fadeInUp  setImgSize  ">
-              <div class="setImgMargin"> <a target="_blank"><img loading="lazy" style="width:185px; margin-top: 4px;"
-                    src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/images/Clutch+(3).jpg"
+            <div class="col-sm-4 col-6 m-auto wow fadeInUp  setImgSize  ">
+              <div  > <a target="_blank"><img loading="lazy" style="width:185px; margin-top: 4px;"
+                    src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/clutch-2013.png"
                     alt="GoodFirms Badge"></a></div>
             </div>
-
-
-
-            <!-- end col-5 -->
-            <div class="col-sm-3 col-6 m-auto wow fadeInUp  setImgSize  ">
-              <div class="setImgMargin"> <a target="_blank"><img loading="lazy" style="width:185px"
-                    src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/images/awards.jpg"
-                    alt="GoodFirms Badge"></a></div>
-            </div>
-
-
-
-
-
 
 
 
 
             <!-- end col-5 -->
-            <div class="col-sm-3 col-6 m-auto wow fadeInUp  setImgSize ">
+            <div class="col-sm-4 col-6 m-auto wow fadeInUp  setImgSize  ">
+              <div  > <a target="_blank"><img loading="lazy" style="width:185px"
+                    src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/Clutch2015-min.png"
+                    alt="GoodFirms Badge"></a></div>
+            </div>
+            <div class="col-sm-6 col-6 m-auto wow fadeInUp  setImgSize ">
+              <div> <a target="_blank"><img loading="lazy" style="width:185px; margin-top: 4px;"
+                    src="https://antino-web.s3.ap-south-1.amazonaws.com/images/images/awards-min.png"
+                    alt="GoodFirms Badge"></a></div>
+            </div>
+            <div class="col-sm-6 col-6 m-auto wow fadeInUp  setImgSize ">
               <div> <a href="https://www.goodfirms.co/company/antino-labs-private-limited" target="_blank"
                   noAnimation><img loading="lazy" style="width:185px" target="_blank"
                     src="https://assets.goodfirms.co/badges/color-badge/app-development.svg" alt="GoodFirms Badge"
                     target="_blank"></a></div>
             </div>
+
+
+
+
+
+
+
+
+
+            <!-- end col-5 -->
+            
           </div>
 
         </div>
@@ -1282,7 +1349,13 @@
 
   <!-- JS FILES -->
 
-
+  <script>
+   
+    document.getElementById('myBtn').click(function(){
+       
+        alert("jgasjkfhgdshk")
+      });
+    </script>
 
   <script>
 
@@ -1331,6 +1404,12 @@
     };
 
     window.onload = function () {
+      var delayMs = 1000; // delay in milliseconds
+
+      setTimeout(function(){
+          $('#myModal').modal('show');
+      }, delayMs);
+      
       var elements = document.getElementsByClassName("txt-rotate");
       for (var i = 0; i < elements.length; i++) {
         var toRotate = elements[i].getAttribute("data-rotate");
@@ -1347,18 +1426,7 @@
       document.body.appendChild(css);
     };
   </script>
-  <script>
-    window.onload = function () {
-      localStorage.clear();
-      let localStorageData = localStorage.getItem('UserFirstTime')
-      console.log(localStorageData);
-      if (localStorageData = null) {
-        localStorage.clear();
-        localStorage.setItem('UserFirstTime', 1);
-      }
-    }
-
-  </script>
+  
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -1403,6 +1471,7 @@
     }
 
   </script>
+ 
   <script id='wf_script'
     src='https://bigin.zoho.com/crm/WebformScriptServlet?rid=60cb3405266c55df21bbf56f05611154ce521a9241a23e486549cb35666ff03agid8922943cc84a4d7fa733681062863ebc3a2308d74cb1dc3878d3b68e23b2ab93'></script>
 

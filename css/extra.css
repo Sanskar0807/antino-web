@@ -29,6 +29,14 @@
 .left-side ul {
   z-index: -1 !important;
 }
+.setImgSize{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AwardInnerClass{
+  padding-bottom:75px !important; display: flex; flex-direction: column; align-items: center;
+}
 
 @media screen and (max-width: 590px) {
   .Footer-link {
